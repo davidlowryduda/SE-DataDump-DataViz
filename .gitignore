@@ -1,0 +1,14 @@
+Badges.xml
+Comments.xml
+PostHistory.xml
+PostLinks.xml
+Posts.xml
+Users.xml
+Votes.xml
+*.dat
+*.png
+*.7z
+
+## python
+*.pyc
+*.pickle
