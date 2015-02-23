@@ -12,7 +12,6 @@ class MSE_Reference_Isolator(xml.sax.ContentHandler):
     """
     def __init__(self, wordlist=["reference", "book", "learning"],
                  output_file="output.xml"):
-        self.details = details
         self.output_file = file(output_file, "wb")
         self.wordlist = wordlist
         self.in_element = False
@@ -22,7 +21,7 @@ class MSE_Reference_Isolator(xml.sax.ContentHandler):
 
     def startElement(self, tag, attributes):
         """Activates on opening each row"""
-        if (attributes.has_key("Tags")) and (self.has_keywords(attributes["Tags"])):
+        if ("Tags" in attributes) and (self.has_keywords(attributes["Tags"])):
             self.in_element = True
             self.logger.startElement(tag, attributes)
 
@@ -33,6 +32,13 @@ class MSE_Reference_Isolator(xml.sax.ContentHandler):
             self.in_element = False
             self.output_file.write("\n")
 
+    def startDocument(self):
+        self.logger.startElement("MetaTagWrapper", {})
+        self.output_file.write("\n")
+
+    def endDocument(self):
+        self.logger.endElement("MetaTagWrapper")
+
     def has_keywords(self, body):
         """Returns if body contains any of self.wordlist"""
         for word in self.wordlist:
@@ -42,7 +48,7 @@ class MSE_Reference_Isolator(xml.sax.ContentHandler):
 
 if __name__ == "__main__":
     parser = xml.sax.make_parser()
-    Handler = MSE_Reference_Handler(output_file="ref_reqs.xml")
+    Handler = MSE_Reference_Isolator(output_file="ref_reqs.xml")
     parser.setContentHandler(Handler)
     parser.parse("Posts.xml")
     print '(>")> Process Completed'
