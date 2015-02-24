@@ -8,6 +8,7 @@ Votes.xml
 *.dat
 *.png
 *.7z
+ref_reqs.xml
 
 ## python
 *.pyc
