@@ -17,7 +17,7 @@ class MSE_Reference_Isolator(xml.sax.ContentHandler):
         self.in_element = False
         self.logger = xml.sax.saxutils.XMLGenerator(self.output_file, "utf-8")
         self.logger.startDocument()
-        self.ids = []
+        self.ids = set()
         return
 
     def startElement(self, tag, attributes):
@@ -25,7 +25,7 @@ class MSE_Reference_Isolator(xml.sax.ContentHandler):
         if ("Tags" in attributes) and (self.has_keywords(attributes["Tags"])):
             self.in_element = True
             self.logger.startElement(tag, attributes)
-            self.ids.append(attributes["Id"])
+            self.ids.add(attributes["Id"])
 
         elif ("ParentId" in attributes) and (attributes["ParentId"] in self.ids):
             self.in_element = True
