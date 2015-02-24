@@ -1,0 +1,23 @@
+## Score:
+1
+
+## Id:
+276166
+
+## ParentId:
+276163
+
+## Body:
+<p>"A Friendly Introduction to Number Theory", by Joseph Silverman</p>
+
+<p>"The Little Book of Big Prime Primes", by Paulo Ribenboim</p>
+
+<p>"The New Book of Prime Number Records", by Paulo Ribenboim</p>
+
+<p>"Prime Obsession", by John Derbyshire</p>
+
+<p>"Prime Numbers", by David Wells</p>
+
+<p>...to begin with.</p>
+
+

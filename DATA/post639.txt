@@ -1,0 +1,21 @@
+## Score:
+0
+
+## Id:
+514243
+
+## ParentId:
+501807
+
+## Body:
+<p>Ok, I read this section of the book and have an explanation for the $2q$ and it follows along similar lines to what Eric wrote, but I think this argument is more inline with what the book was suggesting for large $s$.</p>
+
+<p>Let $s_k = \sum_{n=2}^{k}\chi(n)$</p>
+
+<p>Then we can rewrite, $\sum_{n=2}^{\infty}\chi(n)n^{-s} = \sum_{n=2}^{\infty}\frac{s_k - s_{k-1}}{n^{s}}$</p>
+
+<p>And since we know that $|s_k| = |\sum_{n=2}^{k}\chi(n)| \le q$</p>
+
+<p>Then $|s_k - s_{k-1}| \le 2q$ and $\sum_{n=2}^{\infty}\frac{s_k - s_{k-1}}{n^{s}} \le \sum_{n=2}^{\infty}\frac{2q}{n^{s}}$</p>
+
+

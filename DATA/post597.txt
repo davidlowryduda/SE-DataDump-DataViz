@@ -1,0 +1,21 @@
+## Score:
+8
+
+## Id:
+465582
+
+## ParentId:
+465560
+
+## Body:
+<p>From the second edition of Unsolved Problems in Number Theory by Richard K. Guy, section D1, Euler conjectured that your equation should be impossible for $n \geq 4.$ For $n=4,$ the first counterexample was by Noam Elkies, a parametric solution was given by Dem'janenko, and your solution above was found by Roger Frye. No explicit reference for Frye...There is a third edition, there it starts on page 209. I don't think anyone has any solutions for $n&gt;4.$</p>
+
+<p>To be specific, Euler thought that you needed four fourth powers to add up to another fourth power, five fifth powers to add up to another fifth power, and so on. </p>
+
+<p>OK, we have
+$$ 27^5 + 84^5 + 110^5 + 133^5 = 144^5,  $$
+by Lander and Parkin (1966). I don't think three fifth powers is going to work. Might try six or five or four sixth powers, or seven or six or five seventh powers if you want to stick with prime exponents. Note that, by Fermat's little theorem, for sixth powers , all but one of the summands will need to be divisible by 7. That is, if some $a \neq 0 \pmod 7$ then $a^6 \equiv 1 \pmod 7.$ You have fewer than seven summands, so the left hand side will not be divisible by 7, so the right hand side will be exactly $1 \pmod 7.$ Something of a timesaver. To compare, look at the solution in the original question for $n=4,$ two out of three numbers on the left hand side are divisible by 5.</p>
+
+<p>Alright, as of the second edition (1994) there were no known solutions for $n$ $n$th powers adding up to another $n$th power for $n \geq 6.$ So, even what Euler had intended as the problem had no known solutions. Of course, computers are much faster now...</p>
+
+

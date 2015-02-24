@@ -1,0 +1,24 @@
+## Score:
+2
+
+## Id:
+368810
+
+## ParentId:
+368756
+
+## Body:
+<p>Other than O'Meara (pronounce O Marra, who knew?), Lam (2005), <em>Introduction to Quadratic Forms over Fields,</em> gives a proof for global fields modulo two assumed results on page 171. </p>
+
+<p>Theorem 3.7 says that $a$ is a square in the global field if and only if it is a square at each place. I think that's only fair.</p>
+
+<p>Theorem 3.8 says that a quaternion algebra splits if and only if it splits at each place. He mentions that this may be regarded as either a special case of either the Brauer-Hasse-Noether Theorem or as a special case of the Hasse Norm Theorem. </p>
+
+<p>Cassels, <em>Rational Quadratic Forms</em>, points out on page 96 that there are fields where the Weak Hasse Principle holds but the Strong Hasse Principle does not. Then he sketches a proof for number fields in a page.  </p>
+
+<p>Cassels does use Dirichlet on primes in arithmetic progressions for Chapter 6, and Lam mentions that assuming that would be one way to deal with number fields; so I suggest that as a good exercise for a graduate student, see how far you get with Lam's treatment plus Dirichlet on primes. </p>
+
+<p>Oh, try Shimura's 2010 book <em>Arithmetic of Quadratic Forms</em>
+ if you want to do things like prove the Mass Formula. </p>
+
+

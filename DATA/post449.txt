@@ -1,0 +1,25 @@
+## Title:
+Applications of prime-number theorem in algebraic number theory?
+
+## Tags:
+<reference-request><soft-question><algebraic-number-theory><analytic-number-theory>
+
+## Score:
+1
+
+## Id:
+302048
+
+## Body:
+<p>Dirichlet arithmetic progression theorem, or more generally, Chabotarev density theorem, has applications to algebraic number theory, especially in class-field theory.<br>
+Since we might think of the density theorem as an analytic theorem, and as prime number theorem is one main theorem of analytic number theory, one is led to wonder:  </p>
+
+<blockquote>
+  <blockquote>
+    <p>if there is any application of prime number theorem to algebraic number theory.  </p>
+  </blockquote>
+</blockquote>
+
+<p>Thanks for any attention in advance.   </p>
+
+

@@ -1,0 +1,15 @@
+## Score:
+1
+
+## Id:
+174686
+
+## ParentId:
+174676
+
+## Body:
+<p>When the prime is a reasonably small one I'd rather find directly the inverse:
+$$9^{-1}=\frac{1}{9}=3\pmod {13}\Longrightarrow 9x=7\Longrightarrow x=7\cdot 9^{-1}=7\cdot 3= 21=8\pmod {13}$$
+<strong>But</strong>...I try Gauss's method when the prime is big and/or evaluating inverses is messy.</p>
+
+

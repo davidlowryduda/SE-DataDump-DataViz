@@ -1,17 +1,27 @@
-## Title:
-A good introduction to Prime Numbers
-
-## Tags:
-<number-theory><reference-request><prime-numbers>
-
 ## Score:
-2
+5
+
+## Id:
+50062
+
+## ParentId:
+50041
 
 ## Body:
-<p>I'm looking for a good introduction to Primes Numbers, their properties, and some of the better known theorems concerning them.</p>
+<p>Let $L/K$ be a cyclic Galois extension of order $p= char K$. Let $\sigma$ be a generator of the Galois group. By the 'independence of characters' theorem (don't remember for sure, whether it is due to Dedekind, Kummer or even Artin), there exists an element $x\in L^*$ such that $z=x+\sigma(x)+\sigma^2(x)+\cdots+\sigma^{p-1}(x)\neq0.$ Let us fix such an element $x$. Note that $z\in K$, because it is invariant under $\sigma$.</p>
 
-<p>I would prefer references assume knowledge of undergraduate level real analysis.</p>
+<p>Write
+$$
+y=(p-1)x+(p-2)\sigma(x)+\cdots+2\sigma^{p-3}(x)+\sigma^{p-2}(x)+0\cdot\sigma^{p-1}(x).
+$$
+We see that $\sigma(y)=y+z$, so if we denote $u=y/z$, we get $\sigma(u)=u+1$. Therefore $u\notin K$, so $L=K(u)$. Fermat's little theorem tells us that $p(T)=T^p-T=\prod_{i=0}^{p-1}(T-i)$ in $K[T]$.
+In characteristic $p$ we have $p(a+b)=p(a)+p(b)$ for all $a,b\in L$. The minimal polynomial of $u$ is thus
+$$
+\prod_{i=0}^{p-1}(T-\sigma^i(u))=\prod_{i=0}^{p-1}(T-(u+i))=p(T-u)=p(T)-p(u)=
+T^p-T+(-1)^p\prod_{i=0}^{p-1}(u+i),
+$$
+so $L/K$ is of the AS form.</p>
 
-<p>Thanks to all in advance!</p>
+<p>This is an additive analogue of the standard multiplicative argument (=starting point of Kummer theory) telling us that a cyclic extension of degree $m$ is a root extension, when the smaller field has a primitive root of unity of order $m$.</p>
 
 

@@ -1,0 +1,15 @@
+## Score:
+2
+
+## Id:
+352746
+
+## ParentId:
+352733
+
+## Body:
+<p>You can probably get what you need from Donald E. Knuth's "The Art of Computer Programming," Volume 1 (Fundamental Algorithms), Addison Wesley. In my (Second) Edition the relevant section is 1.2.11.2 (page 108).</p>
+
+<p>I used this back in the mid-1970's to prove that the average rounding error when using computer arithmetic (discarding the reminder) for integer division is (3-2C)/4 +O(1/sqrt(N)) where C is Euler's constant and N is the maximum size of the integer in the computer.</p>
+
+

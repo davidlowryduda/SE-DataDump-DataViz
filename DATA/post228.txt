@@ -1,31 +1,26 @@
 ## Title:
-Automorphism action on Artin map
+Relationship between Kronecker's Approximation Thm and Weyl's Equidistribution Thm?
 
 ## Tags:
-<reference-request><algebraic-geometry><algebraic-number-theory>
+<calculus><probability><number-theory><reference-request>
 
 ## Score:
-2
+1
+
+## Id:
+105442
 
 ## Body:
-<p>I would like to refer you to <a href="http://books.google.co.uk/books/about/Elliptic_Functions.html?id=QFC8ajjIHOAC&amp;redir_esc=y" rel="nofollow">Serge Lang's book on Elliptic Functions</a> $\S10.4$ (page 140).</p>
+<p>According to Prof. <a href="http://en.wikipedia.org/wiki/Equidistribution_theorem" rel="nofollow">Wikipedia</a>, the Equidistribution Theorem was proved by Weyl in 1910 and independently by two others around the same time.</p>
 
-<p>I'm trying to understand a part in theorem 10 where he proves that
-$$\mu(\mathfrak{p})'=\mu(\mathfrak{p}')$$
-where $\mu$ is the hecke character of an elliptic curve $A$ over a field $K_0$ which does not contain $\text{End}(E)=k$, $\mathfrak{p}$ is a prime of $K = K_0 k$ above $\mathfrak{p}_0$ which is a prime of $K_0$, and $\;'$ is complex conjugation.</p>
+<p>The theorem states that for $\alpha$ irrational, the sequence $\alpha, 2\alpha, 3\alpha,..., etc.  \pmod 1$ is uniformly distributed on the unit interval. </p>
 
-<p>(i)  Let $\theta:k\rightarrow End(A)_{\mathbb{Q}}$ be a normalized isomorphism defined over $K$, $\rho$ be the automorphism of $K=K_0k$ over $K_0$. How do you get  $(*)$ in the following equation?
-$$\theta(\mu(\mathfrak{p}))=(\rho\mathfrak{p},K)\overset{(*)}=\rho(\mathfrak{p},K)\rho^{-1}$$
-Is this a well known identity? I can't seem to find anything about it in any of the books I have.</p>
+<p>At Wolfram's <a href="http://mathworld.wolfram.com/KroneckersApproximationTheorem.html" rel="nofollow">MathWorld</a>, a similar theorem is attributed to Kronecker, namely that for any irrational number $\alpha$, the sequence $\{n \alpha \}$ is dense in the unit interval, i.e., one can find a $\{k \alpha\}$ arbitrarily close to any real number b with $0 \leq b \leq 1 $. This is styled the Kronecker Approximation Theorem. Kronecker died in 1891. Note: $\{n\alpha\}$ is the fractional part of $n\alpha $.</p>
 
-<p>(ii) A couple of lines later, he goes on to say</p>
+<p>I haven't seen a proof of Kronecker's theorem, but I have seen a proof of Weyl's Theorem. Naively (as usual), it appears the two ideas can be used interchangeably in some contexts. Even more naively, it seems there is a strong theoretical relationship between the two.  </p>
 
-<blockquote>
-  <p>From the formula $\big(\lambda(x)\big)^{\rho}=\lambda^{\rho}(x^{\rho})$, we conclude that $\lambda^{\rho}=\rho(\mathfrak{p},K)\rho^{-1}$ on $K(A^{(l)})$ <br>where $\lambda=\theta(\mu(\mathfrak{p}))$</p>
-</blockquote>
+<p>Can someone offer a thumbnail sketch of the salient differences/similarities of the two ideas (or a good reference for same)? Knowing no better, I would say Weyl owed a considerable debt to Kronecker.</p>
 
-<p>How did he reach that conclusion?<br>
-Is it just because action of $\rho$ on $\theta(\mu(\mathfrak{p}))$ must be $\rho\theta(\mu(\mathfrak{p}))\rho^{-1}$?<br>
-But because $\rho\in \text{Aut}(K/K_0)$ and $(\mathfrak{p},K)\in \text{Gal}(K/K_0)$, the action looks a little awkward to me and seems like it should be a composition instead of a conjugation.</p>
+<p>Thank you. </p>
 
 

@@ -1,15 +1,26 @@
 ## Title:
-Symmetry in reduced residue systems
+Original works of great mathematician Évariste Galois
 
 ## Tags:
-<elementary-number-theory><reference-request><modular-arithmetic><symmetry>
+<number-theory><reference-request><algebraic-geometry><galois-theory>
 
 ## Score:
-3
+19
+
+## Id:
+98456
 
 ## Body:
-<p>This may be a stupid question, but it looks to me like the reduced residue systems modulo N are symmetrical about N/2; that is to say, that the there is the same number of integers not divisible by a factor of N that are smaller than N/2 as there are that are bigger. Is this a case, and is there literature I would need to reference in a paper that uses this fact?</p>
+<p>Through this question I wanted to know the original works of Galois. When I was reading Galois theory ( since from last month ) , I have been seeing one common line in every book, whose essence appears as follows :</p>
 
-<p>Just to be clear, in this case, I use "Reduced Residue System" to refer to the system of numbers counted by the totient of N, i.e. those numbers smaller than N that are relatively prime with N.</p>
+<p>" The original work of Galois is rather different from the presented version here ( which is due to Artin ) , the original works of Galois are different since the concepts like automorphisms and other things were not discovered at the time of Galois. "</p>
+
+<blockquote>
+  <p>I am curious to know what are the notions that Galois used  ? , and what is the corresponding formulation of Galois theory, ( corresponding to the present version now which uses the modern vocabulary of Automorphisms ) .</p>
+</blockquote>
+
+<p>But on the other hand , is there any complete biographical sketch of  Évariste Galois ? . But I really wanted to know about him, I think there is not a single original picture of him. But there was an original photograph of Master Gauss with me ( but I don't have a original picture of Galois, rather than the portrait drawn by his friend and I would be much happy if someone gives a link to any rare picture other than the normal ones ).</p>
+
+<p>Thanks everyone.</p>
 
 

@@ -1,0 +1,13 @@
+## Score:
+6
+
+## Id:
+288700
+
+## ParentId:
+288682
+
+## Body:
+<p>See chapter 11 of Shoup's <a href="http://shoup.net/ntb/">A Computational Introduction to Number Theory and Algebra</a>. In general this is a difficult problem, but there's a good probabilistic algorithm if you can factor $p-1$.</p>
+
+

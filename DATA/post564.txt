@@ -1,0 +1,13 @@
+## Score:
+0
+
+## Id:
+437492
+
+## ParentId:
+434343
+
+## Body:
+<p>I have found the book <a href="http://rads.stackoverflow.com/amzn/click/082183259X" rel="nofollow">Local Fields and Their Extensions</a> which seems to correspond to the start of serre's book with many exercises. There is also the online <a href="http://websites.math.leidenuniv.nl/algebra/localfields.pdf" rel="nofollow">notes</a> by Stevenhagen, which have a lot of exercises.</p>
+
+

@@ -1,0 +1,13 @@
+## Score:
+2
+
+## Id:
+141998
+
+## ParentId:
+141971
+
+## Body:
+<p>As for references, Hardy wrote a book, Divergent Series, which seems to be available for download on the web. There are several books about the $p$-adics; Koblitz, $p$-adic Numbers, $p$-adic Analysis, and Zeta-Functions; Bachman, Introduction to $p$-adic Numbers and Valuation Theory; Gouvea, $p$-adic Numbers. There's also an article I wrote with Alf van der Poorten, Some problems concerning recurrence sequences, Amer. Math. Monthly 102 (1995) 698-705,  MR 97a:11029. </p>
+
+

@@ -1,17 +1,13 @@
-## Title:
-Reference for proof of "Dedekind's Criterion"?
-
-## Tags:
-<reference-request><algebraic-number-theory>
-
 ## Score:
-0
+2
+
+## Id:
+42760
+
+## ParentId:
+42755
 
 ## Body:
-<p>It was mentioned to me briefly in passing about a criterion for rings of integers, referred to as Dedekind's Criterion. </p>
-
-<p>The Criterion essentially said that a ring $\mathbb{Z}[\omega]$ (for $\omega=\sqrt[3]{2}$ for example) is $p$-maximal (in it's fraction field I believe) if and only if the greatest common divisor of certain polynomials reduced modulo $p$ was equal to $1$, (or a constant). These polynomial are related to the prime $p$ in question, but I can't recall how.</p>
-
-<p>I know this is terribly vague, but is anyone aware of a result that goes by Dedekind's criterion that sounds like this? I've been searching for it every, but have had no luck locating it or it's formulation. Does anyone have a possible reference?</p>
+<p>Hardy and Wright. ${}{}{}{}{}{}$</p>
 
 

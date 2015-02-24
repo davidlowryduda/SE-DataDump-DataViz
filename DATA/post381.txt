@@ -1,0 +1,13 @@
+## Score:
+5
+
+## Id:
+194583
+
+## ParentId:
+329
+
+## Body:
+<p>I was shocked to see no one mentioned LeVeque's <em><a href="http://rads.stackoverflow.com/amzn/click/0486689069">Fundamentals of Number Theory</a></em> (Dover). He also authored <a href="http://rads.stackoverflow.com/amzn/click/0486663485"><em>Elementary Theory of Numbers</em></a> with same publisher.</p>
+
+

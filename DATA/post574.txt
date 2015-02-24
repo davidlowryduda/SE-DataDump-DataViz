@@ -1,0 +1,30 @@
+## Score:
+2
+
+## Id:
+454905
+
+## ParentId:
+454893
+
+## Body:
+<p>(i) For a reference, see Lang's <em>Algebraic Number Theory</em> Chapter I, Section 5 (the top of p. 18). Alternatively, if you simply write out the definition of the Frobenius element, you will see that $(\ast)$ holds.</p>
+
+<p>Explicitly, $(\mathfrak{p}, K/K_0)$ is defined to be an element $\sigma \in \mathrm{Gal}(K/K_0)$ such that $\sigma(\alpha) \equiv \alpha^{N \mathfrak{p}_0} \pmod{\mathfrak{p}}$ for all $\alpha \in \mathcal{O}_K$. Equivalently, $\sigma(\alpha) - \alpha^{N \mathfrak{p}_0} \in \mathfrak{p}$.</p>
+
+<p>Then we have
+$$\begin{align*}
+(\rho \sigma \rho^{-1})(\alpha) - \alpha^{N \mathfrak{p}_0} &amp;= \rho(\sigma(\rho^{-1}(\alpha))) - \rho((\rho^{-1}(\alpha)^{N \mathfrak{p}_0})\\
+&amp;= \rho(\sigma(\beta) - \beta^{N \mathfrak{p}_0})
+\end{align*}$$
+where $\beta = \rho^{-1}(\alpha) \in \mathcal{O}_K$.</p>
+
+<p>Since $\beta \in \mathcal{O}_K$, we know that $\sigma(\beta) - \beta^{N \mathfrak{p}_0} \in \mathfrak{p}$, hence $\rho(\sigma(\beta) - \beta^{N \mathfrak{p}_0}) \in \rho \mathfrak{p}$. Thus
+$$
+(\rho \sigma \rho^{-1})(\alpha) \equiv \alpha^{N \mathfrak{p}_0} \pmod{\rho \mathfrak{p}}
+$$
+for all $\alpha \in \mathcal{O}_K$ and so $(\rho \mathfrak{p}, K/K_0) = \rho (\mathfrak{p}, K/K_0) \rho^{-1}$.</p>
+
+<p>(ii) You already know that $\lambda^\rho = \rho(\mathfrak{p}, K)\rho^{-1}$ on $K$ (this is basically what (i) is), so it is just a matter of showing that the action extends in the natural way when you add the coordinates of the $\ell$-primary torsion. But, from the identity of regular functions $(\lambda(x))^\rho = \lambda^\rho (x^\rho)$, or equivalently, $(\lambda(x^{\rho^{-1}}))^\rho = \lambda^\rho(x)$, if you check what happens to the coordinates under the action you see that $\lambda^\rho$ induces the map $\rho (\mathfrak{p}, K) \rho^{-1}$ on each one. Hence it gives the specified action on all of $K(A^{(\ell)})$.</p>
+
+

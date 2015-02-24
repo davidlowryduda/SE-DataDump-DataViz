@@ -1,15 +1,25 @@
-## Title:
-Exposition on Modular Curves
-
-## Tags:
-<number-theory><reference-request><elliptic-curves>
-
 ## Score:
 4
 
-## Body:
-<p>I was recently reading this paper by <a href="http://swc.math.arizona.edu/aws/2001/01Weston1.pdf" rel="nofollow">Weston</a>, whereby he talks about the modular curves $X_0(11)$ and $X_1(11)$. </p>
+## Id:
+49153
 
-<p>I was wondering if anyone can recommend a more general exposition of modular curves (specifically ones that are related to elliptic curves)? </p>
+## ParentId:
+48981
+
+## Body:
+<p>To get started on this check out this paper:</p>
+
+<p><a href="http://www.ams.org/journals/bull/1984-10-02/S0273-0979-1984-15237-6/home.html" rel="nofollow">http://www.ams.org/journals/bull/1984-10-02/S0273-0979-1984-15237-6/home.html</a></p>
+
+<p>That's a good survey article on the Langland's program.  It's takes you through the historical perspective to Artin reciprocity and it's implications. If you look that over you'll get a good overview of what you need to know; class-field theory, L-functions, p-adic numbers, adeles, automorphic forms, and group representations.  To get a good handle on this stuff check out Frohlich and Taylor:</p>
+
+<p><a href="http://rads.stackoverflow.com/amzn/click/052136664X" rel="nofollow">http://www.amazon.com/Algebraic-Cambridge-Studies-Advanced-Mathematics/dp/052136664X</a></p>
+
+<p>I have a copy of this book and in my opinion it is accessible to someone with a good course in Number Theory and perhaps two courses in Algebra at the grad level.  I don't think an undergrad is going to get there on his own but with guidance from an advisor working in number theory you can do it.</p>
+
+<p>Now I'm no expert in Langlands but (I believe) the Langland's program is a series of conjectures that are basically consequences and generalizations of Artin reciprocity. </p>
+
+<p>Give it a shot.  The Langlands program is some deep stuff that took on a role of the same magnitude as Klein's Erlanger program before it.  You really can't go wrong getting to the bottom of this one.</p>
 
 

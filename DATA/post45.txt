@@ -1,21 +1,19 @@
-## Title:
-Dixon's Theorem to probabilistically bound largest factor of N
-
-## Tags:
-<probability><number-theory><reference-request>
-
 ## Score:
-6
+14
+
+## Id:
+25216
+
+## ParentId:
+25209
 
 ## Body:
-<p>I have recently decided to read up on the current integer factorization algorithms. When looking into some of the algorithms, I came across the following statement:</p>
+<p>The greedy solution is not optimal in general, even for the case when the value of any coin is bigger than the sum of all coins of lower denomination.  For example, suppose we have coins of denominations 25, 9, 4, and 1.  For 37 cents, the greedy solution uses five coins: one 25, one 9, and three 1s.  However, the optimal solution is four coins: one 25 and three 4s.</p>
 
-<blockquote>
-  <p>Say that p is the smallest prime factor of n. By Dixon's Theorem, the probability that the largest factor of n is less than $(p)^\epsilon$ is roughly $\epsilon ^ {- \epsilon}$.</p>
-</blockquote>
+<p>The problem of finding the minimum number of coins given a set of denominations is called the <em><a href="http://en.wikipedia.org/wiki/Change-making_problem">change-making problem</a></em>.  It's a variant of the famous knapsack problem and is known to be difficult in the general case.</p>
 
-<p>But when I hear Dixon's Theorem, I think of <a href="http://en.wikipedia.org/wiki/Dixon%27s_theorem" rel="nofollow">this</a>. I currently don't see how Dixon's Theorem yields such a probabilistic bound. Can you help me with that?</p>
+<p>An integer-programming formulation for the change-making problem was given in the answer to this math.SE question:  <a href="http://math.stackexchange.com/questions/21949/on-problems-of-coins-totaling-to-a-given-amount">On problems of coins totaling to a given amount</a>.  </p>
 
-<p>And the disclaimer - I am not currently in any class, so this was not assigned to me, it is not a homework problem, and I will in no way be receiving any sort of academic credit for this work.</p>
+<p><em>Added</em>: While the Wikipedia article on the change-making problem claims that the greedy algorithm is optimal for U.S. coins, it provides no proof.  The article "<a href="http://arxiv.org/PS_cache/arxiv/pdf/0809/0809.0400v1.pdf">Canonical Coin Systems for Change-Making Problems</a>" discusses characterizations for when the greedy algorithm is optimal for coin systems of up to five denominations.  It also implies that for systems of larger than five denominations determining when the greedy algorithm is optimal is still an open problem.</p>
 
 

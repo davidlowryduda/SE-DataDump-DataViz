@@ -1,0 +1,32 @@
+## Score:
+4
+
+## Id:
+476934
+
+## ParentId:
+476899
+
+## Body:
+<p>Since I've spent enough time thinking about this, yet not getting a proof, I might as well show what I've got. Others can comment on whether or not more can be done.</p>
+
+<p>Your problem is solved if you can show that for any integers $a, b, c$, we have $$\sum^\infty_{n=0} \frac{1}{n!} (a + b 2^n + c 3^n)$$ irrational (using taylor series).</p>
+
+<p>WLOG, assume $c&gt;0$. Pick $N$ large so that $(a+b2^n+c3^n) &gt; 0$ for all $N \geq 0$. Then our problem is equivalent to showing that the series with strictly positive terms
+$$\sum^\infty_{n=N} \frac{1}{n!} (a + b 2^n + c 3^n)$$
+is irrational. Suppose it was not and equal to $p/q$. Now we try to mimic the proof of irrationality of $e$.</p>
+
+<p>Define</p>
+
+<p>$$x = q!\left(\frac{p}{q} - \sum_{n=N}^{q} \frac{1}{n!} (a + b 2^n + c 3^n) \right).$$ One easily sees by distributing that it is an integer, and because our original series contains only positive terms, $x&gt;0$.</p>
+
+<p>Note that we can also write 
+$$x = \sum_{n=q+1}^\infty \frac{q!}{n!} (a + b 2^n + c 3^n).$$</p>
+
+<p>Now if $b=c=0$, then using $q!/n! &lt; 1/(q+1)^{n-q}$ gives a geometric series bound that gives $x &lt; 1/q$. Then we can get $x&lt;1$ which is a contradiction that $x$ is an integer.</p>
+
+<p>The terms $2^n$ and $3^n$ grow too fast for this same trick to work. You'd get bounds of $2^q/q$ and $3^q/q$ respectively. Since  $q!/n! &lt; 1/(q+1)^(n-q)$  is not tight, it is still possible that we can get our sum under 1. Or maybe we can monkey with our original definition for $x$.</p>
+
+<p>I think what really needs to be copied are proofs of the irrationality of $e^2$ and $e^3$, but I am not aware of such proofs. Googling, I found a very algebraic proof of the irrationality of $e^2$, but I didn't read it carefully. This suggests proofs of the irrationality of $e^2$ may not easily generalize, and hence you aren't really proving that $e$ is transcendental at the same time.</p>
+
+

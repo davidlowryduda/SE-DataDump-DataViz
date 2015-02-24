@@ -1,15 +1,13 @@
-## Title:
-Collection of congruencies
-
-## Tags:
-<reference-request><elementary-number-theory>
-
 ## Score:
 3
 
-## Body:
-<p>I have been going around various questions based on number theory in this forum, and what I have found is that congruencies serve as an important tool in many of the questions and actually simplify the solution in case multiple solutions exist.</p>
+## Id:
+28044
 
-<p>My question is that for these properties, can I find a book collecting these? Or is it just that I need to keep remembering them as I come across a new property every now and then?</p>
+## ParentId:
+28027
+
+## Body:
+<p>There is an article of Birch from 1969, titled <em>Weber's class invariants</em>, in which he proves, using basic class field theory and CM theory, various facts originally due to Weber, but whose proof was in doubt.  These are facts that Heegner cited in his proof, and Birch observes that one reason Heegner's proof was doubted.   Given this, it seems that Birch's article will be a useful companion when reading Heegner's argument.  </p>
 
 

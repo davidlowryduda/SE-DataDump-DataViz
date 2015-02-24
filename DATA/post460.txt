@@ -1,0 +1,13 @@
+## Score:
+2
+
+## Id:
+310860
+
+## ParentId:
+310840
+
+## Body:
+<p>I wrote up some <a href="http://rutherglen.science.mq.edu.au/mathhonss212/notes.html" rel="nofollow">notes</a> on Algebraic Number Theory. I was following Stewart &amp; Tall but also a couple of other books. See if you find anything useful there. </p>
+
+

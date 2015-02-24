@@ -1,21 +1,15 @@
-## Title:
-Special privilege enjoyed by Elliptic Curves with Complex Multiplication
-
-## Tags:
-<number-theory><reference-request><algebraic-geometry><algebraic-number-theory><elliptic-curves>
-
 ## Score:
-7
+2
+
+## Id:
+42858
+
+## ParentId:
+42755
 
 ## Body:
-<p>I think after reading the title one may understand the intention of me, this question is concerned about the Elliptic curves having a Complex Multiplication. </p>
+<p>This is also Theorem 2.41 in <strong>An Introduction to the Theory of Numbers</strong> (5th Edition) by Niven, Zuckerman, and Montgomery. The proof does not require Carmichael's function, though they do use Euler's totient function, defining a primitive root to be an element of multiplicative order $\phi(m)$ modulo $m$.</p>
 
-<blockquote>
-  <p>I have been reading many theorems, ( celebrated papers of Zagier and Kolyvagin ). In majority, much of the proofs I came across, considers Elliptic Curves with Complex Multiplication. And many results have been discovered in that direction. I know what is meant by Complex Multiplication and endomorphism rings. But if some one asks for the reason behind such privilege enjoyed by the elliptic curves with CM ( Complex Multiplication ), what are the precise things one can tell ?</p>
-</blockquote>
-
-<p>To put in other way, how come the proofs are discovered about Elliptic curves with CM are discovered so easily and why not for the other case ? ( Is there some bird's eye view ? )</p>
-
-<p>Thank you.</p>
+<p>They first prove every prime $p$ has $\phi(p-1)$ primitive roots modulo $p$ (Theorem 2.36). Later, they show that if $p$ is a prime, then there are $\phi(\phi(p^2))$ primitive roots modulo $p^2$ (Theorem 2.39). Theorem 2.40 proves that if $p$ is an odd prime and $g$ is a primitive root modulo $p^2$, then $g$ is a primitive root modulo $p^{\alpha}$ for $\alpha\geq 2$. Then a discussion deals with the case of $p=2$, showing there are no primitive roots modulo $2^{\alpha}$ for $\alpha\geq 3$; finally, the composite numbers that are not prime powers nor twice prime powers are dealt with.</p>
 
 

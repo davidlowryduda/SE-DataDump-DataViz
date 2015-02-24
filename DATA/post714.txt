@@ -1,0 +1,13 @@
+## Score:
+1
+
+## Id:
+620950
+
+## ParentId:
+620944
+
+## Body:
+<p>The number of partitions (of $n$) into odd parts equals the number of partitions into distinct parts. </p>
+
+

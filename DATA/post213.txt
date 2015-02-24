@@ -1,13 +1,15 @@
-## Title:
-Pell-like equations and continued fractions
-
-## Tags:
-<number-theory><reference-request><diophantine-equations><continued-fractions>
-
 ## Score:
-2
+3
+
+## Id:
+97715
+
+## ParentId:
+97708
 
 ## Body:
-<p>Why does the continued fraction method work? Could be applied in order to solve, for example, $x^{17}-19y^{17}=1$ ?</p>
+<p>MIchael already provided a GDZ link (many old german papers are available there). A french translation of von Mangoldt's work is available at Numdam : <a href="http://archive.numdam.org/ARCHIVE/ASENS/ASENS_1896_3_13_/ASENS_1896_3_13__61_0/ASENS_1896_3_13__61_0.pdf" rel="nofollow">'Sur le Mémoire de Riemann relatif au nombre des nombres premiers inférieurs à une grandeur donnée'</a>. Edwards excellent book concerning zeta should be helpful too!</p>
+
+<p>Concerning Nagura I found nothing except his famous paper sorry...</p>
 
 

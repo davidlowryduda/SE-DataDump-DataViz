@@ -1,13 +1,13 @@
-## Title:
-Number theory for a high school Calculus student?
-
-## Tags:
-<reference-request><elementary-number-theory><self-learning>
-
 ## Score:
-1
+4
+
+## Id:
+36551
+
+## ParentId:
+36426
 
 ## Body:
-<p>I've always loved playing with numbers, but haven't had any formal guidance in the study of advanced mathematics and number theory. Is there a book (or a few books) on mathematics that I wouldn't have learned in my high school curriculum (algebra, trig, and calculus) that could help me understand higher level maths and get me started on number theory? I know it's quite a broad question, but when I see things like <a href="http://xkcd.com/982/" rel="nofollow">this xkcd</a>, and in trying to understand concepts I go to Wikipedia articles to find them chock full of terminology that flies over my head, it's quite frustrating.</p>
+<p>Guy, Unsolved Problems In Number Theory, 3rd edition, Problem D7: Sum of consecutive powers made a power. "Rufus Bowen conjectured that the equation $$1^n+2^n+\cdots+m^n=(m+1)^n$$ has no nontrivial solutions...." Guy gives a lot more info on what's known about the question, but doesn't give a reference for Bowen. The earliest reference he gives with the equation in the title is L Moser, On the diophantine equation $1^n+2^n+\cdots+(m-1)^n=m^n$, Scripta Math 19 (1953) 84-88, MR 14, 950. The only older reference he gives is P Erdős, Advanced problem 4347, Amer Math Monthly 56 (1949) 343. I haven't looked at either one. </p>
 
 

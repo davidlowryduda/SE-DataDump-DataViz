@@ -1,29 +1,13 @@
-## Title:
-Special cases of the Stark-Heegner theorem with simple proofs
-
-## Tags:
-<elementary-number-theory><reference-request><soft-question><algebraic-number-theory>
-
 ## Score:
-9
+3
+
+## Id:
+98692
+
+## ParentId:
+98647
 
 ## Body:
-<p>The <strong>Stark-Heegner theorem</strong> states that the ring of integers of the quadratic number field $\mathbb Q(\sqrt{m})$, where $m$ is a squarefree negative integer, is a principal ideal domain, iff
-$$m\in\{-1,-2,-3,-7,-11,-19,-43,-67,-163\}$$
-I am looking for special cases of this theorem (including references where I can find them), which can be proven with elementary number theory or not-too-complicated algebraic number theory.</p>
-
-<p>This is what I have so far:</p>
-
-<ul>
-<li>$\mathbb Q(\sqrt{m})$ is a PID for $m\in\{-1,-2,-3,-7,-11\}$ (It is easy to prove, that this rings are norm-Euclidean and that Euclidean rings are PIDs)</li>
-<li>$\mathbb Q(\sqrt{m})$ is a PID for $m\in\{-19,-43,-67,-163\}$ (Either prove, hat the norm is a Dedekind–Hasse norm for these rings, or that, if Euler's prime generating polynomial $x^2+x+q$ generates primes for $x=0,\dots q-1$, then  $\mathbb Q(\sqrt{1-4q})$ is a PID)</li>
-<li>If $m\not\equiv 1 \bmod 4$ and $m&lt;-2$, then $\mathbb Q(\sqrt{m})$ is not a PID (Again, there are several proofs, one of them is <a href="http://math.stackexchange.com/questions/310721/conclude-that-mathbbz-sqrtn-is-not-a-ufd">this one</a>)</li>
-</ul>
-
-<p>Does anyone know any other simple result in the above spirit, particulary for proving that some rings are <em>not</em> PIDs? Maybe something like a proof, that there are only finitely many PIDs, maybe even an upper bound for $m$, or the fact that $m\equiv 1\bmod{8}$ does not work, or maybe some other restriction on $m$? </p>
-
-<p>Thanks!</p>
-
-<p><strong>EDIT:</strong> All Heegner numbers are prime. Maybe, there is some argument, why it won't work for composite numbers?</p>
+<p>For what it's worth, Dickson, in his <em>History of the Theory of Numbers</em>, Chapter VII, page $186$, credits Jacobi (<em>Canon Arithmeticus</em>, $1839$) with the result that if $p$ is an odd prime, a primitive root of $p^2$ is a primitive root of $p^k$ for all $k&gt; 2$.   </p>
 
 

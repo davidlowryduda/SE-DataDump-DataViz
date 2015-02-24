@@ -11,7 +11,7 @@ class XML_Extractor(xml.sax.ContentHandler):
     fields of desired xml tags.
     """
     def __init__(self, output_dir="DATA", output_prefix="post",
-                 attrs=["Title", "Tags", "Score", "Body"]):
+                 attrs=["Title", "Tags", "Score", "Id", "ParentId", "Body"]):
         self.output_dir = output_dir
         self.output_prefix = output_prefix
         self.attrs = attrs

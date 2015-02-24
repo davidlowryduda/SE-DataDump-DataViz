@@ -1,26 +1,13 @@
-## Title:
-A reference and an explanation needed?
-
-## Tags:
-<number-theory><reference-request><algebraic-geometry><algebraic-number-theory><elliptic-curves>
-
 ## Score:
-0
+3
+
+## Id:
+35313
+
+## ParentId:
+35299
 
 ## Body:
-<p>In my previous question I was asking for a method to construct a global point if we have local points with us which is <a href="http://math.stackexchange.com/questions/75029/a-hunt-for-a-mathematical-machine-that-gives-points">here</a>, but I got an answer, it didn't serve the entire purpose, but later on due to my struggle in finding the answer I have find the following statement while I was leafing through internet.</p>
-
-<p>The statement was :</p>
-
-<blockquote>
-  <p>In a highly influential 2001 paper, Henri Darmon proposed a systematic, conjectural "modular" construction of algebraic points on elliptic curves. Using p-adic analysis, he constructed local points on elliptic curves, conjectured them to be global points, and gave precise predictions governing their field of definition. This construction is genuinely novel in that it lies outside the scope of the theory of complex multiplication.</p>
-</blockquote>
-
-<p>So I was left only with that statement, can anyone take initiative in giving the exact article which the statement was referring to.<br>
-And I would be still happy if some noble person gives an outline of the procedure or a brief overview. </p>
-
-<p>Thanks a lot.
-cordially,
-Iyengar.</p>
+<p>Yo should take a look at Alan Baker's <a href="http://books.google.co.cr/books?id=SmsCqiQMvvgC&amp;printsec=frontcover&amp;dq=Alan+Baker&amp;hl=es&amp;ei=5Xq3Td67MI7qgAeP0KxR&amp;sa=X&amp;oi=book_result&amp;ct=result&amp;resnum=2&amp;ved=0CC0Q6AEwAQ#v=onepage&amp;q&amp;f=false" rel="nofollow">Transcendental Number Theory</a>. In chapters two and three he develops the theory of linear forms in logarithms and then he applies it to the study of some Diophantine equations.</p>
 
 

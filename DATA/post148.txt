@@ -1,21 +1,13 @@
-## Title:
-Known facts about a function
-
-## Tags:
-<number-theory><reference-request><fourier-series>
-
 ## Score:
-3
+6
+
+## Id:
+66090
+
+## ParentId:
+66086
 
 ## Body:
-<p>In my work I have met the function on the unit circle whose Fourier coefficients are 
-$$
-c_n=\frac{1}{|n|}\prod (d_k+1)
-$$
-if $n=\pm\prod p_k^{d_k}$ is the decomposition of the integer $n$ into the product of prime numbers. The formal series of the function is
-$$
-\sum_{n\in\mathbb Z}c_nz^n.
-$$
-This function could have already appeared and I would much appreciate any references about it. (I am interested in properties of this function, but now it is not yet easy to say what I really need.)</p>
+<p>I'm a big fan of Murty and Esmonde's "Problems in algebraic number theory", which develops the basic theory through a series of problems (with the answers in the back).  Another nice sources in Milne's notes on algebraic number theory, available on his website <a href="http://www.jmilne.org/math/CourseNotes/ant.html" rel="nofollow">here</a>.</p>
 
 

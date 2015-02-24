@@ -1,0 +1,19 @@
+## Score:
+2
+
+## Id:
+462334
+
+## ParentId:
+462307
+
+## Body:
+<p>You are asking about what can be said when
+$$ \frac{2n^2}{n+1} \leq \sigma(n) &lt; 2 n.  $$ However,
+$$ \frac{2n^2}{n+1} = 2n - 2 + \frac{2}{n+1}.  $$ The only integer at least this large but smaller than $2n$ is $2n-1.$ So, you are asking about all solutions of $\sigma(n) = 2n-1.$</p>
+
+<p>Meanwhile, if $n$ is a power of 2, then $\sigma(n) = 2n-1.$ </p>
+
+<p>I think those are all. So does my computer. Should be provable. </p>
+
+

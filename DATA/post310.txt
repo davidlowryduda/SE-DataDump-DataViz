@@ -1,0 +1,18 @@
+## Title:
+Database for size of Ш
+
+## Tags:
+<number-theory><reference-request><elliptic-curves>
+
+## Score:
+2
+
+## Id:
+150065
+
+## Body:
+<p>Are there are any references that record the cardinality of Ш for elliptic curves for which Ш is known? Also their corresponding conductors.</p>
+
+<p>EDIT: Following the Qiaochu Yuan's comment's I should mention that Ш is the <a href="http://en.wikipedia.org/wiki/Tate%E2%80%93Shafarevich_group" rel="nofollow">Tate-Shafarevich group</a>.</p>
+
+

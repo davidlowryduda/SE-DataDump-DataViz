@@ -1,16 +1,18 @@
 ## Title:
-The book "Opera De Cribro" by John Friedlander and Henryk Iwaniec
+Is there a catalogue of solved Diophantine equations?
 
 ## Tags:
-<number-theory><reference-request>
+<number-theory><reference-request><diophantine-equations>
 
 ## Score:
-2
+8
+
+## Id:
+123592
 
 ## Body:
-<p>John Friedlander and  Henryk Iwaniec wrote a book  <em><a href="http://rads.stackoverflow.com/amzn/click/0821849700" rel="nofollow">Opera De Cribro</a></em>. 
-How about this book? What's the meaning of its title?  A number theory book with such a title seems odd.</p>
+<p>Is there a book, website or something else aiming to catalogue all or many of the Diophantine equations that have already been solved?</p>
 
-<p>p.s.  I have no way to buy this book or borrow a copy at the moment, so I want to learn some information about  it.</p>
+<p>I have two tiny books by Sierpiński in which he gives some of those, but I suspect lots of kinds of equations must have been solved. (Although I really don't have much of an idea how many.) I would like to see such a catalogue to get an idea of what has been done.</p>
 
 

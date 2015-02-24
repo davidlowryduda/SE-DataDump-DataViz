@@ -1,17 +1,20 @@
 ## Title:
-What is the integral homology of $\mathrm{GL}_2(\mathbb{Z}[i])$?
+Any serious work on Lychrel numbers/$196$-Algorithm?
 
 ## Tags:
-<reference-request><algebraic-number-theory><homological-algebra><homology>
+<number-theory><reference-request><difference-equations><open-problem>
 
 ## Score:
-5
+7
+
+## Id:
+94648
 
 ## Body:
-<p>I am currently trying to compute homology groups of general linear groups over the ring of integers of an imaginary quadratic number field. As I would like to check my results I would like to know if anybody knows a reference where I can find the integral homology of the $\mathrm{GL}_2$ over the Gaussian integers (or over the Eisenstein integers or some other ring of integers of an imaginary quadratic number field).</p>
+<p>I've been googling around a little lately and have stumbled across the so called Lychrel problem. For a natural number $x$, let $Rx$ denote the number obtained by reversing the base-$10$ digits of $x$ (i.e. $R90 = 9$, $R345 = 543$, etc.). Then the question is whether, given some initial $x$, the sequence defined by
+$$x_{n + 1} = x_n + Rx_n \quad \quad \quad x_0 = x$$
+eventually produces a palindrome (i.e. $Rx_n = x_n$ for some $n$). An initial value for which no palindrome is ever obtained is called a Lychrel number. It is an open question whether any Lychrel numbers exist at all. The smallest suspected Lychrel number is $x = 196$. I've been trying to find out whether anyone has ever done any serious mathematical work on the issue, but all I have been able to find are either computational efforts or trivial facts. Does anyone know of any serious publications about this question?</p>
 
-<p>I already googled quite a lot but no useful results turned up.</p>
-
-<p>Thank you for your help.</p>
+<p>Thanks in advance.</p>
 
 

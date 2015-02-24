@@ -1,24 +1,23 @@
-## Title:
-Parameters giving maximal-length Collatz-like sequence
-
-## Tags:
-<reference-request><elementary-number-theory><prime-numbers>
-
 ## Score:
-7
+10
+
+## Id:
+56233
+
+## ParentId:
+56222
 
 ## Body:
-<p>In a <a href="http://math.stackexchange.com/questions/183259/collatz-ish-olympiad-problem">recent question</a> the following recursive sequence was considered:
-$$
-    a_{n+1} = \cases{\frac{a_n}{2} &amp; $a_n$ is even \\ a_n +d &amp; $a_n$ is odd}, \quad a_1 = d + 1
-$$
-where $d$ is an odd positive integer. Such a sequence will eventually reach $1$, and let $m(d)$ be the value of the index, where the sequence element equals one, $a_m = 1$. Here is a visualization of $m(d)$:
-  <img src="http://i.stack.imgur.com/j4qAP.png" alt="Plot of the length of Collatz-like sequence as a function of parameter d"></p>
+<p>By "higher dimensonal class field theory", Tate means the class field theory of <a href="http://en.wikipedia.org/wiki/Higher_local_field">higher dimensional local fields</a> (see also <a href="http://en.wikipedia.org/wiki/Local_field#Higher_dimensional_local_fields">this brief discussion</a>), developed in the work of various people, including Kato and Parshin. </p>
 
-<p>It is apparent from the plot that $m(d) \leqslant 3 \left\lfloor \frac{d-1}{2} \right\rfloor$. Selecting those $d$ which saturate the bound:
-<img src="http://i.stack.imgur.com/8rBoG.png" alt="enter image description here">
-OEIS tells us that this is sequence <a href="http://oeis.org/A001122">A001122</a> of "<em>primes with primitive root</em> $2$". </p>
+<hr>
 
-<p>This begs for an explanation. References, intuitive insights, solutions are welcome.</p>
+<p>As for your second question, about learning CFT from a modern perspective: with my own students, I encourage them to learn from Cassels and Frolich (including the exercises), from Cox's book <em>Primes of the form $x^2 + n y^2$</em>, and from Washington's article on Galois cohomology in Cornell, Silverman, and Stevens.</p>
+
+<p>The first reference (especially the main articles of Serre and Tate) gives a development of the main results of CFT which I think is hard to beat.  Cox's book gives an important classical perspective.  Washington's article gives insight into how class field theory can be reformulated as a collection of theorems (mainly due to Tate) on (local and global) Galois cohomology.</p>
+
+<p>Tate's article <em>Number theoretic background</em> in the second volume of Corvalis is good when you have reached a certain level of sophistication, and are ready to move on from just focussing on algebraic number theory and CFT to a broader perspective.  My experience is that it is a little austere for a beginner, though.</p>
+
+<p>One thing that you will be missing if you follow the above references is an $L$-function-based perspective on class field theory.  I gather that this is discussed in the new edition of Artin--Tate.  If so, it is worth learning, since although it is the more old-fashioned point of view on CFT, non-abelian class field theory (i.e. the Langlands program) is founded on the notion of $L$-functions.  (I believe that Lang's book also discusses the $L$-function approach to CFT, but I've never read it myself.)</p>
 
 

@@ -1,0 +1,15 @@
+## Score:
+1
+
+## Id:
+622871
+
+## ParentId:
+438686
+
+## Body:
+<p>I've finally found a reference! Thank you to Jared Weinstein for supplying the reference and Jeremy Booher for the excellent exposition. </p>
+
+<p><a href="http://math.stanford.edu/~jbooher/expos/hilbert_modular_surfaces.pdf" rel="nofollow">http://math.stanford.edu/~jbooher/expos/hilbert_modular_surfaces.pdf</a></p>
+
+

@@ -1,13 +1,58 @@
-## Title:
-Proof of Hasse-Minkowski over Number Field
-
-## Tags:
-<number-theory><reference-request><algebraic-number-theory>
-
 ## Score:
-5
+4
+
+## Id:
+87607
+
+## ParentId:
+87579
 
 ## Body:
-<p>Can anyone point me towards a good reference which contains the proof of the Hasse-Minkowski theorem of quadratic forms over a number field? Serre's "A Course in Arithmetic" has a self contained proof for the theorem when the base field is $\mathbb{Q}$, but I am looking for the more general setting.</p>
+<p>I was not able to find a statement of the conjecture by Erdős and Straus in the form stated, but I did find some interesting related work.  I recommend that you take a look at the introduction and bibliography (at least) of the paper</p>
+
+<ul>
+<li>N. Saradha, R. Tijdeman, <a href="http://dx.doi.org/10.1112/S0024610702003988" rel="nofollow">"On the transcendence of infinite sums of values of rational functions"</a>, <em>J. London Math. Soc.</em> (2) <strong>67</strong> (2003), no. 3, 580-592.</li>
+</ul>
+
+<p>Any paper referenced below without a full citation is in the bibliography of Saradha and Tijdeman.  This bibliography may provide a useful starting point in trying to locate the conjecture you mention.</p>
+
+<p>The introduction discusses variations on the following conjecture of Erdős, which apparently goes back to 1949 but did not appear in print in Erdős's intended form until a 1965 paper of Livingston.</p>
+
+<blockquote>
+  <p><strong>Conjecture</strong> (Erdős).
+  Let $f$ be a number-theoretic function with period $q &gt; 0$ such that $|f(n)| = 1$ for $1\le n &lt; q$ and $f(q) = 0$.  Then
+  $$ \sum_{n=1}^{\infty} \frac{f(n)}{n} \ne 0 $$
+  whenever the series converges.</p>
+</blockquote>
+
+<p>In 1973, Baker, Birch, and Wirsing attribute the following problem to Chowla:</p>
+
+<blockquote>
+  <p><strong>Problem</strong>.  Does there exist a rational-valued function $f(n)$, periodic with prime period $p$, such that
+  $$ \sum_{n=1}^{\infty} \frac{f(n)}{n} = 0? $$</p>
+</blockquote>
+
+<p>Baker, Birch, and Wirsing disprove the claim by proving the following theorem.</p>
+
+<blockquote>
+  <p><strong>Theorem</strong>. Suppose $f\colon \mathbb{Z}\to \overline{\mathbb{Q}}$ is a nonvanishing function with period $q$.  If (i) $f(n) = 0$ whenever $1 &lt; \gcd(r, q) &lt; q$, and (ii) the $q$th cyclotomic polynomial is irreducible over $\mathbb{Q}(f(1),\dots,f(q))$, then
+  $$ \sum_{n=1}^{\infty} \frac{f(n)}{n} \ne 0.$$</p>
+</blockquote>
+
+<p>This result and a related result of Okada are used as a basis for Adhikari, Saradha, Shorey, and Tijdeman to prove the following theorem.</p>
+
+<blockquote>
+  <p><strong>Theorem</strong>. Suppose $f\colon \mathbb{Z}\to \overline{\mathbb{Q}}$ is periodic with period $q$.  If the series
+  $$ \sum_{n=1}^{\infty} \frac{f(n)}{n} $$
+  converges to some number $S$, then either $S = 0$ or $S$ is transcendental.</p>
+</blockquote>
+
+<p>Adhikari et al. comment (I'm paraphrasing here) that applying <a href="http://en.wikipedia.org/wiki/Baker%27s_theorem" rel="nofollow">Baker's theorem</a> tends to lead to dichotomies of the form "$S$ is either rational or transcendental"; beyond that I don't find direct motivation for the claim or prior conjectures of the form you indicate.  (But I'm no number theorist.)</p>
+
+<p>Some salt should be ingested with some of the results in Adhikari et al.  In particular, I found the following paper which in its introduction claims to provide a counterexample to one of the theorems from that paper:</p>
+
+<ul>
+<li>M. Genčev, <a href="http://dml.cz/dmlcz/137490" rel="nofollow">"Transcendence of certain infinite sums involving rational functions"</a>, <em>Acta Math. Univ. Ostrav.</em> <strong>15</strong> (2007), no., 1, 7-14.</li>
+</ul>
 
 

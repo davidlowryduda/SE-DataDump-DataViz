@@ -1,17 +1,19 @@
 ## Title:
-Are the fractional parts of $\log \log n!$ equidistributed or dense in $[0,1]$?
+Is there a notion of *p-adic Dedekind Domains*?
 
 ## Tags:
-<number-theory><reference-request><dynamical-systems><equidistribution>
+<reference-request><algebraic-number-theory><p-adic-number-theory>
 
 ## Score:
-15
+5
+
+## Id:
+22288
 
 ## Body:
-<p>Are there any results relevant to the distribution of the sequence $\{\log \log n!\}$ for integers $n$, where $\{x\}$ denotes the fractional part of $x$?</p>
-
-<p>For instance, it is known that for irrational real numbers $\alpha$, the sequence $\{n\alpha\}$ is dense in $[0,1]$ and in fact equidistributed. Does something similar hold for the logarithms of the logarithms of the factorials?</p>
-
-<p>(This curiosity is provoked by <a href="http://math.stackexchange.com/questions/48633/using-floor-ceiling-square-root-and-factorial-functions-to-get-integers/48812#48812">this question</a>, and an affirmative answer here would complete the answer to that question.)</p>
+<p><a href="http://en.wikipedia.org/wiki/P-adic_number#Algebraic_approach" rel="nofollow">As we all know</a>, the ring $Z_p$ can be constructed as the projective limit of the rings $Z/p^{n}Z$.<br>
+Now is there any generalization such as the p-adic completions of a Dedekind Domain?<br>
+This might be said to be inspired by the general treatment of extensions of Dedekind Domains from the treatment of algebraic number fields.<br>
+In any case, thanks very much.  </p>
 
 

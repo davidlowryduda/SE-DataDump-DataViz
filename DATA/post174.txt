@@ -1,23 +1,45 @@
-## Title:
-Are there (known) bounds to the following arithmetic / number-theoretic expression?
-
-## Tags:
-<number-theory><elementary-number-theory><reference-request><functional-inequalities>
-
 ## Score:
 1
 
+## Id:
+73691
+
+## ParentId:
+48843
+
 ## Body:
-<p>I apologize in advance if this is something that is already well-known in the literature, but I would like to ask nonetheless (for the benefit of those who likewise do not know):</p>
+<p>A (very weak) version of Stirling's approximation says that $n!=n^{n+o(n)}$, hence $\log\log(n!)=\log(n\log n)+o(1)$. If two sequences $(a_n)$ and $(b_n)$ are such that $a_n\to\infty$, $b_n\to\infty$, and $a_n-b_n=o(1)$, the limiting distributions of $\{a_n\}$ and $\{b_n\}$ are the same (of course, one should prove this) hence, from now on, we look at the asymptotic distribution of $x_n=\{\log(n\log n)\}$.</p>
 
-<p>Are there (known) lower and upper bounds to the following arithmetic / number-theoretic expression:</p>
+<p>For every nonnegative $x$, call $n(x)$ the smallest integer such that $n(x)\log n(x)\geqslant\mathrm e^x$. Fix $x$ in $(0,1)$. The set of integers $n$ such that the integer part of $x_n$ is $k$ is $n(k+1)-n(k)$. Among these, $n(k+x)-n(k)$ are such that $x_n\leqslant x$. Hence the proportion of integers $n$ in $[n(k),n(k+1)-1]$ such that $x_n\leqslant x$ is 
+$$
+F_k(x)=\frac{n(k+x)-n(k)}{n(k+1)-n(k)}.
+$$
+Here is a result: $F_k(x)\to F^0(x)$ when $k\to\infty$, with
+$$
+F^0(x)=\frac{\mathrm e^x-1}{\mathrm e-1}=\int\limits_0^xf^0(y)\mathrm dy,\quad f^0(x)=\frac{\mathrm e^x}{\mathrm e-1}.
+$$ 
+This (which should also be proved) implies that the proportion of integers $n\leqslant n(k)$ such that $x_n\leqslant x$ converges to $F^0(x)$ when $k\to\infty$. In this sense the sequence of general term $\{x_n\}$ and the sequence of general term $\{\log\log n!\}$ both follow the distribution with density $f^0$ on $(0,1)$.</p>
 
-<p>$$\frac{I(x^2)}{I(x)} = \frac{\frac{\sigma_1(x^2)}{x^2}}{\frac{\sigma_1(x)}{x}}$$</p>
+<p>Note however that this result is not based on the usual version of the density of a subset $A$ of the integers, defined as the limit (when it exists) of the sequence
+$$
+d_n(A)=\frac1n\sum\limits_{k=1}^n\mathbf 1_{k\in A}.
+$$
+Considering the set $A(x)$ of integers $n$ such that $\{x_n\}\leqslant x$, we proved that $d_{n(k)}(A(x))\to F^0(x)$ when $k\to\infty$ but $(d_n(A(x))$ diverges (except for $x=0$ and $x=1$) since for example,
+$$
+d_{n(k+x)}\to\mathrm e^{1-x} F^0(x)&gt;F^0(x).
+$$
+By the way, one can prove that $F^0(x)$ and $F^x(x)=\mathrm e^{1-x} F^0(x)$ are the lower and upper densities of $A(x)$ in the sense that
+$$
+F^0(x)=\liminf d_n(A(x))&lt;\limsup d_n(A(x))=F^x(x).
+$$
+Coming back to our problem, one could very plausibly define the density of $\{x_n\}$ by fixing a real number $\alpha$, considering the proportion of integers $n\leqslant n(k+\alpha)$ such that $x_n\leqslant x$ and the limit $F^\alpha(x)$ of these proportions when $k\to\infty$. It happens that this limit $F^\alpha(x)$ exists for every $x$ and suggests as density the function $f^\alpha$ such that
+$$
+F^\alpha(x)=\int\limits_0^xf^\alpha(y)\mathrm dy.
+$$
+Thus, each $f^\alpha$ is as good a candidate as any to be the asymptotic density of the sequence with general term $\{\log\log(n!)\}$.</p>
 
-<p>where $x \in \mathbb{N}$, $\sigma_1(x)$ is the sum of the divisors of $x$ and $I(x) = \frac{\sigma_1(x)}{x}$ is the abundancy index of $x$?</p>
+<p><strong>Note</strong> As said in the comments, <a href="http://en.wikipedia.org/wiki/Benford%27s_law" rel="nofollow">Benford's law</a> yields similar oscillatory phenomena. Of course, the procedures developed in the case of Benford's law to escape the conundrum we described above may be applied to the present problem as well. </p>
 
-<p>(Note that a trivial lower bound is $1$ since $x \mid x^2$ implies $I(x) \leq I(x^2)$.)</p>
-
-<p>I would highly appreciate it if somebody will be able to point me to relevant references in the existing literature.</p>
+<p>Other, more advanced, keywords for the interested reader are <em>divergent series</em> or <em>summation methods</em>, see <a href="http://en.wikipedia.org/wiki/Divergent_series" rel="nofollow">here</a> or the version in French <a href="http://fr.wikipedia.org/wiki/S%C3%A9rie_divergente" rel="nofollow">here</a> which seems to mention more references.</p>
 
 

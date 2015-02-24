@@ -1,0 +1,26 @@
+## Title:
+Is $\tan (\pi x)$ never rational for all rational $x$ in the interval $(-0.5,0.5)$, with the exceptions occuring at $x=0, -0.25, 0.25$?
+
+## Tags:
+<elementary-number-theory><reference-request>
+
+## Score:
+1
+
+## Id:
+452679
+
+## Body:
+<p>What I'm claiming is that I have devised a proof of this statement which says that it is true. The proof is a little long and involves trigonometry and basics of number theory, so I feel lazy to include it here. I want to know whether such a result exists or not from before. If there exists one, then please refer me to the very website(s) containing the existing proofs.</p>
+
+<p>I've used the identity,
+(1+x2)n = (nC0 – nC2x2 + nC4x4 - ...)2 + (nC1x – nC3x3 + nC5x5 - …)2
+to show that tan(pπ/q) with p≠0 and odd q is never rational.</p>
+
+<p>Next, I've analyzed the zeroes of the polynomial
+(nC0 – nC2x2 + nC4x4 - ...)
+to show that tan (pπ/q) with odd p and even q is never rational except for (p/q)=±0.25.</p>
+
+<p>...and still sorry for being lazy.</p>
+
+

@@ -1,0 +1,19 @@
+## Score:
+6
+
+## Id:
+153081
+
+## ParentId:
+153022
+
+## Body:
+<p>Besides Apostol, try</p>
+
+<ul>
+<li><p><a href="http://www.cambridge.org/gb/knowledge/isbn/item1114612/">A Primer of Analytic Number Theory: From Pythagoras to Riemann</a>,
+by Stopple.</p></li>
+<li><p><em>Analytic Number Theory: An Introductory Course</em>, by Bateman and Diamond.</p></li>
+</ul>
+
+

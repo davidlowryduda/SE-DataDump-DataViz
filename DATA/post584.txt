@@ -1,0 +1,23 @@
+## Score:
+2
+
+## Id:
+462177
+
+## ParentId:
+462084
+
+## Body:
+<p>1.) We have 
+$$
+\left(\frac{x}{z}\right)^2+\left(\frac{y}{z}\right)^2=n,
+$$
+so the answer is given by Fermat’s two square theorem for rationals:</p>
+
+<p><strong>Theorem (Fermat):</strong> A positive rational number is a sum of two rational squares if and only if in its prime factorization every prime of the form $4k + 3$ appears with an even exponent.</p>
+
+<p>For proofs see <a href="http://mathoverflow.net/questions/88539/sums-of-rational-squares">http://mathoverflow.net/questions/88539/sums-of-rational-squares</a>.</p>
+
+<p>2.) See the references given here: <a href="http://math.stackexchange.com/questions/368756/proof-of-hasse-minkowski-over-number-field">Proof of Hasse-Minkowski over Number Field</a>. I would say, "J.P. Serre: A course in arithmetic" is a good source.</p>
+
+

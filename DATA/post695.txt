@@ -1,0 +1,17 @@
+## Score:
+3
+
+## Id:
+602095
+
+## ParentId:
+39138
+
+## Body:
+<p>I know it is tabbo to answer your own question but the Conclusion is that additive and multiplicative twists same in the sense that if $D(s)$ continues for every $\chi(n)$ which is multiplicative then the additive twist will continue as well.</p>
+
+<p>If $$\tau(\tilde{\chi})=\sum_{n\mod k}\tilde{\chi}(n)e_k(n)$$</p>
+
+<p>is a Gauss sum then $$e_k(n) = \frac{1}{\phi(k)}\sum_{\chi \mod k} \chi(\bar{n}) \tau(\chi) $$ where $\bar{n}n=1\mod k.$  Hence an additive twist can be written as a sum of multiplicative twisted Dirichlet series.</p>
+
+

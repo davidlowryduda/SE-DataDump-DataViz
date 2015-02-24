@@ -1,0 +1,15 @@
+## Score:
+6
+
+## Id:
+181265
+
+## ParentId:
+181264
+
+## Body:
+<p>For numbers of the size you mention, and that are likely to appear in problems in contests, you will be able to find all the solutions you need, with just a tiny bit of programming using the package Pari/GP which is freely available and runs under various different operating systems. It can be downloaded from <a href="http://pari.math.u-bordeaux.fr/download.html">here</a>.</p>
+
+<p>I have found it to be a very fast and convenient package for many different types of number theory investigations (from elementary to pretty advanced), so it would probably be more useful than something which is designed to solve just the Mordell-type equations.</p>
+
+

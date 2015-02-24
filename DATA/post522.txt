@@ -1,0 +1,15 @@
+## Score:
+0
+
+## Id:
+390151
+
+## ParentId:
+390088
+
+## Body:
+<p>One important relation to other number theoretic problems is that of the distance of perfect powers of 2 and 3, for which a lot of material exists, even online accessible. The existence of the <a href="http://deweger.xs4all.nl/papers/%5B35%5DSidW-3n+1-ActaArith%5B2005%5D.pdf" rel="nofollow">so-called "1-cycles"</a> (which is a whole class of possible cycles of arbitrary length but a certain simple structure) is directly dependent on the question, whether $$ {k3^N-1 \over k2^N-1}=2^A $$ exists in natural numbers N,A and k (besides for "trivial" solution (N,A,k)=(1,1,1), which leads to the (unsolved) problem observed in the Waring-conjecture whether $$ (3/4)^N \lt \{ (  3/2)^N \} \lt 1-(3/4)^N $$ $ \qquad \qquad $ <em>where $ \{ \cdot \}$ means the fractional part</em> (see for instance <a href="http://mathworld.wolfram.com/PowerFractionalParts.html" rel="nofollow">mathworld</a>)</p>
+
+<p>Here is also the concept of K.Mahler's "z-numbers" relevant, which also relates the "1-cycles" in a general view to the powers of 3/2 and is also not too difficult to understand for a treatize which focuses an undergraduate publicum. </p>
+
+

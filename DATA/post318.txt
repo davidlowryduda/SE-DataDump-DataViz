@@ -1,0 +1,43 @@
+## Score:
+7
+
+## Id:
+153038
+
+## ParentId:
+153022
+
+## Body:
+<p>I just finished a reading course with Chandrasekharan's <em>Introduction to Analytic Number Theory</em> and I really enjoyed it.</p>
+
+<p>It starts at the basics, estimating the size of the $n^{\text{th}}$ prime using Euclid's proof of the infinitude of primes, and follows a logical path starting there and ending at the prime number theorem.  I think of the road chosen as the "scenic route"; the journey is just as important as the goal.</p>
+
+<p>Along the way the author's enthusiasm is tangible as he takes detours to touch on interesting results and makes it a point to showcase a large variety of problems and techniques.  When proving theorems he'll often opt for a proof given by someone other than the original author, and once or twice he includes multiple proofs which illustrate different perspectives.  And, when introducing definitions, they are never just tools to be filed away for later use; they are always placed in the context of an interesting problem and given respect on their own.</p>
+
+<p>Since I can't find a table of contents online, the chapters are:</p>
+
+<ol>
+<li>The unique factorization theorem</li>
+<li>Congruences</li>
+<li>Rational approximation of irrationals and Hurwitz's theorem</li>
+<li>Quadratic residues and the representation of a number as a sum of four squares</li>
+<li>The law of quadratic reciprocity</li>
+<li>Arithmetical functions and lattice points</li>
+<li>Chebyshev's theorem on the distribution of prime numbers</li>
+<li>Weyl's theorem on uniform distribution and Kronecker's theorem</li>
+<li>Minkowski's theorem on lattice points in convex sets</li>
+<li>Dirichlet's theorem on primes in an arithmetical progression</li>
+<li>The prime number theorem</li>
+</ol>
+
+<p>He also avoids functional equations completely, which I appreciate.</p>
+
+<p>I found a couple reviews online <a href="http://journals.cambridge.org/article_S0013091500009330">here</a> and <a href="http://projecteuclid.org/euclid.bams/1183533164">here</a>.</p>
+
+<p>I've answered a couple questions using material from the book <a href="http://math.stackexchange.com/a/142522/5531">here</a> and <a href="http://math.stackexchange.com/a/145344/5531">here</a></p>
+
+<hr>
+
+<p>I just want to mention that I really, really dislike Apostol's book.  It's incredibly dry and thoroughly uninspiring.  I found reading the proofs to be a chore, whereas the proofs are the juciest part of Chandrasekharan.  To me, Apostol is not a book to be "read" or learned from.  It's decent as a reference.</p>
+
+

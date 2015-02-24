@@ -1,0 +1,13 @@
+## Score:
+3
+
+## Id:
+156058
+
+## ParentId:
+153972
+
+## Body:
+<p>I would recommend <a href="http://rads.stackoverflow.com/amzn/click/0387901639" rel="nofollow">Apostol's Introduction to Analytic number theory</a>.</p>
+
+

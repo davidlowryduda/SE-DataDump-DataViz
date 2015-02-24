@@ -1,0 +1,17 @@
+## Score:
+4
+
+## Id:
+153447
+
+## ParentId:
+153438
+
+## Body:
+<p>The numbers $x^y - y^x$ blow up when $x$ and $y$ get large. Besides the trivial solutions of the form $(k+1, 1)$ the only values of $k &lt; 1000$ giving solutions are:</p>
+
+<p>$$\begin{align} 3^2 - 2^3 &amp;= 1 \\ 2^5 - 5^2 &amp;= 7 \\ 3^4 - 4^3 &amp;= 17 \\ 2^6 - 6^2 &amp;= 28 \\ 2^7 - 7^2 &amp;= 79 \\ 3^5 - 5^3 &amp;= 118 \\ 2^8 - 8^2 &amp;= 192 \\ 4^5 - 5^4 &amp;= 399 \\ 2^9 - 9^2 &amp;= 431 \\ 3^6 - 6^3 &amp;= 513 \\ 2^{10} - 10^2 &amp;= 924 \end{align}$$</p>
+
+<p>For a small theoretical analysis, suppose $x &lt; y$ (if $x &gt; y$, the result is negative). Then $y^x = x^x (1 + \frac{y - x}{x})^x &lt; x^x e^{y-x}$, so $$x^y - y^x \geq x^x (x^{y-x} - e^{y-x}).$$ So for $x \geq 3$ this blows up enormously. So for small $k$, only small values of $x$ and $y$ are possible.</p>
+
+

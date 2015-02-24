@@ -1,0 +1,19 @@
+## Score:
+7
+
+## Id:
+160235
+
+## ParentId:
+160231
+
+## Body:
+<p>Have a look at Koblitz: Introduction to Elliptic Curves and Modular Forms, and also at Knapp: Elliptic Curves. I prefer the latter, since it is more in depth, but it is also more algebro-geometric. The former has a much stronger complex analysis slant, especially at the beginning, which might make the entry easier. So you could try reading Koblitz first, and then Knapp (there will be a lot of overlap, of course).</p>
+
+<p>The most thorough text on elliptic curves is Silverman: Arithmetic of Elliptic Curves. But it is considerably more algebro-geometric than the above two, and it has very little material on modular forms. So I am not sure it is the right entry text for you.</p>
+
+<p>None of these cover complex multiplication. For that, you could have a look at Silverman: Advanced Topics in the Arithmetic of Elliptic Curves. My feeling is that to appreciate the theory of complex multiplication, it would help to have seen class field theory beforehand. But Silverman does review the main results of class field theory, so perhaps you can dive straight in, after having worked through one of the basic texts above.</p>
+
+<p>"Just for fun" is a great premise to start learning elliptic curves, since it really is great fun!</p>
+
+

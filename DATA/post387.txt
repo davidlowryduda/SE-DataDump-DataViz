@@ -1,0 +1,13 @@
+## Score:
+4
+
+## Id:
+200487
+
+## ParentId:
+200478
+
+## Body:
+<p>No, it's definitely not true, nowhere near. Take your favorite nonGalois extension, like $\mathbb{Q}(\root3\of5\,)$. Then the unramified primes are those other than $3$ and $5$. Look at the cubic $X^3-5$ over $\mathbb{Z}/(p)$, for such a prime. It may (a) factor into three linear factors; (b) factor into a linear times a quadratic; or (c) remain irreducible. In case (b), you'll get one prime above $p$ of norm $p$, one prime of norm $p^2$. This happens! Look at $p=11$, $p=17$, $p=23$. See a pattern? </p>
+
+

@@ -1,0 +1,13 @@
+## Score:
+2
+
+## Id:
+148358
+
+## ParentId:
+141971
+
+## Body:
+<p>Qiaochu Yuan points out that it is not at all a coincidence: “The argument that justifies the convergence of geometric series applies in any complete normed field when $|a|&lt;1$, and in the 2-adics this is true when $a=2$.” In the 2-adics, the sequence does indeed converge, and the only thing it can converge to is $1\over1-r$.</p>
+
+

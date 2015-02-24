@@ -1,20 +1,17 @@
-## Title:
-Twist of elliptic curve
-
-## Tags:
-<number-theory><reference-request><algebraic-geometry><elliptic-curves><algebraic-curves>
-
 ## Score:
-1
+6
+
+## Id:
+113402
+
+## ParentId:
+113340
 
 ## Body:
-<p>It is continuation of this question: <a href="http://math.stackexchange.com/questions/467088/explict-form-of-the-equation-of-elliptic-curve">explict form of the equation of elliptic curve</a></p>
+<p>This is Corollary 6.2.1 of Chapter X in Silverman's "The Arithmetic of Elliptic Curves": Let $p$ be a prime such that $p\equiv 7$ or $11\bmod 16$. Then the Mordell-Weil group of $E_p: y^2=x^3+px$ has rank $0$ (moreover, the $2$-torsion of Sha is also trivial!). Hence, $E(\mathbb{Q})$ has only finitely many points. </p>
 
-<p>Let $p$ is prime and $p = 3 ($mod $4)$. $q = p^n$. It is easy to see that $E: y^2 = x^3 + x$ has $1 \pm 2q + q^2$ rational points over $\mathbb{F}_{q^2}$. </p>
+<p>In fact, in Proposition 6.1 of Silverman (same chapter X), it is shown that the torsion subgroup of $E_p(\mathbb{Q})$ is $\mathbb{Z}/2\mathbb{Z}$, so $E_p(\mathbb{Q})$ has only $2$ points.</p>
 
-<p>It is excerpt from "Constructing supersingular elliptic curves" of Reinier Broker(<a href="http://www.math.brown.edu/~reinier/supersingular.pdf" rel="nofollow">http://www.math.brown.edu/~reinier/supersingular.pdf</a>) for $p \not= 1$ mod $3$, we can twist by a primitive sixth root
-of unity $\zeta_6 ∈ \mathbb{F}_{q^2}$ to obtain curves with trace of Frobenius $\pm 2q$ and $\pm q$ (I changed some for saving my designation).</p>
-
-<p>So how it can be done? Or can you give a reference on material about twist of elliptic curves over finite field?</p>
+<p>The only drawback to this example is that all these curves $E_p$ have constant $j$-invariant $1728$.</p>
 
 

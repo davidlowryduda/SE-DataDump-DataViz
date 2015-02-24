@@ -1,0 +1,13 @@
+## Score:
+3
+
+## Id:
+606647
+
+## ParentId:
+606639
+
+## Body:
+<p>The first book you want to look at is Serre's "A course in arithmetic". THe second is the aptly named <a href="http://rads.stackoverflow.com/amzn/click/038723229X" rel="nofollow">"A first course in modular forms"</a></p>
+
+

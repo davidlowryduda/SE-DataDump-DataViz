@@ -1,21 +1,17 @@
-## Title:
-Any resource of the applications of the theory of class fields
-
-## Tags:
-<reference-request><algebraic-number-theory><applications>
-
 ## Score:
-7
+10
+
+## Id:
+5507
+
+## ParentId:
+329
 
 ## Body:
-<p>We all agree that the theory of class fields plays an eminent role in modern number theory.<br>
-Nevertheless, what was our main concern is that how to solve various Diophantine equations to which the clues do not appear clear in the theory of class fields. And my question is:  </p>
+<p>It depends on the level.</p>
 
-<blockquote>
-  <p>With respect to the beauty and perfection of the theory of class fields, can we use it to solve some mysterious Diophantine equations? Or can we apply it to other fields in Mathematics, such as Complex Analysis?  </p>
-</blockquote>
+<p>For an undergraduate interested in <strong>algebraic</strong> number theory, I would strongly suggest (parts of) Serre's <em>Cours d'arithmetique</em> and also Samuel's <em>Théorie algébriques des nombres</em>.</p>
 
-<p>The last question arises as one of my friends used to tell me that there is a mathematician who developes the theory of complex analysis in terms of class fields in one of his books. Nonetheless, when I looked up to his books, I didn't find any hint to this. Moreover, when I asked him about this again, he didn't say much. This stimulates somehow my imagination such that I am wondering if there indeed is such a theory.<br>
-Any response is appreciated.   </p>
+<p>For a graduate student aiming at a future of research work in number theory, Cassels &amp; Fröhlich is a must.</p>
 
 

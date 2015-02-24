@@ -1,0 +1,13 @@
+## Score:
+1
+
+## Id:
+151499
+
+## ParentId:
+151452
+
+## Body:
+<p>It appears that to get a compound partition of $n$, you take a partition of $n$ and then partition each of the parts in that partition. I gather this from the first paragraph of G. S. Ely, The Method of Graphs Applied to Compound Partitions, American Journal of Mathematics Vol. 6, No. 1, 1883 - 1884, Pages 382-384, which may or may not be freely available at <a href="http://www.jstor.org/stable/10.2307/2369233" rel="nofollow">http://www.jstor.org/stable/10.2307/2369233</a>. </p>
+
+

@@ -1,15 +1,27 @@
-## Title:
-Choosing an isomorphism $\tau:\overline{\mathbf{Q}}_p\simeq\mathbf{C}$; how do things depend on choice of $\tau$?
-
-## Tags:
-<reference-request><p-adic-number-theory>
-
 ## Score:
-4
+2
+
+## Id:
+51016
+
+## ParentId:
+41100
 
 ## Body:
-<p>I sometimes see arguments that begin by choosing an isomorphism of fields $\tau:\overline{\mathbf{Q}}_p\simeq\mathbf{C}$, and then defining some property in terms of this isomorphism. I'm not so familiar with the technical properties; must there exist continuous isomorphisms or isometries? Where can I read up on the basic properties of such isomorphisms or how this technique is deployed?  </p>
+<p>Let $a, b$ and $c$ be positive integers with no common factor, i.e., $\gcd(a,b,c) = 1$.  Define $a^{\prime} = \gcd(b,c)$, $b^{\prime} = \gcd(c,a)$, $c^{\prime} = \gcd(a,b)$ and $d = a^{\prime} b^{\prime} c^{\prime}$. </p>
 
-<p>Sample question: suppose I say that $P\in\mathbf{Q}_p[X]$ is 'pure of weight $i\in\mathbf{Z}$' if every root $\lambda\in\overline{\mathbf{Q}}_p$ of $P$ satisfies $|\tau(\lambda)|_{\mathbf{C}}=i$. Does this notion depend on $\tau$?</p>
+<p>The following identity holds:
+\begin{align}
+\sum_{i = 0}^{at} \sum_{j = 0}^{\lfloor b(t-i/a) \rfloor} \left \lbrace c \left( t - \frac{i}{a} - \frac{j}{b} \right) \right \rbrace = \tfrac{ab -d }{4} t^{2} + \gamma t
+\end{align}
+where $t \in \mathbb{Z}_{\geq 0}$ and
+\begin{align}
+\gamma &amp; = a^{\prime} \ \mathfrak{s}(\tfrac{bc}{d},\tfrac{aa^{\prime}}{d}) +  b^{\prime} \ \mathfrak{s}(\tfrac{ca}{d},\tfrac{bb^{\prime}}{d})  + c^{\prime} \ \mathfrak{s}(\tfrac{ab}{d}, \tfrac{cc^{\prime}}{d}) + \tfrac{1}{4}(a - a^{\prime} + b - b^{\prime} + c^{\prime}  )   - \tfrac{a^{2} b^{2} + c^{2} (c^{\prime})^{2} + d^{2}}{12 a b c}.
+\end{align}
+Here, $\mathfrak{s}(p,q) = \tfrac{1}{4q} \sum_{k = 1}^{q-1} \cot(\tfrac{\pi k}{q}) \cot( \tfrac{\pi k p}{q} )$ is the standard Dedekind sum. This more general identity simplifies to the identity above (in the post) as well as 
+$$
+\sum_{i = 0}^{at} \sum_{j = 0}^{\lfloor t - i/a \rfloor} \left \lbrace c \left( t- \frac{i}{a} - j \right) \right \rbrace = \frac{t(t+1)}{4} (a - \gcd(a,c)),
+$$
+after an application of the Dedekind Sum Reciprocity Law and taking $b = 1$.</p>
 
 

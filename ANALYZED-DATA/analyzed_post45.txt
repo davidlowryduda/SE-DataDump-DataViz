@@ -1,0 +1,3 @@
+Wikipedia change-making problem
+On problems of coins totaling to a given amount
+Canonical Coin Systems for Change-Making Problems

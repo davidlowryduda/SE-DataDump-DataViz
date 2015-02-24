@@ -1,0 +1,13 @@
+## Score:
+1
+
+## Id:
+178176
+
+## ParentId:
+98456
+
+## Body:
+<p>Actually, Galois uncovered the existence of a unique attribute of any polynomial equation in one unknown: the Galois group of the polynomial equation.  This group which he developed has the UNIQUE property that any rational function (in the roots of the original equation) that is rational valued, that is, equals a rational number, remains unchanged by the roots being permutated in the rational expression by any permutation which is a memeber of this Galois group.  The Galois group has other properties also. These properties of the Galois group indeed do depend on the Fundamental Theorem of Symmetric Polynomials.  In fact, the solution scheme of Lagrange and Galois was suggested by the use of this theorem. The whole Galois development depends on this Galois group.  He proposes, as did Lagrange, a POSSIBLE solution scheme for a polynomial equation, if the Galois group decomposes into a series of nested subgroups.  Of course, this decompostion is not always possible. BUT . . . Galois did show that if the roots are to be radicals, then the Galois group will indeed decompose into a solvable series such as you see described in conventional books on group theory or modern Galois theory.  Galois also showed that if the Galois group  of a polynomial did indeed decompose into a solvable series, then the roots would be forced to be radicals.  However, the main achievement of Galois seems to be the discovery of this Galois group.  As you can see, this property of any rational expression of the roots that is rational valued being unchanged by a permutation of the Galois group leads us naturally to the discovery of the automorphism, one of whose properties is that it leaves rational numbers unaltered.  This was the clue to the development of modern Galois theory.</p>
+
+

@@ -1,0 +1,23 @@
+## Score:
+10
+
+## Id:
+152624
+
+## ParentId:
+152577
+
+## Body:
+<p>As suggested by Anon it appears in the "Hypergeometric series" chapter of Hardy's book "Ramanujan" (formula (1.2)-(1.4) of page 7 and (7.4.2) and others of page 105). You may 'look inside' Hardy's book at <a href="http://rads.stackoverflow.com/amzn/click/0821820230">amazon</a>.</p>
+
+<p>Ramanujan published an article in 1914 <a href="http://books.google.com/books?id=oSioAM4wORMC&amp;pg=PA36">"Modular Equations and Approximations to $\pi$"</a> that contains some related examples (28),(29),...</p>
+
+<p>The formula appears in Berndt's <a href="http://rads.stackoverflow.com/amzn/click/038796794X">"Ramanujan's Notebooks II"</a> page 23s (search 'Example' and click on 'page 16').  </p>
+
+<p>A search of <a href="http://mathworld.wolfram.com/Dougall-RamanujanIdentity.html">Dougall-Ramanujan Identity</a> and variants could be helpful too since your equation is a special case of this identity (follow the Morley's formula <a href="http://mathworld.wolfram.com/MorleysFormula.html">link</a> for another simple example).</p>
+
+<p>See the Tract of Bailey <a href="http://www.plouffe.fr/simon/math/Bailey%20W.N.%20Generalized%20Hypergeometric%20Series%20%281964%29%28L%29%28T%29%2859s%29.pdf">'Generalized Hypergeometric Series'</a> for many more hypergeometric identities and the examples provided page 96.</p>
+
+<p>Hoping it helped,</p>
+
+

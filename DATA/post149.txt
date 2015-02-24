@@ -1,28 +1,17 @@
-## Title:
-CRT representation of integers, and multiplication in (almost) linear time
-
-## Tags:
-<number-theory><reference-request><modular-arithmetic><number-systems>
-
 ## Score:
-2
+6
+
+## Id:
+66096
+
+## ParentId:
+66086
 
 ## Body:
-<p>From the section <strong>Open Problems</strong> in the article <a href="http://rjlipton.wordpress.com/2012/07/02/connect-the-stars/" rel="nofollow"><strong>Connect the Stars</strong></a> by Kenneth Regan:</p>
+<p>I would recommend Stewart and Tall's <a href="http://rads.stackoverflow.com/amzn/click/1568811195">Algebraic Number Theory and Fermat's Last Theorem</a> for an introduction with minimal prerequisites. For example you don't need to know any module theory at all and all that is needed is a basic abstract algebra course (assuming it covers some ring and field theory). But again the first chapter gives a quick review of the basic material from abstract algebra that is used later on.</p>
 
-<blockquote>
-  <p>Finally, we offer an intriguing open problem about how fast we can multiply integers. It is possible to multiply integers very fast if they are represented via the Chinese Remainder Theorem—though perhaps still not in linear time. Alas while addition and multiplication are fast in this representation, it seems to make it harder to compare two numbers. Thus a natural question is:</p>
-  
-  <blockquote>
-    <p>Does there exist a representation of integers so that addition, multiplication, and comparison are all doable in linear time? Basically, is there a linear time discretely ordered ring?</p>
-  </blockquote>
-</blockquote>
+<p>I have used this book when I took an introductory course in Algebraic Number Theory and the experience was really good. The book has many examples and the pace is not too fast.</p>
 
-<p>I found this very intriguing.</p>
-
-<ul>
-<li>How can integers be represented via the Chinese Remainder Theorem?</li>
-<li>How can they be multiplied?</li>
-</ul>
+<p>Most other books I have seen rely more heavily on module theory to make the exposition more general but since probably you don't have that background yet then I guess that this book may very well suit you perfectly.</p>
 
 

@@ -1,0 +1,15 @@
+## Score:
+3
+
+## Id:
+312690
+
+## ParentId:
+311610
+
+## Body:
+<p>1: Your formula for $\phi(-k)(n)$ does count the number of reduced residues $a$, modulo the product of the first $n$ primes except for those primes less than or equal to $k$, for which $a+1, \dots, a+k-1$ are all reduced residues. It's a rather specialized situation.</p>
+
+<p>2: For a similar formula that counts $k$-tuples of reduced residues more generally, look at the <a href="http://mathworld.wolfram.com/k-TupleConjecture.html" rel="nofollow">Prime $k$-tuples Conjecture</a>, particularly the infinite product of primes that appears as a constant in it.</p>
+
+

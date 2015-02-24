@@ -1,15 +1,24 @@
-## Title:
-Good introductory readings to topics related to prime numbers for non-mathematicians
-
-## Tags:
-<elementary-number-theory><reference-request><prime-numbers>
-
 ## Score:
-6
+3
+
+## Id:
+71062
+
+## ParentId:
+70950
 
 ## Body:
-<p>I'm a maths hobbyist who is fascinated by prime numbers. My quest to delve into the interesting parts of the topic is always hindered by my inability to understand the notation and concepts I encounter in published papers or any other mediums. I understand this problem is a result of my unfamiliarity with the areas involving the primes such as Number Theory, Sets, Logic and Reasoning, etc...</p>
+<p>The first proof I ever saw of Fermat's theorem used the reduction theory of binary quadratic forms, i.e. expressions of the form $Q(x, y) = ax^2 + bxy + cz^2$ with $a,b,c \in \mathbf{Z}$. We say $Q$ <em>represents</em> $n$ if there are integers $x, y$ such that $Q(x, y) = n$. To $Q$ we can attach its <em>discriminant</em>, $b^2 - 4ac$; we're interested in forms whose discriminant is negative, which therefore do not represent any negative number.</p>
 
-<p>What are some graceful readings that one would recommend for me in order to get up to speed in said topics?</p>
+<p>The proof goes in two steps:</p>
+
+<ul>
+<li>the fact that -1 is a square mod p implies that p is represented by some binary quadratic form of discriminant -4;</li>
+<li>every binary quadratic form of discriminant -4 can be reduced to $x^2 + y^2$ by a change of variables. </li>
+</ul>
+
+<p>Since changing variables doesn't alter the set of integers that a form represents, this shows that $x^2 + y^2$ represents $p$, i.e. $p$ is a sum of two squares. There is an account of this proof <a href="http://www.dms.umontreal.ca/~andrew/Courses/Chapter4.pdf" rel="nofollow">here</a> (quite compressed, but not as much so as the one I just gave :-) ).</p>
+
+<p>You may not like this since it proves Fermat's theorem without explicitly mentioning $\mathbf{Z}[i]$ at all, but you can of course deduce the criterion for irreducibility in $\mathbf{Z}[i]$ from Fermat's theorem. </p>
 
 

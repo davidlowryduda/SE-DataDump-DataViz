@@ -1,0 +1,20 @@
+## Title:
+Effective Upper Bound for the Number of Prime Divisors
+
+## Tags:
+<number-theory><reference-request><analytic-number-theory>
+
+## Score:
+7
+
+## Id:
+179353
+
+## Body:
+<p>Let $\omega(n) = \sum_{p \mid n} 1$. Robin proves for $n &gt; 2$,
+\begin{align}
+\omega(n) &lt; \frac{\log n}{\log \log n} + 1.4573 \frac{\log n}{(\log \log n)^{2}}.
+\end{align}
+Is there a similar tight effective upper bound for $\Omega(n) = \sum_{p \mid n} \text{ord}_{p}(n)$ or at least an upper bound in terms of $\omega(n)$?</p>
+
+

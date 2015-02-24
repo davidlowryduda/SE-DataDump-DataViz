@@ -1,26 +1,22 @@
 ## Title:
-On a characterization of the tamely ramified coverings of the fraction field of a strict Henselian ring
+Counting Solutions of Diophantine Inequalities
 
 ## Tags:
-<number-theory><reference-request><algebraic-geometry><field-theory>
+<number-theory><reference-request><diophantine-equations>
 
 ## Score:
 3
 
+## Id:
+17667
+
 ## Body:
-<p>Let $K$ be the field of fractions of a strictly Henselian discrete valuation ring $A$. Following Milne ("Etale Cohomology", Chapter I, Paragraph 5,
-example e)), $Spec(K)$ is the algebraic analogue of a punctured disc in the plane.</p>
+<p>I understand that <em>Diophantine Analysis</em> is an enormous field! Without first determining the solution set, suppose I'd like to calculate the number of non-negative integer solutions $(x,y,z)$ of 
+\begin{eqnarray}
+ax^{p} + by^{q} \leq cz^{r}
+\end{eqnarray}
+for positive integers $a,b,c,p,q$ and $r$ (as a function of $z$). What general methods are available for such enumeration of this or more general Diophantine inequalities, including more variables or nonlinear forms? (Is our understanding of such enumeration limited to a select set of very specific equation types?) If no general methods exist, I'm sure that there are methods of bounding the number of solutions from below and above with error that can be estimated. Which is the best known?</p>
 
-<p>The cited example is about the calculation of the tame fundamental group (in the Grothendieck sense) of that disc.
-Milne, citing Serre ("Corps Locaux", Chapter IV), says that every tamely ramified extension of $K$ (so every tamely ramified covering of $Spec(K)$) is a
-Kummer extension of $K$. Unfortunately the book of Serre seems to explain only the restrictive case: $K=\mathbb{C}((z))$. Why this is true in general?
-In specific the problems seem to arise when the characteristic of the residue field of $A$ is not zero anymore.</p>
-
-<p>I thought also to have problems, related to <a href="http://math.stackexchange.com/questions/19237/is-every-finite-separable-extension-of-a-strictly-henselian-dvr-totally-ramified">this</a> question, regarding the possible non algebraic closure of the residue field of $A$. But, since we are looking only for tamely ramified extensions, the strict Henselianity of $A$ is enough to avoid those problems.</p>
-
-<p>Moreover I'm interested in the more general case of $A$ being the strict Henselianization of the stalk $\mathcal{O}_{X,x}$ of a sheaf on a point $x$ of a scheme $X$, so $A$ being
-strictly Henselian but not a discrete valuation ring anymore. I would like to have the same result (or something similar) als in this situation. So, how much is deep the request of $A$ being a discrete valuation ring? Or, can I restrict to that case in any situation?</p>
-
-<p>Thank you for your time.</p>
+<p>References are welcome. Thanks!</p>
 
 

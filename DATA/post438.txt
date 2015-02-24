@@ -1,0 +1,15 @@
+## Score:
+4
+
+## Id:
+293503
+
+## ParentId:
+292722
+
+## Body:
+<p>There are very few professional mathematicians who have read and understood all of Wiles proof. The pre-requisites go a long way beyond college level mathematics. Looking at Wiles paper is not a good way to learn about this problem. </p>
+
+<p>If you're interested in number theory, you could begin by studying Hardy and Wright: "An introduction to theory of numbers". Some special cases of Fermat's last theorem were solved in the nineteenth century, and you should see their proofs in an introduction to algebraic number theory.</p>
+
+

@@ -1,0 +1,39 @@
+## Score:
+6
+
+## Id:
+455829
+
+## ParentId:
+455537
+
+## Body:
+<p>First, as Jyrki suggested, let's find some other term than <em>prime</em>. Maybe <em>$d$-Mariusian</em> is appropriate. We define the set
+$$\mathscr D_d:=\{n\in\mathbb N\mid n \text{ is $d$-Mariusian}\}$$
+Now, forbidding multiplication is somehow difficult, so let's find a more formal definition for Mariusian numbers:</p>
+
+<blockquote>
+  <p><strong>Definition:</strong> Let $n\in\mathbb N$. $n$ is called "$d$-Mariusian", if $n\neq 1$ and either $n$ is a prime or 
+  $$n=\prod_{i=1}^km_i \;\text{ for }\; m_1,\dots,m_k\in\mathscr D_d \text{ implies } k&gt;d \text{ or } k=1$$</p>
+</blockquote>
+
+<p>I hope, this agrees with your concept, otherwise skip the following and let me know.</p>
+
+<hr>
+
+<p>Note, that $\mathscr D_1=\mathbb N\setminus\{1\}$ and $\mathscr D_{\infty}=\mathbb P$. Now, let's study $2$-Mariusianity.</p>
+
+<p>If $n$ is prime, we have $n\in \mathscr D_2$. If $n=pq$ for primes $p,q$, then $pq\not\in\mathscr D_2$. </p>
+
+<p>Let $n=pqr$ for primes $p,q,r$. Assume $n$ is not $2$-Mariusian, then it is the product of two $2$-Mariusian integers. There are only two (kinds of) ways to write $pqr$ as product of two integers:</p>
+
+<ul>
+<li>Seperate one prime, i.e: $n=p(qr)=q(pr)=r(pq)$, but then you have a non $2$-Mariusian factor.</li>
+<li>$n=(pqr)\cdot 1$, but $1\not\in\mathscr D_2$ (You can see here, that it is important to the well-definedness, that we defined $1$ to be not-Mariusian)</li>
+</ul>
+
+<p>So $n=pqr$ is $2$-Mariusian. You can go on and see, that 
+$$n=\prod_{i=1}^kp_i^{e_i}\in\mathscr D_2 \Leftrightarrow 2\nmid \sum_{i=1}^ke_i$$
+Now you can try to give a characterisation for $d$-Mariusianity for arbtirary $d$'s.</p>
+
+

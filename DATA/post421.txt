@@ -1,0 +1,13 @@
+## Score:
+3
+
+## Id:
+272941
+
+## ParentId:
+272923
+
+## Body:
+<p>There is <a href="http://pages.cs.wisc.edu/~cdx/Sieve.pdf" rel="nofollow">a set of notes</a> on sieve methods by Denis Charles that provides a strengthening of the Brun-Titchmarsh Inequality using the Large Sieve Method. I have had it for some time, but I have not advanced very far yet. Please check the bottom of Page 88. :)</p>
+
+

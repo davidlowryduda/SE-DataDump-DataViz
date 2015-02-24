@@ -1,0 +1,25 @@
+## Score:
+3
+
+## Id:
+408540
+
+## ParentId:
+408522
+
+## Body:
+<p>I think you are looking for <em>numeration systems</em>. In the book <a href="http://amzn.com/0521823323" rel="nofollow">Automatic Sequences</a> by Allouche and Shallit there is a chapter on numeration systems. From the introduction of Chapter 3:</p>
+
+<blockquote>
+  <p>In this chapter, we discuss how numbers can be represented by strings over a finite 
+  alphabet. Our emphasis is on the representation of integers, although we briefly 
+  discuss representations for real numbers in Section 3.4.</p>
+  
+  <p>We start with the classical base-$k$ representation, and then discuss less familiar 
+  representations such as representation in base $-k$ , Fibonacci representation, and 
+  representation in complex bases.</p>
+</blockquote>
+
+<p>I haven't had time to read this chapter yet, but it seems to contain a lot of information. 57 pages, 61 exercises and discussion of 8 open problems. This might just be the place to start if you want to know more.</p>
+
+

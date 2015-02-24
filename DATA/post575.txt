@@ -1,0 +1,20 @@
+## Title:
+Inverse limit of $\mathbb{Z}/(n!)\mathbb{Z}$
+
+## Tags:
+<reference-request><p-adic-number-theory>
+
+## Score:
+5
+
+## Id:
+454918
+
+## Body:
+<p>I am interested to know if there is a standard name for the inverse limit, $\hat{\mathbb{Z}}_!$, say, of the inverse system of rings $$\ldots \rightarrow \mathbb{Z}/((n+1)!)\mathbb{Z} \rightarrow \mathbb{Z}/(n!)\mathbb{Z} \rightarrow \ldots$$</p>
+
+<p>$\hat{\mathbb{Z}}_!$ stands in the same relationship to the factorial system of representations for the integers as the ring $\hat{\mathbb{Z}}_p$ of $p$-adic integers has to the base $p$ system. It has each $\hat{\mathbb{Z}}_p$ as a quotient. Am I correct in thinking that $\hat{\mathbb{Z}}_!$ is not the same as the profinite completion of the integers (i.e., the inverse limit of the inverse system comprising all quotient rings of $\mathbb{Z}$), since the latter is not an integral domain?</p>
+
+<p>Any pointers to references would be appreciated.</p>
+
+

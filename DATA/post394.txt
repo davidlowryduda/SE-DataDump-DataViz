@@ -1,0 +1,26 @@
+## Title:
+Schneider's theorem about the transcendence of values of the $j$-function
+
+## Tags:
+<reference-request><algebraic-number-theory><analytic-number-theory><transcendental-numbers>
+
+## Score:
+3
+
+## Id:
+224972
+
+## Body:
+<p>It is known that the <a href="http://en.wikipedia.org/wiki/J-invariant" rel="nofollow">$j$-function</a> takes algebraic values when evaluated at imaginary quadratic integers. This is a result that was proved by Schneider in 1937 apparently. To be precise, <a href="http://en.wikipedia.org/wiki/J-invariant#Transcendence_properties" rel="nofollow">Schneider proved</a> that</p>
+
+<blockquote>
+  <blockquote>
+    <p>If $z \in \mathbb{H} = \{ z \in \mathbb{C} \mid \Im{(z)} &gt; 0  \}$ and $j(z)$ is an algebraic integer. Then $z$ is algebraic if and only if $z$ is an imaginary quadratic integer.</p>
+  </blockquote>
+</blockquote>
+
+<p>I would really appreciate if someone can provide me some nice reference(s) where this result is proved. </p>
+
+<p>Thank you very much for any help.</p>
+
+

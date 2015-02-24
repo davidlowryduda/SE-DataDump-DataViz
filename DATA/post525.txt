@@ -1,0 +1,18 @@
+## Title:
+Extending a rational entry matrix to an orthogonal matrix.
+
+## Tags:
+<linear-algebra><analysis><number-theory><reference-request>
+
+## Score:
+1
+
+## Id:
+395092
+
+## Body:
+<p>Suppose $M \leq N$ are positive integers and let $r_1,\ldots,r_M$ represent the rows of an $M\times N$ matrix $A$ in which: (i) the rows of $A$ are orthogonal and having the same norm, (ii) the columns of $A$ all have equal norm, and (iii) the entries of $r_i$ are all rational numbers. My question is when is it possible to extend this to an orthogonal-like $N \times N$ matrix with rational entries? That is an $N \times N$ matrix $Q$ so that $QQ^{T} = c\cdot I$ for some constant $c$.</p>
+
+<p>I'm looking for any references possible that might lead to the answer. It's an interesting question, which I think might not be too obvious and may even be unknown? Thanks!</p>
+
+

@@ -1,0 +1,22 @@
+## Score:
+2
+
+## Id:
+176590
+
+## ParentId:
+176552
+
+## Body:
+<p>Many comments above seem too pessimistic. You will need it eventually, but you don't need to start off as a master of Commutative algebra and Galois theory to start enjoying algebraic number theory.  I enjoy the text "Algebraic Number Theory" by Richard Mollin which is ideal for self study (lots of examples and exercises) and doesn't require many prerequisites. In fact, 
+the author claims</p>
+
+<blockquote>
+  <p>The text is
+  accessible
+  to anyone, from the senior undergraduate to the research scientist. The main prerequisites are the basics of a ﬁrst course in abstract algebra, the fundamentals of an introductory course in elementary number theory, and some knowledge of basic matrix theory. In any case, the appendices, as described below, contain a review of all of the requisite background material. Essentially, the mature student, with a knowledge of algebra, can work through the book without any serious impediment or need to consult another text.</p>
+</blockquote>
+
+<p>So my recommendation for the background you <em>should</em> have before you start that book would be the basics of undergraduate group theory, ring theory and linear algebra. The amount that Herstein's Topics in Algebra covers those topics is sufficient. You will be able to appreciate a decent amount of the book with mostly that. Then while you progress through the book, you should also learn about fields and Galois theory. </p>
+
+

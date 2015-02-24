@@ -1,0 +1,24 @@
+## Score:
+1
+
+## Id:
+608474
+
+## ParentId:
+608423
+
+## Body:
+<p>This has nothing to do with finite extensions of $p$-adics ... but rather with the basics of algebra. And $O$ could be any ring.</p>
+
+<p>$$\Lambda/(\pi,T) = (O[[T]]/(T))/(\pi) = O/(\pi)=O/\mathfrak{p}$$</p>
+
+<p>Here are the two trivial facts which I use:</p>
+
+<ol>
+<li><p>If $R$ is a ring and $I,J$ are two ideals of $R$, then there is a canonical isomorphism
+$$R/(I,J) \cong (R/I)/ (J)$$
+(The reason is that both sides represent the functor which maps a ring $S$ to the set of ring homomorphisms $R \to S$ which vanish on $I$ and on $J$, i.e. on their sum $(I,J)$. For the usual proof, have a look at any algebra book.)</p></li>
+<li><p>If $R$ is a ring, then $R[[T]]/(T) \cong R$.</p></li>
+</ol>
+
+

@@ -1,0 +1,28 @@
+## Title:
+Extending the primes
+
+## Tags:
+<geometry><number-theory><reference-request><prime-numbers><natural-numbers>
+
+## Score:
+7
+
+## Id:
+455537
+
+## Body:
+<p>I had an idea and I'd like to find out whether it has a name or has been studied before. </p>
+
+<p>Imagine the natural numbers and the operations of addition and multiplication, but with the following restriction: multiplication can only be carried out $d$ times, and only with prime numbers. Any number that usually has more than $d$ prime factors now becomes 'prime' in the new system. So, if $d=2$ say, then $8$ becomes a new 'prime' because the usual prime decomposition of $8= 2\times2\times2$ takes 'too many' multiplications; similarly, if $d=3$ then $16=2\times2\times2\times2$ becomes 'prime'.</p>
+
+<p>Has this kind of thing ever been studied?</p>
+
+<hr>
+
+<p>Edit: I've been asked to clarify this, so here's two other ways of describing the same object.</p>
+
+<p>Geometrically. In a $d$-dimensional Euclidean space, let $\mathscr{D}$ be the smallest set of natural numbers such that you can represent every natural number as the volume of a $d$-dimensional box with edge lengths that are members of $\mathscr{D}$. $\mathscr{D}$ always contains the primes, and if $d&lt;\infty$ it also contains other numbers. Perhaps it'd be interesting to understand those other numbers.</p>
+
+<p>Algorithmically. First, put all the prime numbers in a set $\mathscr{D}$. Then, put every number $n$ with $\Omega(n)&gt;d$ in $\mathscr{D}$ (where $\Omega(n)$ is the number of indistinct prime divisors of $n$). Finally, go through each of the numbers $n$ for which $\Omega(n)&gt;d$ (i.e. the ones which were just added to $\mathscr{D}$) in increasing order, and for each such number $n$ that has not yet been removed from $\mathscr{D}$, remove from $\mathscr{D}$ every number $m$ that is product of $n$ and $d-1$ (possibly identical) numbers $k_1,k_2,...,k_{d-1}$ such that each $k_i\in\mathscr{D}$ and each $k_i \le n$. We can call the remaining numbers in $\mathscr{D}$ '$d$-prime'.</p>
+
+

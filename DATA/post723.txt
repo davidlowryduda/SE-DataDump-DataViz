@@ -1,0 +1,21 @@
+## Score:
+2
+
+## Id:
+641695
+
+## ParentId:
+641621
+
+## Body:
+<p>There is no single 'best book', but there are books of different styles and emphasis. I will list some sources you may find useful to skim before deciding which style suits you best.</p>
+
+<p>Steven Weintraub's <a href="http://rads.stackoverflow.com/amzn/click/0387875743" rel="nofollow">Galois Theory</a> text is a good preparation for number theory. It develops the theory generally before focusing specifically on finite extensions of $\mathbb{Q},$ which will be immediately useful to a student going on to study algebraic number theory. It also has some material on infinite Galois extensions, which will be useful with more advanced number theory later. The book has an elementary approach assuming as little mathematical background and maturity as possible. </p>
+
+<p>John Milne's notes on <a href="http://www.jmilne.org/math/CourseNotes/" rel="nofollow">Fields and Galois Theory</a> is pitched at a higher level. It covers more material than Weintraub in fewer pages so it requires more effort and maturity on your part. The reward is that once you've finished the book you probably know the material more intimately and feel like there is not as much to remember. It is written by an excellent number theorist, and it's free.</p>
+
+<p>Keith Conrad's <a href="http://www.math.uconn.edu/~kconrad/blurbs/" rel="nofollow">short notes</a> on Fields and Galois theory could serve as a useful secondary source. If you find you want to know more about a certain topic, Keith often contains more details and examples. </p>
+
+<p>Serge Lang's chapter on Galois theory is his <a href="http://rads.stackoverflow.com/amzn/click/038795385X" rel="nofollow">Algebra</a> text is something you should eventually cover after learning from a more elementary source (such as the ones I mentioned above). It covers more advanced topics and is quite dense, with many details left to the reader. Eventually having the view of Galois theory as presented by Lang is essential to a modern number theorist.</p>
+
+

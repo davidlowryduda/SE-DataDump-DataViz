@@ -1,0 +1,15 @@
+## Score:
+1
+
+## Id:
+531184
+
+## ParentId:
+385704
+
+## Body:
+<p>In the sixth edition of <em>'An Introduction to the Theory of Numbers'</em> by Hardy and Wright (revised by Heath-Brown and Silverman) published in 2008, in section 4.2 they state that for $\pi^e$ this is still open. Other numbers whose irrationality has not been proved include $2^e, \pi^{\sqrt{2}}, e+\pi$.</p>
+
+<p>Thus, as of 2008, this was not yet resoled.</p>
+
+

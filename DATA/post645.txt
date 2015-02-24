@@ -1,0 +1,29 @@
+## Title:
+Every two positive integers are related by a composition of these two functions?
+
+## Tags:
+<elementary-number-theory><reference-request><prime-numbers><function-composition>
+
+## Score:
+3
+
+## Id:
+521449
+
+## Body:
+<p>How would one prove/disprove this? ...</p>
+
+<blockquote>
+  <p><strong>Conjecture</strong>:<br>
+  Suppose $p$, $q$ are distinct primes, and define $\ f(n) = n p, \ 
+ g(n) = \left \lfloor \frac{n}{q} \right \rfloor$ for all $n \in
+ \mathbb{N_+}$; then <br>for all $x,y \in \mathbb{N_+}$, there exists a composition $F = g \circ g \circ \cdots \circ g \circ f \circ f \cdots \circ f$ such that $ \ y = F(x) $.</p>
+</blockquote>
+
+<p>A weaker conjecture is implicit in the title question -- same as above, but allowing compositions with the functions in <em>arbitrary</em> order. </p>
+
+<p>If this is something well-known or discussed elsewhere, my apologies (I did search); a reference would then be welcome. </p>
+
+<p>(An analogous <a href="http://www.perlmonks.org/?node_id=443037" rel="nofollow">conjecture by Donald Knuth</a> involving factorial and integer-squareroot functions suggested this question.)</p>
+
+

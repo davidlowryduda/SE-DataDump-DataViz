@@ -1,0 +1,40 @@
+## Score:
+5
+
+## Id:
+390098
+
+## ParentId:
+390088
+
+## Body:
+<p>The starting point for the literature is the survey by Jeff Lagarias ten years ago:</p>
+
+<p>[math/0309224 The 3x+1 problem: An annotated bibliography (1963--1999) (sorted by author). Jeffrey C. Lagarias. math.NT (math.DS).
+<a href="http://front.math.ucdavis.edu/0309.5224" rel="nofollow">http://front.math.ucdavis.edu/0309.5224</a></p>
+
+<p>Other papers from an arxiv Front search for Collatz and 3x+1:</p>
+
+<p>math/0608208 The 3x+1 Problem: An Annotated Bibliography, II (2000-2009). Jeffrey C. Lagarias. math.NT (math.DS) <a href="http://front.math.ucdavis.edu/0608.5208" rel="nofollow">http://front.math.ucdavis.edu/0608.5208</a></p>
+
+<p>arXiv:0910.1944 Stochastic Models for the 3x+1 and 5x+1 Problems. Alex V. Kontorovich, Jeffrey C. Lagarias. in: The Ultimate Challenge: The 3x+1 problem, Amer. Math. Soc.: Providence 2010, pp. 131--188. math.NT. <a href="http://front.math.ucdavis.edu/0412.5003" rel="nofollow">http://front.math.ucdavis.edu/0412.5003</a></p>
+
+<p>math/0509175 Benford's law for the $3x+1$ function. Jeffrey C. Lagarias, K. Soundararajan. J. London Math. Soc. 74 (2006), 289--303. math.NT (math.PR). <a href="http://front.math.ucdavis.edu/0509.5175" rel="nofollow">http://front.math.ucdavis.edu/0509.5175</a> <a href="http://front.math.ucdavis.edu/0910.1944" rel="nofollow">http://front.math.ucdavis.edu/0910.1944</a></p>
+
+<p>math/0412003 Benford's Law, Values of L-functions and the 3x+1 Problem. Alex V. Kontorovich, Steven J. Miller. Acta Arithmetica 120 (2005), no. 3, 269-297. math.NT (math.PR).  <a href="http://front.math.ucdavis.edu/0412.5003" rel="nofollow">http://front.math.ucdavis.edu/0412.5003</a></p>
+
+<p>and</p>
+
+<p><a href="http://front.math.ucdavis.edu/0411.5140" rel="nofollow">http://front.math.ucdavis.edu/0411.5140</a></p>
+
+<p><a href="http://front.math.ucdavis.edu/0205.5002" rel="nofollow">http://front.math.ucdavis.edu/0205.5002</a></p>
+
+<p><a href="http://front.math.ucdavis.edu/0201.5102" rel="nofollow">http://front.math.ucdavis.edu/0201.5102</a></p>
+
+<p><a href="http://front.math.ucdavis.edu/0204.5170" rel="nofollow">http://front.math.ucdavis.edu/0204.5170</a></p>
+
+<p>There are many un-serious papers on this subject at the same site, I selected the above from papers that I read or authors whose other papers I have seen.</p>
+
+<p>There is also a celebrated theorem by John H Conway in which he shows that the natural generalization of the Collatz problem, where different linear functions are applied to $n$ in several arithmetic progressions (partitioning all integers), <strong>can simulate a computer</strong>.  A consequence is that it is undecidable to determine if such an iteration loops when started from $1$.</p>
+
+

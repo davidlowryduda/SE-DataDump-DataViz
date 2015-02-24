@@ -1,0 +1,26 @@
+## Title:
+Any proof to $\pi^{e}$'s irrationality?
+
+## Tags:
+<number-theory><reference-request><irrational-numbers><pi><open-problem>
+
+## Score:
+21
+
+## Id:
+385704
+
+## Body:
+<p>I've searched for this for a while but get nothing...</p>
+
+<p>There are plenty of proofs to irrationality of $e$,$\pi$,$e^{\pi}$. However, I can't find a proof for $\pi^e$. More, when searching for this I got a answer <strong>Unknown</strong> on <a href="http://www.matrix67.com/blog/archives/3718">this site(in Chinese)</a>, which says</p>
+
+<blockquote>
+  <p>目前为止， $\pi^e$ 是否有理还是一个谜。</p>
+  
+  <p>Whether $\pi^e$ is irrational or not is unknown up to now(2010).</p>
+</blockquote>
+
+<p>Thus, I just wanna know whether there's progressing these years...</p>
+
+

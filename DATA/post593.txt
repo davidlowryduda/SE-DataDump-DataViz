@@ -1,0 +1,33 @@
+## Score:
+2
+
+## Id:
+463990
+
+## ParentId:
+463980
+
+## Body:
+<p>Andre gave you a solution, but you wanted proofreading, so I'll point out two mistakes you've made (I'm not saying there aren't more :-)).</p>
+
+<p>First, modulo arithmetic assumes you're working with integers, so it cannot be applied on rationals.</p>
+
+<p>Second, when getting from</p>
+
+<p>$$(an+b)^n\equiv b^n\pmod{n}$$</p>
+
+<p>to</p>
+
+<p>$$\left(a+\frac{1}{2}\right)^n\equiv(1/2)^n\pmod{1}$$</p>
+
+<p>You put $n = 1$, but just in some spots (but left it unchanged in the exponents). You cannot use formulas like that. It's like going from</p>
+
+<p>$$n = n$$</p>
+
+<p>and then substituting the first $n$ with $1$, getting</p>
+
+<p>$$n = 1.$$</p>
+
+<p>Of course you'll get $n = 1$ when you use it like that.</p>
+
+

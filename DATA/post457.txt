@@ -1,0 +1,184 @@
+## Score:
+3
+
+## Id:
+310141
+
+## ParentId:
+304727
+
+## Body:
+<p>While the book by Ireland and Rosen shows a lot on Jacobi sums, the name
+“Jacobstahl” does not even appear in the index. I found out the original
+article by Jacobstahl however, and I reproduce the revelant part here. Let us
+put for $m$ between $1$ and $p-1$,</p>
+
+<p>$$
+\phi(m)=\sum_{x=1}^{p-1}\bigg(\frac{x^3-mx}{p}\bigg) \tag{1}
+$$</p>
+
+<p>The basic idea is to compute the sum $S=\sum_{m=1}^{p-1} \phi(m)^2$ in two different
+ways. Let $y$ be an integer in $[1,p-1]$; for any $x\in [1,p-1]$ there is a unique
+$x'\in [1,p-1]$ such that $x' \equiv yx \ ({\sf mod} \ p)$. Then we can rewrite
+$\phi(m)$ :</p>
+
+<p>$$
+\phi(m)=\sum_{x'=1}^{p-1}\bigg(\frac{(\frac{x’}{y})^3-m\frac{x'}{y}}{p}\bigg)
+=\sum_{x'=1}^{p-1}\bigg(\frac{y}{p}\bigg)\bigg(\frac{(x')^3-my^2x’}{p}\bigg)
+$$</p>
+
+<p>We have thus shown</p>
+
+<p>$$
+\phi(m)=\bigg(\frac{y}{p}\bigg) \phi(m{y^2}) \ (\text{for any} \ m,y\in [1,p-1])\tag{2}
+$$</p>
+
+<p>We deduce that $\phi^2$ is constant on the set of residues and constant on the set of nonresidues, so that</p>
+
+<p>$$
+S=\frac{p-1}{2} (\phi(r)^2+\phi(s)^2) \tag{3}
+$$
+where $r$ is any residue, and $s$ is any nonresidue.</p>
+
+<p>Now direct computation yields</p>
+
+<p>$$
+S=\sum_{m,x,y} \bigg(\frac{x^3-mx}{p}\bigg) \bigg(\frac{y^3-my}{p}\bigg)
+=\sum_{x,y} \bigg(\frac{xy}{p}\bigg) \sum_{m} \bigg(\frac{(m-x^2)(m-y^2)}{p}\bigg) \tag{4}
+$$</p>
+
+<p>At this point, we need the following </p>
+
+<p><b> Lemma. </b> For any integers $b,c$, we have
+$$
+\sum_{m=1}^{p} \bigg(\frac{m^2+bm+c}{p}\bigg)=p-1-p \bigg(\frac{b^2-4c}{p}\bigg)^2
+$$</p>
+
+<p><b> Proof of lemma </b>. Using a change of indices, it is clear that the
+sum $\sum_{m=1}^{p} \bigg(\frac{m^2+bm+c}{p}\bigg)$ only depends on the discriminant 
+$b^2-4c$, we can thus write it as $\psi(b^2-4c)$ where $\psi$ is a function. Since
+$\bigg(\frac{m^2-d}{p}\bigg)$ is the same thing as $(m^2-d)^{\frac{p-1}{2}}$ modulo
+$p$, we see that </p>
+
+<p>$$
+\psi(d)=\sum_{m=1}^{p} (m^2-d)^{\frac{p-1}{2}} \equiv (-1) \ ({\sf mod}\ p)
+$$
+as one can check by expanding each summand as a Newton binomial.
+Since $\psi(d)$ is also a sum of $p$ integers between $-1$ and $1$, it can only equal $-1$ or $p-1$. Finally, we have that</p>
+
+<p>$$
+\sum_{d=0}^{p-1} \psi(d)= \sum_{m=1}^{p-1}\sum_{d=0}^{p-1}\bigg(\frac{m^2-d}{p}\bigg)=0
+$$</p>
+
+<p>so the only possibility is that $\psi$ is $p-1$ at some point and $-1$ at all
+the other points. We conclude the proof of this lemma by remarking that trivially $\psi(0)=p-1$.</p>
+
+<p>Returning to our computation of $S$ in (4), we apply the lemma and deduce</p>
+
+<p>$$
+S=\sum_{x,y} \bigg(\frac{xy}{p}\bigg) (p-1-p \bigg(\frac{(x^2-y^2)^2}{p}\bigg)^2)=
+$$</p>
+
+<p>We can split the above sum in three, consider the sums $S_1,S_2,S_3$ by restricting
+the range of $(x,y)$ with the conditions $y=x, y=(-x) {\sf mod}\ p$, and $x^2-y^2 \neq 
+0\ {\sf mod}\ p$ respectively.</p>
+
+<p>Then $S_1=(p-1)^2$, $S_2=\bigg(\frac{-1}{p}\bigg)(p-1)^2$, and $S_3=(1+\bigg(\frac{-1}{p}\bigg)) (p-1)$, and hence $S=(1+\bigg(\frac{-1}{p}\bigg)) p(p-1)$.</p>
+
+<p>When $p \equiv 1 \ ({\sf mod}\ 4)$, we have $S=2p(p-1)$ and combining this with (3) we deduce </p>
+
+<p>$$
+p=(\frac{\phi(r)}{2})^2+(\frac{\phi(s)}{2})^2,
+$$</p>
+
+<p>as wished.</p>
+
+<p><b> EDIT </b> : Here are some more details on some points I explained rather
+quickly above.</p>
+
+<p><b> The Newton binomial stuff : </b>   If we define $q=\frac{p-1}{2}$ and</p>
+
+<p>$$
+T=\sum_{m=1}^{p} (m^2-d)^{\frac{p-1}{2}},
+$$</p>
+
+<p>then we have</p>
+
+<p>$$
+\begin{array}{lcl}
+T &amp;=&amp; \sum_{m=1}^{p} \sum_{j=0}^{q}\binom{q}{j}(m^2)^jd^{q-j})  \\
+&amp;=&amp; \sum_{m=1}^{p} \Bigg(d^q+\sum_{j=1}^{q}\binom{q}{j}(m^2)^jd^{q-j})\Bigg)  \\
+&amp;=&amp; \sum_{m=1}^{p} \Bigg(\sum_{j=1}^{q}\binom{q}{j}(m^2)^jd^{q-j}\Bigg) \ ({\sf mod} \ p)  \\
+&amp;=&amp; \sum_{m=1}^{p} \sum_{j=1}^{q}\binom{q}{j}d^{q-j}(m^{2j}) \\
+&amp;=&amp;  \sum_{j=1}^{q} \binom{q}{j}d^{q-j} T_{2j} \tag{*},
+\end{array}
+$$
+where $T_k=\sum_{m=1}^{p} m^{k}$. Since $x \mapsto x+1$ is a permutation of $\frac{\mathbb Z}{p{\mathbb Z}}$, we have $\sum_{m=1}^{p}(m+1)^{k+1}-m^k=0$. Expanding $(m+1)^{k+1}$ as a Newton binomial, we deduce</p>
+
+<p>$$
+\sum_{j=0}^{k} \binom{k+1}{j} T_j=0 
+$$</p>
+
+<p>and when $k+1$ is not divisible by $p$ we can rewrite this as</p>
+
+<p>$$
+T_k=-\frac{1}{k+1} \big( \sum_{j=0}^{k-1} \binom{k+1}{j} T_j \big)
+$$</p>
+
+<p>which allows to compute the $T_k$ by induction. Starting from $T_0=(-1)$, we see that
+$T_k=0$ for $0&lt;k&lt;p-1$. For $k=p-1$ we have $T_{p-1}=(-1)$ (in this case all the summands in $T_k$ are $1$ except the one for $m=p$).</p>
+
+<p>We deduce that only the term for  $j=q$ is nonzero in the last line of (*), so $T=(-1)$.</p>
+
+<p><b> Computation of $S_3$ : </b> </p>
+
+<p>We have</p>
+
+<p>$$
+\begin{array}{lcl}
+S_3 &amp;=&amp; \sum_{y\neq x,y \neq (p-x) } \bigg(\frac{xy}{p}\bigg)(p-1-p)\\
+&amp;=&amp;  -\sum_{y\neq x,y \neq (p-x) } \bigg(\frac{xy}{p}\bigg)  \\
+&amp;=&amp;  -\sum_{x,y} \bigg(\frac{xy}{p}\bigg)+\sum_{y=x} \bigg(\frac{xy}{p}\bigg)+\sum_{y=p-x} \bigg(\frac{xy}{p}\bigg) \\
+&amp;=&amp;  -\big(\sum_{x} \bigg(\frac{x}{p}\bigg) \big) \big(\sum_{y} \bigg(\frac{y}{p}\bigg) \big)+\sum_{x} \bigg(\frac{x^2}{p}\bigg)+\sum_{x} \bigg(\frac{-x^2}{p}\bigg) \\
+&amp;=&amp;  -0 \times 0 +\sum_{x} 1+\sum_{x} \bigg(\frac{-1}{p}\bigg) \\
+&amp;=&amp; (p-1)(1+\bigg(\frac{-1}{p}\bigg)). 
+\end{array}
+$$</p>
+
+<p><b> EDIT 2 : Parity issue </b> Suppose $p \equiv 1 \ ({\sf mod}\ 4)$, $p=4t+1$ with $t\in {\mathbb Z}$. To show that $a=\frac{\phi(r)}{2}$ and
+$b=\frac{\phi(s)}{2}$, it will suffice to show that $\frac{\phi(r)}{2}$ is odd
+for any residue $r$. Let us show it for $r=1$.</p>
+
+<p>We have 
+$$
+\begin{array}{lcl}
+\phi(1) &amp;=&amp; \sum_{x=1}^{p-1} \bigg( \frac{x^3-x}{p}\bigg) \\
+&amp;=&amp; \sum_{x=1}^{p-1} \bigg( \frac{x(x-1)(x+1)}{p}\bigg) \\
+&amp;=&amp; \sum_{x=2}^{p-2} \bigg( \frac{x(x-1)(x+1)}{p}\bigg) \\
+&amp;=&amp; \sum_{j=1}^{p-3} \bigg( \frac{j(j+1)(j+2)}{p}\bigg)
+\end{array}
+$$</p>
+
+<p>Let us put $\eta(j)=j(j+1)(j+2)$. Note that $\eta(-j)=-\eta(j-2)$, and hence</p>
+
+<p>$$
+\bigg( \frac{\eta(-j)}{p}\bigg)=\bigg( \frac{-1}{p}\bigg)\bigg( \frac{\eta(j-2)}{p}\bigg)=
+\bigg( \frac{\eta(j-2)}{p}\bigg)
+$$ </p>
+
+<p>So
+$$
+\begin{array}{lcl}
+\phi(1) &amp;=&amp;  \sum_{j=1}^{2t-1} \bigg( \frac{\eta(j)}{p}\bigg)+
+\sum_{j=2t}^{4t-2} \bigg( \frac{\eta(j)}{p}\bigg) \\
+&amp;=&amp; \sum_{j=1}^{2t-1} \bigg( \frac{\eta(j)}{p}\bigg)+
+\sum_{k=3}^{2t+1} \bigg( \frac{\eta(p-k)}{p}\bigg) \\
+&amp;=&amp; \sum_{j=1}^{2t-1} \bigg( \frac{\eta(j)}{p}\bigg)+
+\sum_{k=3}^{2t+1} \bigg( \frac{\eta(k-2)}{p}\bigg) \\
+&amp;=&amp; 2\sum_{j=1}^{2t-1} \bigg( \frac{\eta(j)}{p}\bigg)
+\end{array}
+$$</p>
+
+<p>So $\frac{\phi(1)}{2}$ is a sum of an odd number of signs, and is therefore odd. </p>
+
+

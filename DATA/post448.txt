@@ -1,0 +1,37 @@
+## Score:
+4
+
+## Id:
+296860
+
+## ParentId:
+296438
+
+## Body:
+<p>Some of these are paper-length, not book-length, but they come up when I search Math Reviews for books, and who am I to argue with Math Reviews?</p>
+
+<p>MR2934277 Reviewed van der Veen, Roland; van de Craats, Jan De Riemann-hypothese. (Dutch) [The Riemann hypothesis] Een miljoenenprobleem. [A million dollar problem] Epsilon Uitgaven, Utrecht, 2011. vi+102 pp. ISBN: 978-90-5041-126-4 </p>
+
+<p>MR2198605  Reviewed Jandu, Daljit S. The Riemann hypothesis and prime number theorem. Comprehensive reference, guide and solution manual. Infinite Bandwidth Publishing, North Hollywood, CA, 2006. 188 pp. ISBN: 0-9771399-0-5 11M26 (11N05) [From the publisher's description: "The author adopts the real analysis and technical basis to guide and solve the problem based on high school mathematics.''] [This one may not pass the "crank" test...]</p>
+
+<p>MR1332493  Reviewed Ramachandra, K. On the mean-value and omega-theorems for the Riemann zeta-function. Tata Institute of Fundamental Research Lectures on Mathematics and Physics, 85. Published for the Tata Institute of Fundamental Research, Bombay; by Springer-Verlag, Berlin, 1995. xiv+169 pp. ISBN: 3-540-58437-4 </p>
+
+<p>MR1230387  Reviewed Ivić, A. Lectures on mean values of the Riemann zeta function. Tata Institute of Fundamental Research Lectures on Mathematics and Physics, 82. Published for the Tata Institute of Fundamental Research, Bombay; by Springer-Verlag, Berlin, 1991. viii+363 pp. ISBN: 3-540-54748-7 </p>
+
+<p>MR0747304  Reviewed van de Lune, J. Some observations concerning the zero-curves of the real and imaginary parts of Riemann's zeta function. Afdeling Zuivere Wiskunde [Department of Pure Mathematics], 201. Mathematisch Centrum, Amsterdam, 1983. i+25 pp. </p>
+
+<p>MR0683287  Reviewed Klemmt, Heinz-Jürgen Asymptotische Entwicklungen für kanonische Weierstraßprodukte und Riemanns Überlegungen zur Nullstellenanzahl der Zetafunktion. (German) [Asymptotic expansions for canonical Weierstrass products and Riemann's reflections on the number of zeros of the zeta function] Nachrichten der Akademie der Wissenschaften in Göttingen II: Mathematisch-Physikalische Klasse 1982 [Reports of the Göttingen Academy of Sciences II: Mathematics-Physics Section 1982], 4. Akademie der Wissenschaften in Göttingen, Göttingen, 1982. 24 pp. </p>
+
+<p>MR0637204  Reviewed van de Lune, J.; te Riele, H. J. J.; Winter, D. T. Rigorous high speed separation of zeros of Riemann's zeta function. Afdeling Numerieke Wiskunde [Department of Numerical Mathematics], 113. Mathematisch Centrum, Amsterdam, 1981. ii+35 pp. (loose errata). </p>
+
+<p>MR0541033  Reviewed te Riele, H. J. J. Tables of the first 15000 zeros of the Riemann zeta function to 28 significant digits, and related quantities. Afdeling Numerieke Wiskunde [Department of Numerical Mathematics], 67. Mathematisch Centrum, Amsterdam, 1979. 155 pp. (not consecutively paged). </p>
+
+<p>MR0565985  Reviewed van de Lune, J. On a formula of van der pol and a problem concerning the ordinates of the non-trivial zeros of Riemann's zeta function. Mathematisch Centrum, Afdeling Zuivere Wiskunde, ZW 16/73. Mathematisch Centrum, Amsterdam, 1973. iii+21 pp. </p>
+
+<p>MR0359258  Reviewed \cyr Voĭtovich, N. N.; \cyr Nefedov, E. I.; \cyr Fialkovskiĭ, A. T. \cyr Pyatiznachnye tablitsy obobshchennoĭ dzeta-funktsii Rimana ot kompleksnogo argumenta. (Russian) [Five-place tables of the generalized Riemann zeta-function of a complex argument] With an English preface. Izdat. ``Nauka'', Moscow, 1970. 191 pp. </p>
+
+<p>MR0266875  Reviewed Gavrilov, N. I. \cyr Problema Rimana o raspredelenii korneĭdzetafunktsii. (Russian) [The Riemann problem on the distribution of the roots of the zeta function ] Izdat. Lʹvov. Univ., Lvov, 1970 1970 172 pp. </p>
+
+<p>MR0117905  Reviewed Haselgrove, C. B.; Miller, J. C. P. Tables of the Riemann zeta function. Royal Society Mathematical Tables, Vol. 6 Cambridge University Press, New York 1960 xxiii+80 pp. </p>
+
+

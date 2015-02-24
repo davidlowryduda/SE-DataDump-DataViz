@@ -1,15 +1,16 @@
 ## Title:
-Supplemental number theory text to Montgomery and Vaughan
+Good Resources for Understanding Finite Field Arithemtic
 
 ## Tags:
-<soft-question><big-list><reference-request><analytic-number-theory>
+<number-theory><reference-request>
 
 ## Score:
-10
+3
+
+## Id:
+6344
 
 ## Body:
-<p>We already have a large list of the <a href="http://math.stackexchange.com/questions/329/best-ever-book-on-number-theory">Best ever book on Number Theory</a>, but I'm looking for a more targeted response for analytic number theory. </p>
-
-<p>Specifically, I'm taking a trip on which I may or may not have access to internet resources, nor my University's library. I'm starting to work through Montgomery and Vaughan's <a href="http://books.google.com/books?id=nGb1NADRWgcC&amp;printsec=frontcover&amp;dq=multiplicative+number+theory+montgomery&amp;source=bl&amp;ots=AwKlmhPkvu&amp;sig=p0z-AdItbjwjjnlqmQWULUSEelA&amp;hl=en&amp;ei=_e6MTZObJ7C10QGomYmfCw&amp;sa=X&amp;oi=book_result&amp;ct=result&amp;resnum=2&amp;ved=0CCEQ6AEwAQ#v=onepage&amp;q&amp;f=false"><em>Multiplicative Number Theory</em></a>. What would be the one book you recommend bringing as a supplement? </p>
+<p>I am looking for a good reference that could clearly explain finite field arithemtic.  Specifically I want to understand the importance and utility of the field generator polynomial and why it is important in multiplication.</p>
 
 

@@ -1,0 +1,13 @@
+## Score:
+2
+
+## Id:
+466616
+
+## ParentId:
+338298
+
+## Body:
+<p>Quoting from <a href="http://en.wikipedia.org/wiki/Mersenne_twister" rel="nofollow">Wikipedia</a>, "The Mersenne twister is a pseudo random number generator.... It provides for fast generation of very high-quality pseudorandom numbers, having been designed specifically to rectify many of the flaws found in older algorithms. Its name derives from the fact that period length is chosen to be a Mersenne prime." </p>
+
+

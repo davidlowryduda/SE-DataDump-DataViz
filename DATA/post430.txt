@@ -1,0 +1,16 @@
+## Title:
+Generators for $\mathbb F_p^*$
+
+## Tags:
+<abstract-algebra><number-theory><reference-request><field-theory><finite-fields>
+
+## Score:
+3
+
+## Id:
+288682
+
+## Body:
+<p>Let $p$ be prime, then it is a well-known fact that $\mathbb F_p^*= \mathbb F_p -\{0\}$ is a cyclic group under multiplication. Are there any methods to determine the generators of this cyclic or any results which help in actually finding the generators?</p>
+
+

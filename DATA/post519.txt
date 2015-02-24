@@ -1,0 +1,17 @@
+## Score:
+0
+
+## Id:
+387902
+
+## ParentId:
+387705
+
+## Body:
+<p>There are two books that are I think are good at helping with Galois Theory.  One was already recommended by rckrd in the comments, which is Dummit &amp; Foote's Abstract Algebra.  It's a reasonable book with lots of exercises to work through.  The other (after you've finished with Dummit &amp; Foote) that I like is Galois Theory by Cox, although a number of criticisms I've heard about him is how much time he spends on polynomials.  Your mileage may vary and how much that is an issue for you is probably more on personal preferences.  </p>
+
+<p>Another book that I picked up short while ago was Visual Group Theory by Nathan Carter.  This book is not really about Galois Theory but has excellent visualization strategies for groups, which might help a bit.</p>
+
+<p>No matter what sources you start with though, I think you will need to spend some quality time going through exercises and proofs to get a reasonable intuition for Galois Theory.  Good luck!</p>
+
+

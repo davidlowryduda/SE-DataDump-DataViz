@@ -1,0 +1,84 @@
+## Score:
+4
+
+## Id:
+399709
+
+## ParentId:
+398590
+
+## Body:
+<p>First, note that $\alpha&gt;\beta$ (if we consider $\alpha,\beta \in \mathbb{N}$). <br/></p>
+
+<p>$2$ limitations for $(n_1,\ldots, n_k)$:</p>
+
+<p><strong>A.</strong> Using <a href="https://en.wikipedia.org/wiki/Generalized_mean" rel="nofollow">generalized mean (power mean)</a>, one can obtain:</p>
+
+<p>$\dfrac{n_1+\ldots+n_k}{k} \leqslant \sqrt[\alpha]{\dfrac{n_1^{\alpha}+\ldots+n_k^{\alpha}}{k}}$,</p>
+
+<p>$\left(\dfrac{n_1+\ldots+n_k}{k} \right)^\alpha \leqslant \dfrac{n_1^{\alpha}+\ldots+n_k^{\alpha}}{k} = \dfrac{(n_1 + \ldots + n_k)^\beta}{k}$,</p>
+
+<p>$\left(n_1+\ldots+n_k \right)^{\alpha-\beta} \leqslant k^{\alpha-1}$.</p>
+
+<p>So, limitation for sum:
+\begin{array}{|c|} \hline
+n_1+\ldots+n_k\leqslant k^{\frac{\alpha-1}{\alpha-\beta}}. \\ \hline \end{array}</p>
+
+<p>If we'll consider the case $\beta = \alpha-1$, then &nbsp;&nbsp; $n_1+\ldots+n_k\leqslant k^{\alpha-1}$.</p>
+
+<p><strong>B.</strong>
+We can obtain other (more strong) limitation:</p>
+
+<p>$\dfrac{n_1+\ldots+n_k}{k}\leqslant\sqrt[\beta]{\dfrac{n_1^\beta+\ldots+n_k^\beta}{k}} \leqslant \sqrt[\alpha]{\dfrac{n_1^\alpha+\ldots+n_k^\alpha}{k}}$,</p>
+
+<p>$\dfrac{n_1^\alpha+\ldots+n_k^\alpha}{k^\beta} = \left(\dfrac{n_1+\ldots+n_k}{k}\right)^\beta \leqslant \dfrac{n_1^\beta+\ldots+n_k^\beta}{k} \leqslant \left(\dfrac{n_1^\alpha+\ldots+n_k^\alpha}{k}\right)^{\frac{\beta}{\alpha}}$,</p>
+
+<p>$\left(n_1^\alpha+\ldots+n_k^\alpha\right)^{\frac{\alpha-\beta}{\alpha}} \leqslant k^{\beta - \frac{\beta}{\alpha}} = k^{\frac{(\alpha-1)\beta}{\alpha}}$.</p>
+
+<p>So, limitation for power sum:
+\begin{array}{|c|} \hline
+n_1^\alpha+\ldots+n_k^\alpha\leqslant k^{\frac{(\alpha-1)\beta}{\alpha-\beta}}.
+\\ \hline \end{array}</p>
+
+<p>If we'll consider the case $\beta = \alpha-1$, then &nbsp;&nbsp; $n_1^\alpha+\ldots+n_k^\alpha\leqslant k^{(\alpha-1)\beta}$.</p>
+
+<hr>
+
+<p>A few examples (for different $n_1, n_2,\ldots,n_k$):</p>
+
+<p>$\color{#003388}{(\alpha,\beta)=(3,2), \;\;k\in \mathbb{N}}$: a famous identity:<br/>
+$\color{#CC3300}{1^3+2^3+\ldots+k^3 = (1+2+\ldots+k)^2}$.</p>
+
+<p>$\color{#003388}{(\alpha,\beta)=(4,3), \;\;k=5}$:<br/>
+$6^4+7^4+12^4+15^4+19^4=(6+7+12+15+19)^3$;</p>
+
+<p>$\color{#003388}{(\alpha,\beta)=(4,3), \;\;k=6}$:<br/>
+$2^4+9^4+14^4+21^4+22^4+23^4=(2+9+14+21+22+23)^3$;<br/>
+$4^4+5^4+6^4+11^4+13^4+20^4=(4+5+6+11+13+20)^3$;</p>
+
+<p>$\color{#003388}{(\alpha,\beta)=(4,3), \;\;k=7}$:<br/>
+$(1,2,11,14,17,20,26)$;<br/>
+$(1,8,12,22,23,28,29)$;<br/>
+$(1,22,23,26,29,33,39)$;<br/>
+$(3,11,18,21,26,27,35)$;<br/>
+$(5,9,16,20,26,30,33)$;<br/>
+$(5,10,11,19,23,24,33)$;<br>
+$(6,7,18,21,25,31,33)$;<br/>
+$\ldots$</p>
+
+<p>$\color{#003388}{(\alpha,\beta)=(5,4), \;\;k=6}$:<br/>
+$1^5+3^5+14^5+21^5+22^5+39^5 = (1+3+14+21+22+39)^4$;<br/>
+$3^5+57^5+81^5+96^5+99^5+114^5 = (3+57+81+96+99+114)^4$;<br/>
+$4^5+45^5+57^5+90^5+91^5+98^5 = (4+45+57+90+91+98)^4$;<br/>
+$\ldots$</p>
+
+<p>$\color{#003388}{(\alpha,\beta)=(5,4), \;\;k=7}$:<br/></p>
+
+<p>$1^5+2^5+27^5+38^5+54^5+69^5+80^5 = (1+2+27+38+54+69+80)^4$;<br/>
+$1^5+5^5+17^5+26^5+34^5+59^5+63^5 = (1+5+17+26+34+59+63)^4$;<br/>
+$2^5+20^5+23^5+36^5+38^5+43^5+79^5 = (2+20+23+36+38+43+79)^4$;<br/>
+$3^5+4^5+12^5+16^5+17^5+45^5+48^5 = (3+4+12+16+17+45+48)^4$;<br/>
+$3^5+18^5+19^5+27^5+35^5+37^5+71^5 = (3+18+19+27+35+37+71)^4$;<br/>
+$\ldots$</p>
+
+

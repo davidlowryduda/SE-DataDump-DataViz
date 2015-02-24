@@ -1,0 +1,29 @@
+## Score:
+3
+
+## Id:
+431855
+
+## ParentId:
+431758
+
+## Body:
+<p>There are tons of easy cases. If $m$ is even, or if $m \equiv -1 \bmod 4$, then $2$ ramifies in $\mathbb{Q}(\sqrt{m})$. But $2$ is not of the form $a^2+|m| b^2$, except for $m=-1$ and $m=-2$.  So we can limit ourselves to $m \equiv 1 \bmod 4$. As pointed out above, we can also assume $m \not \equiv 1 \bmod 8$. So we are down to $m \equiv -5 \bmod 8$. This means that the ring of integers in $\mathbb{Q}(\sqrt{m})$ is $a+b(1+\sqrt{m})/2$, with norm function $a^2 + ab + \frac{|m|+1}{4} b^2$. (Of course, $m$ is negative, but I think a lot of these formulas are more readable with $|m|$ instead of $-m$ because it makes the sign immediately visually clear.)</p>
+
+<p>In particular, if $b \neq 0$, the norm $N(a+b(1+\sqrt{m})/2) \geq \frac{|m|+1}{4}$.</p>
+
+<p>First of all, this explains why $m$ must be prime. If $m$ is an odd, square-free composite, then there is a prime $p$ dividing $m$ with $p \leq |m|/5$. This prime $p$ ramifies, so there is a prime ideal $\pi$ with $N(\pi) = p$. Since $p \leq m/5 &lt; \frac{|m|+1}{4}$, the ideal $\pi$ can't be principal.</p>
+
+<p>Also, suppose that $p$ is an odd prime with $\left( \frac{m}{p} \right) =1$ and $p &lt; (|m|+1)/4$. Then, $p$ splits into $\pi \bar{\pi}$ and the same argument as the above paragraph shows that $\pi$ can't be principal. </p>
+
+<p><b>Summary</b> Any counterexample must have $|m|$ a prime, $m \equiv 5 \bmod 8$, and must have $\left( \frac{m}{p} \right) = -1$ for $p &lt; \frac{|m|+1}{4}$.</p>
+
+<p>I can't find any $m$ more negative than $-163$ which passes this test, searching through the first $50,000$ primes.  Nothing even comes close. Define $r(m)$ to be the least odd prime $p$ for which $\left( \frac{m}{p} \right) = 1$. A PID would have $r(m)/|m| &gt; 0.25$; the largest value I can find after $163$ is $r(-193)/193 = 11/193 \approx 0.057$. In case you want to do some computations yourself, here is a bit of Mathematica code:</p>
+
+<pre><code>FirstSplit[m_] :=
+   (i = 2; While[KroneckerSymbol[m, Prime[i]] == -1, i++]; Prime[i])
+
+SplitRatio[m_] := FirstSplit[-m]/m
+</code></pre>
+
+

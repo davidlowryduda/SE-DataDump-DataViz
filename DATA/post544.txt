@@ -1,0 +1,13 @@
+## Score:
+3
+
+## Id:
+419330
+
+## ParentId:
+419281
+
+## Body:
+<p>It is <a href="http://en.wikipedia.org/wiki/Perfect_number#Odd_perfect_numbers" rel="nofollow">known</a> that any odd perfect number is of the form $p^rn^2$ where $p$ is a prime, $p$ doesn't divide $n$, and $r\equiv1\pmod4$. The case $r=1$ has not been ruled out, so it has not been proved that every odd perfect is powerful; the cases $r\gt1$ have not been ruled out, so it has not been proved that no odd perfect number is powerful. </p>
+
+

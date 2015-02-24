@@ -1,19 +1,22 @@
 ## Title:
-Expressing integers as a sum of squares
+How many solutions for $x^2 = 1$?
 
 ## Tags:
-<number-theory><reference-request><math-history>
+<number-theory><reference-request><algebraic-number-theory><convention>
 
 ## Score:
-3
+2
+
+## Id:
+115930
 
 ## Body:
-<p>There have been many results about the number of squares needed to represent a positive integer. Lagrange's four-square theorem tells us that $4$ squares suffice for any integer and there have been results showing when you can do better than that.</p>
+<p>Let $F$ be an non-archimedean local field, let $o$ be its ring of integers, and let $p$ be the maximal ideal</p>
 
-<p>What I'm interested in is why people consider these results interesting.</p>
+<p>Is there a closed form for the cardinality</p>
 
-<p>I can think of one interesting question that relates to these results. If we are allowed to construct lengths by drawing lines with integer lengths and making right-angled triangles out of them to construct new lengths the above theorem tells us that it is always possible to construct a line of length $\sqrt n$ (for any natural number $n$) and it is always possible to do that in at most $4$ "steps".</p>
+<p>$$ | \{ x \in o / p^N: x^2  = -1 \bmod p^N\} | =A(o, p^N)?$$</p>
 
-<p>But beyond that this strikes me as a pretty random result. I'd therefore be interested in additional motivations for this result - historic or modern.  </p>
+<p>I am actually interested in $\chi(p^N) = (-1)^{\frac{p^{N} - p^{N-1}+A(o,p^N)}{2}}$ or $\chi(p^N) / \chi(p^{N-1})$. Are these functions characters? Do they have a name and are they well understood?</p>
 
 

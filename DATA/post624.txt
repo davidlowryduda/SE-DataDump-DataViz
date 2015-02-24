@@ -1,0 +1,19 @@
+## Title:
+The book "Opera De Cribro" by John Friedlander and Henryk Iwaniec
+
+## Tags:
+<number-theory><reference-request>
+
+## Score:
+2
+
+## Id:
+492938
+
+## Body:
+<p>John Friedlander and  Henryk Iwaniec wrote a book  <em><a href="http://rads.stackoverflow.com/amzn/click/0821849700" rel="nofollow">Opera De Cribro</a></em>. 
+How about this book? What's the meaning of its title?  A number theory book with such a title seems odd.</p>
+
+<p>p.s.  I have no way to buy this book or borrow a copy at the moment, so I want to learn some information about  it.</p>
+
+

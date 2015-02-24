@@ -1,23 +1,27 @@
 ## Title:
-Reference requests: Jitsuro Nagura
+Fibonacci/Lucas Number Congruences
 
 ## Tags:
-<reference-request><special-functions><analytic-number-theory><math-history>
+<number-theory><reference-request><fibonacci-numbers>
 
 ## Score:
-6
+3
+
+## Id:
+41102
 
 ## Body:
-<p>I spent some time today looking for <em>any</em> biographical information on Jitsuro Nagura and came up empty-handed. Any suggestions welcome. </p>
+<p>Is there a compendium of well-known (and elementary) Fibonacci/Lucas Number congruences? I've proven the following and would like to know if it is (a) trivial, (b) well-known, or (c) possibly new. 
+$$
+L_{2n+1} \pm 5(F_{n+2} + 1) \equiv (-1)^{n}  \mod 10.
+$$
+Is there a simple proof of this identity, requiring only basic identities of the two sequences? Any help or hints to this effect are certainly appreciated! </p>
 
-<p>Also, the Wiki note on the Chebyshev $\psi$ function says that von Mangoldt proved in 1895 that</p>
+<p>More generally, for integers $l,m,n$, we have
+$$
+L_{12l + m+n} \pm 5(F_{60l + m} + F_{60l+ n} + F_{60l+ \text{gcd}(m,n)}) \equiv (-1)^{n} L_{12l + m - n} \mod 10.
+$$</p>
 
-<p>$\psi_0(x) = x - \sum_{\rho}\frac{x^{\rho}}{\rho}- \frac{\xi&#39;(0)}{\xi(0)}-\frac{1}{2}\ln(1-x^2) $</p>
-
-<p>There is a reference to a 1903 note by E. Schmidt which may or may not contain a reference to the original paper, but my amateurish search (in Euclid, JSTOR) did not turn up anything. </p>
-
-<p>Thanks in advance. </p>
-
-<p>Edit: have changed the title to reflect that I am seeking information on J. Nagura and have found the other reference. Thanks. </p>
+<p>Thanks!</p>
 
 

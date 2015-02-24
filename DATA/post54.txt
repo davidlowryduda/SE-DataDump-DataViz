@@ -1,14 +1,52 @@
-## Title:
-Beginner's text for Algebraic Number Theory
-
-## Tags:
-<number-theory><reference-request>
-
 ## Score:
-10
+2
+
+## Id:
+28311
+
+## ParentId:
+25209
 
 ## Body:
-<p>What's good book for learning Algebraic Number Theory with minimum prerequisites?
-Assume that the reader has done an basic abstract algebra course.</p>
+<p>Here's an algorithm I think should decide if, for a given set of denominations, the greedy change making algorithm is optimal. coins(value, set of denominations) is a function that returns the minimal number of coins needed to make the value with those denominations.</p>
+
+<pre><code>Given set D of denominations
+
+let m = largest element of D
+for each value v from 2*m - 1 down to 1
+   let d = largest element of D &lt;= v
+   if (coins(v-d,D) &gt;= coins(v, D-d))
+      return false
+return true
+</code></pre>
+
+<p>This doesn't do much to tell you what properties will result in the greedy algorithm being optimal, but it shows that the property is easily computable.</p>
+
+<p>Edit: A dynamic programming solution for function coins.</p>
+
+<p>Without a loss of generality, let's impose an order on the way you can pick coins. Once you drop down to a lower denomination, you can't go back above that denomination. Given this, its obvious that you always have two choices, pick a coin of the denomination you are on, or drop down to a lower denomination. This means the optimal number of coins is coins(v, D) = min(coins(v-d,D)+1,coins(v,D-d)), where d is the the current, highest denomination. coins(v=0,D) = 0, coins(v&lt;0,D) = infinity, and coins(v>0,D={}) = infinity.</p>
+
+<p>We can calculate coins(v,D) by first calculating all possible subproblems. Construct a two dimensional array DP with |D| rows and 2*m columns. DP[i][j] represents the minimal number of coins it takes to make value j using only coins up to the ith denomination.</p>
+
+<p>(note, pseudocode uses 0 indexed arrays)</p>
+
+<pre><code>array DP[D.size][2*m] initialized to -1
+for(int i=0; i&lt;D.size; i++)
+    for(int j=0; j&lt;2*m; j++)
+        DP[i][j] = calc_coins(j,i)
+
+function calc_coins(int v, int d)
+    if(v&lt;0 || d&lt;0)
+         return infinity
+    if(v==0)
+         return 0
+    if(DP[d][v] &gt;= 0)
+         return DP[d][v]
+    int pick = calc_coins(v-D[d], d) + 1
+    int drop_down = calc_coins(v,d-1)
+    return min(pick, drop_down)
+</code></pre>
+
+<p>Once this table is calculated, all calls to coins(v,D) that will be made in the outer algorithm will be constant time. A call to coins(v,D) is equivalent to a table lookup at DP[D.size - 1][v] because we are always shaving off the highest denominations in D in the outer algorithm.</p>
 
 

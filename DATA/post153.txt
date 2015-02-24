@@ -1,13 +1,17 @@
-## Title:
-group law on weil-chatelet group
-
-## Tags:
-<number-theory><reference-request><algebraic-geometry>
-
 ## Score:
-1
+3
+
+## Id:
+69352
+
+## ParentId:
+44126
 
 ## Body:
-<p>Is there a reference for the gemetric definition of the group law on the Weil-Châtelet group of an Abelian variety more recent than the original Weil's paper ("On algebraic groups and homogeneous spaces") ?</p>
+<p>This is a sub-problem of the <a href="http://en.wikipedia.org/wiki/Bunyakovsky_conjecture" rel="nofollow">Bunyakovsky conjecture</a>.  I have an interactive form of it at <a href="http://demonstrations.wolfram.com/TheBouniakowskyConjecture/" rel="nofollow">The Bouniakowsky Conjecture</a>.  Let $f$ be an integer-coefficient irreducible polynomial with degree higher than 2, and let $k=gcd(f(0),f(1))$. </p>
+
+<p>The conjecture: $f(n)/k$ always generates an infinite number of primes.</p>
+
+<p>Some polynomials, like $x^{12}+488669$ seem to only sparsely make prime numbers, but so far no bounds are known for any of these polynomials.</p>
 
 

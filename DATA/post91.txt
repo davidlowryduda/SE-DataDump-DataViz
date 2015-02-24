@@ -1,17 +1,24 @@
 ## Title:
-Elliptic curves with finitely many rational points
+Squares in arithmetic progression
 
 ## Tags:
-<number-theory><reference-request><elliptic-curves>
+<number-theory><reference-request>
 
 ## Score:
-4
+11
+
+## Id:
+43519
 
 ## Body:
-<p>A conjecture by Goldfeld says that half of all elliptic curves have rank zero (i.e. their Mordell-Weil group has finite order.)</p>
+<p>It is easy to find 3 squares (of integers) in arithmetic progression. For example, $1^2,5^2,7^2$.</p>
 
-<p>Are there any known infinite families of elliptic curves (over $\mathbb{Q}$) with only finitely many rational points?</p>
+<p>I've been told Fermat proved that there are no progressions of length 4 in the squares. Do you know of a proof of this result? </p>
 
-<p>For example, in Silverman/Tate, there is an computation which shows that $y^2=x^3+x$ has exactly one rational point and $y^2=x^3+4x$ has exactly three rational points (not counting the point at infinity). I'm wondering if there are any known parameterizations giving an infinite number of such curves.</p>
+<p>(Additionally, are there similar results for cubes, 4th powers, etc? If so, what would be a good reference for this type of material?)</p>
+
+<hr>
+
+<p><strong>Edit, March 30, 2012:</strong> The following <a href="http://mathoverflow.net/questions/92707/squares-in-an-arithmetic-progession" rel="nofollow">question</a> in MO is related and may be useful to people interested in the question I posted here.</p>
 
 

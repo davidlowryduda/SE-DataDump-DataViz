@@ -1,15 +1,23 @@
-## Title:
-software for rational points on quartic plane curves
-
-## Tags:
-<number-theory><reference-request><math-software>
-
 ## Score:
-0
+9
+
+## Id:
+131284
+
+## ParentId:
+131281
 
 ## Body:
-<p>Faltings' theorem tells us the number of rational points on a smooth quartic plane curve is finite.</p>
+<p>If I understood it correctly you are asking, whether any finite sequence $S$ of decimals (that we can also treat as an integer) forms a sequence of the most significant digits of an integer power of two?</p>
 
-<p><strong>Question</strong>: Is there any software for computing all the rational points over $\mathbb{Q}$ on a given (smooth) quartic plane curve?</p>
+<p>This is, indeed, the case. It follows from Kronecker's density theorem stating that if $\theta$ is an irrational real number, $\alpha$ is a real number, and $\varepsilon&gt;0$ is any positive real number, then there exist integers $h,k$ with $0&ltk$ such that
+$$
+|k\theta-h-\alpha|&lt\varepsilon.
+$$</p>
+
+<p>Let $\theta=\log_{10}2$. This is irrational by virtue of $\mathbf{Z}$ being a UFD. Let $\alpha=\log_{10}S$. What the above density result means is that there exist an integer $k&gt;0$ such that $\log_{10}(2^k)$ differs from $\log_{10}S$ by something that can be made arbitrarily close to an integer with an appropriate choice of $k$. This means that
+$2^k$ is very close to $S\cdot 10^h$, which is exactly what you (hopefully) want. To make this rigorous we would actually need to select $\alpha=\log_{10}(S+0.5)$, and then select $\varepsilon$ to be small enough such that both $\log_{10}(S+1)$ and $\log_{10}S$ are further than $\varepsilon$ away from $\alpha.$</p>
+
+<p>For a proof of Kronecker's density theorem, see e.g. Apostol's GTM series book on Modular functions. Probably Kronecker's theorem is in all the books that touch the basics of Diophantine approximation. I believe I have seen this particular problem as an exercise in one such book, but unfortunately cannot name one at this time.</p>
 
 

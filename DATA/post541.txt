@@ -1,0 +1,13 @@
+## Score:
+1
+
+## Id:
+416637
+
+## ParentId:
+416600
+
+## Body:
+<p>Hig-precision packages are <a href="http://gmplib.org" rel="nofollow">GNU MP</a>, <a href="http://www.ginac.de/Download.html" rel="nofollow">GiNaC</a>. There sure are others.</p>
+
+

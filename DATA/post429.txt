@@ -1,0 +1,15 @@
+## Score:
+2
+
+## Id:
+287033
+
+## ParentId:
+287006
+
+## Body:
+<p>Think of a number drawn from the uniform probability distribution on the interval $[0,1)$.  For each base-$n$ digit that I fix, the entropy of the remaining distribution decreases by $\log_{2} n$ bits; that is, each base-$n$ digit carries $\log_{2} n$ bits of information about the number.  To extrapolate this to $1&lt;n\le 2$, you want to define a sequence of pieces of data (let's still call them digits) that carry less than a single bit of information each.</p>
+
+<p>There are two ways to do this that I can think of.  One is to allow multiple representations for a single number.  For instance, if the first digit is $A$, then the number is in $[0,2/3)$, and if the first digit is $B$, the number is in $[1/3,1)$; then recursively subdivide these intervals to get the possibilities for the next digit, and so on.  Each digit carries an equal amount of information, which is less than one bit.  The other way to do it is to have a unique representation for each number, but let one of the two digits be more likely.  In this case, the first digit being $B$ means that the number is in $[2/3,1)$.  When you see a $B$ (one-third of the time), you've gained $\log_2{3}$ bits; when you see an $A$ (two-thirds of the time), you've gained $\log_2{3/2}=\log_2{3}-1$ bits; so on average each digit carries $\log_2{3} - 2/3$ bits of information, which is again less than one bit.</p>
+
+

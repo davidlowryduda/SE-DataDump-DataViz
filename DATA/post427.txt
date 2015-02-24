@@ -1,0 +1,15 @@
+## Score:
+7
+
+## Id:
+281881
+
+## ParentId:
+281863
+
+## Body:
+<p>There's no law against reading more than one book at a time!</p>
+
+<p>Although algebraic number theory and algebraic geometry both use commutative algebra heavily, the algebra needed for geometry is rather broader in scope (for alg number theory you need to know lots about Dedekind domains, but commutative algebra uses a much wider class of rings). So I don't think you can expect that there will be a textbook on number theory which will also teach you all the algebra you need for algebraic geometry.</p>
+
+

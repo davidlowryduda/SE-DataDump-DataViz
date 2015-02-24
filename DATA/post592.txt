@@ -1,0 +1,28 @@
+## Score:
+4
+
+## Id:
+463984
+
+## ParentId:
+463980
+
+## Body:
+<p>Our expression can be written as 
+$$\frac{(2a+1)^n+(2b+1)^n}{2^n}.$$</p>
+
+<p>If $n$ is even, then $(2a+1)^n$ and $(2b+1)^n$ are both the squares of odd numbers. </p>
+
+<p>Any odd perfect square is congruent to $1$ modulo $8$. So their sum is congruent to $2$ modulo $8$, and therefore cannot be divisible by any $2^n$ with $n\gt 1$.</p>
+
+<p>So we can assume that $n$ is odd. For odd $n$, we have the identity 
+$$x^n+y^n=(x+y)(x^{n-1}-x^{n-2}y+\cdots +y^{n-1}).$$
+Let $x=2a+1$ and $y=2b+1$. Note that $x^{n-1}-x^{n-2}y+\cdots +y^{n-1}$ is a sum of an odd number of terms, each odd, so it is odd.</p>
+
+<p>Thus the highest power of $2$ that divides $(2a+1)^n+(2b+1)^n$ is the highest power of $2$ that divides $(2a+1)+(2b+1)$. Since $(2a+1)+(2b+1)\ne 0$, there is a largest $n$ such that our expression is an integer.</p>
+
+<p><strong>Remark:</strong> The largest $n$ such that our expression is an integer can be made quite  large.    You might want to see for example what happens if we  let $2a+1=2049$ and $2b+1=2047$. Your proposed proof suggests, in particular, that $n$ cannot be greater than $1$.  </p>
+
+<p>I suggest that when you are trying to write out a number-theoretic argument, you avoid fractions as much as possible and deal with integers only. </p>
+
+

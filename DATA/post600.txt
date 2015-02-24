@@ -1,0 +1,25 @@
+## Score:
+0
+
+## Id:
+466628
+
+## ParentId:
+466521
+
+## Body:
+<p>In the comments, Alex answered #1 as a "nondiscrete lattice" is really just a finitely generated group.</p>
+
+<p>A similar type of thing does arise in number theory. For example, in the ring of integers $\mathbb{Z}[\sqrt{2}] \subset \mathbb{Q}[\sqrt{2}]$ is not a lattice inside of $\mathbb{R}$ as it is not discrete. A central philosophy of number theory is one must not forget Galois conjugates. Applying this in this case leads to the embedding 
+$$(a+b\sqrt{2}) \rightarrow (a+b\sqrt{2}, a-b\sqrt{2}) \subset \mathbb{R} \times \mathbb{R}$$
+and its image is a lattice. More generally this can be applied to any ring of integers (see <a href="http://www.math.uchicago.edu/~may/VIGRE/VIGRE2008/REUPapers/Ullery.pdf" rel="nofollow">here</a> for the general technique and a classical application).</p>
+
+<p>Also asked was the question:</p>
+
+<p>"Does this come up/are there known applications of this to, say, number theory?"</p>
+
+<p>I'm going to be bold and say the answer is "no", although I would love for someone who knows of an example to come forward. At the very least I can't think of any examples in the fields of number theory I'm most familiar with (classic algebraic number theory, modern algebraic number theory, Diophantine geometry). Admittedly I am less familiar with analytic number theory and (perhaps ironically) this is an area where I could see such subgroups most likely to be used.</p>
+
+<p>Philosophically I think this is because number theory is a discrete subject almost by definition. More specifically, given a subgroup there are typically two things you can study: the subgroup itself and the quotient by the subgroup. When you want to study the subgroup itself, usually it's because it somehow relates to integers and thus <em>should</em> be discrete. Quotients are also used, especially in modern algebraic number theory with modular curves and their higher dimensional analogues. Again, here one needs the group to be discrete because there is a geometric structure which one wants to preserve on the quotient.</p>
+
+

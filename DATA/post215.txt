@@ -1,17 +1,29 @@
-## Title:
-Proof of a Dirichlet's theorem using the Riemann zeta function?
-
-## Tags:
-<number-theory><reference-request><riemann-zeta>
-
 ## Score:
-0
+30
+
+## Id:
+98470
+
+## ParentId:
+98456
 
 ## Body:
-<p>Someone could tell me if there is a proof of the <a href="https://en.wikipedia.org/wiki/Dirichlet%27s_theorem_on_arithmetic_progressions" rel="nofollow">Dirichlet's theorem on arithmetic progressions</a> stated below using <strong>only</strong> the <a href="http://en.wikipedia.org/wiki/Riemann_zeta_function" rel="nofollow">Riemann zeta function $\zeta(s)=\sum_{n=1}^\infty 1/n^s,\;\mbox{Re}(s)&gt;1$</a>? Someone reference?</p>
+<p>First, a good reference is Harold Edwards' book <em>Galois Theory</em>, which makes an effort to develop the theory directly following Galois' original essay on solvability by radicals. Based on your question I would absolutely recommend getting a hold of this book.</p>
 
-<blockquote>
-  <p><strong>Dirichlet's Theorem</strong>  For any two positive coprime integers $a$ and $d$, there are infinitely many primes of the form $a + nd$, where  $n \in \mathbb{N}$.</p>
-</blockquote>
+<p>Second, here is a (necessarily too brief) answer to your question. (For a full answer, see Edwards!)  The differences between Galois' development and the modern one are huge, and fall into two broad categories:</p>
+
+<p>Surface differences: when Galois was talking about an object that now has a standard name and definition.  He didn't have the name and definition yet, but he's basically talking about the same object we now speak of. Examples: </p>
+
+<ul>
+<li><p>The abstract definition of a field was not yet available. However, Galois writes things like "$x$ can be expressed in a rational function of $\alpha, \beta, \dots$," which we would now write as $x\in \mathbb{Q}(\alpha,\beta,\dots)$.</p></li>
+<li><p>Relatedly, Galois introduced the term "to adjoin" to mean what we now recognize as creating a field extension. Galois' way of talking about this process was to elaborate and somewhat alter the meaning of the word "rational." Galois explained that "rational" in his work would mean a quantity expressible in terms of (ordinary) rational numbers, the coefficients of a given equation, and "any other quantities that we have adjoined (to the equation)."</p></li>
+<li><p>Galois introduced the word "group" to refer to groups of permutations of roots of an equation. We now recognize these groups as automorphism groups of fields; of course Galois didn't see them that way. To him they were a specific subset of the set of permutations of the roots, that had the property that they left fixed the values of all and only those rational expressions in the roots whose values were rationally expressible in terms of a given set of "adjoined" numbers. He created an explicit construction that he proved yielded this set of permutations. Of course, the abstract definition of a group was nowhere in sight: Galois was always and only talking about specific groups of permutations with the above property.</p></li>
+</ul>
+
+<p>Deep differences: when Galois' logic was substantially different from today's developments. Example:</p>
+
+<ul>
+<li>For Galois, the basic lemma used to prove all the central results is what we now call the Fundamental Theorem on Symmetric Polynomials. This was not seen as a named theorem in Galois' day, but was treated as a well-known fact by all the mathematicians of the time. All of Galois theory as developed by Galois himself begins from the fact that if a given rational expression in the roots of a polynomial is symmetric in these roots, then it is expressible as a rational expression in the coefficients of the polynomial. In modern treatments (e.g. that in Nathan Jacobson's <em>Basic Algebra I</em>), the role played by this lemma is completely removed, and replaced by the elementary theory of vector spaces and dimension as the engine for the theory. The theorem on symmetric rational functions falls out at the end as a minor consequence.</li>
+</ul>
 
 

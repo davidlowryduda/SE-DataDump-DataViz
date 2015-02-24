@@ -1,13 +1,13 @@
-## Title:
-More contemporary resource for Greenberg
-
-## Tags:
-<number-theory><reference-request><online-resources>
-
 ## Score:
 1
 
+## Id:
+133840
+
+## ParentId:
+133543
+
 ## Body:
-<p>Is there a more modern textbook than Greenberg's forms in many variables, or a set of notes, that summarizes the developments about $C_i$ fields? Is there such a thing as $C_i$ field where $i$ is not an integer?</p>
+<p>Let $k$ be a global function field, i.e., a finite extension $\mathbb{F}_{q}(T)$, then $\left\| \cdotp \right\|_{\mathbb{A}} \twoheadrightarrow q^{\mathbb{Z}} \subset (0, \infty)$!</p>
 
 

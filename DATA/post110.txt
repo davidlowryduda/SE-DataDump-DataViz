@@ -1,17 +1,20 @@
 ## Title:
-Group of finite ideles
+Are the fractional parts of $\log \log n!$ equidistributed or dense in $[0,1]$?
 
 ## Tags:
-<abstract-algebra><reference-request><algebraic-number-theory>
+<number-theory><reference-request><dynamical-systems><equidistribution>
 
 ## Score:
-4
+15
+
+## Id:
+48843
 
 ## Body:
-<p>Let $K$ be a number field. Let $\mathbb{I}_f$ denote the group of finite ideles, and let $\phi: K^{\times} \rightarrow \mathbb{I}_f$ be the diagonal embedding. On page 167 of his notes on Class Field Theory, Milne states the following result without proof:</p>
+<p>Are there any results relevant to the distribution of the sequence $\{\log \log n!\}$ for integers $n$, where $\{x\}$ denotes the fractional part of $x$?</p>
 
-<p><strong>"The induced topology on $K^{\times}$ has the following description: $U_K = \mathcal{O}_K^{\times}$ is open, and a fundamental system of neighborhoods of $1$ is formed by the subgroups of $U_K$ of finite index."</strong></p>
+<p>For instance, it is known that for irrational real numbers $\alpha$, the sequence $\{n\alpha\}$ is dense in $[0,1]$ and in fact equidistributed. Does something similar hold for the logarithms of the logarithms of the factorials?</p>
 
-<p>Can someone point me to a source where this is proved, or outline an argument for a proof of this theorem if it is not too much trouble.</p>
+<p>(This curiosity is provoked by <a href="http://math.stackexchange.com/questions/48633/using-floor-ceiling-square-root-and-factorial-functions-to-get-integers/48812#48812">this question</a>, and an affirmative answer here would complete the answer to that question.)</p>
 
 

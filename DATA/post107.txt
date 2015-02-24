@@ -1,13 +1,13 @@
-## Title:
-references for an arithmetic function
-
-## Tags:
-<number-theory><reference-request><analytic-number-theory>
-
 ## Score:
-2
+6
+
+## Id:
+48344
+
+## ParentId:
+329
 
 ## Body:
-<p>I was wondering if anyone is aware of any existing literature on the arithmetic function defined as $$f(n):=2^{\omega(n)}\tau(n).$$ Here $\omega(n)$ is the number of distinct prime divisors of $n$ and $\tau(n)$ is the number of divisors of $n$. In particular, I am interested in the behavior of $$\sum_{d \mid n}f(d)$$ </p>
+<p>For a highly motivated account of analytic number theory, I'd recommend Harold Davenport's <em>Multiplicative Number Theory</em>.</p>
 
 

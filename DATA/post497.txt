@@ -1,0 +1,13 @@
+## Score:
+3
+
+## Id:
+368786
+
+## ParentId:
+368756
+
+## Body:
+<p>The proof of Hasse-Minkowski for more general global fields can be found in O'Meara, <em>Introduction to Quadratic Forms</em>, Springer-Verlag, 1973.</p>
+
+

@@ -1,19 +1,22 @@
 ## Title:
-Reference request for Algebraic Number Theory sources for self-study
+Distribution of distances between almost-primes on intervals
 
 ## Tags:
-<reference-request><algebraic-number-theory>
+<number-theory><reference-request>
 
 ## Score:
-6
+0
+
+## Id:
+84288
 
 ## Body:
-<p>I would appreciate any suggestions for book or notes on ANT at a level that I would characterize as advanced beginner. I.e., something assuming familiarity with topics in Dummit &amp; Foote, that is a little less than Samuel or Marcus.</p>
+<p>Functions that count the number of numbers containing k factors (with multiplicity, k = 1,2,3,...) on an interval arise in connection with generalizations of the P.N.T. I wonder if someone can provide a reference to work involving the distribution of distances between them? For example (calling these numbers k-primes) </p>
 
-<p>I would especially like accessible discussions of topics such as fractional ideals, ramification, and ideal classes. </p>
+<p>$F_{n,k}(d) :=$ card {k-primes on $[2^n,2^{(n+2)}]$ with $( p_{k,m+1} - p_{k,m} ) = d \}$,</p>
 
-<p>Any suggestions would be appreciated. (I have seen several enthusiastic endorsements of Stewart and Tall.)</p>
+<p>in which $p_{k,m} $ is the $m$th k-prime in the interval.</p>
 
-<p>Thanks.   </p>
+<p>For many such intervals it appears that for given k the distribution is nearly optimal in the sense of minimizing the variance of the distances. At any rate I imagine it's well-studied. </p>
 
 

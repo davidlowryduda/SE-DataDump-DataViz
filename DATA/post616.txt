@@ -1,0 +1,22 @@
+## Title:
+Linear independence of the numbers $\{1,\pi,{\pi}^2\}$
+
+## Tags:
+<number-theory><reference-request><irrational-numbers><transcendental-numbers>
+
+## Score:
+9
+
+## Id:
+477076
+
+## Body:
+<p>Does someone know a proof that $\{1,\pi,{\pi}^2\}$ is linearly independent over $\mathbb{Q}$ ?</p>
+
+<p>The proof should not use that $\pi$ is transcendental.</p>
+
+<p><a href="http://math.stackexchange.com/questions/476899/linear-independence-of-the-numbers-1-e-e2-e3?rq=1">$\{1,e,e^2,e^3\}$  is linearly independent over $\mathbb{Q}$</a></p>
+
+<p>Any hints would be appreciated.</p>
+
+

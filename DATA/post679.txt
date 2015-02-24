@@ -1,0 +1,15 @@
+## Score:
+5
+
+## Id:
+568118
+
+## ParentId:
+568109
+
+## Body:
+<p>There is a succinct and accessible account of the latest on Goldbach and the twin prime conjecture by Chris Linton in his October 2013 Editorial for <em>Mathematics Today</em>, published by the Institute of Mathematics and its Applications (IMA) here:</p>
+
+<p><a href="http://www.ima.org.uk/_db/_documents/MT_Editorial_Oct13.pdf">http://www.ima.org.uk/_db/_documents/MT_Editorial_Oct13.pdf</a></p>
+
+

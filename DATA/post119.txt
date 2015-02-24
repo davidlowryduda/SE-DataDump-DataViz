@@ -1,15 +1,30 @@
-## Title:
-A good reference to begin analytic number theory
-
-## Tags:
-<reference-request><analytic-number-theory>
-
 ## Score:
-13
+2
+
+## Id:
+49839
+
+## ParentId:
+49584
 
 ## Body:
-<p>I know a little bit about basic number theory, much about algebra/analysis, I've read most of Niven &amp; Zuckerman's "Introduction to the theory of numbers" (first 5 chapters), but nothing about analytic number theory. I'd like to know if there would be a book that I could find (or notes from a teacher online) that would introduce me to analytic number theory's classical results. Any suggestions?</p>
+<p>jax and Gerry Myerson are correct, $ \mathrm{Li}_s ( \omega) \omega^{-1} $ (which is the formal expression you are taking about, taken as a function of $ s $), for a root of unity $ \omega $, can be written as a linear sum of Dirichlet L-functions. Let $ \omega $ be an $n $-th root of unity. Hence $ f(k) = \omega^k $ can be interpreted as a function on $ \mathbb{Z} / n \mathbb{Z} $. The group of all (Dirichlet) characters on $ \mathbb{Z} / n \mathbb{Z} $, called $ \hat{G} $, actually forms an orthonormal basis for the vector space of all functions $ \mathbb{Z} / n \mathbb{Z} \to \mathbb{C} $, with the inner product $ \langle f, g \rangle = \phi(n)^{-1}\sum f(a) \bar{g}(a)  $. Hence we can write $ f(k) $ as a linear combination of elements from $ \hat{G} $:</p>
 
-<p>Thanks for the tips,</p>
+<p>$$ \omega^k = \sum_{\chi \in \hat{G}} a_{\chi} \chi(k). $$</p>
+
+<p>We can deduce the coefficients via what are called the Gauss sums (this is essentially a finite version of an inverse Fourier transform),</p>
+
+<p>$$ a_{\chi} = \frac{1}{\phi(n)} \sum_{m=0}^{n-1} \omega^m \bar{\chi}(m). $$</p>
+
+<p>When applying this decomposition of $ \omega^k $ to your original zeta expansion, we get</p>
+
+<p>$$ \sum_{n=1}^\infty \frac{\omega^{n-1}}{n^s} = \frac{1}{\omega \phi(n)} \sum_{\chi \in \hat{G}} \left( \sum_{m=0}^{n-1} \omega^{m} \bar{\chi}(m)\right) L(s,\chi). $$</p>
+
+<p>Functional equations of L-functions with primitive Dirichlet characters, either odd or even (which are separate cases), <a href="http://www.math.umn.edu/~garrett/m/mfms/notes_c/analytic_continuations.pdf" rel="nofollow">can be found using theta functions</a>, but I'm not sure if we know of good formulas otherwise. I wish I could be of more help in knowing how the specific values for $ s= 0 , -1, -2, - 3, \dots $ are found, but I'm not aware of the literature there. But it does appear we do know how to calculate them somehow, because Wolfram Alpha is quite able to provide the analytic values of <code>PolyLog[n,z]</code> for various negative integers $ n $ and roots of unity $ \omega $. At any rate, here are a couple good references for Dirichlet characters:</p>
+
+<ul>
+<li><a href="http://www.dpmms.cam.ac.uk/~bjg23/primenumbers/PN6.pdf" rel="nofollow">Prime Numbers, Chapter 6: Dirichlet Characters</a></li>
+<li><a href="http://web.williams.edu/go/math/sjmiller/public_html/BrownClasses/153/PrimesArithProg.pdf" rel="nofollow">Notes on Primes in Arithmetic Progression, 1: Dirichlet Characters</a></li>
+</ul>
 
 

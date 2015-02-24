@@ -1,0 +1,19 @@
+## Score:
+4
+
+## Id:
+160238
+
+## ParentId:
+160231
+
+## Body:
+<p>A really good but underrated book that is freely available online is <a href="http://www.jmilne.org/math/Books/ectext0.pdf" rel="nofollow">Milne's Elliptic Curves</a>. Its treatment of elliptic curves is certainly less detailed than Silverman's but it is fairly through and yet accessible. He also has notes on <a href="http://www.jmilne.org/math/CourseNotes/CM.pdf" rel="nofollow">complex multiplication</a>. Also <a href="http://rads.stackoverflow.com/amzn/click/1441931015" rel="nofollow">Silverman and Tate's book</a> could give you a cursory exposure to elliptic curves and assumes nothing but a knowledge of groups.</p>
+
+<p>Now with your experience in complex analysis, maybe the study of modular forms and analytic number theory would be of interest to you? Apostol has a series of two books (<a href="http://rads.stackoverflow.com/amzn/click/1441928057" rel="nofollow">Analytic Number Theory</a> and <a href="http://rads.stackoverflow.com/amzn/click/0387971270" rel="nofollow">Modular Functions and Dirichlet Series</a>) that develop these in some detail and are very classic books. <a href="http://rads.stackoverflow.com/amzn/click/1441919678" rel="nofollow">Ram Murty's book</a> has a ton of exercises which is always good when learning.</p>
+
+<p>A knowledge of analytic number theory and modular forms will certainly not go to waste if you are interested in elliptic curves and are very interesting subjects in themselves as well.</p>
+
+<p>EDIT: Since Milne clicks well with you maybe you should take a look at his <a href="http://www.jmilne.org/math/" rel="nofollow">entire collection of notes and books</a>? He has stuff on algebra so you can use those to brush up on it.</p>
+
+

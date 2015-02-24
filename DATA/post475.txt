@@ -1,0 +1,16 @@
+## Score:
+2
+
+## Id:
+331586
+
+## ParentId:
+331557
+
+## Body:
+<p>$$ (a^2 + 2 b^2)(c^2 + 2 d^2) = (ac+2bd)^2 + 2 (ad-bc)^2 = (ac-2bd)^2 + 2 (ad+bc)^2  $$
+so you get multiple representations as soon as you have the product of two distinct represented odd primes, that is $\equiv 1,3 \pmod 8.$ You kind of lose if 2 is involved because of the evident $0,$ also you get the analogue of Pythagorean triples for the square of any odd represented prime, as in mercio's comment. </p>
+
+<p>The presence of such a simple formula for multiplication is just that this is the principal form (binary quadratic forms) of this discriminant. The fact that it is  simple to describe the represented primes is the fact that this is class number one. That is, there is only one genus, the principal one, and there is only one (equivalence class of) forms in that genus. It is still not too bad when you have one form per genus but more than one genus, as in $x^2 + 6 y^2$ and $2 x^2 + 3 y^2.$ But then the description of all numbers that are represented by the principal form includes an extra odd/even check about the <em>sum</em> of certain prime exponents.</p>
+
+

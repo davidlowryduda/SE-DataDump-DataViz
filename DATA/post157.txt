@@ -1,21 +1,16 @@
-## Title:
-"Dirichlet's theorem" on pairs of consecutive primes
-
-## Tags:
-<number-theory><reference-request><prime-numbers><sieve-theory>
-
 ## Score:
-9
+2
+
+## Id:
+70957
+
+## ParentId:
+70950
 
 ## Body:
-<p>The number of primes in each of the $\phi(n)$ residue classes relatively prime to $n$ are known to occur with asymptotically equal frequency (following from the proof of the Prime Number Theorem). Does the same result hold on pairs of consecutive primes on the $\phi(n)^2$ pairs of congruence classes?</p>
+<p>Here's one way, I suppose it's somewhat slick:</p>
 
-<p>To wit: Consider $\{(2, 3), (3, 5), (5, 7), (7, 11), \ldots\}\pmod n$. Does $(a,b)$ occur with natural density
-$$\begin{cases}
-1/\phi(n)^2,&amp;\gcd(ab,n)=1\\
-0,&amp;\text{otherwise}
-\end{cases}
-$$
-?</p>
+<p>If $p\equiv 1\bmod 4$, then $G=(\mathbb{Z}/p\mathbb{Z})^\times$ is a cyclic group of order $p-1$. Because $4\mid p-1$ and $G$ is cyclic, there is an element $a\in G$ of order $4$. Thus, in $\mathbb{Z}[i]/(p)$, there are more than 2 solutions to the equation $x^2+1=0$, namely 
+$$\pm a,\pm i\in \mathbb{Z}[i]/(p)$$ which implies that $\mathbb{Z}[i]/(p)$ is not an integral domain, which implies that $p$ is not prime. Because $\mathbb{Z}[i]$ is a PID, this implies that $p$ is not irreducible.</p>
 
 

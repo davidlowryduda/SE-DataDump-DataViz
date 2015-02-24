@@ -1,0 +1,17 @@
+## Score:
+2
+
+## Id:
+426385
+
+## ParentId:
+426375
+
+## Body:
+<p>I tried that for cubes. It was not that successful.</p>
+
+<p>With $x^2 - 19 y^2 = 1,$ you are guaranteed an infinite set of solutions. Also, using Lagrange's method of "neighboring forms," it is not necessary to use high decimal accuracy or cycle detection, the cycle ends in only one way, so no memory at all is required. Furthermore, in an infinite sequence, once you have a solution $(x,y)$ you get the next solution at $(170 x + 741 y, 39 x + 170 y).$</p>
+
+<p>In comparison, by <a href="http://en.wikipedia.org/wiki/Thue_equation" rel="nofollow">Thue's theorem</a> and <a href="http://en.wikipedia.org/wiki/Thue%E2%80%93Siegel%E2%80%93Roth_theorem" rel="nofollow">Thue-Siegel-Roth</a>,  your equation has only finitely many solutions. If any are nontrivial, they will show up in the continued fraction expansion. However, owing to the degree (17) you are stuck using very high accuracy, plus there may be no non-trivial answers. The whole thing is a lose-lose. Still interesting, of course.  </p>
+
+

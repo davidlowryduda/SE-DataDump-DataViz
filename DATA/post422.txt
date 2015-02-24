@@ -1,0 +1,18 @@
+## Title:
+Good introductory readings to topics related to prime numbers for non-mathematicians
+
+## Tags:
+<elementary-number-theory><reference-request><prime-numbers>
+
+## Score:
+6
+
+## Id:
+276163
+
+## Body:
+<p>I'm a maths hobbyist who is fascinated by prime numbers. My quest to delve into the interesting parts of the topic is always hindered by my inability to understand the notation and concepts I encounter in published papers or any other mediums. I understand this problem is a result of my unfamiliarity with the areas involving the primes such as Number Theory, Sets, Logic and Reasoning, etc...</p>
+
+<p>What are some graceful readings that one would recommend for me in order to get up to speed in said topics?</p>
+
+

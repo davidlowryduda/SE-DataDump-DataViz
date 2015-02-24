@@ -1,14 +1,18 @@
 ## Title:
-Mathematica code as reference?
+GrossOne? The arXiv blog's pick of the day.
 
 ## Tags:
-<algebra-precalculus><reference-request><algebraic-number-theory><article-writing>
+<number-theory><reference-request>
 
 ## Score:
-1
+8
+
+## Id:
+122080
 
 ## Body:
-<p>I am preparing a paper wherethere are a lot of algebraic simplifications needed. One of them takes 3 pages to get the result. Instead of consuming all the pages can I cite a mathematica code which is only 5 lines. Is this acceptable?
-Thank you</p>
+<p>The arXiv blog having chosen GrossOne for <a href="http://www.technologyreview.com/blog/arxiv/27656">its daily pick of today</a>, I read the arXiv paper concerned, and posted a comment there. The arXiv blog used to be quite high profile as these things go.</p>
+
+<p>Is there an existing well-known (but not to me) mathematical construction that does what Sergeyev proposes?</p>
 
 

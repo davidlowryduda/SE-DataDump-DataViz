@@ -1,0 +1,18 @@
+## Score:
+1
+
+## Id:
+550573
+
+## ParentId:
+550253
+
+## Body:
+<p>There is the famous example of J.-P. Serre: determine all rational points on
+$$
+x^4 + y^4 = 17.
+$$
+I am not sure if it is solved. Of course, there are the obvious rational solutions, $(\pm 1,\pm 2)$ and $(\pm2,\pm1)$, but we (and you) want to know all rational solutions. 
+In general, there is no software to determine this (there is "Sage", for example, for doing such computations, but it need not give all solutions).</p>
+
+

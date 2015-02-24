@@ -1,13 +1,13 @@
-## Title:
-Where can I find Heegner's proof?
-
-## Tags:
-<reference-request><algebraic-number-theory>
-
 ## Score:
-1
+7
+
+## Id:
+5575
+
+## ParentId:
+5568
 
 ## Body:
-<p>Where can I read a corrected up to date version of Heegner's solution of the class 1 problem of Gauss?</p>
+<p>You can find the <a href="http://www.maths.unsw.edu.au/~angell/5535/chapter7.ps">proofs here</a>, taken from Chrystal's Algebra - which is one of the best references on continued fractions. I suspect that if you read Chrystal then almost all of your questions will be answered. See also chapter 9 of Fowler's "The mathematics of Plato's Academy" </p>
 
 

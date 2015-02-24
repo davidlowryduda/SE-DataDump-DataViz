@@ -1,15 +1,25 @@
 ## Title:
-Subtractive Goldbach
+Reference request: $L$-series and $\zeta$-functions
 
 ## Tags:
-<number-theory><reference-request>
+<number-theory><reference-request><zeta-functions><dirichlet-series>
 
 ## Score:
-3
+7
+
+## Id:
+79406
 
 ## Body:
-<p>In <a href="http://math.stackexchange.com/questions/318193/3-primes-conjecture">this excellent question</a> it occurred to me that there is a subtractive Goldbach problem: Every even integer may be written as $p-q$ for primes $p,q$.</p>
+<p>Does anyone know a good book, lecture note, article etc. on $L$-series (Dirichlet, Hecke, Artin) and $\zeta$-functions in number theory? I'm especially interested in material explaining the following:</p>
 
-<p>Does anyone have a reference for this problem?</p>
+<ol>
+<li><p>Examples of actual computations with these things like computing the residue at $s=1$ for the Dedekind $\zeta$-function for some number field.</p></li>
+<li><p>How these things are related to each other when we have e.g. towers of extensions of number fields or a number field and some lattice of its subfields.</p></li>
+<li><p>Some summary that would explain what kind of questions we should expect to be able to answer using these tools. E.g. what types of problems are more natural using analytic methods than using algebraic methods. I guess most problems regarding densities of primes or ideal classes are among them.</p></li>
+<li><p>Books like Lang spend considerable space proving functional equations and factorizations for these. How are these used in practice? Examples showing actual worked out examples would be interesting.</p></li>
+</ol>
+
+<p>Before I started going through material on class field theory, I first read a couple of overviews that summarized the theorems and explained what the field is about. Is there anything like that for this material? Worked out problems solving something non-trivial would be especially helpful.</p>
 
 

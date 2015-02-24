@@ -1,0 +1,28 @@
+## Score:
+10
+
+## Id:
+164035
+
+## ParentId:
+161895
+
+## Body:
+<p>Serre's <em>Duke 54</em> paper on his famous conjecture about modularity of mod $p$ Galois representations (now a theorem of Khare--Wintenberger and Kisin, and one of the highlights of 21st century number theory so far).  </p>
+
+<p>Khare has written some expository papers on his argument with Wintenberger, and so you might like to read these in conjunction with Serre's original paper.</p>
+
+<p>Also, there is an old paper of Tate where he proves the level $1$, $p = 2$ case
+of Serre's conjecture by algebraic number theory methods.  It serves as the base-case of a very sophisticated induction (on both the level and the prime $p$!) in the Khare--Wintenberger argument, and is a good read. </p>
+
+<p>There is also Serre's much older (early 70s) paper on weight one modular forms and the associated Galois representations.  (It's from a Durham proceedings.)  It is a kind of expository companion to his paper with Deligne where they construct the Galois representations for weight one forms.  The Deligne--Serre paper itself is also fantastic (but a more technical read than Serre's Durham paper).</p>
+
+<hr>
+
+<p>To add to the Galois representation-theoretic suggestions:</p>
+
+<p>There is Shimura's article <em>A non-solvable reciprocity law</em>, in which he describes the elliptic curve $X_0(11)$ and the relationship to its points mod $p$ and the Hecke eigenvalues of the (unique normalized) cuspform of level $11$.</p>
+
+<p>As a supplement and motivational guide to the paper, you could look at the paper <em>What is a reciprocity law</em> by Wyman.  (I found it very helpful as an overview to what reciprocity laws were about when I first began trying to learn number theory.)</p>
+
+

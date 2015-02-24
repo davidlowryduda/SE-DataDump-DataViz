@@ -1,0 +1,13 @@
+## Score:
+4
+
+## Id:
+148378
+
+## ParentId:
+141971
+
+## Body:
+<p>This is not so much an answer as a related reference. I wrote a short expository note "Divergence is not the fault of the series," Pi Mu Epsilon Journal, 8, no. 9, 588-589, that discusses this idea and its relation to 2's complement arithmetic for computers.</p>
+
+

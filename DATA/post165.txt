@@ -1,15 +1,16 @@
 ## Title:
-Is there a text that provides the proof of Fermat's Last Theorem?
+A resource for learning p-adic numbers
 
 ## Tags:
-<number-theory><reference-request><math-history>
+<number-theory><reference-request>
 
 ## Score:
-3
+7
+
+## Id:
+73565
 
 ## Body:
-<p>I know that professor Andrew Wiles discovered his proof of Fermat's Last Theorem in 1995. One of my friends is looking for a text which provides his proof. I know that the proof is very complicated and uses difficult methods to get the solution, but I hope that you can give me the name of a text which contains it (or a link to the proof or such a text :)) I would also like to know what prerequisites are needed to study/understand the proof in detail? Furthermore, has anyone else discovered another proof since Wiles, or is Andrew Wiles' proof the only known solution?</p>
-
-<p>thanks </p>
+<p>I'm looking for a good resource for learning p-adic numbers. I'm familiar with analysis, topology and overall with noncommutative algebra.</p>
 
 

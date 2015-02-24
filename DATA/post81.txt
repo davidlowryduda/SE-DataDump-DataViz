@@ -1,13 +1,26 @@
 ## Title:
-How to use Hardy and Wright's text and what corresponding exercises/problem books  can I do?
+Order of cyclic groups
 
 ## Tags:
-<number-theory><reference-request><soft-question>
+<number-theory><abstract-algebra><group-theory><reference-request><finite-groups>
 
 ## Score:
-6
+4
+
+## Id:
+42755
 
 ## Body:
-<p>I have just started out with Hardy and Wright's <a href="http://rads.stackoverflow.com/amzn/click/0199219869" rel="nofollow">An Introduction to the Theory of Numbers</a> today. I find the lack of exercises in the book as a departure from the style of the textbooks we are so accustomed to read. So, I was wondering if there is an optimal way to read the book or to extract the most of it (I am not reading for an exam, I reading that book for its sake). I believe the book contains more material than is covered in Olympiad mathematics. Coming from the Olympiad culture, it is but natural for me to request to be pointed to some source of rather tough problems based on GH Hardy's book. Your help is really appreciated.</p>
+<p><a href="http://en.wikipedia.org/wiki/Cyclic_group" rel="nofollow">Wikipedia</a> says:</p>
+
+<blockquote>
+  <p>It is known that $(\mathbb{Z}/n\mathbb{Z})^\times$ is cyclic if and only if n is 1 or 2 or 4 or $p^k$ or $2p^k$ for an odd prime number p and k ≥ 1.</p>
+</blockquote>
+
+<p>The statement seems provable given the definition and properties of the <a href="http://en.wikipedia.org/wiki/Carmichael_function" rel="nofollow">Carmichael function</a>.</p>
+
+<p>I need a reference (preferably a book) to read more on cyclic group, their order, and the Carmichael function. I tried several book (on number theory or algebra), but I couldn't find one that stated and proved the above theorem.</p>
+
+<p>Could you please recommend one?</p>
 
 

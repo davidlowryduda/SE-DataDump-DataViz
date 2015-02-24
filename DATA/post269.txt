@@ -1,13 +1,13 @@
-## Title:
-Good Number Theory books to start with?
-
-## Tags:
-<number-theory><elementary-number-theory><reference-request><self-learning>
-
 ## Score:
-4
+0
+
+## Id:
+130595
+
+## ParentId:
+130582
 
 ## Body:
-<p>I'm in Grade 11. I'm interested in elementary number theory and would like properly study it. I'm not intending to enter any competitions.</p>
+<p><strong>Hint</strong> $\rm\ \exists\: b\in\mathbb Z\!:\ q\ |\ b p + 1\iff\exists\: a,b\in\mathbb Z\!:\ aq-b p = 1\iff \gcd(q,p) = 1\ $ by Bezout.</p>
 
 

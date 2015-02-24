@@ -1,0 +1,15 @@
+## Score:
+7
+
+## Id:
+292731
+
+## ParentId:
+292722
+
+## Body:
+<p>here <a href="http://math.stanford.edu/~lekheng/flt/wiles.pdf">http://math.stanford.edu/~lekheng/flt/wiles.pdf</a></p>
+
+<p>no one else has proved it</p>
+
+

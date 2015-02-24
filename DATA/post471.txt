@@ -1,0 +1,23 @@
+## Score:
+0
+
+## Id:
+322269
+
+## ParentId:
+25209
+
+## Body:
+<p>I recently came up with 1 solution that seemed to show if the given 2 conditions are satisfied, the greedy algorithm would yield the optimal solution.</p>
+
+<p>a) The G.C.D (All the denominations except 1) = 2nd Smallest denomination.</p>
+
+<p>b) The sum of any 2 consecutive denominations must be lesser than the 3rd consecutive denomination.</p>
+
+<p>For eg. c2 + c3 &lt; c4.</p>
+
+<p>(Where c1 = 1; c2, c3, c4 are coin denominations in ascending order).</p>
+
+<p>I understand this is not a complete solution. However, I believe that if these 2 conditions are met, the greedy algorithm will yield the optimal solution.</p>
+
+

@@ -1,0 +1,7 @@
+Wikipedia Dickman Function
+Pomerance
+http://websites.math.leidenuniv.nl/algebra/sieving.pdf
+Granville
+http://library.msri.org/books/Book44/files/09andrew.pdf
+Hildebrand and Tenanbaum
+http://archive.numdam.org/ARCHIVE/JTNB/JTNB_1993_5_2/JTNB_1993__5_2_411_0/JTNB_1993__5_2_411_0.pdf

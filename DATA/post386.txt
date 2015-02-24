@@ -1,0 +1,17 @@
+## Score:
+5
+
+## Id:
+200485
+
+## ParentId:
+200478
+
+## Body:
+<p>IIRC, your first question isn't hard to work out yourself: the key point is that if a prime over $p$ is ramified, then any monic defining polynomial for the number field must have a double root modulo $p$, which is detected by the discriminant.</p>
+
+<p>For your second question, it is surely not true in the general case. e.g. a "random" degree 3 polynomial will, over a "random" prime, have a degree 1 and a degree 2 factor with probability $1/2 + O(p^{-2})$ -- this can be seen by simply counting all factorizations of degree 3 polynomials over $\mathbb{F}_p$ (I think that's the right error term). Correspondingly, in the number field defined by that polynomial, asymptotically half of the integer primes ought to split into a degree 1 and degree 2 factor.</p>
+
+<p>I don't recall how to convert this from a heuristic argument to a rigorous one. It probably has something to do with Chebotarev's density theorem.</p>
+
+

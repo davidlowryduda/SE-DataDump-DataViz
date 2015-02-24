@@ -1,0 +1,27 @@
+## Score:
+2
+
+## Id:
+630952
+
+## ParentId:
+630945
+
+## Body:
+<p><em>EDIT: I assume that the problem is to check the solution, not discover it.</em></p>
+
+<p>The CRT says that since $m$ and $m+1$ are relatively prime, the system
+$$\left\{\begin{array}{l}
+x \equiv r \pmod m \\
+x \equiv s \pmod{m+1}
+\end{array}\right.$$
+has a unique solution modulo $m(m+1)$. It is then easy to verify that $x \equiv r(m+1)-sm \pmod{m(m+1)}$ is such a solution, and since it is the only one, the given implication follows.</p>
+
+<p>$r(m+1)-sm$ is obviously congruent to $r(m+1)$ mod $m$, and since of course $m+1$ is congruent to $1$, you obtain finally that $r(m+1)-sm \equiv r \pmod m$. Checking that $r(m+1)-sm \equiv s \pmod{m+1}$ is done similarly.</p>
+
+<p>If you want to write $r(m+1)-sm = r+km$ explicitly, just expand:
+$$r(m+1)-sm = rm+r-sm = r+(r-s)m,$$
+and likewise
+$$r(m+1)-sm = r(m+1)-s(m+1-1) = r(m+1)-s(m+1)+s = s+(r-s)(m+1).$$</p>
+
+

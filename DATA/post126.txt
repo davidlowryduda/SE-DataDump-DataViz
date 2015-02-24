@@ -1,15 +1,25 @@
-## Title:
-Important papers in arithmetic geometry and number theory
-
-## Tags:
-<number-theory><reference-request><arithmetic-geometry>
-
 ## Score:
-14
+2
+
+## Id:
+53478
+
+## ParentId:
+53267
 
 ## Body:
-<p>Having been inspired by <a href="http://math.stackexchange.com/questions/160983/famous-papers-in-algebraic-geometry/160985#160985">this question</a> I was wondering, what are some important papers in arithmetic geometry and number theory that should be read by students interested in these fields?</p>
+<p>Actually, I think any non-constant function would provide an example of strict inequality: the equalities you mention are proven by repeated application of the Cauchy-Schwarz inequality applied to a mixture of the function $f$ with the constant function 1, and equality in the conventional CS inequality would only hold if $f$ was also a constant: hence if not at some point in your proof the inequalities would become strict.</p>
 
-<p>There is a <a href="http://en.wikipedia.org/wiki/List_of_important_publications_in_mathematics#Number_theory" rel="nofollow">related wikipedia article</a> along these lines, but it doesn't mention some important papers such as Mazur's "Modular Curves and the Eisenstein ideal" paper or Ribet's Inventiones 100 paper.</p>
+<p>For the best possible gap, you should probably look at (in your case) cubic phase functions such as $e(x^3)$ - explicit calculation shows that this has large $U^4$ norm, but since it doesn't correlate well with any quadratic phase function it can't have  a large $U^3$ norm (by the inverse $U^3$ result due to Green and Tao).  The details of the calculation and how large the gap is would depend on which group you were taking the norms over.</p>
+
+<p>EDIT: To be more precise, and to give a reference, the following is Exercise 11.1.12 in Tao and Vu:</p>
+
+<p>If $P$ is a polynomial of degree $d$ with coefficients in $\mathbb{F}_p$ and $f(x)=e(P(x)/p)$ (defining $x\mapsto x/p$ so that it maps into $[0,1)$ in the obvious way) then we have
+$$\| f\|_{U^{d&#39;}}=1$$
+for all $d&#39;&gt;d$ but
+$$ \| f\|_{U^{d&#39;}}\leq ((d-1)/p)^{1/2^d}$$
+for all $1\leq d&#39;\leq d$. </p>
+
+<p>For instance, if $f(x)=e(x^3/p)$ then $ \| f\|_{U^{4}}=1$ but $ \| f\|_{U^{3}}\leq (2/p)^{1/8}$ which can be made arbitrarily small by increasing $p$. </p>
 
 

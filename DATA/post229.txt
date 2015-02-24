@@ -1,17 +1,21 @@
-## Title:
-Inverse limit of $\mathbb{Z}/(n!)\mathbb{Z}$
-
-## Tags:
-<reference-request><p-adic-number-theory>
-
 ## Score:
-5
+3
+
+## Id:
+105473
+
+## ParentId:
+105442
 
 ## Body:
-<p>I am interested to know if there is a standard name for the inverse limit, $\hat{\mathbb{Z}}_!$, say, of the inverse system of rings $$\ldots \rightarrow \mathbb{Z}/((n+1)!)\mathbb{Z} \rightarrow \mathbb{Z}/(n!)\mathbb{Z} \rightarrow \ldots$$</p>
+<p>Kronecker is about sets, Weyl is about sequences. </p>
 
-<p>$\hat{\mathbb{Z}}_!$ stands in the same relationship to the factorial system of representations for the integers as the ring $\hat{\mathbb{Z}}_p$ of $p$-adic integers has to the base $p$ system. It has each $\hat{\mathbb{Z}}_p$ as a quotient. Am I correct in thinking that $\hat{\mathbb{Z}}_!$ is not the same as the profinite completion of the integers (i.e., the inverse limit of the inverse system comprising all quotient rings of $\mathbb{Z}$), since the latter is not an integral domain?</p>
+<p>If the sequence $u_1,u_2,\dots$ of elements of $[0,1)$ is uniformly distributed, then the underlying set $\lbrace\,u_1,u_2,\dots\,\rbrace$ is dense in $[0,1)$. </p>
 
-<p>Any pointers to references would be appreciated.</p>
+<p>If a countable subset $S$ of $[0,1)$ is dense in $[0,1)$, then (by a theorem of Erdos) it can be ordered so as to be a uniformly distributed sequence - but it can also be ordered so as not to be uniformly distributed. </p>
+
+<p>I have a feeling I've written this out on this site before. </p>
+
+<p>EDIT: found it: <a href="http://math.stackexchange.com/questions/73810/when-is-a-sequence-x-n-subset-0-1-dense-in-0-1/74189#74189">When is a sequence $(x_n) \subset [0,1]$ dense in $[0,1]$?</a> Not exactly the same as the current question, but there is some overlap.  </p>
 
 

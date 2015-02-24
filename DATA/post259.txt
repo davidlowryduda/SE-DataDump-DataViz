@@ -1,13 +1,26 @@
-## Title:
-Advanced Mathematics
-
-## Tags:
-<calculus><abstract-algebra><number-theory><reference-request><self-learning>
-
 ## Score:
-7
+1
+
+## Id:
+124693
+
+## ParentId:
+124688
 
 ## Body:
-<p>I am a high school student and would like to pursue a career in mathematics and I am hoping to find a serious explanatory book on math (geometry, algebra, calculus, functions and trigonometry) for further advanced studies in math. Does anyone know any  very good textbooks that will truly make me a better mathematician?</p>
+<p>Let $p&gt;2$. The map $f:\Bbb Z_p^\times\rightarrow\Bbb Z_p^\times$ given by $f(x)=x^2$ is an homomorphism, because $f(xy)=(xy)^2=x^2y^2=f(x)f(y)$. By the isomorphism theorem we know that
+$$
+{\rm Im}(f)\simeq \Bbb Z_p^\times/\ker(f).
+$$
+Since $\ker(f)$ is just the set of roots of $x^2-1$, it is immediate that $\ker(f)=\{\pm1\}$ and $|{\rm Im}(f)|=(p-1)/2$, thus showing that there are exactly $(p-1)/2$ non zero classes that are squares.</p>
+
+<p>Also, using the fact that $\Bbb Z_p^\times$ is cyclic it is easy to show that $x\in\Bbb Z_p^\times$ is a square if and only if
+$$
+x^{\frac{p-1}2}=1.
+$$
+This links the above to the fact that
+$$
+\left(\frac xp\right)=(-1)^{\frac{p-1}2}.
+$$</p>
 
 

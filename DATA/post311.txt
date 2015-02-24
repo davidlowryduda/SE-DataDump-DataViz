@@ -1,0 +1,17 @@
+## Score:
+3
+
+## Id:
+150244
+
+## ParentId:
+150065
+
+## Body:
+<p>The <a href="http://homepages.warwick.ac.uk/~masgaj/ftp/data/INDEX.html" rel="nofollow">Cremona database</a>, in particular table four, lists the analytic order of sha for optimal curves, i.e. the order as predicted by the Birch and Swinnerton-Dyer conjecture. For curves of analytic rank $\leq 1$, this is known to always be the correct value up to a few primes. But thanks to calculations of Stein and Wuthrich, this is known to be the exact correct values for all curves of rank $\leq 1$ and conductor up to 130000 (might be more by now).</p>
+
+<p>For curves of rank $\geq 2$, our state of knowledge is extremely hazy. In particular, <em>there is not a single elliptic curve over $\mathbb{Q}$, for which sha is proven to be finite</em>! This is in stark contrast to what we expect to be true: a conjecture of Delauney, a version of the Cohen-Lenstra heuristics for elliptic curves, predicts that a huge majority of curves of rank $\geq 2$ (I believe, more than 98%) should have trivial Tate-Shafarevich group. Cremona's table lists four curves of conductor up to 230000 with rank 2 and with non-trivial sha, and the remaining ones of rank 2 up to that conductor should have trivial sha (but as I say, we don't even know if their Tate-Shafarevich groups are finite).</p>
+
+<p>In <a href="http://wstein.org/papers/shark/shark.pdf" rel="nofollow">this paper</a> by Stein and Wuthrich, the $p$-primary part of sha is computed (and shown to be trivial) for lots of curves and primes $p$, in particular for lots of curves of higher rank. Their computations are unconditional, i.e. don't depend on the BSD.</p>
+
+

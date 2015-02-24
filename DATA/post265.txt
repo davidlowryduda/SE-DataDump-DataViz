@@ -1,17 +1,146 @@
-## Title:
-Are most numbers of the form $a\cdot b^n+c$ composite?
-
-## Tags:
-<number-theory><reference-request><prime-numbers><sieve-theory>
-
 ## Score:
-4
+9
+
+## Id:
+126795
+
+## ParentId:
+126745
 
 ## Body:
-<p>It seems evident that for $a,b,c$ with $a&gt;0$ and $b&gt;1$ that there are only $o(x)$ primes of the form $a\cdot b^n+c$ with $n\le x.$ Has this been proven?</p>
+<p>$\newcommand{\N}{\mathbb N} \newcommand{\emps}{\emptyset} \newcommand{\sm}{\setminus} \newcommand{\abs}[1]{|#1|} \newcommand{\ul}[1]{\underline{#1}} \newcommand{\ol}[1]{\overline{#1}}
+$This notion is called <em>asymptotic density</em> or <em>natural density</em>.
+If you are using limsup and liminf, it is upper and lower asymptotic density, see e.g.
+<a href="http://en.wikipedia.org/wiki/Asymptotic_density" rel="nofollow">Wikipedia</a>.</p>
 
-<p>Hooley (Applications of Sieves to the Theory of Numbers) proves this for Cullen numbers, and apparently this proof generalizes to forms $n\cdot2^{n+a}+b$.</p>
+<p>Let me start by mentioning some properties of asymptotic density, which I consider useful. Of course any such list is necessarily incomplete, and the choice is matter of opinion. Then I will give several references and I will mention which of these results are contained there.</p>
 
-<p>A reference would be great, if one can be found. Otherwise, I'll take what I can get!</p>
+<p>I will not speak about Szemerédi's theorem - perhaps someone who knows more about this topic will suggest suitable references.</p>
+
+<hr>
+
+<h3>Basic properties</h3>
+
+<p>The following results are obtained easily from the definition and properties of limit inferior and limit superior.</p>
+
+<p>$0\leq \ul d(A) \leq \ol d(A) \leq 1$<br>
+If $A\subseteq B\subseteq\N$, then $\ul d(A)\leq \ul d(B)$ and $\ol d(A)\leq \ol d(B)$.<br>
+If $A,B\subseteq\N$, $A\cap B=\emps$, then
+$$\ul d(A)+\ul d(B) \leq \ul d(A\cup B) \leq \ul d(A)+\ol d(B) \leq \ol d(A\cup B) \leq \ol d(A)+\ol d(B).$$
+Consequently, the asymptotic density is finitely additive.<br>
+$\ol d(\N\sm A)=1-\ul d(A)$, $\ul d(\N\sm A)=1-\ol d(A)$
+For any $a\in\langle0,1\rangle$ there is a set $A\subseteq\N$ such that $d(A)=a$.</p>
+
+<h3>Alternative definitions</h3>
+
+<p>As you already mentioned, the asymptotic density is defined by $\underline d(A):=\liminf_{n\to\infty} \frac{A(n)}n$, $\overline d(A):=\liminf_{n\to\infty} \frac{A(n)}n$ and $d(A):=\lim_{n\to\infty} \frac{A(n)}n$, where $A(n):=\abs{A\cap\{1,2,\ldots,n\}}$.</p>
+
+<p>Sometimes it is useful to know, that there are different expressions. The first one is about a set given by an increasing sequence of positive integers.</p>
+
+<blockquote>
+  <p><strong>Proposition 1.</strong> If $A=\{a_1&lt;a_2&lt;\ldots&lt;a_k&lt;\ldots\}\subseteq\N$, then
+  $$
+\begin{gather*}
+\ul d(A)=\liminf_{k\to\infty} \frac k{a_k}\\
+\ol d(A)=\limsup_{k\to\infty} \frac k{a_k}\\
+d(A)=\lim_{k\to\infty} k \frac k{a_k}
+\end{gather*}
+$$</p>
+</blockquote>
+
+<p>Sometimes it is useful to be able to compute densities of set consisting of intervals. For example, this is useful when constructing an example of a set which does not have asymptotic density, i.e., a set $A$ such that $\ul d(A) &lt; \ol d(A)$.</p>
+
+<blockquote>
+  <p><strong>Proposition 2.</strong>
+  Let $a_n$, $b_n$ be increasing sequences of positive integers such that
+  $a_n&lt;b_n&lt;a_{n+1}$ for each $n\in\N$. Then for the set
+  $A=\N\cap\bigcup\limits_{n=1}^\infty (a_n,b_n\rangle$ we have
+  \begin{gather*}
+\ol d(A):=\limsup_{n\to\infty} \frac{A(b_n)}{b_n}\\
+\ul d(A):=\liminf_{n\to\infty} \frac{A(a_n)}{a_n}
+\end{gather*}</p>
+</blockquote>
+
+<p>However, both these results are relatively easy to show.</p>
+
+<h3>Density of some special sets</h3>
+
+<blockquote>
+  <p><strong>Theorem 3.</strong> If $A=\{a_1&lt;a_2&lt;\ldots&lt;a_n&lt;\ldots\}\subseteq\N$ and the series
+  $\sum_{k=1}^\infty \frac 1{a_k}$ converges, then the set $A$ has
+  asymptotic density and $d(A)=0$.</p>
+</blockquote>
+
+<p>A proof of this result can be found at this site, see <a href="http://math.stackexchange.com/questions/5932/theorem-on-natural-density">this question</a>.</p>
+
+<blockquote>
+  <p><strong>Theorem 4.</strong> Let $\mathbb P$ denote the set of all prime numbers. Then $d(\mathbb P)=0$.</p>
+</blockquote>
+
+<p>A very nice proof of can be found in Pete L. Clark's and robjohn's answers <a href="http://math.stackexchange.com/questions/82074/percentage-of-primes-among-the-natural-numbers">here</a>.</p>
+
+<h3>Comparison with other densities</h3>
+
+<p>Some other densities are often studied in number theory. I will mention two of them: logarithmic density and Banach density (also called uniform density).</p>
+
+<p>Let us denote $S(n):=\sum\limits_{k=1}^n \frac 1k$ for any $n\in\N$.
+Let $A\subseteq\N$. Then the values
+$$\ul \delta(A)=\liminf_{n\to\infty} \frac{\sum\limits_{k\in A; k\leq n} \frac 1k}{S(n)} \qquad \ol \delta(A) = \limsup_{n\to\infty}
+\frac{\sum\limits_{k\in A; k\leq n} \frac 1k}{S(n)}$$ are called
+<em>upper</em> and <em>lower logarithmic density</em> of the set
+$A$. If $\ol\delta(A)=\ul\delta(A)$, then this value is denoted
+by $\delta(A)$ and called the <em>logarithmic density</em> of the set $A$.</p>
+
+<blockquote>
+  <p><strong>Theorem 5.</strong>  For any subset $A\subseteq\N$ the inequality
+  $$\ul d(A) \leq \ul \delta (A) \leq \ol \delta(A) \leq \ol d(A)$$
+  holds. Consequently, if a set has asymptotic density, it also has logarithmic density.</p>
+</blockquote>
+
+<p>See e.g. the proof at <a href="http://planetmath.org/encyclopedia/InequalityOfLogarithmicAndAsymptoticDensity.html" rel="nofollow">Planetmath</a>.</p>
+
+<p><em>Banach (uniform) density</em> is defined as follows:
+$$\overline u(A)=\lim_{s\to\infty} \max_{t\ge 0}\frac{A(t+1,t+s)}{s}$$
+$$\underline u(A)=\lim_{s\to\infty} \min_{t\ge 0}\frac{A(t+1,t+s)}{s}$$
+where $A(m,k)=|A\cap\{m,m+1,\dots,k\}|$.</p>
+
+<p>If these values are the same, them $u(A)=\ol u(A)=\ul u(A)$.</p>
+
+<blockquote>
+  <p><strong>Theorem 6.</strong> The inequalities $$\underline u(A)\le \underline d(A) \le \overline d(A) \le \overline u(A)$$ hold for every $A\subseteq\N$.
+  (Consequently, every set that has uniform density also has asymptotic density.)</p>
+</blockquote>
+
+<p>The proof of these inequalities can be found e.g. in: Z. Gáliková, B. Lászlo and T. Šalát: <a href="http://www.emis.ams.org/journals/AMI/2002/acta2002-galikova-laszlo-salat.pdf" rel="nofollow">Remarks on uniform density of sets of integers</a>.</p>
+
+<p>Note: Several equivalent definitions of Banach density appear in literature.</p>
+
+<h3>Niven's result</h3>
+
+<p>The following result is from the paper
+Ivan Niven. <a href="http://projecteuclid.org/euclid.bams/1183516304" rel="nofollow">The asymptotic density of sequences</a>. Bull. Amer. Math. Soc., 57(6):420-434, 1951. Often it can be used to show that asymptotic density of some set is $0$.</p>
+
+<blockquote>
+  <p><strong>Theorem 7.</strong> If for a set of primes $\{p_i\}$ we have $d(A_{p_i})=0$ for every $i$, and if $\sum p_i^{-1}=\infty$ then $d(A)=0$.</p>
+</blockquote>
+
+<p>Here, for any $A\subseteq\mathbb N$ and a prime $p$, the set $A_p$ is defined as
+$$A_p=\{n\in A; p\mid n, p^2\nmid n\}.$$</p>
+
+<p>Note: If we defined $A_p=\{n\in A; p\mid n\}$ instead of the above result, we would get a weaker result, but the proof is much simpler.</p>
+
+<hr>
+
+<h3>Some references:</h3>
+
+<ul>
+<li><p>J. Steuding: <a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.118.4755" rel="nofollow">Probabilistic number theory</a>. Contains Proposition 1, Theorem 5</p></li>
+<li><p>Niven I., Zuckerman H.S., Montgomery H.L. An introduction to the theory of numbers (5ed., Wiley, 1991). Chapter 11 is devoted to asymptotic and Schnirelmann density. It contains Proposition 1 and several basic facts on asymptotic density are left as exercises.</p></li>
+<li><p>Halberstam H., Roth K.F. Sequences. Asymptotic density and logarithmic are studied in Chapter V. Theorem 3 and Theorem 5 and many further results on asymptotic density are shown here. This books was mentioned in Matthew Conroy's comment above.
+The <a href="http://en.wikipedia.org/wiki/Schnirelmann_density" rel="nofollow">Schnirelmann's density</a>, which is connected to some results in additive number theory, is studied here too.</p></li>
+<li><p>G. Tenenbaum: <a href="http://books.google.com/books?id=DZT5Yqq2DSMC" rel="nofollow">Introduction to analytic and probabilistic number theory</a>. Contains e.g. Proposition 1, Theorem 5. Several results on asymptotic density (e.g. Theorem 3) are left as exercises. This books was mentioned in Matthew Conroy's comment above.</p></li>
+<li><p>Erdos P., Suranyi J. <a href="http://books.google.com/books?id=MTefj5-5OwEC" rel="nofollow">Topics in the Theory of Numbers</a> (Springer 2003). Some basic facts on asymptotic density are mentioned here, mostly left as exercises. E.g. Theorem 3, Theorem 4.</p></li>
+<li><p>A. Geroldinger, I. Ruzsa: <a href="http://books.google.com/books?id=QqSoYzYI7BEC" rel="nofollow">Combinatorial Number Theory and Additive Group Theory</a>. The authors work mostly with Schnirelmann's density. However, asymptotic density is briefly mentioned, too.</p></li>
+</ul>
 
 

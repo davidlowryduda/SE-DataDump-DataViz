@@ -1,32 +1,15 @@
-## Title:
-Fractional Part Double Summations
-
-## Tags:
-<number-theory><reference-request>
-
 ## Score:
-13
+11
+
+## Id:
+15945
+
+## ParentId:
+329
 
 ## Body:
-<p>In attempt to deepen my understanding of <a href="http://en.wikipedia.org/wiki/Dedekind_sum" rel="nofollow">Dedekind sums</a>, I've proven the following identity
-$$
-\sum_{i = 0}^{t} \sum_{j = 0}^{b(t-i)} \left \lbrace c \left( t - i - \frac{j}{b} \right) \right \rbrace = \frac{t(t+1)}{4}(b - \gcd(b,c)),
-$$ 
-where $b,c,t \in \mathbb{N}$ and $\lbrace \cdot \rbrace$ denotes the <a href="http://en.wikipedia.org/wiki/Floor_and_ceiling_functions" rel="nofollow">fractional part function</a>. </p>
+<p>One of my colleagues, a number theorist, recommended the little book by van den eynden for beginners.  my favorite is by trygve nagell.  (I am a geometer.)  One of my friends, preparing for a PhD in arithmetic geometry?, started with the one recommended by Barry, Basic number theory.  As I recall it's for people who can handle Haar measure popping up on the first page of a "basic" book on number theory.</p>
 
-<p>I'd like to compute the following more general double sums
-$$
-\sum_{i = 0}^{a t} \sum_{j = 0}^{\lfloor b(t-i/a) \rfloor} \left \lbrace c \left( t - \frac{i}{a} - \frac{j}{b} \right) \right \rbrace \qquad \text{and} \qquad \sum_{i = 1}^{a t} \sum_{j = 1}^{\lfloor b(t-i/a) \rfloor} \left \lbrace c \left( t - \frac{i}{a} - \frac{j}{b} \right) \right \rbrace \qquad a, b, c, t \in \mathbb{N},
-$$
-where $\lfloor \cdot \rfloor$ denotes the <a href="http://en.wikipedia.org/wiki/Floor_and_ceiling_functions" rel="nofollow">floor function</a>. The sums clearly vanishes if $a$ and $b$ are divisors of $c$ (by the vanishing of the fractional part) and (I expect) grow as $O(t^{2})$ otherwise. Are such sums in the literature, even for some special cases of pairwise coprime coefficients $a, b$ and $c$? Any help and/or hints are certainly appreciated!</p>
-
-<p><em>Harder Problem(s):</em> If the above is trivial, then suppose $a, b, c$ and $t$ are real and compute the following sums
-$$
-\sum_{i = 0}^{\lfloor a t \rfloor} \left \lbrace b \left( t - \frac{i}{a} \right) \right \rbrace \qquad \text{and} \qquad \sum_{i = 0}^{\lfloor a t \rfloor} \sum_{j = 0}^{\lfloor b(t-i/a) \rfloor} \left \lbrace c \left( t - \frac{i}{a} - \frac{j}{b} \right) \right \rbrace
-$$
-as well as
-$$
-\sum_{i = 1}^{\lfloor a t \rfloor} \left \lbrace b \left( t - \frac{i}{a} \right) \right \rbrace \qquad \text{and} \qquad \sum_{i = 1}^{\lfloor a t \rfloor} \sum_{j = 1}^{\lfloor b(t-i/a) \rfloor} \left \lbrace c \left( t - \frac{i}{a} - \frac{j}{b} \right) \right \rbrace.
-$$</p>
+<p>I also recommend Gauss's Disquisitiones Arithmeticae.</p>
 
 

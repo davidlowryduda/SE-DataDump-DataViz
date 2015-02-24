@@ -1,35 +1,19 @@
-## Title:
-To generalize of Fermat's Last theorem, to find the solution of $a^n+b^n+c^n = d^n$
-
-## Tags:
-<number-theory><reference-request>
-
 ## Score:
-7
+1
+
+## Id:
+113358
+
+## ParentId:
+113340
 
 ## Body:
-<p>The Fermat's Last Theorem was proved by Andrew Wiles in 1995. It states that no three positive integers $x$, $y$, and $z$ can satisfy the equation  $x^n+y^n= z^n$ for any integer value of $n$ greater than two.</p>
+<p>For any rational number $x$, there exists an elliptic curve $E$ over $\mathbf{Q}$ without any rational points whose $j$-invariant is $x$. </p>
 
-<p>I wonder if there is general solution for $a^n+b^n+c^n = d^n$  , $n&gt;4$ or not?</p>
+<p>I can't give you the precise details at the moment, but the idea is that you can twist your elliptic curve and get rid of any rational point.</p>
 
-<p>$a,b,c,d,n$ are positive integers</p>
+<p>I can't give you any equations either. </p>
 
-<p>$$a^n+b^n+c^n = d^n$$</p>
-
-<p>For $n=2$, there is a solution
-$$1^2+2^2+2^2=3^2$$</p>
-
-<p>For $n=3$, there is a solution
-$$3^3+4^3+5^3=6^3$$</p>
-
-<p>I saw somewhere that
-For $n=4$, there is a solution
-$$95800^4 + 217519^4 + 414560^4 = 422481^4$$</p>
-
-<p>Is there proof for the general problem that there is no solution for $n&gt;4$?</p>
-
-<p>Do you know counterexamples to disprove the generalization for $n&gt;4$?</p>
-
-<p>Thanks for answers</p>
+<p>At least we know there exists such a family now.</p>
 
 

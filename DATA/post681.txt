@@ -1,0 +1,15 @@
+## Score:
+1
+
+## Id:
+572466
+
+## ParentId:
+568961
+
+## Body:
+<p>I posted this on MathOverflow and received a good answer from Carlo Beenakker, linking me to Rademacher's <a href="http://www.math.tifr.res.in/~publ/ln/tifr02.pdf" rel="nofollow">Lectures in Analytic Number Theory</a>, where Rademacher talks about this contour starting on page 113. You can find his answer <a href="http://mathoverflow.net/a/149282/40804">here</a>.</p>
+
+<p>I'm accepting this so that this question is removed from the unanswered queue - if you have the ability, please upvote Professor Beenakker's answer rather than mine!</p>
+
+

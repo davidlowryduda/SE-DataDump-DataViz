@@ -1,0 +1,19 @@
+## Score:
+1
+
+## Id:
+416366
+
+## ParentId:
+416361
+
+## Body:
+<p>You can find some definitions in:</p>
+
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Algebraic_number_field#Places" rel="nofollow">Wikipedia</a></li>
+<li><em>Algebraic Number Theory</em>, J. Neukirch - chapter III starts with a definition of places. Valuations are defined in chapter II.</li>
+<li><em>Algebraic Number Theory</em>, E. Weiss - places are defined much earlier in the book (in the first few pages), but I personally like this book a little less than Neukirch.</li>
+</ul>
+
+

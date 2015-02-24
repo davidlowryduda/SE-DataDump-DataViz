@@ -1,15 +1,15 @@
-## Title:
-GrossOne? The arXiv blog's pick of the day.
-
-## Tags:
-<number-theory><reference-request>
-
 ## Score:
-8
+21
+
+## Id:
+44132
+
+## ParentId:
+44126
 
 ## Body:
-<p>The arXiv blog having chosen GrossOne for <a href="http://www.technologyreview.com/blog/arxiv/27656">its daily pick of today</a>, I read the arXiv paper concerned, and posted a comment there. The arXiv blog used to be quite high profile as these things go.</p>
+<p>This is an <em>incredibly</em> difficult problem.</p>
 
-<p>Is there an existing well-known (but not to me) mathematical construction that does what Sergeyev proposes?</p>
+<p>It is one of <a href="http://en.wikipedia.org/wiki/Landau%27s_problems" rel="nofollow">Landau's 4 problems</a> which were presented at the 1912 international congress of mathematicians, all of which remains unsolved today nearly 100 years later.</p>
 
 

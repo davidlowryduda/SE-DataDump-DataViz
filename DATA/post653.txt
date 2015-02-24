@@ -1,0 +1,72 @@
+## Title:
+Are differences between powers of 2 equal to differences between powers of 3 infinitely often?
+
+## Tags:
+<number-theory><elementary-number-theory><reference-request><prime-numbers><diophantine-equations>
+
+## Score:
+6
+
+## Id:
+530564
+
+## Body:
+<p>Consider the equation $2^a-2^b=3^c-3^d$ where $a&gt;b&gt;0$, $c&gt;d&gt;0$, and $a,b,c,d$ are all integers. A computer search for solutions with $a,c\le20$ only finds 8-2=9-3, 32-8=27-3, and 256-16=243-3. I would really like there to be only finitely many solutions (even if these 3 aren't the only ones). </p>
+
+<p>I have noted that the lower powers on both sides can be factored out, but since all the exponents are arbitrary, I don't think I can use a pattern in modular residues to get the result. </p>
+
+<p>This feels vaguely reminiscent of Mihăilescu's theorem, but hopefully it's much easier to prove. Can someone point me towards a relevant reference or give me a nudge towards a method for solving it?</p>
+
+<hr>
+
+<h2>Edit:</h2>
+
+<p>I've read through Gottfried Helms's explanation, and come to some conclusions, but I'm afraid I'm a bit out of my depth, as I have little experience with Euler's totient theorem (and the related theorem of Carmichael), and no prior experience with Zsigmondy's theorem. I've worked on it a bit, and am presenting my thoughts/current understanding here, in the hopes that people can clarify things for me and bring me closer to a solution. </p>
+
+<p>Firstly, I noticed that there was no good reason to disallow $b=0$ or $d=0$ in the problem, so I started allowing them. Ideally, I would like to produce a complete list of the finitely many tuples (a computer suggests five) of nonnegative integers $\left(a,b,c,d\right)$ with $a&gt;b\ge0,c&gt;d\ge0$ where the above equation holds (note that if we allowed $a=b$ or $c=d$, then we would have $a=b\Leftrightarrow c=d$ and that would be an infinite family of trivial solutions parametrized by $b$ and $d$). Throughout this discussion, I will follow Gottfried Helms in rewriting the equation as $$\frac{2^A-1}{3^d}=\frac{3^C-1}{2^b}\tag{1}$$where $A=a-b,C=c-d&gt;0$, and both sides must be integers.</p>
+
+<h3>Quick Observations:</h3>
+
+<ol>
+<li>$2^{b}$ is the highest power of $2$ that divides $3^{C}-1$, as otherwise the left hand side of (1) is odd and the right side is even.</li>
+<li>Thus, $b=0$ is impossible.</li>
+<li>Note that $3^2\equiv1\mod8$, and $3-1\equiv2\mod8$ can't be divisible by $4$. Therefore, $3^{C}-1$ is divisible either by $8$ or by $2$ and not $4$. Hence, by 1., $b=2$ is impossible.</li>
+<li>If $A=1$ then $d=1$ or else the left side of (1) wouldn't be an integer.</li>
+<li>If $C=1$, then $b\le1$ to make the right side of (1) an integer, so $C=1\Rightarrow b=1$ by 2.</li>
+</ol>
+
+<h3>Zsigmondy's Theorem</h3>
+
+<p>Zsigmondy's Theorem is a deep theorem I has not heard of before Gottfried's post, and it solves many simpler problems of a similar flavor to this one. An good collection of example applications can be found in <a href="http://www.math.ust.hk/excalibur/v16_n4.pdf" rel="nofollow">this issue of the HKUST Mathematical Excalibur</a>. Two relevant corollaries for us are: </p>
+
+<ol>
+<li>Each entry of the sequence $2^{n}-1$ has a new prime divisor the previous entries didn't except for $n=6$. For example: $2^{2}-1$ has the new prime factor $3$, which $2^{1}-1$ didn't have. $2^{3}-1$ has the new prime factor $7$ which the previous two didn't have. $2^{4}-1$ has the new prime factor $5$, and $2^{5}-1$ has the new prime factor $31$, but $2^{6}-1=3^{2}*7$. </li>
+<li>Each entry of the sequence $3^{n}-1$ has a new prime divisor except for $n=2$. $3^{2}-1$=$\left(3^{1}-1\right)^{3}$, but $3^{3}-1$ has $13$, $3^{4}-1$ has $5$, etc.</li>
+</ol>
+
+<h3>More Special Cases:</h3>
+
+<p>With Zsigmondy's theorem in hand, we can easily handle some more special cases.</p>
+
+<p><strong>Case: $b=1$ and $d=0$:</strong></p>
+
+<p>In this case, the equation in the problem gives us $2^{a}-2=3^{c}-1$, so that $2^{a}-1=3^{c}$, but $2^{a}-1$ is getting new prime factors other than 3 by Zsigmondy unless $a=0,1,2$. Since $a&gt;b=1$, only $a=2$ is allowed. This yields the solution “4-2=3-1
+ ”.</p>
+
+<p><strong>Case: $C=1$:</strong></p>
+
+<p>By quick observation 5., $b=1$, so we have $2^{A}-1=3^{d}$, which forces $A\le2$ by Zsigmondy. $A=1$ would force $d=0$ and give us the solution from the previous case. If $A=2$, then $d=1$ and we get “8-2=9-3”. (Note, Mihăilescu's theorem could have been used as extreme overkill for this since $2^{A}-1=3^{d}$ is equivalent to $2^{A}-3^{d}=1$.)</p>
+
+<h3>Better arguments?</h3>
+
+<p>Gottfried seemed to be bringing up <a href="http://en.wikipedia.org/wiki/Carmichael_function" rel="nofollow">Carmichael's strengthening of Euler's totient theorem</a>, but I don't understand how it's being used. The answer made it seem like they were saying something like $a^m\equiv 1\mod n$ for $a=3$ and $n$ coprime to $3$ <em>exactly</em> when $\lambda(n)\mid m$, which is false. $3^3\equiv1\mod13$, for instance. Carmichael's theorem may be very useful here, but I don't understand how to apply it. </p>
+
+<p>I also don't understand how exactly to use Zsigmondy's theorem repeatedly. I can verify Jack Daurizio's comment manually with modular arithmetic, but it seemed like they were using these theorems to quickly make claims about divisibility in a way I couldn't follow.</p>
+
+<p>Any elaboration/explanation on the methods of Gottfried's answer or a different step towards a solution would be much appreciated.</p>
+
+<h3>Interesting Corollary</h3>
+
+<p>As an aside, I forgot to mention the initial inspiration for this question. I was thinking about pairs of functions $f,g:\mathbb N\to\mathbb N$ such that $(n,m)\mapsto f(n)+g(m)$ is injective. One class of pairs I know is based on interleaving digits, but if the conjecture about powers of 2 and 3 is true, then $f(n)=2^{n+k}$ with $g(m)=3^{m+k}$ would work for some $k$.</p>
+
+

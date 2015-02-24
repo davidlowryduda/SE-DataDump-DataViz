@@ -1,14 +1,39 @@
-## Title:
-Book about ergodic theory, group actions and number theory.
-
-## Tags:
-<group-theory><number-theory><reference-request><ergodic-theory>
-
 ## Score:
-2
+1
+
+## Id:
+52002
+
+## ParentId:
+49584
 
 ## Body:
-<p>Does anyone Know about an introductory book showing the intersection between ergodic theory, group actions and number theory? I have been looking for but it has been impossible to me.
-Thanks.</p>
+<p>Even though it won't be considered 'a proper answer' - I will elaborate on the connection to the Bernoulli polynomials. </p>
+
+<p>Lets assume the bernoulli polynomials are periodic - they repeat their values between $[0,1]$ on the real line. The coefficients of the fourier series will then be given by the following integrals with</p>
+
+<p>$$-\cos\left(\frac{\pi m}{2}\right)\frac{(2\pi n)^m}{m!}\int_0^1B_m(x)\cos(2\pi n x)\textrm{d}x =  \left\{\begin{array}{cl} 1&amp; \mbox{if }  m \mbox{ even} \\0 &amp; \mbox{otherwise} \end{array}\right. $$</p>
+
+<p>and
+$$-\sin\left(\frac{\pi m}{2}\right)\frac{(2\pi n)^m}{m!}\int_0^1B_m(x)\sin(2\pi n x)\textrm{d}x =  \left\{\begin{array}{cl} 0&amp; \mbox{if }  m \mbox{ even} \\1 &amp; \mbox{otherwise} \end{array}\right. $$</p>
+
+<p>Where $B_m(x)$ is the $m$th bernoulli polynomial.</p>
+
+<p>So 
+$$B_m(x)=-\cos(\frac{\pi m}{2})\frac{m!}{(2\pi)^m}\sum_{n=0}^\infty \frac{\cos(2\pi n x)}{n^m}$$
+for even $m$ and otherwise the same with sine on interval $[0,1]$.</p>
+
+<p>So if we insert $x=0$ we get $\zeta(m)$ (for even $m$). If you insert the appropriate $x = 1/4, 2/4, 3/4$ etc you get $\beta(m)$ and $\eta(m)$.</p>
+
+<p>Some links</p>
+
+<ul>
+<li><p><a href="https://plus.google.com/114134834346472219368/posts/hoA6txedovs#114134834346472219368/posts/hoA6txedovs" rel="nofollow">Euler-maclaurin - Terence Tao Buzz</a></p></li>
+<li><p><a href="http://en.wikipedia.org/wiki/Bernoulli_polynomials#Fourier_series" rel="nofollow">Bernoulli polynomials at Wikipedia</a></p></li>
+<li><p><a href="http://www.google.com/url?sa=t&amp;source=web&amp;cd=2&amp;ved=0CBwQFjAB&amp;url=http%3A%2F%2Fwww-math.mit.edu%2F~gs%2Fpapers%2Fpascal-work.pdf&amp;rct=j&amp;q=gilbert%20strang%20pascal&amp;ei=SjYjTqbzLszwsgbD7sW_Ag&amp;usg=AFQjCNEmVo41JH-rA-KxB3lbgtIyRgq0nw&amp;sig2=mhmAfon7fuhk-3axdTJOnQ&amp;cad=rja" rel="nofollow">Pascal Matrices (Edelman and Strang)</a></p></li>
+<li><p><a href="http://www.carma.newcastle.edu.au/~jb616/hw.pdf" rel="nofollow">Hilbert’s Inequality
+and
+Witten’s Zeta-Function</a> page four</p></li>
+</ul>
 
 

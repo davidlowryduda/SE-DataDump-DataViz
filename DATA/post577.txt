@@ -1,0 +1,27 @@
+## Score:
+3
+
+## Id:
+454933
+
+## ParentId:
+454918
+
+## Body:
+<p>Let $\hat{\mathbb Z}$ be the inverse limit of $\{\mathbb Z/n\}$ with the natural maps $\mathbb Z/n\to \mathbb Z/d$ when $d|n$.</p>
+
+<p>Then give any sequence of numbers $n_1,n_2,\dots$, such that $n_i|n_{i+1}$ and for every $n$, there exists $i$ such that $n|n_i$, we have that the inverse limit of the chain:</p>
+
+<p>$$\mathbb Z/n_1\leftarrow \mathbb Z/n_2\leftarrow \dots$$</p>
+
+<p>is isomorphic to $\hat{\mathbb Z}$.</p>
+
+<p>This is a general property of inverse limits.</p>
+
+<p>More generally, if $n_1\mid n_2\mid n_3\dots$ then you can define for each prime $p$ the value $k_p=\sup\{k|\exists i:p^k|n_i\}$. Then the inverse limit of $\mathbb Z/n_i$ is $\prod_p\mathbb Z/p^{k_p}$ where, by $\mathbb Z/p^{\infty}$ we mean the $p$-adic integers.</p>
+
+<p>Another way to see it in this case is in the isomorphism $\mathbb Z/n \cong \prod_p \mathbb Z/p^{\nu_p(n)}$. Clearly, this factorization agrees when $d|n$ - the map $\mathbb Z/n\to \mathbb Z/d$ corresponds to the product of the maps $\mathbb Z/p^{\nu_p(n)}\to\mathbb Z/p^{\nu_p(d)}$. So the inverse limit is the product of the limits of the $\mathbb Z/p^{\nu_p(n_i)}$.</p>
+
+<p>You can find zero divisors in your inverse limit easily enough. Fix $p$, and for each $n$, use Chinese remainder theorem to find $a_n\in\mathbb Z/n!$ so that $a_n\equiv 1\pmod{p^{\nu_p(n!)}}$ and $a_n\equiv 0\pmod {n!/p^{\nu_p(n!)}}$. $a_n$ is unique, and $a_{n+1}\to a_n$ when you map $\mathbb Z/(n+1)!\to \mathbb Z/n!$. Since each $a_n$ is an idempotent in $\mathbb Z/n!$, the sequence $(a_n)$ is an idemptotent in the inverse limit, and it is non-zero. So $(a_n)(1-a_n)=0$ in the inverse limit.</p>
+
+

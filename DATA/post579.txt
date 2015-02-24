@@ -1,0 +1,37 @@
+## Score:
+2
+
+## Id:
+455828
+
+## ParentId:
+455537
+
+## Body:
+<p>Not an answer, but an attempt to formalize the OP's definition:</p>
+
+<p>Let $M_d(S)$ be the set of all products of up to $d$ elements of $S$.</p>
+
+<p>Define the sets $P_i$ and $C_i$ recursively as follows:</p>
+
+<ul>
+<li>$P_0$ are the prime numbers;</li>
+<li>$C_i = M_d(P_i) \setminus P_i$;</li>
+<li>$P_{i+1} = M_{d+1}(P_i) \setminus C_i$.</li>
+</ul>
+
+<p>$P_i \subset P_{i+1}$, so we can say that a number is prime* if it is an element of $P_\infty$, i.e. an element of $P_i$ for some $i$.</p>
+
+<p>Taking $d=2$ and looking only at powers of 2, we have that</p>
+
+<ul>
+<li>$P_0 = \{2\}$</li>
+<li>$C_0 = \{4\}$</li>
+<li>$P_1 = \{2,8\}$</li>
+<li>$C_1 = \{4,16,64\}$</li>
+<li>$P_2 = \{2,8,32,128,512\}$</li>
+</ul>
+
+<p>and so forth. Marius, is this what you have in mind?</p>
+
+

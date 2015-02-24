@@ -1,19 +1,13 @@
-## Title:
-What motivated Rademacher's contour along the Ford circles when he used the circle method?
-
-## Tags:
-<reference-request><analytic-number-theory>
-
 ## Score:
-4
+2
+
+## Id:
+131777
+
+## ParentId:
+131763
 
 ## Body:
-<p>After Ramanujan and Hardy found the infinite sum representation of the partition function $p(n)$, Rademacher went about simplifying their proof; the form generally seen involves integrating $\frac{P(q)}{q^{n+1}}$ along a circle centered at $0$, where $P(q)=\sum_{n \geq 0} p(n) q^n$. We fix an integer $N$ and consider the Farey sequence of fractions with denominator at most $N$; we then split the circle into parts, "centering" each part at a given element of this Farey sequence; as $N$ goes to infinity (and our radius goes to $1$), this gives us the infinite sum we want.</p>
-
-<p>Later, Rademacher rewrote this proof using a different contour along the upper half plane (which can be sent to the unit disc by $z \mapsto e^{2\pi i z}$). He integrated along the Ford circles, starting at $i$ and going to $i+1$ with a sequence of paths, each path going further 'down' the Ford circles than before (a construction that can be found in any copy of Rademacher's second proof of the theorem). This ultimately leads to a cleaner proof, I'd guesstimate about a third the length of the original. However...</p>
-
-<p>Unlike the original circle method, it's not immediately clear what's going on. Rademacher changes variables as quickly as possible (for good reason), but this provides no insight as to what's 'really' going on; it's clear that as you follow the sequence of paths, you're getting progressively closer to the various singularities and thus 'weighting' each more in the integral, but unlike the original proof you can't <em>see</em> this as you follow the chain of integrals.</p>
-
-<p>Secondly, it's not clear at all how he thought of it (and this is the actual question). Why did Rademacher choose to integrate along the Ford circles? Is it just because they're a geometric way of looking at the Farey fractions (which are key in the circle method), so he said "well why don't I give it a shot"? <em>Why</em> does it work so magically in leading to quicker and cleaner integrals and approximation? It's clear that this contour provides a better path (heh) to proving the sum form of $p(n)$ but in no way is it clear <em>why</em>.</p>
+<p>Perhaps this link can provide a starting point <a href="http://math.nist.gov/opsf/personal/weierstrass.html" rel="nofollow">http://math.nist.gov/opsf/personal/weierstrass.html</a> .</p>
 
 

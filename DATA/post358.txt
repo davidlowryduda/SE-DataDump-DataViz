@@ -1,0 +1,19 @@
+## Score:
+4
+
+## Id:
+176594
+
+## ParentId:
+176552
+
+## Body:
+<p>If you're willing to put in the work, I recommend the following sort of three-step plan: [1] get <a href="http://rads.stackoverflow.com/amzn/click/0471433349">Dummit and Foote's Abstract Algebra</a> and [2] get <a href="http://rads.stackoverflow.com/amzn/click/1441930949">Ireland and Rosen's Classical Introduction to Modern Number Theory</a>. Ireland and Rosen develops a very nice look towards number theory from a largely algebraic viewpoint, and it's pretty gentle.</p>
+
+<p>Here's the trick: I don't really know how much abstract algebra you know, but Dummit and Foote is miraculously good at serving as an early reference. If you want to know about, say, fields, you can open up the fields chapter and start reading, and you'll be fine. It's not notationally cumbersome or overly self-referential. (I'm trying to distinguish this from books like Folland's Real Analysis: no proof is more than paragraph, almost, because every proof looks like <em>"Use theorem 16.4(a) to show such and such, then argue as in the proof of 3.2.1 to do so and so, and conclude similarly to the end of corollary 4.2"</em>, which is great if you know those things and terrible if you don't. Side note - I do like Folland).</p>
+
+<p>So you can go through Ireland and Rosen, referring to Dummit and Foote when you need. I would encourage you to learn some of the module/ring/field/galois theory while you learn some algebraic number theory, as these will become necessary to understand algebraic number theory eventually and are harder to simply refer to for reference.</p>
+
+<p>Finally, since I'm sure you've been waiting for the third step of the three-step-plan, I'd recommend finding a professor/mentor/student to work with, so that when you come across something you haven't seen before, you can ask where to look. I see that Ragib wrote a similar-in-feel answer while I wrote my answer up, and there's a certain similarity in our recommendation: you can probably start now, but learn some algebra while you progress.</p>
+
+

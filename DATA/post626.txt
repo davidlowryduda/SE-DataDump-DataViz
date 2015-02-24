@@ -1,0 +1,13 @@
+## Score:
+2
+
+## Id:
+494077
+
+## ParentId:
+43519
+
+## Body:
+<p>My favourite proof of this is Van der Poorten's (<a href="http://maths.mq.edu.au/~alf/SomeRecentPapers/183.pdf" rel="nofollow">http://maths.mq.edu.au/~alf/SomeRecentPapers/183.pdf</a>) — it uses descent, as Fermat almost certainly would have.</p>
+
+

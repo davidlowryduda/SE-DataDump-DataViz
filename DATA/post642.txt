@@ -1,0 +1,13 @@
+## Score:
+2
+
+## Id:
+516980
+
+## ParentId:
+516972
+
+## Body:
+<p>I would recommend learning number theory, in particular reading "An Introduction to the Theory of Numbers" by Hardy and Wright. Number theory has the advantage of requiring no prerequisite knowledge (other than of elementary arithmetic) and leads naturally into the study of (abstract) algebra, which has tremendous applications to later topics like geometry, topology, etc.</p>
+
+

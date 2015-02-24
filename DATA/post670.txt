@@ -1,0 +1,19 @@
+## Score:
+2
+
+## Id:
+548248
+
+## ParentId:
+548210
+
+## Body:
+<p>Ore's <a href="http://rads.stackoverflow.com/amzn/click/0883856204" rel="nofollow">Invitation to Number Theory</a></p>
+
+<p>Art of Problem Solving <a href="http://www.artofproblemsolving.com/Store/viewitem.php?item=intro%3ant" rel="nofollow">Introduction to Number Theory</a>.</p>
+
+<p>LeVeque's <a href="http://rads.stackoverflow.com/amzn/click/0486689069" rel="nofollow">Fundamentals of Number Theory</a></p>
+
+<p>Niven and Zuckerman's <a href="http://rads.stackoverflow.com/amzn/click/0471625469" rel="nofollow">Introduction to the Theory of Numbers</a></p>
+
+

@@ -1,0 +1,15 @@
+## Score:
+6
+
+## Id:
+147275
+
+## ParentId:
+146944
+
+## Body:
+<p>There are many such.  You could look at the Antwerp volumes (especially the first and last, i.e. I and IV, which are more basic than the middle two).  You could look at the chapter by Rohrlich in the book "Modular forms and Fermat's Last Theorem".  You could look at the discussions in Silverman's books on elliptic curves.  You could look at the introductory discussion in Cremona's book.  You could look at some of the old articles by Mazur (e.g. his Bourbaki seminar) or by Manin (his articles on modular symbols).  You could look at Ogg's papers about his conjecture (the one that was proved by Mazur in his famous <em>Eisenstein ideal</em> paper); my memory is that he wrote two or three such papers.</p>
+
+<p>I was the author of the original write-up on which Tom Weston's notes are based, and I learned from all of the above sources (well, except the FLT book, and Silverman's second book, which didn't exist back then!).  I also learned from other sources, such as Fricke's hundred-year-old book on modular forms, but you probably don't need to go back that far.  </p>
+
+

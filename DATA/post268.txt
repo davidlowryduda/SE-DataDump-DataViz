@@ -1,13 +1,19 @@
-## Title:
-Book on arithmetic and elementary number theory
-
-## Tags:
-<elementary-number-theory><reference-request>
-
 ## Score:
-0
+4
+
+## Id:
+130588
+
+## ParentId:
+130582
 
 ## Body:
-<p>I want to buy a book on arithmetic and elementary number theory. What are good references? Thank you.</p>
+<p>There does not exist any primes which satisfy the above condition.</p>
+
+<p>The ring of numbers modulo $q$ is a field when $q$ is prime. If $p$ is another prime, then it is a unit in the field, i.e. there exists $p^{-1}$ such that
+$$p\cdot p^{-1} \equiv 1\ \left(\text{mod}\ q\right)$$
+now take $\lambda = (q-1)\cdot p^{-1}$ so that
+$$\lambda p + 1\equiv (q-1)\cdot p^{-1}\cdot p +1 \equiv q-1 + 1 \equiv 0\ \left(\text{mod}\ q\right)$$
+so we can always construct a solution.</p>
 
 

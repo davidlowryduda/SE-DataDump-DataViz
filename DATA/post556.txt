@@ -1,0 +1,19 @@
+## Score:
+1
+
+## Id:
+433342
+
+## ParentId:
+173918
+
+## Body:
+<p>This answer may be too late to be useful to you, and you've likely heard the news from another source, but: Yes! There has been!</p>
+
+<p>Here's the most recent update from the polymath project by Terence Tao:
+<a href="http://terrytao.wordpress.com/2013/06/30/bounded-gaps-between-primes-polymath8-a-progress-report/" rel="nofollow">http://terrytao.wordpress.com/2013/06/30/bounded-gaps-between-primes-polymath8-a-progress-report/</a></p>
+
+<p>And here's a round-up of post about the result by Evelyn Lamb:
+<a href="http://blogs.ams.org/blogonmathblogs/2013/05/16/week-in-number-theory/" rel="nofollow">http://blogs.ams.org/blogonmathblogs/2013/05/16/week-in-number-theory/</a></p>
+
+

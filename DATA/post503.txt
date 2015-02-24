@@ -1,0 +1,20 @@
+## Score:
+3
+
+## Id:
+374668
+
+## ParentId:
+374662
+
+## Body:
+<p>I'm assuming your friend is quite young, pre-college?</p>
+
+<p>The <a href="http://www.artofproblemsolving.com/Resources/articles.php" rel="nofollow">Art of Problem Solving</a> website has some great articles and resources with respect to number theory, e.g., <a href="http://www.artofproblemsolving.com/Resources/Papers/SatoNT.pdf" rel="nofollow">the nuts and bolts</a> aimed to very bright young folks. That would be a terrific start. (Author: Naoki Sato).</p>
+
+<p>See also <a href="http://math.stackexchange.com/questions/329/best-book-ever-on-number-theory?rq=1">this post</a> for some great references, all varying with respect to complexity.
+One recommendation on that post that seems particularly relevant is the book by Rosen: <a href="http://rads.stackoverflow.com/amzn/click/0321500318" rel="nofollow">Elementary Number Theory</a>.</p>
+
+<p>Also, <a href="http://math.stackexchange.com/questions/1774/undergraduate-high-school-olympiad-level-introductory-number-theory-books-for-se">this post</a> offers recommendations for the self study of elementary number theory geared to high-achieving high-school students, and undergraduates. </p>
+
+

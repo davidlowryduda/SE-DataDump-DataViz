@@ -1,56 +1,16 @@
-## Title:
-Generalization $\zeta_\varphi(s)=\sum_{k=0}^\infty {\exp(I\varphi*k) \over (1+k)^s} $
-
-## Tags:
-<number-theory><reference-request><special-functions><zeta-functions>
-
 ## Score:
-2
+10
+
+## Id:
+22651
+
+## ParentId:
+22597
 
 ## Body:
-<p>This is more a reference-request for some fiddling/exploration with the $\zeta$-function. In expressing the $\zeta$ and the alternating $\zeta$ (="$\eta$") in terms of matrixoperations I asked myself, what we get, if we generalize the idea of the alternating signs to cofactors from the complex unit-circle.      </p>
+<p>These two cases are traditionally called ${\bf Case \,\, 1}$ and ${\bf Case \,\, 2}$, and you are after a proof of Case 2.</p>
 
-<p>$$ \zeta_\varphi(s)=\sum_{k=0}^\infty {\exp(I\varphi*k) \over (1+k)^s} $$</p>
-
-<p>With this the usual "alternating $\zeta$" (or "$\eta$")- function were identified with $\varphi=\pi$, so each second term of the $\zeta$-series has the cofactor of $-1$. I looked at $\varphi=\pi/2$ and $\varphi=\pi/4$ so far. The $\zeta_{\pi/2}(s)$ for $s=[0,-1,-2,-3,-4,\ldots ]$ are for instance     </p>
-
-<p>$[1/2*(1+I), 1/2I, -1/2, -1I, 5/2, 8I, -61/2, -136I, 1385/2, \ldots]$.       </p>
-
-<p>But after this,... well a better approach is first to ask here for known results/discussion because involving $\zeta$ means usually, that very likely someone has looked at something like this before....(For instance, it seems we have analogues to the bernoulli-polynomials and possibly there is also an analogon to the Euler-Maclaurin-formula)      </p>
-
-<hr> 
-
-<p>Since Gerry asked for the computation and I lost him at $M_\varphi$ I'll put some more explanation here.    </p>
-
-<p>I express the problem in my matrix-notation (which is admittedly a very private notation lacking rigor but hopefully gives a clue of what I'm doing). For this the main ingredient is the ubiquituous occurence of a vector <em><strong>V(x)</strong></em> (ideally of infinite size as all matrices involved) which is meant to denote the reference to the argument <em>x</em> in a taylor-series of a function <em>f(x)</em>. Here the coefficients of the formal powerseries are collected in some vector <em><strong>A</strong></em> , <em><strong>V(x)</strong></em> means $\small [1,x,x^2,x^3,...x^n]$ (ideally $n\to\infty$  and <em>f(x)</em> is principally expressed as dot- or matrixproduct $ \small f(x) = A \cdot V(x)$. Then this notation allows to formulate the required manipulations on the formal powerseries by vector-operations, matrixproducts, matrixpowers and inversion.      </p>
-
-<p>Let <em><strong>P</strong></em> be the lower triangular Pascalmatrix, containing the binomial-coefficients. Then the binomial-theorem allows to write 
-$$ \small  P \cdot V(x) = V(x+1) $$ $$ \small P^2 \cdot V(x) = V(x+2) $$ 
-and so on. Then we can do the linear combination<br>
-$$ \small (P^0 + P + P^2 + ... + P^k) \cdot V(1) = V(1) + V(2) + .... + V(1+k) = S(1,k) $$     </p>
-
-<p>Here we get in all rows of <em><strong>S</strong></em> the sums-of-like-powers of exponents <em>0,1,2,3,...</em> and so on, simultaneously.   </p>
-
-<p>Using the alternating signed sum we can extend the sum to infinite index <em>k</em> getting      </p>
-
-<p>$$ \small \begin{eqnarray} AS(1) &amp;=&amp; V(1)-V(2)+V(3)-...\\\ &amp;=&amp; (P^0-P+P^2-P^3+...-...)\cdot V(1) \\\ &amp;=&amp; (Id + P)^{-1} \cdot V(1) \\\ &amp;=&amp; H \cdot V(1) \end{eqnarray} $$ </p>
-
-<p>which involves the closed-form-formula for geometric series for a matrix-argument.    </p>
-
-<p>In each row of the result <em><strong>AS(1)</strong></em> we get now the Dirichlet $\eta$ at the nonpositive integer index according to the rowindex. Also the matrix $ \small H = (Id+P)^{-1}$ contains that $\eta$'s and moreover the rows describe a modification of the bernoulli-polynomials adapted to the problem of alternating summing of like powers.<br>
-The non-alternating sum, resulting in $\zeta$-values (usually expressed in terms of bernoulli-numbers) cannot be taken this way because $ \small Id - P$ cannot be inverted (but there is a workaround such that we still get a solution).      </p>
-
-<p>Now the generalization (for which I ask for references) is 
-$$ \small S_\varphi (1) = V(1) + z V(2) + z^2 V(3) + z^3 V(4)+ z^4 V(5) + ... $$ 
-where $\small z = \exp(I \cdot \varphi) $ lies on the complex unit-circle. Thus $ \small AS(1) = S_{\pi}(1) $ and generally 
-$$ \small \begin{eqnarray}
- S_{\varphi}(1) &amp;=&amp; (P^0 + z \cdot P^1 + z^2 \cdot P^2 + z^3 \cdot P^3 + ...) \cdot V(1) \\\ 
-&amp; =&amp; (Id - z \cdot P)^{-1} \cdot V(1) \\\ &amp;=&amp;M_\varphi \cdot V(1)
- \end{eqnarray} $$
-where the matrix $\small M_\varphi $ can be computed as long as $\varphi \ne 0$</p>
-
-<p>The $\zeta_\varphi(k)$ for <em>k=[0,-1,-2,-3,...]</em> can now be taken from the according row of $\small S_\varphi(1) $. I assume that using the matrix $ \small M_\varphi$ we can construct analogues of the bernoulli-polynomials to compute the $ \small \zeta_\varphi(s)$ at real or complex <em>s</em>, which is what I was referring to in my above question.    </p>
-
-<p>[update] the idea of taking the "geometric series" for some matrix as I did it here  $\small M_\varphi = (Id - z \cdot P)^{-1} $ is known as <a href="http://en.wikipedia.org/wiki/Neumann_series" rel="nofollow">"Neumann-series"</a>   </p>
+<p>The essence of Dirichlet's proof of Case 2 when $p=5$ can be found in
+Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory, by Harold M. Edwards. It's in chapter three, at about page 70.</p>
 
 

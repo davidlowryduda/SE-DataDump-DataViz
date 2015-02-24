@@ -1,0 +1,29 @@
+## Title:
+two questions about Diophantine Equation
+
+## Tags:
+<number-theory><reference-request><diophantine-equations>
+
+## Score:
+1
+
+## Id:
+462084
+
+## Body:
+<p>I am reading an article <a href="http://www.ias.edu/about/publications/ias-letter/articles/2012-summer/modular-arithmetic-taylor" rel="nofollow">Modular Arithmetic</a> by Richard Taylor.    I have 2 questions:</p>
+
+<ol>
+<li><p>For which $n$, $x^2+y^2=nz^2$ has nontravial solutions? What are the solutions?</p></li>
+<li><p>A beautiful theorem of Hermann Minkowski and Helmut Hasse  says that if $Q (X_1 , ..., X_d ) $ is any homogeneous quadratic polynomial in any number of variables with whole number coefficients, then</p></li>
+</ol>
+
+<p>$$Q (X_1 , ..., X_d ) $$</p>
+
+<p>has a non-zero solution in whole numbers if and only if it has a non-zero solution in all (real) numbers and a primitive solution modulo $m$ for all positive whole numbers $m$</p>
+
+<p>How to prove the beautiful theorem? Could you recommend some books? </p>
+
+<p>Many thanks in advance!</p>
+
+

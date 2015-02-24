@@ -1,18 +1,23 @@
 NT Branch
 =========
 
+DATA
+----
+
 For machine-learning purposes, the relevant data is located in the DATA/
 directory. This represents only a very small proportion of the overall data.
 Right now, it contains the questions posted under the tags reference-request
 and number-theory on Math.SE.
 
-The files follow a very simple set of rules. There are four classes of data
+The files follow a very simple set of rules. There are up to six classes of data
 in each:
 
-1. Title
-2. Tags
-3. Score
-4. Body
+1. Title        [title of the question, if it's a question]
+2. Tags         [tags on the question, if it's a question]
+3. Score        [upvotes - downvotes]
+4. Id           [post id]
+5. ParentId     [id of the question, if this is an answer to a question]
+6. Body         [html content of the post]
 
 Within the documents, the classes of data are separated from the data by pounds,
 colons, and newlines. An example start is:
@@ -31,6 +36,15 @@ Look at any of the files for more examples. Note that the body contains the html
 as it would appear on Math.SE. This means it includes tags, newlines, and some
 metadata of its own. Notably, it contains urls, which is likely somewhat
 distinguished data.
+
+Hand-Annotated Data
+-------------------
+
+For the first several posts in DATA/, there are hand-annotated posts called
+`analyzed_post<num>.txt` corresponding to `post<num>.txt` located in
+ANALYZED-DATA/. So the numbers correctly correspond.
+
+
 
 Legal
 =====

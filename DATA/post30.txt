@@ -1,23 +1,13 @@
-## Title:
-Order of cyclic groups
-
-## Tags:
-<number-theory><abstract-algebra><group-theory><reference-request><finite-groups>
-
 ## Score:
-4
+8
+
+## Id:
+15968
+
+## ParentId:
+15966
 
 ## Body:
-<p><a href="http://en.wikipedia.org/wiki/Cyclic_group" rel="nofollow">Wikipedia</a> says:</p>
-
-<blockquote>
-  <p>It is known that $(\mathbb{Z}/n\mathbb{Z})^\times$ is cyclic if and only if n is 1 or 2 or 4 or $p^k$ or $2p^k$ for an odd prime number p and k ≥ 1.</p>
-</blockquote>
-
-<p>The statement seems provable given the definition and properties of the <a href="http://en.wikipedia.org/wiki/Carmichael_function" rel="nofollow">Carmichael function</a>.</p>
-
-<p>I need a reference (preferably a book) to read more on cyclic group, their order, and the Carmichael function. I tried several book (on number theory or algebra), but I couldn't find one that stated and proved the above theorem.</p>
-
-<p>Could you please recommend one?</p>
+<p>If $2^a3^b \lt N, a \ln 2 + b \ln 3 \lt \ln N$ or $a+\frac{b \ln 3}{\ln 2}\lt \frac{\ln N}{\ln 2}$.  For large $N$, we can ignore +1s, so to count the number less than $N$, we have $$\sum_{i=0}^\frac{\ln N}{\ln 3}\frac{\ln N-i\ln 3}{\ln 2}=\frac{(\ln N)^2}{\ln 2 \ln 3}-\frac{(\ln N)^2}{2\ln 2 \ln 3}$$ which is within a constant of the Ramanujan result.</p>
 
 

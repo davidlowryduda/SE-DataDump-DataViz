@@ -1,0 +1,22 @@
+## Title:
+Landau's PNT extension
+
+## Tags:
+<number-theory><reference-request><prime-numbers>
+
+## Score:
+0
+
+## Id:
+610505
+
+## Body:
+<p>In Tenenbaum's book <em>An Introduction to Analytic and Probabilistic Number Theory</em>, he states in chapter 2.6:</p>
+
+<blockquote>
+  <p>From the prime number theorem, it is easy to show by induction on the integer $k\geq1$ that, for each fixed value of $k$, we have $$N_k(x):=\ \mid\{n\leq x : \Omega(n)=k\}\mid \ \sim \frac{x}{\log x}\frac{(\log_2 x)^{k-1}}{(k-1)!}\ (x \rightarrow \infty)$$ -cf.Landau (1909)</p>
+</blockquote>
+
+<p>Could someone please point me in the direction of this particular proof, or walk me through the steps? Many thanks in advance.</p>
+
+

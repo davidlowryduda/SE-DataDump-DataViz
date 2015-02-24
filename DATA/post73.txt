@@ -1,15 +1,13 @@
-## Title:
-Discussion on twin prime conjecture
-
-## Tags:
-<number-theory><reference-request><elementary-number-theory><prime-numbers>
-
 ## Score:
-1
+2
+
+## Id:
+38251
+
+## ParentId:
+38237
 
 ## Body:
-<p>I understand where I am wrong in my <a href="http://math.stackexchange.com/questions/92445/twin-prime-conjecture">previous post</a>. Also, I am very thankful to all members, who answered and showed my errors in post. Now, I would like to know the proof for the following. </p>
-
-<p>"The difference of any two prime numbers $p$ and $q$ is expressible as $2k$; and the probability of finding primes $p$ at $n + k$ and $q$ at $n - k$ decreases as $n$ increases."</p>
+<p>In the dover book Riemann's zeta function HM Edwards mentions that his papers are only in French an Russian. He also presents a few proofs from the papers that may be of interest to you. P. 281 Of course this book is from 1974... so maybe a translation has happened since.</p>
 
 

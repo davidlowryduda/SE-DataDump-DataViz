@@ -1,0 +1,13 @@
+## Score:
+0
+
+## Id:
+516974
+
+## ParentId:
+516972
+
+## Body:
+<p>Describing your current knowledge of mathematics would help. This question has also been answered many times before. A standard answer is that you should read and work through Spivak's Calculus.</p>
+
+

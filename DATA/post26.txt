@@ -1,20 +1,13 @@
-## Title:
-Zeta functions in Chebychev's Prime Number theory
-
-## Tags:
-<reference-request><math-history><analytic-number-theory>
-
 ## Score:
-6
+18
+
+## Id:
+15938
+
+## ParentId:
+329
 
 ## Body:
-<blockquote>
-  <p>In two papers from 1848 and 1850, the Russian mathematician Pafnuty L'vovich Chebyshev attempted to prove the asymptotic law of distribution of prime numbers. His work is notable for the use of the zeta function ζ(s) predating Riemann's celebrated memoir of 1859 - <a href="http://en.wikipedia.org/wiki/Prime_number_theorem#History_of_the_asymptotic_law_of_distribution_of_prime_numbers_and_its_proof" rel="nofollow">wikipedia</a></p>
-</blockquote>
-
-<p>I could not find these two papers, I think they may not have been translated to English. 
-<a href="http://www.archive.org/details/oeuvresdepltche02chebrich" rel="nofollow">Oeuvres de P.L. Tchebychef</a> is available on archive but I checked the table of contents and I don't think it covers this work.</p>
-
-<p>Where can I read about his use of zeta functions and original proof?</p>
+<p>I recommend <em>Primes of the Form x<sup>2</sup> + ny<sup>2</sup></em>, by David Cox.  The question of which primes can be written as the sum of two squares was settled by Euler.  The more general question turns out to be much harder, and leads you to more advanced techniques in number theory like <a href="http://en.wikipedia.org/wiki/Class_field_theory">class field theory</a> and <a href="http://en.wikipedia.org/wiki/Complex_multiplication">elliptic curves with complex multiplication</a>.</p>
 
 

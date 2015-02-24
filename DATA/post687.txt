@@ -1,0 +1,13 @@
+## Score:
+5
+
+## Id:
+590071
+
+## ParentId:
+589344
+
+## Body:
+<p>Even better: <a href="http://aif.cedram.org/item?id=AIF_1982__32_4_1_0" rel="nofollow">Deshouillers and Iwaniec (1982)</a> have shown that there are infinitely many positive integers $n$ such that $n^2+1$ has a prime factor greater than $n^{6/5}$.</p>
+
+

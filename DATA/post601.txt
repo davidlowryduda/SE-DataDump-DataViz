@@ -1,0 +1,15 @@
+## Score:
+1
+
+## Id:
+466634
+
+## ParentId:
+466521
+
+## Body:
+<p>One interesting thing this reminds me of is "equidistribution" issues, e.g., as Weyl, and going back to Kronecker. That is, in the simplest case, for irrational $\theta$, the collection of integer multiples of $\theta$ is equidistributed in the circle $\mathbb R/\mathbb Z$, in the sense that for (e.g., smooth, but $C^1$ more than suffices) periodic $f$, the limit of ${1\over N}\sum_{1\le n\le N} f(n\theta)$ is $\int_0^1 f$. </p>
+
+<p>Similar results hold in higher dimension/rank, and in-between results exist, as illustrated in the question. That is, the analogous limit may be integration over a proper sub-torus.</p>
+
+

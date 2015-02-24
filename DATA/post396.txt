@@ -1,0 +1,42 @@
+## Score:
+0
+
+## Id:
+231011
+
+## ParentId:
+230984
+
+## Body:
+<p>Doing a Google search for "sum d(n) x^n" gives <a href="http://en.wikipedia.org/wiki/Divisor_function" rel="nofollow">http://en.wikipedia.org/wiki/Divisor_function</a> as one of the first answers. Looking in there, I find "A Lambert series involving the divisor function is: 
+$\sum_{n=1}^{\infty} q^n \sigma_a(n) = \sum_{n=1}^{\infty} \frac{n^a q^n}{1-q^n}$
+where $\sigma_a(n) = \sum_{d|n} d^a$."</p>
+
+<p>Setting $a=0$, 
+$\sum_{n=1}^{\infty} q^n d(n) = \sum_{n=1}^{\infty} \frac{q^n}{1-q^n}$.</p>
+
+<p>Your series, calling it $f$, is
+$f(z) = \sum_{n=1}^{\infty} z^n d(n)/n$.
+Differentiating,
+$f'(z) = \sum_{n=1}^{\infty} z^{n-1} d(n)
+=(1/z)\sum_{n=1}^{\infty} z^n d(n)
+= (1/z)\sum_{n=1}^{\infty} \frac{z^n}{1-z^n}
+= \sum_{n=1}^{\infty} \frac{z^{n-1}}{1-z^n}
+$.
+To get $f(z)$ we integrate this term by term,
+using $f(z) = \int_0^z f'(y) dy$.</p>
+
+<p>Letting $x = y^n$,
+$\int_0^z \frac{y^{n-1}}{1-y^n} dy
+=(1/n) \int_0^{z^n} \frac{dx}{1-x} 
+=- \frac{\ln{1-y}}{n}]_0^{z^n}
+=- \ln(1-z^n)/n
+$
+so
+$f(z) = -\sum_{n=1}^{\infty} \frac{\ln{1-z^n}}{n}
+= - \ln\prod_{n=1}^{\infty} (1-z^n)^{1/n}
+$.</p>
+
+<p>I'm not sure where to go from here (assuming no errors, which has $p &lt; .7$ in my estimation), so I'll leave it at this.</p>
+
+

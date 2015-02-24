@@ -1,19 +1,31 @@
 ## Title:
-unramified extensions
+Dedekind Sum Congruences
 
 ## Tags:
 <number-theory><reference-request>
 
 ## Score:
-9
+15
+
+## Id:
+61026
 
 ## Body:
-<p>Let $K$ be a number field with ring of integers $O_K$. It is well known that for almost all prime $p\in\mathbb{Z}$, the prime $p$ is unramified in $K$, that is, if $pO_K=\mathfrak{p}_1^{e_1}\ldots \mathfrak{p}_r^{e_r}$, where $\mathfrak{p}_1,\ldots,\mathfrak{p}_r$ are the different primes in $O_K$ which lie above $p$, then $e_i=1$ for $i=1,\ldots,r$.</p>
+<p>For $a,b,c \in \mathbb{N}$, let $a^{\prime} = \gcd(b,c)$, $b^{\prime} = \gcd(a,c)$, $c^{\prime} = \gcd(a,b)$ and $d = a^{\prime} b^{\prime} c^{\prime}$. Define $\mathfrak{S}(a,b,c) =  a^{\prime} \mathfrak{s}( \tfrac{bc}{d}, \tfrac{a}{b^{\prime} c^{\prime}}) +   b^{\prime} \mathfrak{s}( \tfrac{ac}{d}, \tfrac{b}{a^{\prime} c^{\prime}}) + c^{\prime} \mathfrak{s}( \tfrac{ab}{d}, \tfrac{c }{a^{\prime} b^{\prime}} )$, where $\mathfrak{s}$ is the <a href="http://mathworld.wolfram.com/DedekindSum.html" rel="nofollow">Dedekind sum</a>. I can prove the following: For $a, b, c \in \mathbb{N}$ with $\gcd(a,b,c) = 1$,
+\begin{align}
+12 a b c \ \mathfrak{S}(a,b,c) \equiv (ab)^{2} + (bc)^{2} + (ca)^{2} + d^{2}  \ \pmod{a b c}.
+\end{align}
+Is this congruence in the literature? I'm aware of the 3-term generalization of Rademacher and Pommersheim and of the work of Beck on the Carlitz-Dedekind Sums, but these don't seem to include this particular congruence as a special case.</p>
 
-<p>1-I want some reference where I can read a proof of this fact.</p>
+<p>I generalize. For $a_{1}, \dots, a_{n} \in \mathbb{N}$ such that $\gcd(a_1, \dots, a_{n}) = 1$, let $a_{i}^{\prime} = \gcd(a_{1}, \dots, \hat{a}_{i}, \dots, a_{n})$. Define the symmetric summation</p>
 
-<p>But I am mainly interested in the following question: Is it true that for almost all primes $p\in\mathbb{Z}$ we have that $N\mathfrak{p}_1=N\mathfrak{p}_2$ for all primes $\mathfrak{p_1}$ and $\mathfrak{p}_2$ which lie above $p$? (here $N\mathfrak{p}_i$ means the cardinality of $O_K/\mathfrak{p}_i$). This is certainly true when the extension is Galois, but I am intersted in the general case. That's why the expression "for almost all primes".</p>
-
-<p>Thanks!</p>
+<p>$$
+\mathfrak{S}(a_{1},\dots, a_{n}) = \sum_{i = 1}^{n} a_{i}^{\prime} \, \mathfrak{s}\left( \tfrac{a_{1} \cdots \hat{a}_{i} \cdots a_{n}}{a_{n+1}},  \tfrac{a_{i}}{a_{1}^{\prime} \cdots \hat{a}_{i}^{\prime} \cdots a_{n}^{\prime}} \right).
+$$
+where $\hat{}$ denotes omission. For subsetwise coprime $a_{1}, \dots, a_{n} \in \mathbb{N}$ (all primed variables equal $1$), I conjecture the following congruence holds for $n = 4$ (and I have a hunch that it continues to hold for $n &gt; 4$):
+$$
+12 a_{1} \cdots a_{n} \, \mathfrak{S}(a_{1}, \dots, a_{n}) \equiv \left( \sum_{i = 1}^{n} (a_{1} \cdots \hat{a}_{i} \cdots a_{n})^{2} \right) + 1 \ \pmod{a_{1} \cdots a_{n}}.
+$$
+Is this more general congruence known?</p>
 
 

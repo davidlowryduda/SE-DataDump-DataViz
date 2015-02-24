@@ -1,15 +1,21 @@
-## Title:
-Solutions to $x+y+z=31$ and $x+2y+3z=41$
-
-## Tags:
-<elementary-number-theory><discrete-mathematics><diophantine-equations><self-learning>
-
 ## Score:
-1
+2
+
+## Id:
+130587
+
+## ParentId:
+130582
 
 ## Body:
-<p>For the equations
-$$x+y+z=31$$ $$x+2y+3z=41$$
-is there a elegant way or method to find all the positive solutions in integers? Thus far, I have been using trial and error (which is time consuming). Another approach I tried was subtracting the first equation from the second to get $y+2z=10$. But I feel like there must be some faster way of doing this that I am not thinking of right now. Any input is appreciated.</p>
+<p>Let $p$ be a prime, and let $q$ be a prime other than $p$. Then the congruence $\lambda p+1\equiv 0\pmod{q}$ always has a solution.  So there are no primes $p$ with the property you are asking for.</p>
+
+<p><strong>Remark:</strong> If you are not familiar with properties of congruences, we prove the result without referring to such properties. </p>
+
+<p>Look at the remainders when the numbers $0\cdot p+1$, $1\cdot p+1$, $2\cdot p+1$, and so on up to $(q-1)\cdot p+1$ are divided by $q$. These remainders are <strong>all different</strong>. For if $i\cdot p+1$ has the same remainder as $j\cdot p+1$, then $q$ divides $(i\cdot p+1)-(j\cdot p+1)$, so $q$ divides $(i-j)\cdot p$. But since $q\ne p$, it follows that $q$ divides $i-j$. Since $0\le i,j\le q-1$, this forces $i=j$. </p>
+
+<p>Note that we did not need here that $p$ and $q$ are prime. It is enough to assume that $p$ and $q$ have no common divisor greater than $1$ (in other words, that $p$ and $q$ are <em>relatively prime.</em>)</p>
+
+<p>Since the remainders of  $0\cdot p+1$, $1\cdot p+1$, $2\cdot p+1$, and so on up to $(q-1)\cdot p+1$ are all different, they must be $0$, $1$, $2$, and so on up to $q-1$, in some order. In particular, there is an $i$ such that the remainder when you divide $i\cdot p+1$ by $q$ is $0$.  </p>
 
 

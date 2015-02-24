@@ -1,0 +1,16 @@
+## Title:
+Translation for EGA/SGA
+
+## Tags:
+<number-theory><reference-request><arithmetic-geometry>
+
+## Score:
+7
+
+## Id:
+149049
+
+## Body:
+<p>People often recommend Grothendieck's EGA (Elements de Geometrie Algebrique) and SGA (seminaire de geometrie algebrique) as a good reference for learning arithmetic geometry. However, as the title suggests, these books are in french. Does anyone know if there is a translation available for them?</p>
+
+

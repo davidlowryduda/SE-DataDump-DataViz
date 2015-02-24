@@ -1,19 +1,22 @@
 ## Title:
-How can commuting with Frobenius imply the order of an element in the inertia group.
+Brave New Number Theory
 
 ## Tags:
-<reference-request><algebraic-number-theory><finite-fields>
+<reference-request><algebraic-number-theory><homotopy-theory>
 
 ## Score:
-0
+17
+
+## Id:
+76793
 
 ## Body:
-<p><a href="http://www.youtube.com/watch?v=RH_5wANFRyQ" rel="nofollow">In this video</a>, one asserts, in the beginning, that, for $\tau\in \mathbb V_0$ such that $\tau$ generates $V_0/V_1$ in the quotient group, and $\sigma\in \mathbb Z$ which is a Frobenius in $\mathbb Z/\mathbb T$, if $\tau\sigma=\sigma\tau$, then $\tau^{q-1}=\iota$ where $q$ is the order of the finite residue field $\kappa$.  I have no idea how to show this. Any hints are mostly appreciated, thanks in advance.<br>
-P.S. $\mathbb V_i$ are ramifications groups of a number field $\mathbb k$ with some prime, and $\mathbb Z$ the decomposition group of that prime in $\mathbb k$, with $\mathbb T=\mathbb V_0$. And notice that $q$ is the order of the residue field $\kappa=\mathbb k/\mathfrak p$, not of the finite field extension $\mathbb K^0=\mathbb K/\mathfrak P$.<br>
-<strong>Edit:</strong><br>
-This video is some kind of blurred and, for the dearth of time, cannot give a complete proof of the theorem. Though I can understand the proof by CFT, I found it quite difficult to understand those lemmas. And any reference to the paper the lecturer uses is rather appreciated. Thanks.<br>
-<strong>Another Edit:</strong><br>
-I think that, if we view $\tau$ as a representation, then the commuting condition becomes sort of saying that the representation is one-dimensional, so that it is contained in the ground field, fromp which follows the order-statement.
-Are there any errors? Thanks again.</p>
+<p>I suppose this is an extremely general question, so I apologize, and perhaps it should be deleted.  On the other hand it's an awesome question.</p>
+
+<p>Is it clear exactly how much (assumedly algebraic) number theory can written down diagrammatically, and if so, has there been any effort to write such problems in the category of spectra (whichever category you like) and solve problems there?  It seems that some problems may become easier to solve, if only because there in some sense "more" spectra to work with than there are regular algebraic objects (i.e. he have the Eilenberg-MacLane spectrum for whatever ring or field of whatever, but we also have things that don't come from any algebraic object).  </p>
+
+<p>I have heard about Rognes' work on Galois extensions in this sense, and that there are lots of connections to things like Morava K-theory (and the associated spectra), and plan on at least attempting to pursue such ideas.  </p>
+
+<p>Thanks</p>
 
 

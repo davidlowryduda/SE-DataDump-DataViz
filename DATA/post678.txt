@@ -1,0 +1,23 @@
+## Title:
+Goldbach's conjecture
+
+## Tags:
+<number-theory><reference-request>
+
+## Score:
+1
+
+## Id:
+568109
+
+## Body:
+<p>Just wanted to know if anybody has come close to solving the Goldbach's conjecture problem ? </p>
+
+<p>I have seen some videos on youtube where interesting geometric patterns have been found.</p>
+
+<p>Anybody here made any progress on this problem ?</p>
+
+<p>Thanks
+Cheers</p>
+
+

@@ -1,0 +1,16 @@
+## Title:
+What is known about meromorphic functions agreeing with $\pi(n)$?
+
+## Tags:
+<reference-request><analytic-number-theory>
+
+## Score:
+1
+
+## Id:
+439485
+
+## Body:
+<p>Let $f$ be a meromorphic function in some region containing the positive real axis such that $f(n) = \pi(n)$ for all but finitely many positive integers $n$, where $\pi(n)$ is the number of primes less than or equal to $n$.  Can anything interesting be said about $f$, perhaps of the nature "$f$ must be <em>at least</em> this pathological..."?</p>
+
+

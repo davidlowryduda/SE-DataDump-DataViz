@@ -1,0 +1,21 @@
+## Score:
+4
+
+## Id:
+475765
+
+## ParentId:
+475754
+
+## Body:
+<p>I believe that originally (e.g. when Fermat discovered that only the primes congruent to $1$ modulo $4$ could be written as sums of squares) this was seen mainly as a "curiosity".</p>
+
+<p>From a more modern point of view, the problem of representing an integer as a sum of squares is part of the general theory of quadratic forms. An important step in the classification of quadratic forms over, say, a number field $K$ is the characterization of the elements of $K$ represented by a given non-degenerate quadratic form $Q(x_1,..,x_n)$, i.e. the elements $k\in K$ for which there exist (non-trivial) solutions of the equation
+$$
+Q(x_1,..,x_n)=k.
+$$
+When $n=2$ this generalizes the problem of finding the norm subgroup in a quadratic extension of $\Bbb Q$ (which is linked to Class Fields Theory) and in general has an obvious significance in terms of arithmetic geometry of quadrics and Brauer groups.</p>
+
+<p>Moreover, the number of representations (i.e. how many solutions are there) has a deeper significance as Fourier coefficients of certain automorphic forms, see Serre's <em>A Course in Arithmetic</em> for an introduction to these ideas.</p>
+
+

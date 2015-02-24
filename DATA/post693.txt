@@ -1,0 +1,13 @@
+## Score:
+1
+
+## Id:
+598762
+
+## ParentId:
+597202
+
+## Body:
+<p>If $L/K$ is an infinite Galois extension, then a prime $\mathfrak{p}$ of $K$ is totally ramified in $L$ if there is a unique prime $\mathfrak{P}$ of $L$ above $\mathfrak{p}$ and $I(\mathfrak{P}/\mathfrak{p})=\mathrm{Gal}(L/K)$. This is equivalent to requiring that $\mathfrak{p}$ is totally ramified in every finite subextension $F/K$ of $L/K$. To see this, first note that we can restrict to finite Galois subextensions $F/K$, because if $\mathfrak{p}$ is totally ramified in every finite Galois subextension, then because every subextension is contained in a finite Galois one, $\mathfrak{p}$ is totally ramified in every subextension. If $\mathfrak{p}$ is totally ramified in every finite Galois subextension $F$, then there is in particular a unique prime $\mathfrak{P}_F$ of $F$ above $\mathfrak{p}$, and $I(\mathfrak{P}_F/\mathfrak{p})=\mathrm{Gal}(F/K)$. Then $\mathfrak{P}=\bigcup_F\mathfrak{P}_F$ is the unique prime of $L$ above $F$ (because primes of $L$ above $\mathfrak{p}$ are the same as compatible sequences of primes of the (Galois) subextensions lying over $\mathfrak{p}$). Moreover, the natural map $I(\mathfrak{P}/\mathfrak{p})\rightarrow\varprojlim_F I(\mathfrak{P}_F/\mathfrak{p})$ is a topological isomorphism. Since the right-hand side is, by assumption, $\varprojlim_F\mathrm{Gal}(F/K)=\mathrm{Gal}(L/K)$, $I(\mathfrak{P}/\mathfrak{p})=\mathrm{Gal}(L/K)$, and $\mathfrak{p}$ is totally ramified in the sense above. The converse is simpler, using that the image of $I(\mathfrak{P}/\mathfrak{p})$ in $\mathrm{Gal}(F/K)$ is $I(\mathfrak{P}\cap F/K)$ for $F/K$ a finite Galois subextension.</p>
+
+

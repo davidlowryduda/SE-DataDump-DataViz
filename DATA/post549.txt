@@ -1,0 +1,21 @@
+## Score:
+2
+
+## Id:
+427127
+
+## ParentId:
+427108
+
+## Body:
+<p>This is certainly true. You would not need to cite any literature to use such a thing in a paper, as the proof follows immediately from the definition of divisibility (I wrote two below). If you really wanted to cite something, cite any introductory number theory book that explains divisibility and modular arithmetic. </p>
+
+<p>For completeness, a pair of proofs.</p>
+
+<p><strong>Claim:</strong> <em>If $m &lt; n$ has $\gcd(m,n) = 1$, then $\gcd(n-m,n)=1$</em>.</p>
+
+<p><em>proof 1:</em> $d|(n-m)$ and $d|n \iff d|m$ and $d|n$ by divisibility definitions. $\spadesuit$</p>
+
+<p><em>proof 2:</em> Let's use Bezout, as an exercise. Then $\gcd(n,m)=1 \implies$ there are integers $a,b$ s.t. $an + bm = 1$. But then $-b(n-m) + (a+b)n = 1$, so that $\gcd(n-m,n) = 1$ too. $\clubsuit$</p>
+
+

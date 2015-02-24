@@ -1,13 +1,18 @@
 ## Title:
-GCD to Linear Diophantine Equation without Euclid Algorithm
+Collection of congruencies
 
 ## Tags:
-<elementary-number-theory><diophantine-equations><self-learning>
+<reference-request><elementary-number-theory>
 
 ## Score:
-1
+3
+
+## Id:
+61596
 
 ## Body:
-<p>Is there a technique other than performing Euclid's algorithm in reverse that can elegantly show that if GCD$(a,b) = d$ then there exist integers $x$ and $y$ such that $ax + by = d$?</p>
+<p>I have been going around various questions based on number theory in this forum, and what I have found is that congruencies serve as an important tool in many of the questions and actually simplify the solution in case multiple solutions exist.</p>
+
+<p>My question is that for these properties, can I find a book collecting these? Or is it just that I need to keep remembering them as I come across a new property every now and then?</p>
 
 

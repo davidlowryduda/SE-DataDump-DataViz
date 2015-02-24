@@ -1,31 +1,16 @@
-## Title:
-Looking for explanation of bound on Dirichlet's L-Function
-
-## Tags:
-<self-learning><analytic-number-theory><zeta-functions><dirichlet-series>
-
 ## Score:
-5
+0
+
+## Id:
+123780
+
+## ParentId:
+123592
 
 ## Body:
-<p>I am reading Stein and Shakarchi's Fourier Analysis text and the proof Dirichlet's theorem and I am looking for clarification on how he derives the following for large $s$, $\lim_{s\to\infty}$ and $\chi_q$ is a Dirichlet character for $(\mathbb{Z}/q\mathbb{Z})^*$.</p>
-
-<p>$|L(s,\chi_q) - 1| \le 2q \sum_{n=2}^\infty n^{-s}$</p>
-
-<p>All I can come up with is</p>
-
-<p>$|\chi(n)| \le 1$</p>
-
-<p>then</p>
-
-<p>$|L(s,\chi)| \le \sum_{n=1}^\infty n^{-s}$</p>
-
-<p>and </p>
-
-<p>$|L(s,\chi)| - 1 \le \sum_{n=2}^\infty n^{-s}$</p>
-
-<p>What am I missing here? Where does it come from and is it needed in proving the bound</p>
-
-<p>$L(s,\chi) = 1 + O(2^{-s})$</p>
+<p>The blurb for Cohen's <a href="http://books.google.ca/books/about/Number_Theory_Analytic_and_modern_tools.html?id=HSCWL8SfJPQC&amp;redir_esc=y" rel="nofollow">two volume set on Number Theory</a> says 
+that "the central theme is the solution of Diophantine equations".
+I haven't yet read these books in detail, so I'm not sure 
+how helpful these they will be.   </p>
 
 

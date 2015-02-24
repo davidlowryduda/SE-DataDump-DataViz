@@ -1,0 +1,17 @@
+## Score:
+2
+
+## Id:
+498438
+
+## ParentId:
+498407
+
+## Body:
+<p>For a square lattice, if you're counting the number of lattice points inside a polygon whose vertices are lattice points, then you can use <a href="https://en.wikipedia.org/wiki/Pick%27s_theorem" rel="nofollow">Pick's theorem</a>.  Other relevant theorems are <a href="http://mathworld.wolfram.com/BlichfeldtsTheorem.html" rel="nofollow">Blichfeldt's theorem</a> and the <a href="http://mathworld.wolfram.com/MinkowskiConvexBodyTheorem.html" rel="nofollow">Minkowski Convex Body theorem</a>.</p>
+
+<p>Some Wikipedia links that might help:
+<a href="https://en.wikipedia.org/wiki/Lattice_%28group%29" rel="nofollow">Lattice (group)</a>,
+<a href="https://en.wikipedia.org/wiki/Integer_points_in_convex_polyhedra" rel="nofollow">Integer points in convex polyhedra</a></p>
+
+

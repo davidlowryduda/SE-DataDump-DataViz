@@ -1,0 +1,57 @@
+## Score:
+1
+
+## Id:
+409791
+
+## ParentId:
+393207
+
+## Body:
+<p>I am not sure if there is anything in the literature, but it can be rephrased in terms of the average of the reciprocals of the <a href="http://en.wikipedia.org/wiki/Farey_sequence" rel="nofollow">Farey sequence.</a>  See this <a href="http://math.stackexchange.com/questions/41742/what-is-the-sum-of-the-squares-of-the-differences-of-consecutive-element-of-a-fa">related MSE thread</a> for a similar series which yields a nearly identical main term. I include a short proof of your stated result at the bottom - it is better to keep the sum together rather than splitting it up.</p>
+
+<p>Let $F_{k}$ denote the Farey sequence of order $k$, so that when
+$k=6$ we have  $$F_{6}=\left\{ \frac{0}{1},\ \frac{1}{6},\ \frac{1}{5},\ \frac{1}{4},\ \frac{1}{3},\ \frac{2}{5},\ \frac{1}{2},\ \frac{3}{5},\ \frac{2}{3},\ \frac{3}{4},\ \frac{4}{5},\ \frac{5}{6},\ \frac{1}{1}\right\}.$$  In particular, $|F_{k}|=1+\sum_{n\leq k}\phi(n)$.  Then your above identity is equivalent to the fact that </p>
+
+<p>$$\mathbb{E}_{y\in F_{N}}\frac{1}{y}=\log N+\gamma-\frac{\zeta'(2)}{\zeta(2)}-\frac{1}{2}+O\left(\frac{\log^{2}N}{N}\right)$$</p>
+
+<p>To see why, notice that 
+$$\sum_{\begin{array}{c}
+a,b\leq N\\
+(a,b)=1
+\end{array}}\frac{b}{a}=-1+\sum_{y\in F_{N}}y+\sum_{y\in F_{N}}\frac{1}{y}.$$
+As the Farey sequence is symmetry, we can see that 
+$$\sum_{y\in F_{N}}y=\frac{1}{2}|F_{n}|,$$</p>
+
+<p>and since $|F_{N}|=1+\sum_{n\leq N}\phi(n)=\frac{3}{\pi^{2}}N^{2}+O\left(N\log N\right)$,
+it follows that 
+\begin{eqnarray*}
+\mathbb{E}_{y\in F_{N}}\frac{1}{y} &amp; = &amp; \frac{1}{|F_{N}|}\sum_{y\in F_{N}}\frac{1}{y}\\
+ &amp; = &amp; \log N+\gamma-\frac{\zeta'(2)}{\zeta(2)}-\frac{1}{2}+O\left(\frac{\log^{2}N}{N}\right),
+\end{eqnarray*}</p>
+
+<blockquote>
+  <p><strong>A short proof:</strong>  Using Möbius inversion, we have that
+  $$
+\sum_{\begin{array}{c}
+a,b\leq N\\
+(a,b)=1
+\end{array}}\frac{b}{a}=\sum_{a,b\leq N}\frac{b}{a}\sum_{d|a,b}\mu(d)=\sum_{d\leq N}\mu(d)\sum_{a\leq\frac{N}{d}}\sum_{b\leq\frac{N}{d}}\frac{b}{a}.
+$$
+  Using the fact that $\sum_{n\leq N}n=\frac{\left[N\right]}{2}\left(\left[N\right]+1\right)$,
+  and the expansion of the harmonic series, this becomes 
+  $$
+\sum_{d\leq N}\mu(d)\sum_{a\leq\frac{N}{d}}\frac{1}{a}\sum_{b\leq\frac{N}{d}}b=\frac{1}{2}\sum_{d\leq N}\mu(d)\left(\left[\frac{N}{d}\right]^{2}+\left[\frac{N}{d}\right]\right)\left(\log\left(\frac{N}{d}\right)+\gamma+O\left(\frac{d}{N}\right)\right),
+$$
+  and carefully dealing with the error terms, we arrive at 
+  $$
+\frac{N^{2}\log N}{2}\sum_{d\leq N}\frac{\mu(d)}{d^{2}}-\frac{N^{2}}{2}\sum_{d\leq N}\frac{\mu(d)}{d^{2}}\log d+\frac{\gamma N^{2}}{2}\sum_{d\leq N}\frac{\mu(d)}{d^{2}}+O\left(N\log^{2}N\right)
+$$
+  which becomes
+  $$
+\frac{3N^{2}}{\pi^{2}}\left(\log N+\gamma-\frac{\zeta'(2)}{\zeta(2)}\right)+O\left(N\log^{2}N\right).
+$$
+  as desired.</p>
+</blockquote>
+
+

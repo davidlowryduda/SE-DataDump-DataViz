@@ -1,0 +1,15 @@
+## Score:
+5
+
+## Id:
+413017
+
+## ParentId:
+412789
+
+## Body:
+<p>There is a lot of literature on this, motivated by aplications to automorphic forms. These groups go by the name of "Bianchi groups" and that keyword should help you to find more literature on them. People who have worked extensively on this include John Cremona, Haluk Sengun, Fritz Grunewald, and Alexander Rahm. (Cremona and Sengun are colleagues of mine at Warwick.) </p>
+
+<p>Sengun recently wrote a very nice survey article "Arithmetic aspects of Bianchi groups", which you can read here: <a href="http://homepages.warwick.ac.uk/~maslao/survey.pdf">http://homepages.warwick.ac.uk/~maslao/survey.pdf</a>.</p>
+
+

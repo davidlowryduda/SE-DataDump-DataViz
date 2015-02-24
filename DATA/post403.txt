@@ -1,0 +1,19 @@
+## Score:
+2
+
+## Id:
+235403
+
+## ParentId:
+25209
+
+## Body:
+<p>The paper <a href="http://graal.ens-lyon.fr/~abenoit/algo09/coins2.pdf" rel="nofollow">D. Pearson. A Polynomial-time Algorithm for the Change-Making Problem. Operations Reseach Letters, 33(3):231-234, 2005</a> offers an $O(n^3)$ algorithm for deciding whether a coin system has the property you want, where $n$ is the number of different kinds of coins. From the abstract:</p>
+
+<blockquote>
+  <p>We then derive a set of $O(n^2)$ possible values which must contain the smallest counterexample. Each can be tested with $O(n)$ arithmetic operations, giving us an $O(n^3)$ algorithm.</p>
+</blockquote>
+
+<p>The paper is quite short.</p>
+
+

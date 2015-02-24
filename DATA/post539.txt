@@ -1,0 +1,16 @@
+## Title:
+Is the problem of integral equivalence still open?
+
+## Tags:
+<reference-request><algebraic-number-theory>
+
+## Score:
+0
+
+## Id:
+416576
+
+## Body:
+<p>In <a href="http://www.jstor.org/discover/10.2307/2372942?uid=3737760&amp;uid=2&amp;uid=4&amp;sid=21102382655467" rel="nofollow">quadratic forms over fields of characteristic 2</a> the author writes that "the problem of integral equivalence for quadratic forms over a global field remains open". Is it still open? </p>
+
+

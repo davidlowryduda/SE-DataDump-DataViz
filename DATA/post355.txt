@@ -1,0 +1,51 @@
+## Score:
+9
+
+## Id:
+174699
+
+## ParentId:
+174657
+
+## Body:
+<p>Here are some numerical results:</p>
+
+<p>$$
+\begin{array}{c|ccccc}
+&amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 \\\hline
+1 &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 \\
+2 &amp; 2 &amp; 6 &amp; 8 &amp; 10 &amp; 14 \\
+3 &amp; 3 &amp; 8 &amp; 15 &amp; 21 &amp; 24 \\
+4 &amp; 4 &amp; 10 &amp; 21 &amp; 28 &amp; 36 \\
+5 &amp; 5 &amp; 14 &amp; 24 &amp; 36 &amp; 54
+\end{array}
+$$
+The diagonal sequence eludes the OEIS.</p>
+
+<p>Gerry's heuristic fails for $(5,3)$ and $(5,4)$, though in these cases there are optima where the smaller set is equal to his:
+$$
+\begin{gather*}
+\{1,2,3\}, \{1,5,6,7,8\} \\
+\{1,2,3,4\}, \{1,5,7,8,9\}
+\end{gather*}
+$$
+Gerry's heuristic only gives $27$ and $44$ (instead of $24$ and $36$):
+$$
+\begin{gather*}
+\{1,2,3\}, \{1,4,5,7,9\} \\
+\{1,2,3,4\}, \{1,5,6,7,11\}
+\end{gather*}
+$$
+Worse, for $\{5,5\}$, the best solution is obtained on a pair not including $\{1,2,3,4,5\}$:
+$$
+\{1,2,3,4,6\},\{1,5,7,8,9\}
+$$
+The best solution containing $\{1,2,3,4,5\}$ has value $55$ (compared to $54$):
+$$
+\{1,2,3,4,5\}, \{1,7,8,9,11\}
+$$
+This is always the case when $x \nmid M(x,y)$.</p>
+
+<p>Let $M^*(x)$ denote $M(x,x)$ under the constraint that one of the sets is $\{1,\ldots,x\}$. For $x \leq 7$, $M^*(x)$ agrees with A033286 and A026102, but the next entry in these sequences is 152, while $M^*(8) = 160$.</p>
+
+

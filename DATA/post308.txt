@@ -1,0 +1,20 @@
+## Score:
+11
+
+## Id:
+149052
+
+## ParentId:
+149049
+
+## Body:
+<p>Nothing in this answer is what you're asking for, or even all that close to it.</p>
+
+<ul>
+<li><p>You can find a handful of abortive attempts at translating EGA around the internet. I haven't seen one that made it past the first few sections. Moreover, <a href="http://sbseminar.wordpress.com/2010/02/09/grothendiecks-letter/">Grothendieck has asked</a> that there be no new publication of his works <a href="http://translate.google.com/#fr%7Cen%7C%C3%A0%20l%27avenir%20et%20de%20mon%20vivant">"à l'avenir et de mon vivant"</a>. I do hear that there exist Russian and Chinese translations.</p></li>
+<li><p>Mark Haiman has <a href="http://math.berkeley.edu/~mhaiman/math256/EGA-contents.pdf">an English version</a> of the table of contents for EGA, which is helpful if you're searching for something. He has also written <a href="http://math.berkeley.edu/~mhaiman/math256/">synopses</a> of the earlier sections.</p></li>
+<li><p>There's a <a href="http://mathoverflow.net/questions/3041/the-importance-of-ega-and-sga-for-students-of-today">MathOverflow thread</a> in which many smart people caution against spending a lot of time on EGA as a student. To offer an alternative: I've noticed that people who like EGA tend to also like Qing Liu's <a href="http://www.math.u-bordeaux1.fr/~qliu/Book/index.html"><em>Algebraic Geometry and Arithmetic Curves</em></a>.</p></li>
+<li><p>If you are serious about arithmetic geometry, then it is hard to avoid reading mathematical French. You will have to read papers by Deligne, Serre and other inescapable members of the French school; most of these have not been translated. But in my experience this is much easier than reading or speaking French in any serious way, if you disregard the difficulties inherent in the mathematics.</p></li>
+</ul>
+
+

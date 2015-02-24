@@ -1,0 +1,16 @@
+## Title:
+Analytic number theory books after Apostol
+
+## Tags:
+<reference-request><analytic-number-theory>
+
+## Score:
+1
+
+## Id:
+604996
+
+## Body:
+<p>I am planning to learn some classical results on analytic number theory. I have read  Apostol's <em>Introduction to Analytic Number Theory</em>, but nothing about algebraic number theory. Can anyone recommend some more advanced books with further results on analytic number theory?</p>
+
+

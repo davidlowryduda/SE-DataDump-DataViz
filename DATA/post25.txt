@@ -1,13 +1,31 @@
-## Title:
-On Albanese varieties
-
-## Tags:
-<number-theory><reference-request>
-
 ## Score:
--3
+9
+
+## Id:
+12029
+
+## ParentId:
+12007
 
 ## Body:
-<p>Can anyone give me a precise information or formulation of Birch and Swinnerton-Dyer conjecture for Jacobians -- I mean for Albanese varieties.  Any reference to useful links or expository articles, or any material is appreciated.</p>
+<p>I think I got it. It seems to be problem 10360, originally published in 1994 (volume 101, issue 1, page 76), proposed by Richard Stanley. I'm looking at <a href="http://www.jstor.org/pss/2589004" rel="nofollow">the JSTOR page of the solution</a> (by <a href="http://math.stackexchange.com/users/226/robin-chapman">Robin Chapman</a>), which appeared in October 1998, volume 105, no 8, pages 769-771). </p>
+
+<p>Here is the statement of the problem:</p>
+
+<p>Let $L$ be the <em>integer lattice</em> in $\mathbb{R}^d$, i.e., the $L$ is the set of points $(x_1,x_2,\ldots,x_d)$ with all $x_j\in\mathbb{Z}$. Consider $L$ as a graph by declaring two lattice points to be adjacent if the distance between them is $1$. Define a sequence $S_0$, $S_1,\ldots$ of subsets of $L$ inductively as follows:
+\begin{align*}
+S_0 &amp;= \Bigl\{ (0,0,\ldots,0)\Bigr\}\\
+S_{n} &amp;= \Bigl\{ P\in L-\mathop{\cup}\limits_{0\leq k\lt n}S_k\ \Bigm|\  \text{$P$ is adjacent to exactly one element of $\mathop{\cup}\limits_{0\leq k\lt n}S_k$}\Bigr\}.
+\end{align*}
+Let $S$ be the subgraph of $L$ whose vertices are $\cup S_n$. Thus, $P\in S$ is adjacent to $P&#39;\in S$ if the distance between $P$ and $P&#39;$ is $1$.</p>
+
+<ol>
+<li>Find a simple condition for a point of $L$ to belong to $S$.</li>
+<li>For $P\in S$, find a simple rule to determine $i$ such that $P\in S_i$.</li>
+<li>How many elements are in $S_i$?</li>
+<li>How many $P\in S_i$ are adjacent to no points in $S_{i+1}$?</li>
+<li>Show that $S$ is a tree.</li>
+<li>Investigate the (vertex) density of $S$ in $L$, and compare it to the largest density of a subset of $L$ for which the induced subgraph is a tree.</li>
+</ol>
 
 

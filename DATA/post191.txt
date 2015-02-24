@@ -1,18 +1,22 @@
 ## Title:
-If $r$ is a primitive root of $m$, then $r$ is also a primitive root of each positive divisor $d$ of $m$
+Erdős: Sum of rational function of positive integers is either rational or transcendental
 
 ## Tags:
-<elementary-number-theory><reference-request>
+<number-theory><sequences-and-series><reference-request><transcendental-numbers>
 
 ## Score:
-2
+9
+
+## Id:
+87579
 
 ## Body:
+<p>I am trying to find a conjecture apparently made by Erdős and Straus. I say apparently because I have had so much trouble finding anything information about it that I'm beginning to doubt its existence. Here it is:</p>
+
 <blockquote>
-  <p>If $r$ is a primitive root of $m$, then $r$ is also a primitive root
-  of each positive divisor $d$ of $m$.</p>
+  <p>Let $\phi(X)$ be a rational function over $\mathbb{Q}$ that is defined at every positive integer. If the sum $\sum \limits_{n=1}^\infty \phi(n)$ converges, it is either rational or transcendental, i.e., it is never an irrational algebraic number.</p>
 </blockquote>
 
-<p>There is a proof of this statement <a href="http://math.arizona.edu/~savitt/mathcamp/1999/primitive_roots.pdf" rel="nofollow">here</a> (see Theorem 4.4), but I cannot find this result in any of my number theory textbooks.  Does anyone know of a textbook that proves this result? Moreover, does anyone know the origin of this result?</p>
+<p>Has anyone heard of this conjecture? I was told about it by my supervisor, but he doesn't remember where he heard about it.</p>
 
 

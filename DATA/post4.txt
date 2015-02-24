@@ -1,13 +1,13 @@
-## Title:
-Good Resources for Understanding Finite Field Arithemtic
-
-## Tags:
-<number-theory><reference-request>
-
 ## Score:
-3
+25
+
+## Id:
+342
+
+## ParentId:
+329
 
 ## Body:
-<p>I am looking for a good reference that could clearly explain finite field arithemtic.  Specifically I want to understand the importance and utility of the field generator polynomial and why it is important in multiplication.</p>
+<p>I like Niven and Zuckerman, <a href="http://rads.stackoverflow.com/amzn/click/0471625469">Introduction to the Theory of Numbers</a>.</p>
 
 

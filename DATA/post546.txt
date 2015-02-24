@@ -1,0 +1,16 @@
+## Title:
+Pell-like equations and continued fractions
+
+## Tags:
+<number-theory><reference-request><diophantine-equations><continued-fractions>
+
+## Score:
+2
+
+## Id:
+426375
+
+## Body:
+<p>Why does the continued fraction method work? Could be applied in order to solve, for example, $x^{17}-19y^{17}=1$ ?</p>
+
+

@@ -1,23 +1,25 @@
 ## Title:
-Fibonacci/Lucas Number Congruences
+Ramanujan's First Letter to Hardy and the Number of $3$-Smooth Integers
 
 ## Tags:
-<number-theory><reference-request><fibonacci-numbers>
+<number-theory><real-analysis><reference-request><analytic-number-theory>
 
 ## Score:
-3
+24
+
+## Id:
+15966
 
 ## Body:
-<p>Is there a compendium of well-known (and elementary) Fibonacci/Lucas Number congruences? I've proven the following and would like to know if it is (a) trivial, (b) well-known, or (c) possibly new. 
-$$
-L_{2n+1} \pm 5(F_{n+2} + 1) \equiv (-1)^{n}  \mod 10.
-$$
-Is there a simple proof of this identity, requiring only basic identities of the two sequences? Any help or hints to this effect are certainly appreciated! </p>
+<p>A positive integer is <em>$B$-smooth</em> if and only if all of its prime divisors are less than or equal to a positive real $B$. For example, the $3$-smooth integers are of the form $2^{a} 3^{b}$ with non-negative exponents $a$ and $b$, and those integers less than or equal to $20$ are $\{1,2,3,4,6,8,9,12,16,18\}$.</p>
 
-<p>More generally, for integers $l,m,n$, we have
-$$
-L_{12l + m+n} \pm 5(F_{60l + m} + F_{60l+ n} + F_{60l+ \text{gcd}(m,n)}) \equiv (-1)^{n} L_{12l + m - n} \mod 10.
-$$</p>
+<p>In Ramanujan's first letter to G. H. Hardy, Ramanujan emphatically quotes (without proof) his result on the number of $3$-smooth integers less than or equal to $N &gt; 1$,
+\begin{eqnarray}
+\frac{\log 2 N \ \log 3N}{2 \log 2 \ \log 3}.
+\end{eqnarray}
+This is an amazingly accurate approximation, as it differs from the exact value by less than 3 for the first $2^{1000} \approx 1.07 \times 10^{301}$ integers, as shown by Pillai. </p>
+
+<p><em>Question</em>: Knowing full well that Ramanujan only gave proofs of his own claims while working in England, I wonder if a proof of this particular estimate appears somewhere in the literature. Is this problem still open? If not, what is a reference discussing its proof?</p>
 
 <p>Thanks!</p>
 

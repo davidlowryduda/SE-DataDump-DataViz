@@ -1,21 +1,20 @@
 ## Title:
-A trace formula for an extension of complete valued fields
+Good undergraduate level book on Cyclotomic fields
 
 ## Tags:
-<reference-request><algebraic-number-theory><extension-field><valuation-theory>
+<reference-request><algebraic-number-theory><field-theory>
 
 ## Score:
-1
+7
+
+## Id:
+79524
 
 ## Body:
-<p>I'm trying to understand the following fact.</p>
+<p>I have Lang's 2 volume set on "Cyclotomic fields", and Washington's "Introduction to Cyclotomic Fields", but I feel I need something more elementary. Maybe I need to read some more on algebraic number theory, I do not know.</p>
 
-<p><strong>Proposition.</strong>  <em>Let $L/K$ be a finite separable extension of complete valued fields, with respective valuations $w$ and $v$, valuation rings $\mathcal{O}_L$ and $\mathcal{O}_K$, residue fields $\ell$ and $k$, and with ramification index $e$.  Then for $x \in \mathcal{O}_L$,
-$$\overline{\mathrm{Tr}_{L/K}(x)} = e\mathrm{Tr}_{\ell/k}(\overline{x})$$
-in $k$.</em> (The bar denotes reduction to whichever residue field.)</p>
+<p>So I would appreciate suggestions of books, or chapters in a book, lecture notes, etc. that would give me an introduction. I am specifically interested in connection of cyclotomic fields and Bernoulli numbers.</p>
 
-<p>There's a rather finicky, linear-algebra sort of proof of this in Chevalley's <em>Introduction to the Theory of Algebraic Functions of One Variable</em>.  It seems to me that there should be a more intuitive explanation.  Specifically, if $p$ is the minimal polynomial of $x$ over $K$, then $p$ has coefficients in $\mathcal{O}_K$, and so $\overline{p}$ is a polynomial over $k$ with $\overline{p}(\overline{x}) = 0$.  If $\overline{q}$ is the minimal polynomial for $\overline{x}$ over $k$, then I'd guess that $\overline{q}^e = \overline{p}$.  This gives the above trace formula just by looking at coefficients.</p>
-
-<p>Is this hypothesis true, and if so, why?  Is there a better way of thinking about this trace formula?  (References to better places to read about this stuff than Chevalley are also appreciated.  I'm a number theory newbie.)</p>
+<p>Thank you.</p>
 
 

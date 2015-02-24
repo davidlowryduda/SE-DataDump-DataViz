@@ -1,26 +1,31 @@
-## Title:
-two questions about Diophantine Equation
-
-## Tags:
-<number-theory><reference-request><diophantine-equations>
-
 ## Score:
-1
+6
+
+## Id:
+110721
+
+## ParentId:
+110697
 
 ## Body:
-<p>I am reading an article <a href="http://www.ias.edu/about/publications/ias-letter/articles/2012-summer/modular-arithmetic-taylor" rel="nofollow">Modular Arithmetic</a> by Richard Taylor.    I have 2 questions:</p>
-
-<ol>
-<li><p>For which $n$, $x^2+y^2=nz^2$ has nontravial solutions? What are the solutions?</p></li>
-<li><p>A beautiful theorem of Hermann Minkowski and Helmut Hasse  says that if $Q (X_1 , ..., X_d ) $ is any homogeneous quadratic polynomial in any number of variables with whole number coefficients, then</p></li>
-</ol>
-
-<p>$$Q (X_1 , ..., X_d ) $$</p>
-
-<p>has a non-zero solution in whole numbers if and only if it has a non-zero solution in all (real) numbers and a primitive solution modulo $m$ for all positive whole numbers $m$</p>
-
-<p>How to prove the beautiful theorem? Could you recommend some books? </p>
-
-<p>Many thanks in advance!</p>
+<p>That works. There are two parts. Write $x = n + \delta,$ with $n \in \mathbb Z$ and $0 \leq \delta &lt; 1.$
+Your identity
+$$ \lfloor x \rfloor! = x^{\lfloor x \rfloor} e^{1-x} e^{\int_{1}^{x} \text{frac}(t)/t \ dt}.$$
+becomes
+$$  n! = (n + \delta)^n \; e^{1-n} \; e^{-\delta} \;  e^{\int_{1}^{n} \text{frac}(t)/t \ dt} \;  e^{\int_{n}^{n + \delta} \text{frac}(t)/t \ dt}  $$ 
+As the left hand side $n!$ is independent of $\delta,$ we need the factor that depends on $\delta$ to be a constant (but depending on $n$). Note that
+$$  {\int_{n}^{n + \delta} \text{frac}(t)/t \ dt} = \delta + n \log \left( \frac{n}{n+\delta} \right)  $$
+So the factor
+$$   (n + \delta)^n \;  e^{-\delta}  \;  e^{\int_{n}^{n + \delta} \text{frac}(t)/t \ dt} =  (n + \delta)^n \;  e^{-\delta}  \;  e^{\delta}   \; \left( \frac{n}{n+\delta} \right)^n = n^n $$
+is indeed independent of $\delta,$ and your identity is
+$$  n! = n^n \; e^{1-n} \;  e^{\int_{1}^{n} \text{frac}(t)/t \ dt}  .$$
+This is rather cute. Proof by induction: it is true for $n=1,$ both sides are just $1.$ In the induction step, we get the right hand side with $(n+1)$ as
+$$ RHS_{n+1} = (n+1)^{n+1} \; e^{-n} \;   e^{\int_{1}^{n} \text{frac}(t)/t \ dt} \;   e^{\int_{n}^{n+1} \text{frac}(t)/t \ dt}.   $$
+The final factor is what we got with $\delta = 1,$ that is
+$$  {\int_{n}^{n+1} \text{frac}(t)/t \ dt} = 1 + n \log \left( \frac{n}{n+1} \right)  $$
+So
+$$  RHS_{n+1} = (n+1) \; (n+1)^n \; e^{-n} \;  e^{\int_{1}^{n} \text{frac}(t)/t \ dt} \; \cdot e \cdot \; \left( \frac{n}{n+1} \right)^n   $$  and
+$$  RHS_{n+1} = (n+1) \; n^n \; e^{1-n} \;  e^{\int_{1}^{n} \text{frac}(t)/t \ dt}  $$ and the induction hypothesis says 
+$$  RHS_{n+1} = (n+1) \; n!  $$</p>
 
 

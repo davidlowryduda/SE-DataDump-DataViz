@@ -1,19 +1,15 @@
-## Title:
-infinitely many prime numbers with prescribed digits
-
-## Tags:
-<number-theory><reference-request><prime-numbers>
-
 ## Score:
-4
+1
+
+## Id:
+53602
+
+## ParentId:
+53247
 
 ## Body:
-<p>My main question is the generalization, though one can answer the first one and it will get accepted.</p>
+<p>I tried to google for <a href="http://google.com/#&amp;q=%22euclid%27s+lemma%22+%22divides+neither%22" rel="nofollow">"euclid's lemma" "divides neither"</a>.  It seems that <a href="http://en.wikipedia.org/wiki/Euclid%27s_lemma" rel="nofollow">wikipedia</a> provides similar proof in the part "Alternate proof without Bézout's identity", but it does not give a reference. Also <a href="http://arxiv.org/abs/1012.5866" rel="nofollow">this</a> paper contains a proof similar to yours, but not exactly the same. </p>
 
-<ul>
-<li>Are there infinitely many primes involving $3,7$ only?</li>
-</ul>
-
-<p><em>Generalization:</em> For what sets of given $k$ distinct digits (not all even) from $\{0,1,...,9\}$ where $1\leq k \leq 9,$ there are infinitely many prime numbers involving only these $k$ digits? </p>
+<p>I was about to suggest to ask the editor which contributed this proof to wikipedia article about the source, but it seems that this <a href="http://en.wikipedia.org/w/index.php?title=Euclid%27s_lemma&amp;action=historysubmit&amp;diff=335989446&amp;oldid=332202525" rel="nofollow">edit</a> was anonymous. I think that if you find a textbook containing this proof, it would be a good idea to add it as a reference to wikipedia article.</p>
 
 

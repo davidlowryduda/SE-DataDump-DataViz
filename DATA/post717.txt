@@ -1,0 +1,15 @@
+## Score:
+2
+
+## Id:
+625176
+
+## ParentId:
+625164
+
+## Body:
+<p>The original source, as far as I know, is Landau's <em>Handbuch der Lehre von der Verteilung der Primzahlen</em>. An approachable modern version (in English!) is</p>
+
+<p>Gerald Tenenbaum, Introduction to Analytic and Probabilistic Number Theory. Cambridge University Press (1995).</p>
+
+

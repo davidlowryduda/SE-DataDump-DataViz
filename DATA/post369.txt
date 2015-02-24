@@ -1,0 +1,41 @@
+## Score:
+4
+
+## Id:
+183358
+
+## ParentId:
+183336
+
+## Body:
+<p>Instead of the sequence $a_n$, let us look at the following related sequence:</p>
+
+<p>$$b_0 = 1, \qquad b_{k+1} = \begin{cases} \dfrac{b_{k}}2 &amp; (b_{k}\text{ even}) \\[6pt]\dfrac{b_{k}+d}2 &amp; (b_{k} \text{ odd})\end{cases}$$</p>
+
+<p>Since $d$ is odd, we can write it in the form $d = 2n-1$ for some natural number $n\ge 1$. By a simple induction argument, we see that $0&lt;b_k&lt;d$ for all $n$. So that </p>
+
+<p>$$b_k = 1\quad \iff\quad b_k\equiv 1 \pmod d$$</p>
+
+<p>Since $2n = d + 1 \equiv 1 \pmod d$, it follows that $\frac 12 \equiv n \pmod d$ and hence that the sequence $b_k$ satisfies </p>
+
+<p>$$ b_k \equiv n^k \pmod d$$</p>
+
+<p>But then the smallest integer $k\ge 1$ such that $b_k=1$ is given by $k=\mathrm{ord}_{\mathbb Z_d^\times}(n)$, the order of $n$ in $\mathbb Z_d^\times$. Remember that $n \equiv 2^{-1}$, so $\mathrm{ord}_{\mathbb Z_d^\times}(n) = \mathrm{ord}_{\mathbb Z_d^\times}(2)$.</p>
+
+<blockquote>
+  <p>How does this relate to the initial sequence $a_n$?</p>
+</blockquote>
+
+<p>The sequence $b_k$ meets each element of $\mathbb Z_d^\times$ at most once and therefore – for the sequence $a_k \pmod d$ – we must have that each odd element in $\mathbb Z_d^\times$ (when represented by $\mathbb Z_d^\times \subset \{1, \dots, p-1\}$) is visited exactly twice  or never, each even element at most once. Hence we obtain the following formula for the length $m(d)$ of the sequence $a_k$, until reaching $1$:</p>
+
+<blockquote>
+  <p><strong>Formula for $m(d)$:</strong>
+  \begin{align}
+ m(d) &amp;= 2\cdot (\# \text{ of odd elements in }\langle 2 \rangle\subset \mathbb  Z_d^\times ) + (\# \text{ of even elements in }\langle 2 \rangle \subset\mathbb Z_d^\times )
+\end{align}</p>
+</blockquote>
+
+<p>In particular, this shows that if $2$ is a primitive root of $\mathbb Z_d^\times$ for $d$ prime, then $$m(d) = 2 \frac{d-1}2 + \frac{d-1}2 = 3\left\lfloor \frac{d-1}{2}\right\rfloor$$
+and if $2$ is not a primitive root, or $d$ is not a prime, then $m(d) &lt; 3\left\lfloor \frac{d-1}{2}\right\rfloor$. $\quad \square$</p>
+
+

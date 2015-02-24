@@ -1,15 +1,17 @@
-## Title:
-Rankin-Selberg zeta function
-
-## Tags:
-<number-theory><reference-request><elliptic-curves><zeta-functions>
-
 ## Score:
-3
+2
+
+## Id:
+49156
+
+## ParentId:
+48981
 
 ## Body:
-<p>I was reading this <a href="http://deweger.xs4all.nl/papers/%5B25%5DdW-ABCSha-QuJMathOxf%5B1998%5D.pdf" rel="nofollow">paper</a> by de Weger and in conjecture 7 he mentions "the Riemann hypothesis for the Rankin-Selberg zeta function associated to the weight 3/2 modular form associated to E (an elliptic curve over $\mathbb{Q}$) by the Shintani-Shimura lift is true."</p>
+<p>Peter Scholze, a young man recently made a Clay Mathematics Institute research fellow, wrote some readable papers on the Langlands correspondence.</p>
 
-<p>I didn't really understand this statement so I was hoping if someone could explain it to me. So far I've found this <a href="http://arxiv.org/pdf/1007.4310.pdf" rel="nofollow">paper</a> on the Rankin-Selberg zeta function. Is this just a statement about the zeros of the Rankin-Selberg zeta function? Also how is this zeta function associated to the elliptic curve? An expository reference would be appreciated.</p>
+<p><a href="http://www.math.uni-bonn.de/people/scholze/" rel="nofollow">http://www.math.uni-bonn.de/people/scholze/</a></p>
+
+<p>If you read them, please share your experience (if it was the right level / style for you).</p>
 
 

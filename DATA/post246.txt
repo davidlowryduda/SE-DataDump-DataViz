@@ -1,21 +1,25 @@
-## Title:
-Linear independence of the numbers $\{1,e,e^2,e^3\}$
-
-## Tags:
-<number-theory><reference-request><irrational-numbers><transcendental-numbers>
-
 ## Score:
-23
+4
+
+## Id:
+115962
+
+## ParentId:
+115930
 
 ## Body:
-<p>Does someone know a proof that $\{1,e,e^2,e^3\}$  is linearly independent over $\mathbb{Q}$?</p>
+<p>Here's a solution for the case when $F$ is an unramified extension of $\mathbf{Q}_2$ (of degree $k$, say).</p>
 
-<p>The proof should not use that $e$ is transcendental.</p>
+<p>If $N = 1$, then the only solution is $x = 1$ (obviously, since the Frobenius on $\mathbf{F}_{2^k}$ is injective). </p>
 
-<p>$e:$ Euler's number</p>
+<p>I claim that for $N \ge 2$, we have $x^2 = 1$ in $\mathcal{O} / 2^N$ if and only if $x = \pm 1$ in $\mathcal{O} / 2^{N - 1}$. Indeed, we must have $x = 1 \mod 2$, so suppose $x = 1 + 2y$ for $y \in \mathcal{O}$. Then $x^2 = 1 + 4y(y+1)$, and $y$ and $y+1$ cannot both be divisible by 2, and the result follows by checking cases. This gives the formula I stated in a comment above,</p>
 
-<p><a href="http://paramanands.blogspot.com/2013/03/proof-that-e-is-not-a-quadratic-irrationality.html#.Uhv87tJFUnl">$\{1,e,e^2\}$  is linearly independent over $\mathbb{Q}$</a></p>
+<p>$A(\mathcal{O}, 2^N) = \begin{cases} 1 &amp; \text{if $N = 1$} \\ 2^{k} &amp; \text{if $N = 2$} \\ 2^{k+1} &amp; \text{if $N \ge 3$.}\end{cases}$</p>
 
-<p>Any hints would be appreciated.</p>
+<p>In the ramified 2-adic case, things are going to be messier, but I expect the picture will be similar, with $A(\mathcal{O}, \mathfrak{p}^N)$ stabilizing for $N$ sufficiently large. For instance, when $F = \mathbf{Q}_2(\sqrt{-1})$ we have</p>
+
+<p>$A(\mathcal{O}, 2^N) = \begin{cases} 1 &amp; \text{if $N = 1$} \\ 2 &amp; \text{if $N = 2, 3$} \\ 4 &amp; \text{if $N = 4$} \\ 8 &amp; \text{if $N \ge 5$}\end{cases}$</p>
+
+<p>(I checked as far up as $N = 10$).</p>
 
 

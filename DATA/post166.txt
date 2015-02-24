@@ -1,17 +1,17 @@
-## Title:
-Roots of unity in $\mathbb Q_p$
-
-## Tags:
-<abstract-algebra><number-theory><reference-request><p-adic-number-theory>
-
 ## Score:
-2
+6
+
+## Id:
+73568
+
+## ParentId:
+73565
 
 ## Body:
-<p>Is there a way to get the number of solutions of an equation like $x^n=1$ in the p-adic field $\mathbb Q_p$, where $p$ is a prime and $n$ a positive integer?</p>
+<p>The right book, of course, depends on your background.  </p>
 
-<p>I know that for $n=p-1$ there are $p-1$ roots of unity. Are there any theorems for other cases?</p>
+<p>"P-adic Analysis compared with Real," by Svetlana Katok is a very gentle introduction to p-adic numbers.  This text is suitable for an undergrad who has taken some analysis and topology.</p>
 
-<p>Best Regards</p>
+<p>"A Course in p-adic analysis," by Alain Robert is a more terse and advanced book on the subject.  It is nicely written as well, but it takes much more background to learn from the book.</p>
 
 

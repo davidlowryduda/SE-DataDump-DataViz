@@ -1,15 +1,13 @@
-## Title:
-solutions to $f(y) = n(n + 1) \ldots (n + m - 1)$
-
-## Tags:
-<number-theory><elementary-number-theory><reference-request>
-
 ## Score:
-1
+3
+
+## Id:
+97711
+
+## ParentId:
+97708
 
 ## Body:
-<p>I was reading a paper about solutions to $f(y) = P(m)$, where $f(y) \in \mathbb Z[y]$ and $P(m) = n(n + 1) \ldots (n + m - 1)$ is a product of $m$ consecutive integers (<a href="http://www.ias.ac.in/j_archive/proca/11/2/73-80/viewpage.html" rel="nofollow">http://www.ias.ac.in/j_archive/proca/11/2/73-80/viewpage.html</a>). On the first page, it is mentioned that it is not difficult to get the solutions in the case that $f(y)$ is irreducible. However, I was confused about two things. First, the author mentions a condition on $f(y)$ which implies that the equation $f(y) = P(m)$ has no solution, but doesn't mention when a solution does exist. Secondly, I'm not sure how to generalize the method used in the example in the paper. In the example given, the number of cases where it is possible to have a solution is quite small, so it isn't hard to check what the solutions are (if any). I think this might be a problem when $f(y)$ is large. Also, I tried to solve $f(y) = P(m)$ when $f(y) = py + 1$, where $p$ is an odd prime. Using the condition given, I found that the smallest prime $q$ which does not divide $f(y)$ for any $y$ is $p$. So, there are no solutions when $m &gt; p$. But I'm not sure how to start finding general solutions (or finding conditions for $m$ when solutions do exist). Is there something I'm misinterpreting in the paper? Any suggestions on how to start or other references to look at? </p>
-
-<p>Note: This was cross-posted to MO: <a href="http://mathoverflow.net/questions/133712/solutions-to-fy-nn-1-ldots-n-m-1" rel="nofollow">http://mathoverflow.net/questions/133712/solutions-to-fy-nn-1-ldots-n-m-1</a></p>
+<p>You can found the paper of von Mangoldt <a href="http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=PPN243919689_0114&amp;DMDID=dmdlog20" rel="nofollow">here</a> (it's in German though). I searched for the reference in <a href="http://scholar.google.com/" rel="nofollow">http://scholar.google.com/</a> and then looked for the reference on ordinary Google. Other good places to look for old mathematical references are the <a href="http://www.zentralblatt-math.org" rel="nofollow">Zentralblatt</a> and <a href="http://www.ams.org/mathscinet/" rel="nofollow">MathSciNet</a> (more recent though).</p>
 
 

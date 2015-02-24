@@ -1,0 +1,16 @@
+## Title:
+Does there exist a branch of mathematics that specifically study the number of lattices enclosed by a region?
+
+## Tags:
+<combinatorics><number-theory><reference-request><soft-question>
+
+## Score:
+1
+
+## Id:
+498407
+
+## Body:
+<p>I have seen that sometimes, in particular in number theory and combinatorial commutative algebra, our questions are somehow related to finding the number of points with integer components in a region/shape. Since this seems to be related to some open problems and conjectures, does there exist a branch of mathematics that specifically study such questions? If yes, what it's called and what prerequisites one must know to study it.</p>
+
+

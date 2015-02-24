@@ -1,19 +1,30 @@
 ## Title:
-Sums of powers being powers of the sum
+Where can I find the paper by Guy Robin?
 
 ## Tags:
-<number-theory><reference-request><diophantine-equations>
+<reference-request><inequality><analytic-number-theory><riemann-hypothesis>
 
 ## Score:
-4
+3
+
+## Id:
+93803
 
 ## Body:
-<p>I'm looking for literature on solving problems of the form
-$$
-n_1^\alpha+\cdots+n_k^\alpha=(n_1+\cdots+n_k)^\beta
-$$
-for positive integers $n_1,\ldots,n_k$ and fixed parameters $k$ and $\alpha\ne\beta.$ Any ideas?</p>
+<p>\begin{equation}
+\sigma(n) &lt; e^\gamma n \log \log n
+\end{equation}</p>
 
-<p>This is perhaps similar to multigrade equations or "equal sums of like powers" but not quite similar enough to use those results (as far as I can see). But surely this is too simple not to have been studied?</p>
+<p>In 1984 Guy Robin proved that the inequality is true for all n ≥ 5,041 if and only if the Riemann hypothesis is true (Robin 1984).</p>
+
+<p>The paper where he proved this is,
+<strong><em>Robin, Guy (1984), "Grandes valeurs de la fonction somme des diviseurs et hypothèse de Riemann", Journal de Mathématiques Pures et Appliquées. Neuvième Série 63 (2): 187–213, ISSN 0021-7824, MR774171</em></strong></p>
+
+<blockquote>
+  <p>Where can I find this paper? Or, any other links that shows how
+  the inequality has been derived would be greatly appreciated.</p>
+  
+  <p><strong>EDIT:</strong> I will also accept the answer if anyone can outline the steps, how Robin derived his criterion.</p>
+</blockquote>
 
 

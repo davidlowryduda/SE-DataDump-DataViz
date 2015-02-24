@@ -1,0 +1,43 @@
+## Score:
+4
+
+## Id:
+185657
+
+## ParentId:
+185524
+
+## Body:
+<p>The basic idea of Strassen's factorization method is that if you have the product $f_i$ of a consecutive set of integers modulo the number to be factored $n$, and that set of integers contains one the factors of $n$, then $\mathrm{gcd}(f_i, n)$ will be greater than unity.  The trick then is to compute $f_i$ for non-overlapping sets of possible factors quickly.</p>
+
+<p>Here is a brute-force example that shows how the 9th block of numbers reveals 293 as a factor of 1000009:</p>
+
+
+
+<pre><code>var n = (BigInteger)1000009;
+var c = (int)Math.Floor(Math.Pow((double)n, 0.25));
+var f = new BigInteger[c];
+for (var i = 0; i &lt; c; i++)
+{
+    f[i] = 1;
+    var jmin = 1 + i * c;
+    var jmax = jmin + c - 1;
+    for (var j = jmin; j &lt;= jmax; j++)
+        f[i] = f[i] * j % n;
+}
+for (var i = 0; i &lt; c; i++)
+{
+    var factor = BigInteger.GreatestCommonDivisor(f[i], n);
+    if (factor != 1)
+    {
+        Console.WriteLine("i = {0}, factor = {1}", i, factor);
+        break;
+    }
+}
+</code></pre>
+
+<p>The second for-loop takes $O(n^{1/4}\log n)$, and so the hard work of the algorithm is to compute $f_i$ in faster than the $O(n^{1/2})$ demonstrated in the first for-loop above.  How this is done is by using subproduct trees and multipoint evaluation.  Here is a <a href="http://web.maths.unsw.edu.au/~davidharvey/talks/factoring.pdf" rel="nofollow">slide presentation</a> that describes the details pretty well.  Also <a href="http://algo.inria.fr/bostan/publications/BoGaSc07.pdf" rel="nofollow">this paper</a> (search for "Main algorithmic ideas") has a good high level overview of the algorithm.  Finally, subproduct trees are given a good treatment in this presentation, <a href="http://www.issac-conference.org/2010/assets/AFAMCA3.pdf" rel="nofollow">Asymptotically fast
+algorithms for modern
+computer algebra</a>.</p>
+
+

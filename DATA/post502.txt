@@ -1,0 +1,15 @@
+## Score:
+2
+
+## Id:
+374665
+
+## ParentId:
+374662
+
+## Body:
+<p>There are plenty of answers on past SE threads, but I'll recommend my favourite anyways:</p>
+
+<p><em>The Higher Arithmetic</em> by H. Davenport is a quite difficult and very rigorous introduction, but is a wonderful text that can also serve as a reference. It assumes no prior knowledge at all and has exercises ranging from introductory to very difficult.</p>
+
+

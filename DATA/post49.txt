@@ -1,13 +1,24 @@
 ## Title:
-Does number theory have any role in the proof of convergence of Fourier series for certain functions?
+Does every ideal class contains a prime ideal that splits?
 
 ## Tags:
-<number-theory><reference-request><soft-question><fourier-series>
+<number-theory><reference-request><algebraic-number-theory>
 
 ## Score:
-1
+5
+
+## Id:
+27308
 
 ## Body:
-<p>Does number theory have any role in the proof of convergence of Fourier series for certain functions? I vaguely remember reading in a book on signal processing, way back, that the proof (original proof by Dirichlet) of convergence of Fourier series for functions which satisfy Dirichlet's conditions is very complicated and involves some number theory as well. I'd like to know whether it is true and appreciate a reference in case it is. I am really sorry if it turned out to be a silly question based on vague memory. I've seen the Wikipedia page on <a href="http://en.wikipedia.org/wiki/Convergence_of_Fourier_series" rel="nofollow">convergence of Fourier series</a> but couldn't find an answer.</p>
+<p>Suppose you have a number field $L$, and a non-zero ideal $I$ of the ring of integers $O$ of $L$. </p>
+
+<p><strong>Question part A:</strong> Is there prime ideal $\mathcal{P} \subseteq O$ in the ideal class of $I$ such that $p =\mathcal{P} \cap \mathbb{Z}$ splits completely in $O$?  </p>
+
+<p>If the extension $L/\mathbb{Q}$ is Galois I think one can show that the answer is yes. In fact I think it is possible to show that for every $I$ there are infinitely many such $\mathcal{P}$'s. The necessary tools for this are class field theory and Chebotarev's density theorem. On the other hand I'm not asking for infinitely many primes, only for one. So to be concrete:</p>
+
+<p><strong>Question part B:</strong> If the answer to A is yes, is it possible to give a proof that avoids showing that there are infinitely many $\mathcal{P}$'s?</p>
+
+<p>Thank you.</p>
 
 

@@ -1,0 +1,15 @@
+## Score:
+1
+
+## Id:
+201745
+
+## ParentId:
+73763
+
+## Body:
+<p>It seems to me you could examine your conjecture experimentally by taking suitable definitions of "small window" and "large window", S(.) and L(.) say. You also need some notion of 'density of small prime factors', say D.</p>
+
+<p>Your conjecture then seems to be that the frequency of large prime factors in L(.) is monotonically related to DS(.). i.e. as one increases, so does the other.</p>
+
+

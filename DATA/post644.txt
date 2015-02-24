@@ -1,0 +1,13 @@
+## Score:
+2
+
+## Id:
+517000
+
+## ParentId:
+516972
+
+## Body:
+<p>The suggestion to work through Spivak's <em>Calculus</em> is good: rigorous analysis was one of the first subjects that really opened up mathematics to me and showed me how beautiful it can be (That said, there are lots of people who can't stand $\varepsilon$s and $\delta$s).  Spivak's book is quite big and long though: for an introduction to Analysis, I prefer R. P. Burn's <em>Numbers and Functions</em> (CUP), which is shorter and leads you through the subject in a sequence of well chosen questions.  </p>
+
+

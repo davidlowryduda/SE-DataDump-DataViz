@@ -1,15 +1,13 @@
-## Title:
-Simple Answer to Showing $N_{k/\mathbb{Q}}(\alpha)=N((\alpha))$
-
-## Tags:
-<reference-request><elementary-number-theory><algebraic-number-theory>
-
 ## Score:
-2
+14
+
+## Id:
+35222
+
+## ParentId:
+329
 
 ## Body:
-<p>So I'm trying to show that if we have some number field $k/\mathbb{Q}$ and ring of integers $R_k\subset k$, and an element of $R_k$, say $\alpha$, that the field norm of $\alpha$ is equal to the "norm" of the ideal $(\alpha)$, which from what I can understand is defined to be the number of elements of $R_k/(\alpha)$.  I have found a proof of this fact in W. Narkewiecz's "Elementary and Analytic Theory of Algebraic Numbers" (pp. 57-58) which uses a huge number of symbols, defining scads of sums and little niggling elements all over the place apparently arbitrarily (aside from the fact that it all works out in the end). I guess I could spend an hour trying to figure all this out, but this is a sort of homework assignment and I don't really want to just copy this down.  Is there any sensible, intuitive way of understanding what is going on here, or is truly just a nice effect of all the symbols coming out the right way? (A better, more elementary reference might be helpful as well...)</p>
-
-<p>Thanks</p>
+<p>There are many books on this list that I'm a fan of, but I'd have to go with <a href="http://rads.stackoverflow.com/amzn/click/3540653996">Neukirch's Algebraic Number Theory</a>. Great style, great selection of topics.</p>
 
 

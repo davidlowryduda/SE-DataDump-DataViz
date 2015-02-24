@@ -1,31 +1,62 @@
 ## Title:
-Applications of Bounds of the Sum of Inverse Prime Divisors $\sum_{p \mid n} \frac{1}{p}$
+Bounds on the gaps in a variant of polylog-smooth numbers.
 
 ## Tags:
-<number-theory><reference-request>
+<number-theory><reference-request><algorithms>
 
 ## Score:
-2
+6
+
+## Id:
+54719
 
 ## Body:
-<p><strong>Question</strong>: What interesting or notable problems involve the additive function $\sum_{p \mid n} \frac{1}{p}$ and depend on sharp bounds of this function? </p>
+<p><em>Sorry for the long intro. I think the explanation motivates the question and puts it in context. But if you want to skip the story, then just move on to the grey boxes; they should contain enough information to make out my question.</em> </p>
 
-<p>I'm aware of at least one: A certain upper bound of the sum implies the <a href="http://en.wikipedia.org/wiki/Abc_conjecture" rel="nofollow">ABC conjecture</a>.</p>
+<p>This question is inspired by Sadeq Dousti's question on producing a factored integer from a small interval: <a href="http://math.stackexchange.com/questions/54580/">Factoring some integer in the given interval</a>. For convenience, I will assume that the problem is to produce a factored integer from the interval $[x-G; x]$, and our goal is to make $G = G(x)$ as small as possible. (Beware that Sadeq's version uses $N$ in place of my $x$, and fixes $G(x)$ concretely to be $O(\log x)$.)</p>
 
-<p>By the Arithmetic-Geometric Inequality, one can bound the <a href="http://en.wikipedia.org/wiki/Radical_of_an_integer" rel="nofollow">radical function</a> (squarefree kernel) of an integer,
-\begin{align}
-\left( \frac{\omega(n)}{\sum_{p \mid n} \frac{1}{p}} \right)^{\omega(n)} \leqslant \text{rad}(n).
-\end{align}
-If for any $\epsilon &gt; 0$ there exists a finite constant $K_{\epsilon}$ such that for any triple $(a,b,c)$ of coprime positive integers, where $c = a + b$, one has
-\begin{align}
-\sum_{p \mid abc} \frac{1}{p} &lt; \omega(abc) \left( \frac{K_\epsilon}{c} \right)^{1/((1+\epsilon) \omega(abc))},
-\end{align}
-then
-\begin{align}
-c &lt; K_{\epsilon} \left( \frac{\omega(abc)}{\sum_{p \mid abc} \frac{1}{p}} \right)^{(1+ \epsilon)\omega(abc)} \leqslant \text{rad}(abc)^{1+\epsilon},
-\end{align}
-and the ABC-conjecture is true.</p>
+<p>One can consider several candidate easily-stated algorithms for this problem, all of which work in the following general way. Let $S$ be a set of integers such that </p>
 
-<p><em>Edit:</em> Now, whether or not any triples satisfy the bound on inverse primes is a separate issue. Greg Martin points out that there are infinitely many triples which indeed violate it. This begs the question of whether there are any further refinements of the arithmetic-geometric inequality which remove such anomalies, but this question is secondary.</p>
+<blockquote>
+  <ul>
+  <li>Given a number $N$, testing if $N$ is in $S$ can be done efficiently. Moreover, any $N \in S$ can also be factored in time $\mathrm{poly}(\log N)$.</li>
+  <li>The gaps in $S$ are "small": for all sufficiently large $x &gt; 0$,
+  there exists $N \in S$, such that $x - G(x) \leq N \leq x$. (Hence my
+  notation $G$.)</li>
+  </ul>
+</blockquote>
+
+<p>Then the given problem can be solved for intervals of length $G(x)$: just search for an $S$-element in the interval and output its factorization. The whole problem then becomes <strong>how small can we make $G(x)$ to be</strong>. Here are some candidate sets:</p>
+
+<blockquote>
+  <ol>
+  <li>Powers of $2$.</li>
+  <li>Primes.</li>
+  <li>The set of numbers $N$ such that all prime divisors of $N$ are at most $\log^A(N)$ for some absolute constant $A &lt; \infty$. I'll call these <em>polylog-smooth</em> numbers. (See the fineprint at the end of the question.) </li>
+  <li>The set of numbers $N$ such that at most one of its prime divisors exceeds $\log^A(N)$ where $A$ is as before. I'll call these <em>almost polylog-smooth</em> numbers.  </li>
+  </ol>
+</blockquote>
+
+<p>Ok, enough with the names :-). All these examples satisfy the first requirement (testing+factoring) by design. (For instance, in the last case, divide out all small prime divisors of $N$ by brute force, and we will be left with either $1$ or a large prime number, and so we'll be in good shape.) The big question then is to analyze the gaps in these sets. </p>
+
+<blockquote>
+  <ol>
+  <li>The powers of two are very sparse. They have a gap $G(x) = O(x)$ and this is tight.</li>
+  <li>The primes are suspected to have better gaps (see the <a href="http://en.wikipedia.org/wiki/Riemann_hypothesis#Consequences_of_the_Riemann_hypothesis">Consequences of Riemann hypothesis</a> and <a href="http://en.wikipedia.org/wiki/Cram%C3%A9r%27s_conjecture">Cramér's conjecture</a>). In short, the gap  might be as small as $O(\log^2 x)$. On the other hand, the best unconditional bound is $O(x^{\theta})$ for $\theta &lt; .53$.</li>
+  <li>I do not have enough background to grok the question of gaps for the polylog-smooth numbers. Nevertheless, I found Andrew Granville's survey on smooth numbers (<a href="http://www.msri.org/people/staff/levy/files/Book44/09andrew.pdf"><em>Smooth numbers: Computational Number Theory and beyond</em></a>) says that even the <em>average</em> gap is around $x^{1/A}$. (I am quoting Theorem 1.14 from page 4/page 270 in the pdf I have linked to.) This might be quite bad compared to the conjectured gap for the primes example, but a great improvement over the powers of $2$. </li>
+  </ol>
+</blockquote>
+
+<p>Now, what about the set of almost polylog-smooth numbers? They are denser than the primes, so it's definitely at least as small as $O(\log^2 x)$ conditionally and $O(x^{\theta})$ unconditionally. </p>
+
+<p>But taking a clue from the improvement we got in going from the powers of $2$ to the smooth-numbers, I believe that the actual gaps for the almost-smooth numbers should be even better than that of the primes. That is the motivation behind my question:</p>
+
+<blockquote>
+  <p>What are the current best bounds on the gaps on the almost polylog-smooth numbers (conditionally and unconditionally)? Specifically, is it possible that $G = O(\log x)$ for this case?</p>
+</blockquote>
+
+<p>Any help?</p>
+
+<p><strong>Fineprint that morally shouldn't matter.</strong> A number is $B$-smooth if its prime divisors are at most $B$. It seems to me that when people analyze properties of the smooth numbers $\leq x$, they usually set the smoothness parameter $B$ to be a function of $x$, like $B = \log^A x$. I defined a smooth number more "intrinsically" by setting $B = \log^A N$. I presume that this is just a technical issue, and none of the bounds will really change that much. If I am wrong, then please let me know. In any case, I see no reason why one definition is better for this application than the other.</p>
 
 

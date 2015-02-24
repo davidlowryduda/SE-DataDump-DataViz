@@ -1,0 +1,34 @@
+## Title:
+Ramanujan and sum of four cubes
+
+## Tags:
+<number-theory><reference-request><math-history>
+
+## Score:
+5
+
+## Id:
+430910
+
+## Body:
+<p>This is more a question on History than proof itself. About a decade ago, a college professor and a Math coach told us about this beautiful theorem:</p>
+
+<blockquote>
+  <p>Every multiple of 6 can be written as a sum of four cubes</p>
+</blockquote>
+
+<p>The proof of the theorem is elementary as well as elegant. </p>
+
+<blockquote>
+  <p>Consider $(n+1)^3 + (n-1)^3 = 2n^3 + 6n$</p>
+  
+  <p>Thus,</p>
+  
+  <p>$6n = (n+1)^3 + (n-1)^3 + (-n)^3 + (-n)^3$</p>
+</blockquote>
+
+<p>Effectively proving the theorem and also giving the required four numbers. The professor also made a remark that a proof is due to Ramanujan. I recently found this scribbled in my notebook and have since not been able to find any reference to this on the web. As far as I know, Kennigel's biography, 'The Man Who Knew the Infinity' does not mention it. There are tons of references to Taxicab numbers, Sum of four square proofs etc.. </p>
+
+<p>Does anyone know of any reference to the theorem and the proof? Is it a part of a more general theory?</p>
+
+

@@ -1,0 +1,13 @@
+## Score:
+0
+
+## Id:
+153095
+
+## ParentId:
+153022
+
+## Body:
+<p>I looked at loads of books when I started studying analytic number theory and for me the best by far was Jameson's "The Prime Number Theorem". Even though it's mainly about the prime number theorem, it goes into all the basics too. Apostol's "Introduction to Analytic Number Theory" is also good.</p>
+
+

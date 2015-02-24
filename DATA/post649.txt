@@ -1,0 +1,13 @@
+## Score:
+3
+
+## Id:
+522609
+
+## ParentId:
+521449
+
+## Body:
+<p>The strong one is true.  As an example, let us take $p=2, q=3, x=1$.  Then the numbers we can reach are $\lfloor \frac {2^r}{3^s} \rfloor$  with $r,s \in \Bbb N_+$.  Given $y$, we need to find $r,s$ such that $\log y \lt \log \frac {2^r}{3^s} \lt \log(y+1)$ or $\log y \lt r \log 2 - s \log 3 \lt \log (y+1)$  As we can approximate $\frac {\log 3}{\log 2}$ arbitrarily closely by a rational, we can do this.  The same argument works for general $p,q,x$ as long as the logs are rationally independent.</p>
+
+

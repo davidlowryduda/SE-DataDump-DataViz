@@ -1,13 +1,24 @@
 ## Title:
-Is the problem of integral equivalence still open?
+"The Galois group of $\pi$ is $\mathbb{Z}$"
 
 ## Tags:
-<reference-request><algebraic-number-theory>
+<number-theory><reference-request><galois-theory><transcendental-numbers>
 
 ## Score:
-0
+4
+
+## Id:
+94994
 
 ## Body:
-<p>In <a href="http://www.jstor.org/discover/10.2307/2372942?uid=3737760&amp;uid=2&amp;uid=4&amp;sid=21102382655467" rel="nofollow">quadratic forms over fields of characteristic 2</a> the author writes that "the problem of integral equivalence for quadratic forms over a global field remains open". Is it still open? </p>
+<p>Last year, in a talk of Michel Waldschmidt's, I remember hearing a statement along the lines of the title of this question:</p>
+
+<blockquote>
+  <p>The Galois group of $\pi$ is $\mathbb{Z}$.</p>
+</blockquote>
+
+<p>In what sense/framework is this true? What was meant exactly - and can this notion be made precise?</p>
+
+<p>I imagine that this would draw on the fact that the $\sin x$ is an 'infinite polynomial' over $\mathbb{Q}$ whose roots are the integer multiples of $\pi$. However, if this is the case, then how can we possibly view this function as a sort of generalized 'minimal polynomial' while we have factorizations like $\sin x = 2 \cos (x/2) \cdot \sin (x/2)$?</p>
 
 

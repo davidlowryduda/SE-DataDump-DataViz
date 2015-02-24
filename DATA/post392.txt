@@ -1,0 +1,26 @@
+## Title:
+Has the $\Gamma$-like function $f_p(n) = 1^{\ln(1)^p} \cdot 2^{\ln(2)^p} \cdot \ldots \cdot n^{\ln(n)^p} $ been discussed anywhere?
+
+## Tags:
+<number-theory><reference-request><special-functions><gamma-function>
+
+## Score:
+5
+
+## Id:
+207455
+
+## Body:
+<p>In an older fiddling with the gamma-function (expanding on the idea of sums of consecutive like-powers of logarithms, similarly as the bernoulli-polynomials for the sums of like powers of consecutive integers) I hadn't looked at the assumed approximations for the family of <em>p</em>-parametrized gamma-relatives (where p is nonnegative integer)
+$$ \begin{align} f_p(n) &amp; =\exp \left(\sum_{k=0}^n \ln(1+k)^p \right) \\ &amp; = 1^{\ln(1)^{p-1}}\cdot 2^{\ln(2)^{p-1}} \cdots n^{\ln(n)^{p-1}} \end{align}$$ 
+where $p \gt 1$       .</p>
+
+<p>I just looked at that treatize and would like to improve it with some knowlegde about the functions $f_p$ where $p \gt 1$ (for $p=1$ this is the factorial function).     </p>
+
+<p>Q: Has someone seen one of these functions being discussed elsewhere?</p>
+
+<p><hr>
+Here is some context: 
+<a href="http://mathoverflow.net/questions/87113" rel="nofollow">an older question at MO</a> , <a href="http://math.stackexchange.com/questions/39378">an older question at MSE</a>, the original text discussing this idea initially <a href="http://math.eretrandre.org/tetrationforum/attachment.php?aid=915" rel="nofollow">posted at the tetrationforum</a> a very q&amp;d or, a bit better written in <a href="http://go.helms-net.de/math/musings/UncompletingGamma.pdf" rel="nofollow">"uncompleting the gamma"</a>, from page 13</p>
+
+

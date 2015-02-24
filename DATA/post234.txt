@@ -1,15 +1,13 @@
-## Title:
-Can't remember a number theory problem (from Hofstadter?)
-
-## Tags:
-<elementary-number-theory><reference-request>
-
 ## Score:
-0
+1
+
+## Id:
+111046
+
+## ParentId:
+111039
 
 ## Body:
-<p>I'm thinking of a problem in number theory in which one applies a recurrence that's something like doubling $n$ if it's even and taking it over $3$ if it's odd...but with some ceilings or additions added in. The conjecture is that every number's orbit eventually gets down to $1$, and I believe this is unproven. I think there's about a 60% chance I encountered this problem first in Godel, Escher, Bach by Douglas Hofstadter, where there might also be some quote about this problem being far beyond the resources of contemporary mathematics. It also seems like Hofstadter calls numbers that eventually come down to $1$ "marvelous," "miraculous," or some such, but Googling such terms got my nowhere.</p>
-
-<p>Does anybody have any idea what problem I'm talking about?</p>
+<p>This is in Chapter 3 of Serre's Corps Locaux (Local fields) and also in Chapter 3.2 of Neukirch's Algebraic Number theory.</p>
 
 

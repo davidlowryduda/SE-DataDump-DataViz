@@ -1,17 +1,16 @@
 ## Title:
-Effective Upper Bound for the Number of Prime Divisors
+Does number theory have any role in the proof of convergence of Fourier series for certain functions?
 
 ## Tags:
-<number-theory><reference-request><analytic-number-theory>
+<number-theory><reference-request><soft-question><fourier-series>
 
 ## Score:
-7
+1
+
+## Id:
+55777
 
 ## Body:
-<p>Let $\omega(n) = \sum_{p \mid n} 1$. Robin proves for $n &gt; 2$,
-\begin{align}
-\omega(n) &lt; \frac{\log n}{\log \log n} + 1.4573 \frac{\log n}{(\log \log n)^{2}}.
-\end{align}
-Is there a similar tight effective upper bound for $\Omega(n) = \sum_{p \mid n} \text{ord}_{p}(n)$ or at least an upper bound in terms of $\omega(n)$?</p>
+<p>Does number theory have any role in the proof of convergence of Fourier series for certain functions? I vaguely remember reading in a book on signal processing, way back, that the proof (original proof by Dirichlet) of convergence of Fourier series for functions which satisfy Dirichlet's conditions is very complicated and involves some number theory as well. I'd like to know whether it is true and appreciate a reference in case it is. I am really sorry if it turned out to be a silly question based on vague memory. I've seen the Wikipedia page on <a href="http://en.wikipedia.org/wiki/Convergence_of_Fourier_series" rel="nofollow">convergence of Fourier series</a> but couldn't find an answer.</p>
 
 

@@ -1,0 +1,15 @@
+## Score:
+3
+
+## Id:
+156766
+
+## ParentId:
+156765
+
+## Body:
+<p>There's <a href="http://rads.stackoverflow.com/amzn/click/0857290207" rel="nofollow">this book</a> on ergodic theory with a view towards number theory. </p>
+
+<p>Also there's an expository article on the <a href="http://www.sbm.org.br/docs/ensaio_matematico/em_17-arbieto-matheus-moreira.pdf" rel="nofollow">application</a> of ergodic theory in analytic number theory.</p>
+
+

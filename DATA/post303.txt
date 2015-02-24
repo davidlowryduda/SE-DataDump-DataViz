@@ -1,0 +1,26 @@
+## Score:
+5
+
+## Id:
+148055
+
+## ParentId:
+147988
+
+## Body:
+<p>There are various constructions known as <em>Rankin--Selberg $\zeta$-functions</em> (or <em>Rankin--Selberg $L$-functions</em>), and you should be able to find much more literature on this than the one paper you linked to (which doesn't address the particular $L$-function you are asking about, as far as I can tell).</p>
+
+<p>You might want to begin by looking at de Weger's reference [10], since this is what he cites when he discusses Conjecture 7.  I did look there, and there was no direct definition of the particular Rankin--Selberg $\zeta$-function in question, but following the references there ([5] and [9]; see p. 76), you might want to look at the <em>Inventiones</em> paper of Kohnen and Zagier, where various Rankin--Selberg-type computations take place. (This is reference [9] of Goldfeld--Szpiro.)</p>
+
+<p>In any case, the Shintani--Shimura lift asociates a weight $k+{1/2}$ form to an eigenform $f$ of weight $2k$ (so a weight $3/2$-form gets associated to the weight two eigenform attached to a given elliptic curve $E$).  The lifted form has the same system of Hecke eigenvalues as the original form, but because of the way
+Hecke operators work in the half-integral weight case, it has not just one leading coefficient (unlike in the integral weight case, where there is a single leading coefficient a_1 which, together with all the Hecke eigenvalues, determines the $q$-expansion) but a collection of "leading coefficients", indexed by fundamental discriminants $D$.  The theorem of Waldspurger is that, up to an overall proportionality factor, the $D$th leading coefficient is equal to the $L$-value $L(f,\chi_D,1)$, where $\chi_D$ is the quadratic character of disc. $D$.  It is reproved (under restricted hypotheses, I think) in the Kohnen--Zagier paper.</p>
+
+<p>As BR indicates, the Rankin--Selberg $L$-function is determined from this half-integral weight modular form by multiplying by a certain Eisenstein series and integrating over a fundamental domain.   It is (I'm pretty sure) one of the
+Rankin-type constructions given in the Kohnen--Zagier paper.   The growth rates
+of its coefficients are related to growth rates of the values of $L(E,\chi_D,1)$,
+which, assuming BSD, are related to growth rates of Sha of quadratic twists of the
+elliptic curve $E$.</p>
+
+<p>This is why it comes up in the kind of problems you are reading about.</p>
+
+

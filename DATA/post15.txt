@@ -1,19 +1,13 @@
-## Title:
-Where can the original paper by Takagi in English be found?
-
-## Tags:
-<reference-request><algebraic-number-theory>
-
 ## Score:
-3
+7
+
+## Id:
+5496
+
+## ParentId:
+329
 
 ## Body:
-<p>As we all know, the theory of class fields began at the paper by Takagi on the abelian extensions of the field of rational numbers. Then one naturally has the following  </p>
-
-<blockquote>
-  <p>Where can one find the English version of that paper, or had this paper been translated into English yet?  </p>
-</blockquote>
-
-<p>Thanks.</p>
+<p>Manin and Panchishkin's <a href="http://lib.org.by/info/M_Mathematics/MT_Number%20theory/Manin%20I.,%20Panchishkin%20A.%20Introduction%20to%20modern%20number%20theory..%20fundamental%20problems,%20ideas%20and%20theories%20%28ISBN%203540203648%29%282ed.,%20Springer,%202005%29%28520s%29_MT_.pdf">Introduction to Modern Number Theory</a></p>
 
 

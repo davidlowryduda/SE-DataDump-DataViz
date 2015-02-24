@@ -1,0 +1,34 @@
+## Title:
+Looking for explanation of bound on Dirichlet's L-Function
+
+## Tags:
+<self-learning><analytic-number-theory><zeta-functions><dirichlet-series>
+
+## Score:
+5
+
+## Id:
+501807
+
+## Body:
+<p>I am reading Stein and Shakarchi's Fourier Analysis text and the proof Dirichlet's theorem and I am looking for clarification on how he derives the following for large $s$, $\lim_{s\to\infty}$ and $\chi_q$ is a Dirichlet character for $(\mathbb{Z}/q\mathbb{Z})^*$.</p>
+
+<p>$|L(s,\chi_q) - 1| \le 2q \sum_{n=2}^\infty n^{-s}$</p>
+
+<p>All I can come up with is</p>
+
+<p>$|\chi(n)| \le 1$</p>
+
+<p>then</p>
+
+<p>$|L(s,\chi)| \le \sum_{n=1}^\infty n^{-s}$</p>
+
+<p>and </p>
+
+<p>$|L(s,\chi)| - 1 \le \sum_{n=2}^\infty n^{-s}$</p>
+
+<p>What am I missing here? Where does it come from and is it needed in proving the bound</p>
+
+<p>$L(s,\chi) = 1 + O(2^{-s})$</p>
+
+

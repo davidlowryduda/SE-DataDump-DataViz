@@ -1,0 +1,22 @@
+## Title:
+Dirichlets theorem on primes
+
+## Tags:
+<linear-algebra><number-theory><reference-request><prime-numbers>
+
+## Score:
+1
+
+## Id:
+352098
+
+## Body:
+<p>I want to use Dirichlets theorem on primes for my diploma thesis. I want to use following form</p>
+
+<p>Let $a,b\in\mathbb{N}$, such that $\gcd(a,b)=1$. Then the set $\{a\cdot n+b| n\in\mathbb{N}\}$ contains infinitely prime numbers.</p>
+
+<p>Does anyone knows a good book as reference?</p>
+
+<p>Thanks for help.</p>
+
+

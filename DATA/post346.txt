@@ -1,0 +1,54 @@
+## Score:
+3
+
+## Id:
+164564
+
+## ParentId:
+164433
+
+## Body:
+<p>(Below I treat $x$ as an integer whose reduction $\bmod n$ is a unit of order $m$. This allows me to treat $\frac{x^m - 1}{x - 1}$ as an integer and consider its reduction $\bmod n$ without dividing by a zero divisor.)</p>
+
+<p>As usual, the Chinese Remainder Theorem is your friend. We can reduce to the case that $n$ is a prime power $p^k$. If $p \nmid x-1$, then the geometric series argument works and the sum is just $0 \bmod p^k$. </p>
+
+<p>If $p | x-1$, the situation gets a little more complicated. We will need to introduce the following fundamental notion: for an integer $n$, the <a href="http://en.wikipedia.org/wiki/P-adic_order" rel="nofollow">$p$-adic valuation</a> $\nu_p(n)$ is the greatest $k$ such that $p^k | n$. </p>
+
+<p><strong>Theorem (lifting the exponent):</strong> Let $p$ be an odd prime and let $x, y$ be integers relatively prime to $p$ such that $p | x-y$. Then
+$$\nu_p(x^n - y^n) = \nu_p(x - y) + \nu_p(n).$$</p>
+
+<p><em>Proof.</em> Induction. See <a href="http://www.artofproblemsolving.com/Resources/Papers/LTE.pdf" rel="nofollow">these notes</a>. </p>
+
+<p>Applying the above it follows that for odd $p$, if $p | x-1$ then 
+$$\nu_p \left( \frac{x^m - 1}{x - 1} \right) = \nu_p(m).$$</p>
+
+<p>Thus $\frac{x^m - 1}{x - 1} \equiv 0 \bmod p^k$ if and only if $p^k | m$. Hence:</p>
+
+<blockquote>
+  <p>If $n$ is odd then $\frac{x^m - 1}{x - 1} \equiv 0 \bmod n$ if and only if for every prime factor $p$ of $n$, either $p \nmid x-1$ or $p^k | m$. </p>
+</blockquote>
+
+<p>Okay, so what if $p = 2$? In the above notes you will also find the following result.</p>
+
+<p><strong>Theorem (lifting the exponent at $2$):</strong> Let $x, y$ be odd integers such that $4 | x-y$. Then
+$$\nu_2(x^n - y^n) = \nu_2(x - y) + \nu_2(n).$$</p>
+
+<p>So if $4 | x-1$ then the conclusion is the same as above. Otherwise, write
+$$x = 1 + 2y$$</p>
+
+<p>where $y$ is odd. If $m$ is odd, then 
+$$x^m = 1 + 2my + ...$$</p>
+
+<p>where the remaining terms are divisible by $4$, and we conclude that $\nu_2(x^m - 1) = 2$, hence $\nu_2 \left( \frac{x^m - 1}{x - 1} \right) = 0$, so the sum is not divisible by $2^k$. If $m = 2 \ell$ is even, then $4 | x^2 - 1$, hence
+$$\nu_2(x^{2\ell} - 1) = \nu_2(x^2 - 1) + \nu_2(\ell) = \nu_2(x + 1) + \nu_2(m).$$</p>
+
+<p>This gives
+$$\nu_2 \left( \frac{x^m - 1}{x - 1} \right) = \nu_2(y + 1) + \nu_2(m).$$</p>
+
+<p>Thus $\frac{x^m - 1}{x - 1} \equiv 0 \bmod 2^k$ if and only if $2^k | m(y+1)$, and this can occur. So if $n$ is not odd then the above argument still applies to all the odd prime factors of $n$ and we conclude that</p>
+
+<blockquote>
+  <p>if $n = 2^k o, k \ge 1$ where $o$ is odd, then $\frac{x^m - 1}{x - 1} \equiv 0 \bmod n$ if and only if $\frac{x^m - 1}{x - 1} \equiv 0 \bmod o$ and either $x \equiv 1 \bmod 4$ and $2^k | m$ or $x \equiv 3 \bmod 4$ and $2^k | m \left( \frac{x+1}{2} \right)$. </p>
+</blockquote>
+
+

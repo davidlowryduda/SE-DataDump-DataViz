@@ -1,24 +1,22 @@
 ## Title:
-Good book resources (not websites) to learn number theory on my own?
+Reconstructing a Monthly problem: tree growth on the 2D integer lattice
 
 ## Tags:
-<number-theory><reference-request><elementary-number-theory><self-learning>
+<number-theory><reference-request><fractals><discrete-geometry>
 
 ## Score:
-2
+10
+
+## Id:
+12007
 
 ## Body:
-<blockquote>
-  <p><strong>Possible Duplicate:</strong><br>
-  <a href="http://math.stackexchange.com/questions/1774/undergraduate-high-school-olympiad-level-introductory-number-theory-books-for-sel">Undergraduate/High-School-Olympiad Level Introductory Number Theory Books For Self-Learning</a>  </p>
-</blockquote>
+<p>I'm trying to reconstruct a problem I saw in the Monthly, years ago. Perhaps it'll look familiar to someone.</p>
 
+<p>In the integer lattice in the plane, we grow a tree in the following natural way: Initially the tree is just the origin. At each step, we find the set of lattice points that are neighbors (distance 1) to precisely one vertex of our tree, and add them (simultaneously) to the tree.</p>
 
+<p>Thus on day 0 the tree is $\{(0,0)\}$; on day 1 it contains $\{(0,0), (1,0), (-1,0),(0,1),(0,-1)\}$; on day 2 it contains those vertices along with $(2,0),(-2,0),(0,2)$ and $(0,-2)$ (note that $(1,1)$ is not added because it has two neighbors already in the tree), and on day 3 we add 12 new vertices. It looks like a pretty familiar fractal.</p>
 
-<p>I took number theory this semester and loved it but don't feel like I learned all that much. I am not going any farther in formal education in math so I would like to further investigate number theory on my own. Do you have any suggestions for good books? I need at least one that is pretty basic and preferably one that goes a little bit more advanced. (You can look at some of my other recent questions to see the level that I'm at, but I really don't understand much beyond Diophantine equations- pretty much have to start over).</p>
-
-<p>I also would prefer if you didn't recommend current textbooks- I've got a pretty small budget. I was looking at <a href="http://rads.stackoverflow.com/amzn/click/0486656209" rel="nofollow">Ore's Number Theory and its History</a>, <a href="http://rads.stackoverflow.com/amzn/click/048646931X" rel="nofollow">this book</a>, and <a href="http://rads.stackoverflow.com/amzn/click/0817645659" rel="nofollow">this book</a>. </p>
-
-<p>Thanks for the help and I apologize if this question is too broad/vague/or subjective.</p>
+<p>The thing I'm not sure of is what exactly was asked of that tree... Possible candidates include its asymptotic density, some sort of simple formula to determine which lattice points ultimately make it into the tree and the # of vertices added on day $n$. There are lots of interesting questions and I'm happy to try and solve them but I prefer to work on the ones that were actually posed! </p>
 
 

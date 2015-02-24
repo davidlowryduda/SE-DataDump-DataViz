@@ -1,0 +1,17 @@
+## Score:
+1
+
+## Id:
+241797
+
+## ParentId:
+240427
+
+## Body:
+<p>In Chapter 6 of Andrews and Eriksson, Integer Partitions, formulas are given for $k=1,2,3,4,5$. Full proofs are given for $k=1,2,3,4$, while $k=5$ is left as an exercise. </p>
+
+<p>[EDIT: By the way, this is a very nice little book. "The aim of this introductory textbook is to provide an accessible and wide-ranging introduction to partitions, without requiring anything more of the reader than some familiarity with polynomials and infnite series."]</p>
+
+<p>Actually, the function studied in that text is a bit different from what you want, but it's easy to get back and forth between the two functions. The number of partitions into (exactly) $k$ parts equals the number of partitions with greatest part $k$. The text studies the number of partitions with greatest part at most $k$. But partitions of $n$ with greatest part $k$ correspond to partitions of $n-k$ with greatest part at most $k$. </p>
+
+

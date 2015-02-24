@@ -1,0 +1,41 @@
+## Score:
+8
+
+## Id:
+308319
+
+## ParentId:
+307274
+
+## Body:
+<p>The <a href="http://en.wikipedia.org/wiki/Dirichlet_eta_function">Dirichlet eta function</a> is given by $\eta(s)=\sum_{n=1}^{\infty}(-1)^{n-1}n^{-s}$, but this converges only for $s$ with positive real part, and you are proposing to use its behavior for negative integers.  A globally convergent series for $\eta$ can be derived using the Riemann zeta function (cf. <a href="http://mathworld.wolfram.com/RiemannZetaFunction.html">here</a>):
+$$
+\eta(s)=(1-2^{1-s})\zeta(s)=\sum_{n=0}^{\infty}2^{-(n+1)}\sum_{k=0}^{n}(-1)^{k}{{n}\choose{k}}(k+1)^{-s}.
+$$
+Using this expansion allows us to write $\eta(1-k)$ as
+$$
+\eta(1-k)=\sum_{n=0}^{\infty}2^{-(n+1)}\sum_{j=0}^{n}(-1)^{j}{{n}\choose{j}}(j+1)^{k-1}.
+$$</p>
+
+<p>Your power series is then
+$$
+\begin{eqnarray}
+\sum_{k=0}^{\infty}\frac{\eta(1-k)x^k}{k!}
+&amp;=&amp;\sum_{k=0}^{\infty}\sum_{n=0}^{\infty}2^{-(n+1)}\sum_{j=0}^{n}(-1)^{j}{{n}\choose{j}}(j+1)^{k-1}\left(\frac{x^{k}}{k!}\right) \\
+&amp;=&amp;\sum_{n=0}^{\infty}2^{-(n+1)}\sum_{j=0}^{n}\frac{(-1)^{j}}{j+1}{{n}\choose{j}}\sum_{k=0}^{\infty}\frac{\left(x(j+1)\right)^{k}}{k!} \\
+&amp;=&amp;\sum_{n=0}^{\infty}2^{-(n+1)}\sum_{j=0}^{n}\frac{(-1)^{j}}{j+1}{{n}\choose{j}}\left(e^x\right)^{j+1} \\
+&amp;=&amp;\sum_{n=0}^{\infty}2^{-(n+1)}\int_{-e^{x}}^{0} dy\sum_{j=0}^{n}{{n}\choose{j}}y^{j} \\
+&amp;=&amp;\sum_{n=0}^{\infty}2^{-(n+1)}\int_{-e^{x}}^{0}\left(1+y\right)^{n}dy \\
+&amp;=&amp;\sum_{n=0}^{\infty}2^{-(n+1)}\frac{\left(1+y\right)^{n+1}}{n+1}\Bigg\vert_{-e^x}^{0} \\
+&amp;=&amp;\sum_{n=0}^{\infty}2^{-(n+1)}\frac{1-\left(1-e^x\right)^{n+1}}{n+1} \\
+&amp;=&amp;f\left(\frac{1}{2}\right) - f\left(\frac{1-e^x}{2}\right),
+\end{eqnarray}
+$$
+where $$f(z)=\sum_{n=0}^{\infty}\frac{z^{n+1}}{n+1}=-\log \left(1-z\right).$$
+Putting this together, we find
+$$
+\sum_{k=0}^{\infty}\frac{\eta(1-k)x^k}{k!} = -\log\left(\frac{1}{2}\right)+\log\left(\frac{1+e^x}{2}\right)=\log\left(1+e^x\right),
+$$
+as you conjectured.</p>
+
+

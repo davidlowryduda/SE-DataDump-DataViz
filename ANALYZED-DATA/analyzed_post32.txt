@@ -1,0 +1,7 @@
+Ramanujan's Notebooks
+Bruce C. Berndt
+Dr Bruijn
+On the number of positive integer less than x and free of prime factors greater than y
+Wikipedia
+Debruijn-Dickman function
+Hildebrand and Tenenbaum

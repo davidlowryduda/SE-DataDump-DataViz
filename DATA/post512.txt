@@ -1,0 +1,27 @@
+## Score:
+6
+
+## Id:
+385978
+
+## ParentId:
+385967
+
+## Body:
+<p>I believe the proof is due to Ernst Zermelo. It appeared in print in 1934, <em>Elementare Betrachtungen zur Theorie der Primzahlen</em>, Nachr. Gesellsch. Wissensch. Göttingen <strong>1</strong>, (1934), 43-46. A critical analysis, together with an English translation, can be seen in <strong>Ernst Zermelo. Collected Works - Gesammelte Werke</strong>, vol. I: Set Theory, Miscellanea - Mengenlehre, Varia. Heinz-Dieter Ebbinghaus, Akihiro Kanamori, eds. Springer, 2010. </p>
+
+<p>Zermelo states that he shared the proof as early as 1912 with Hurwitz and Landau, who indicated the argument was new. </p>
+
+<blockquote>
+  <p>Der vorstehende Beweis ist eine leichte Abänderung eines früheren Beweises, den ich bereits um 1912 verschiedenen Arithmetikern wie A. Hurwitz und E. Landau brieﬂich mitgeteilt hatte, ohne daß sie sich seiner Präexistenz in der Literatur erinnert hätten. </p>
+  
+  <p>The proof stated here is a slightly modiﬁed version of an earlier proof which I communicated to various arithmeticians such as A. Hurwitz and E. Landau in writing as early as around 1912 without evoking from them any recollection as to whether it already existed in the literature. </p>
+</blockquote>
+
+<p>(I have seen others claim that Zermelo had the argument as early as 1901, but this seems unsubstantiated.)</p>
+
+<hr>
+
+<p>As Pete points out in his answer, Lindemann published in 1933 essentially the same argument, obtained independently. The reference is F.A Lindemann, <em>The Unique Factorization of a Positive Integer</em>, Quart. J. Math. <strong>4</strong>, (1933), 319-320. </p>
+
+

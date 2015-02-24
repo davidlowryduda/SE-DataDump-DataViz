@@ -1,0 +1,13 @@
+## Score:
+1
+
+## Id:
+548254
+
+## ParentId:
+548210
+
+## Body:
+<p>As a high school kid I got my hands on a copy of <a href="http://rads.stackoverflow.com/amzn/click/0262680289" rel="nofollow">Elementary Number Theory: A Problem Oriented Approach by Joe Roberts</a>. I very much enjoyed it then, and really recommend it for self-learning. The book mostly consists of definitions and exercises. Yes, you have to prove the theorems yourself! You can take a peek at the second half for (hints to) solutions though. Another striking feature is that the book is typeset in calligraphy.</p>
+
+

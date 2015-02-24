@@ -1,14 +1,23 @@
-## Title:
-Are the conjectural values of $H_{k}:=\lim\inf_{n\to\infty}p_{n+k}-p_{n}$ available somewhere?
-
-## Tags:
-<number-theory><reference-request><prime-numbers>
-
 ## Score:
-1
+4
+
+## Id:
+138059
+
+## ParentId:
+137674
 
 ## Body:
-<p>The question is in the title. It can be found on the current Polymath 8b project page that one expects to have $H_{1}=2$, $H_{2}=6$, $H_{3}=8$, $H_{4}=12$ and $H_{5}=16$ but I'm interested in larger values. Could someome tell me where I can find them?<br>
-Thanks in advance.</p>
+<p>Another approach to find all solutions to this elliptic curve would be to determine the full Mordell-Weil group of rational points, using a $2$-descent.</p>
+
+<p>First, one would have to find a minimal model in Weierstrass form for your curve. This is easy, here is one:</p>
+
+<p>$$E : y^2 = x^3 + x^2 + 80022598784x + 49433175273149108$$</p>
+
+<p>But the conductor of this curve is big:</p>
+
+<p>$$N_E  =3020151629712 = 2^4\cdot 3 \cdot 7 \cdot 3947 \cdot 2277311,$$</p>
+
+<p>and the $2$-descent is a very lengthy process. I had my computer running for a while, trying to calculate the rank (or just some bounds for the rank), but it didn't get anywhere. Maybe more patient users can let their computer run and see if they can find generators for the group of rational points of this elliptic curve.</p>
 
 

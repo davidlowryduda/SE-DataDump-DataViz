@@ -1,19 +1,22 @@
-## Title:
-Strong approximation in function fields
-
-## Tags:
-<number-theory><reference-request><algebraic-geometry>
-
 ## Score:
-2
+1
+
+## Id:
+48000
+
+## ParentId:
+47986
 
 ## Body:
-<p>How does the strong approximation theorem for global function fields looks like?</p>
+<p>I did a search and found the <a href="http://www-cs-faculty.stanford.edu/~uno/gkp.html" rel="nofollow">1994-1997 errata</a> for the book.</p>
 
-<p>For the number field $\mathbb{Q}$ it can be expressed as the surjection</p>
+<p>So, the question was changed to:</p>
 
-<p>$$ \mathbb{Q}^\times \times \mathbb{R}^\times \times \prod\limits_{p} \mathbb{Z}_p \twoheadrightarrow \mathbb{A}^\times.$$</p>
+<pre><code>Let R(N) be the number of pairs of (m,n) such that 1≤m≤N, 1≤n≤N, and m⊥n
+</code></pre>
 
-<p>I want to understand the image of the adelic norm.</p>
+<p>This also slightly changes the solution for R(N), and everything makes sense. I don't post the solution to prevent spoilers.</p>
+
+<p>I'm sorry for having wasted everybody's time.</p>
 
 

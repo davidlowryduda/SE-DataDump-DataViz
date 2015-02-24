@@ -1,0 +1,15 @@
+## Score:
+1
+
+## Id:
+596959
+
+## ParentId:
+594708
+
+## Body:
+<p>In MO there was an answer indicating, that there shall be no more information than that of Richard Fischer's site, where he lists, that indeed that pair $(68,113)$ is the only pair up to about $p \le 3.6 \cdot 10^6$ and where also $b \lt p$ which gives a fermat-quotient greater than <em>2</em> , so I think I should "close the case" here.     </p>
+
+<p>For the casual reader I'll add a link to a more explanative description of the problem and my empirical table. See <a href="http://go.helms-net.de/math/expdioph/fermatquot_ge2_table1.htm" rel="nofollow">here</a>.</p>
+
+

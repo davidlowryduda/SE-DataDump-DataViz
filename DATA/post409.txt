@@ -1,0 +1,13 @@
+## Score:
+2
+
+## Id:
+253459
+
+## ParentId:
+253457
+
+## Body:
+<p>Yes suppose that all values of $P(n)$ are divisible by the prime numbers $p_1,p_2,...,p_r$ only. Now consider $P(P(0)p_1p_2...p_r)$, if $P(0)$ is different from zero we find that none of the primes $p_1,p_2,...,p_r$ divides $P(P(0)p_1p_2...p_r)/P(0)$.(a contradiction). If $P(0)=0$, then $P(0)$ is divisible by arbitrary large primes. </p>
+
+

@@ -1,0 +1,13 @@
+## Score:
+4
+
+## Id:
+319731
+
+## ParentId:
+292722
+
+## Body:
+<p>The very minimal prerequisites for understanding the proof of Fermat's Last Theorem would include knowledge of algebraic number theory, modular forms, elliptic curves, Galois theory, Galois cohomology, and representation theory. A considerable amount of higher mathematics is needed to understand these areas in detail, including a very strong background in (advanced) abstract algebra. If/once you are comfortable with the necessary background material and are still interested in what I hear is a very good reference on the proof and its methods, check out <a href="http://rads.stackoverflow.com/amzn/click/0387989986" rel="nofollow">"Modular Forms and Fermat's Last Theorem"</a> by Silverman, Stevens, and Cornell. The text is at intended for professional mathematicians, so it certainly won't be an easy read, but if one has a strong enough background and enough tenacity, one could certainly make it through. Reading and understanding this book would be a great help in making it through Wiles' proof. Good luck!</p>
+
+

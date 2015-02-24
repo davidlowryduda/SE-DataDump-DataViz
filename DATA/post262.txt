@@ -1,25 +1,18 @@
 ## Title:
-cryptology beginner book
+Formal statement of theorem about perfect numbers?
 
 ## Tags:
-<elementary-number-theory><reference-request><cryptography>
+<number-theory><reference-request><soft-question><computability>
 
 ## Score:
 1
 
+## Id:
+126474
+
 ## Body:
-<p>I am taking a number theory course this semester which includes a brief intro to the field of cryptology including only :<br>
- Applications to Cryptology, Character Ciphers,Block and stream Ciphers,Exponentiation Ciphers,public key cryptography.</p>
+<p>I cannot seem to find the formal statement of the theorem if there are infinite perfect numbers in <a href="http://en.wikipedia.org/wiki/Perfect_number" rel="nofollow">Wikipedia</a> or online. I searched this site but the closest is the <a href="http://math.stackexchange.com/questions/22366/a-question-on-a-generalization-of-perfect-numbers">generalization of perfect numbers</a> question dealing with group theory.</p>
 
-<p>My syllabus does not recommend any good books, just one or two which treat the subject matter very formally from the beginning .</p>
-
-<p>So, can anyone recommend some good books  or lecture notes available  or video lectures or anything that can help me to make good foundations in this subject apart from covering what is in my syllabus.</p>
-
-<p>Any sort of help is appreciated,</p>
-
-<p>Thanks  in advance.     </p>
-
-<p>P.S.: I have introduction to mathematical cryptography by Hoffstein, Pipher and Silverman.
-   I havem't checked it out but is it suitable for a beginner?</p>
+<p>Where can I find resources relating to the computability aspect of perfect numbers? </p>
 
 

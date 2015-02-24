@@ -1,28 +1,55 @@
-## Title:
-On Bachet's Duplication Formula and the number $-432$
-
-## Tags:
-<abstract-algebra><number-theory><reference-request><diophantine-equations><elliptic-curves>
-
 ## Score:
-5
+19
+
+## Id:
+122115
+
+## ParentId:
+122080
 
 ## Body:
-<p>While reading "Rational Points on Elliptic Curves" by Silverman and Tate, I came across this interesting passage about Bachet's duplication formula:</p>
-
-<p><img src="http://i.stack.imgur.com/6rKSc.png" alt="screenshot1">
-<img src="http://i.stack.imgur.com/NCwr5.png" alt="screenshot"></p>
-
-<p>I know how to derive Bachet's duplication formula using the tangent method (namely, one constructs a tangent line to a given rational point on this cubic. The third intersection point of the line and the cubic gives the new rational point). My question is about the mysterious $-432$.</p>
+<p>Copying over here what I posted there:</p>
 
 <blockquote>
-  <p>Why is it true that if the original rational solution $(x, y)$ has $xy\neq 0$ and if
-  $c\neq 1, -432$, then repeating this process leads to infinitely many
-  distinct solutions?</p>
+  <p>I haven't read the references the author cites, but I don't see a lot of merit in this paper. The final answers seems to be simply taking the formula for the area of the Sierpiniski carpet (respectively Menger sponge) after n steps replacing the symbol n by the GrossOne symbol.</p>
+  
+  <p>Note that this is not assigning an actual area to the Sierpinsiki
+  carpet! If we defined the Sierpinski carpet by a different procedure,
+  we would get a different answer. For example, if we lumped together
+  every two steps, we would get the answer that the area of the
+  Sierpinski carpet after GrossOne steps is (8/9)^{2*GrossOne}. The
+  point of measure theory (which assigns the Sierpinski carpet measure
+  0) or more generally Hausdorff measure (which tells us that the
+  Sierpinski carpet has (log 8/log 3)-dimensional area equal to 1) is to
+  assign areas to subsets of the plane no matter how they are defined.</p>
+  
+  <p>I also strongly disagree that mathematicians do not have good tools to
+  describe behavior of functions close to infinity. For this sort of
+  simple exponential decay, the ordinary language of asymptotic
+  expansions does excellently. (See, for example, de Bruijn's Asymtotic
+  Methods in Analysis.) For more complicated decay, the theory of
+  transeries is excellent (see Edgar, Transseries for Beginners, Real
+  Anal. Exchange 35 (2010), also available at
+  <a href="http://www.math.osu.edu/~edgar.2/preprints/trans_begin/beginners.pdf">http://www.math.osu.edu/~edgar.2/preprints/trans_begin/beginners.pdf</a> )
+  for a good introduction. And, for these sort of specific fractal
+  examples, this is what Hausdorff dimension and Hausdorff measure were
+  invented for! See any textbook on Fractal Geometry.</p>
+  
+  <p>I would not expect this paper to appear in a quality journal.</p>
+  
+  <p>I usually wouldn't write something like this in public. This is what
+  I'd normally send to an editor who contacted me to referee something
+  like this. (Also, I am not an expert on fractals or measure theory, so
+  I am an unlikely choice of referee.) But I worry that the arXiv blog
+  has as much visibility as all but the best journals, so it is a major
+  problem if it singles out something like this. For example, your
+  software tells me that 111 people are reading this right now. How many
+  people are reading the Bulletin of the AMS right now?</p>
+  
+  <p>May I ask what procedure the arXiv blog uses to vet the papers it
+  recommends? I would hope that they are sent out to experts for quick
+  opinions as to general merit (similar to the ones JAMS and other top
+  math journals solicit before beginning the reviewing process).</p>
 </blockquote>
-
-<p><strong>Edit.</strong>  Later in the book (page 24), there is a explicit calculation that puts the cubic $u^3+v^3=\alpha$ into Weierstrass Normal Form. The resulting equation is $y^2=x^3-432\alpha^2$. So in particular, $y^2=x^3-432$ is Weierstrass Normal Form of $x^3+y^3=1$. So perhaps this explains the appearance of $-432$ above?</p>
-
-<p><img src="http://i.stack.imgur.com/FHQ1r.png" alt="enter image description here"></p>
 
 

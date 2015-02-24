@@ -1,0 +1,14 @@
+## Score:
+1
+
+## Id:
+194571
+
+## ParentId:
+329
+
+## Body:
+<p>For people interested in Computational aspects of Number Theory, 
+ <a href="http://shoup.net/ntb/ntb-v2.pdf" rel="nofollow">A Computational Introduction to Number Theory and Algebra - Victor Shoup</a> , is a good book. It is available online.</p>
+
+

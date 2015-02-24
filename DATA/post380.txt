@@ -1,0 +1,15 @@
+## Score:
+4
+
+## Id:
+194581
+
+## ParentId:
+329
+
+## Body:
+<p><em>Number Theory For Beginners</em> by Andre Weil is the slickest,most concise yet best written introduction to number theory I've ever seen-it's withstood the test of time very well. For math students that have never learned number theory and want to learn it quickly and actively, this is still your best choice. </p>
+
+<p>For more advanced readers with a good undergraduate background in classical analysis, Melvyn Nathason's <em>Elementary Number Theory</em> is outstanding and very underrated. It's very well written and probably the most comprehensive introductory textbook on the subject I know,ranging from the basics of the integers through analytic number theory and concluding with a short introduction to additive number theory, a terrific and very active current area of research the author has been very involved in.I heartily recommend it.   </p>
+
+

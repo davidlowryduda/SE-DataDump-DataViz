@@ -1,16 +1,27 @@
-## Title:
-Totient summatory function
-
-## Tags:
-<number-theory><reference-request><totient-function><conjectures>
-
 ## Score:
 3
 
-## Body:
-<p>Let $\Phi(n) = \sum_{k=1}^n \phi(k)$ be the totient summatory function.
-Here is an interesting conjecture I've made: The ratio $\Phi(n^2)/\Phi(n)$ is an integer only for $n=1,2,3,5$ and $6$. I made a program that shows that these are only solution for about $n&lt;3000$. Is there some way to prove or disaprove it? </p>
+## Id:
+126477
 
-<p>Eventually, what about the general case: what conditions should satisfy numbers $n$ and $m$ so that ratio of their totient summatory functions is integer? Is there some paper that deals with it?</p>
+## ParentId:
+126474
+
+## Body:
+<p>The obvious place to start, as usual, is <a href="http://en.wikipedia.org/wiki/Perfect_number" rel="nofollow">Wikipedia.</a> At the present time, there are only $47$ perfect numbers known. It has been $4$ years since one has been found. It is not known whether there are infinitely many.  Indeed, it is not known whether there are more than $47$.  There are some heuristic arguments of dubious plausibility that there may be infinitely many. </p>
+
+<p>As to computational aspects, broadly speaking they fall into two types: (i) A search for odd perfect numbers; and (ii) A search for <em>Mersenne primes</em>, and improvements in algorithms for testing whether a Mersenne number is prime and </p>
+
+<p>There are no known odd perfect numbers. But there are various results to the effect that an odd perfect number, if it exists, must be very large. There are also results about the complexity, in terms of prime factorization, of an odd perfect number, if there are any. </p>
+
+<p>I has been known since the time of Euler that all even perfect numbers must be of the shape $2^{n-1}(2^n-1)$, where $2^n-1$ is prime.  It has also been known for a very long time that if $n$ is not prime, then $2^n-1$ cannnot be prime. So the search for even perfect numbers is the search for primes $p$ such that $2^p-1$ is prime.</p>
+
+<p>The primes $p$ that are being currently examined make $2^p-1$ huge, and very much  beyond the reach of <em>general purpose</em> primality tests. Because of this, special purpose primality tests have been developed for numbers of the form $2^p-1$.</p>
+
+<p>You can participate in the search for new primes of the form $2^p-1$ by going to the web site of <a href="http://www.mersenne.org/" rel="nofollow">GIMPS</a> (the Great Internet Mersenne Prime Search).</p>
+
+<p><strong>Remark:</strong> I assumed that by "infinite" you meant "infinitely many." All too many people use these terms interchangeably!  In the sense of "infinite" objects in a non-standard model of number theory, the answer is not known, since one could construct a model with infinite perfect numbers precisely if there are infinitely many perfect numbers in the conventional sense.   </p>
+
+<p>But there are other domains where we might look for generalizations of the notion of perfect number. Not unsurprisingly, there is somewhat of a literature on this subject.  The first search I tried in Google, using <em>Gaussian perfect numbers</em> as the search term, yielded quite a few hits, including some papers that look potentially interesting. </p>
 
 

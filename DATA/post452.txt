@@ -1,0 +1,24 @@
+## Title:
+How can I prove my conjecture for the coefficients in $t(x)=\log(1+\exp(x)) $?
+
+## Tags:
+<sequences-and-series><number-theory><reference-request><proof-strategy><dirichlet-series>
+
+## Score:
+15
+
+## Id:
+307274
+
+## Body:
+<p>I'm considering the transfer-function
+$$ t(x) = \log(1 + \exp(x)) $$
+and find the beginning of the power series (simply using Pari/GP) as
+$$ t(x) = \log(2) + 1/2 x + 1/8 x^2 – 1/192 x^4 + 1/2880 x^6 - \ldots $$
+Examining the pattern of the coefficients I find the much likely composition
+$$ t(x) = \sum_{k=0}^\infty {\eta(1-k) \over k! }x^k $$ where $ \eta() $ is the Dirichlet eta-(or "alternating zeta") function.<br>
+I'm using this definition in further computations and besides the convincing simplicitiness of the pattern the results are always meaningful. However, I've no idea how I could prove this description of the coefficients.     </p>
+
+<p>Q: Does someone has a source or an idea, how to do such a proof on oneself?</p>
+
+

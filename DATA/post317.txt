@@ -1,0 +1,21 @@
+## Score:
+11
+
+## Id:
+153033
+
+## ParentId:
+153022
+
+## Body:
+<p>I'm quite partial to Apostol's books, and although I haven't read them (yet) his analytic number theory books have an excellent reputation.</p>
+
+<p><a href="http://rads.stackoverflow.com/amzn/click/0387901639">Introduction to Analytic Number Theory</a> (Difficult undergraduate level)</p>
+
+<p><a href="http://rads.stackoverflow.com/amzn/click/0387971270">Modular Functions and Dirichlet Series in Number Theory</a> (can be considered a continuation of the book above)</p>
+
+<p>I absolutely <em>plan</em> to read them in the future, but I'm going through some of his other books right now.</p>
+
+<p>Ram Murty's <a href="http://rads.stackoverflow.com/amzn/click/1441924779">Problems in Analytic Number Theory</a> is stellar as it has a ton of problems to work out!</p>
+
+

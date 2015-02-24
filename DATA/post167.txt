@@ -1,19 +1,25 @@
-## Title:
-Uniqueness up to sign of $L$ and $M$ in $p=\frac{1}{4}(L^2+27M^2)$.
-
-## Tags:
-<number-theory><reference-request>
-
 ## Score:
-2
+3
+
+## Id:
+73573
+
+## ParentId:
+73565
 
 ## Body:
-<p>If $p\equiv 1\pmod{3}$, it's well know that $p$ can be expressed as
-$$
-p=\frac{1}{4}(L^2+27M^2).
-$$
-A handful of places, like wikipedia, say that in this representation $L$ and $M$ are unique up to sign, but none actually has a proof.</p>
+<p>classics available in English, in approximate order of prerequisites required:</p>
 
-<p>Is there a elementary proof that $L$ and $M$ are unique up to sign? Thanks.</p>
+<p>Koblitz' book on p-adic analysis.</p>
+
+<p>Borevich and Shafarevich introduction to theory of numbers.</p>
+
+<p>Cassels' textbook on local fields in the blue LMS series.</p>
+
+<p>Serre's book on local fields.</p>
+
+<p>There are newer books interpolating between these in difficulty, but those were at least until recently the canonized choices.</p>
+
+<p>For more advanced material, ability to read French is indispensable.  Works in French on p-adic number theory, analysis, cohomology, differential equations, etc may actually outnumber those in English.</p>
 
 

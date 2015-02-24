@@ -1,0 +1,21 @@
+## Score:
+3
+
+## Id:
+476932
+
+## ParentId:
+476899
+
+## Body:
+<p>Below is my attempt which is too long for a comment and may be saveable, (doubt it).</p>
+
+<p>Consider the differential equation $y^{(4)}-6y^{(3)}+11y''-6y'=\textbf 0$, where $\bf 0$ is the null function over some non-trivial interval $I$ containing $1$.</p>
+
+<p>The theory of ODE tells us that a basis of <a href="http://www.wolframalpha.com/input/?i=y%27%27%27%27-6y%27%27%27%2B11y%27%27-6y%27%3D0" rel="nofollow">solutions</a> is $$\{\underbrace{x\mapsto 1}_{\large \varphi_0}, \underbrace{x\mapsto e^x}_{\large \varphi _1}, \underbrace{x\mapsto e^{2x}}_{\large \varphi _2}, \underbrace{x\mapsto e^{3x}}_{\large \varphi _3}\}$$</p>
+
+<p>This implies that $$(\forall \lambda _0,\lambda _1, \lambda _2, \lambda _3\in \Bbb Q)\left[(\forall x\in I)\left(\sum \limits_{k=0}^3\lambda_k\varphi_k(x)=0\right)\implies \lambda _0=\lambda _1=\lambda _2=\lambda _3=0\right] \tag {*}$$</p>
+
+<p>Now if we could somehow prove that $(*)$ would also hold for the intersection of all such intervals $I$ (containing $1$), what we want would follow. But I have no hope of this being doable.</p>
+
+

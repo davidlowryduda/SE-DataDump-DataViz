@@ -1,0 +1,18 @@
+## Title:
+explicit formula for norm map of Kummer extensions
+
+## Tags:
+<number-theory><reference-request>
+
+## Score:
+1
+
+## Id:
+142310
+
+## Body:
+<p>Since it is particularly easy to write down a basis of a Kummer extension $K=k(\mu)/k$ (where $\mu^n=a \in k$) as a $k$-vector space, I suspect that it is should not be terribly hard to write an explicit formula for a norm of an element in terms of its coordinates in this basis.</p>
+
+<p>Is there a standard text where this derivation is carried out?</p>
+
+

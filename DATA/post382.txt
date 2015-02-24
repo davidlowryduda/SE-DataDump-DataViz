@@ -1,0 +1,27 @@
+## Title:
+Summation of Modulo Sequences
+
+## Tags:
+<sequences-and-series><elementary-number-theory><self-learning>
+
+## Score:
+1
+
+## Id:
+195847
+
+## Body:
+<p>I came across through simulation that multiplying and adding certain modulo sequences yield equal results.  Consider the following two sequences
+\begin{align}
+g_0[k] &amp;= \sum_{n=0}^{N-1} \left&lt; a n \right&gt;_N \left&lt; k n \right&gt;_N \\
+g_1[k] &amp;= \sum_{n=0}^{N-1} \left&lt; b n \right&gt;_N \left&lt; k n \right&gt;_N
+\end{align}
+where $a, b \in \mathbb{Z}$, $\left&lt;a\right&gt;_N = a \pmod N$and $\text{GCD}(a,N) = \text{GCD}(b,N) = 1$.  It appears that there exist $k_0, k_1 \in \mathbb{Z}$ such that 
+\begin{align}
+g_0[k_1 k] &amp;= g_1[k] \\
+g_1[k_0 k] &amp;= g_0[k]
+\end{align}</p>
+
+<p>Outside of running several computer simulations that seem to indicate that such integers might always exist for arbitrary $a$ and $b$ with $\text{GCD}(a,N) = \text{GCD}(b,N)$, I cannot find out how to 1) determine under what conditions this holds and 2) figure out the value of $k_0$ and $k_1$ directly.</p>
+
+

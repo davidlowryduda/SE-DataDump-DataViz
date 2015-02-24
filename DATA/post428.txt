@@ -1,0 +1,30 @@
+## Title:
+generalization of base-n notation from naturals to fractions
+
+## Tags:
+<combinatorics><number-theory><reference-request><information-theory>
+
+## Score:
+1
+
+## Id:
+287006
+
+## Body:
+<p>not exactly sure how to best ask this. base-$n$ notation involves a series of digits written where each digit is a natural number less than $n$. </p>
+
+<blockquote>
+  <p>is there some math/theory generalization of base-$n$ notation &amp; related operations where $n$ is <em>fractional</em>?</p>
+</blockquote>
+
+<p>am particularly interested in the case where $1 \leq n \leq 2$. yes of course am familiar with logarithms &amp; exponentiation but this question is a little more "systematic".</p>
+
+<p>a little further background (which is not intended to be definitive or bias any answers too much). the immediate desired application is the study of complexity theory bit vectors. suppose one wants to study operations on bit vectors empirically (ie with computer experiments/simulations). </p>
+
+<p>for the case base $n=2$ there are $n^x=2^x$ possible bit vectors of length $x$. this can grow (in memory &amp; processing requirements) very quickly esp for relatively simple scenarios/constraints eg $x=m^2$ where $m$ is natural. it would be very useful to convert or "scale down" the problem to some possibly more continuous version such that one could study $1 \leq n \leq 2$ and the results would carry/generalize to higher natural $n$. has anyone seen something like this in books or papers?</p>
+
+<p>it appears maybe to be related to something like "fractional bits" that carry "less than 2 states" whatever those might be.</p>
+
+<p>an roughly close example of a strategy along these lines is the "magnification lemma" for studying circuit complexity found the book, <a href="http://www.thi.informatik.uni-frankfurt.de/~jukna/boolean/index.html" rel="nofollow">Boolean Function Complexity</a> by Stasys Jukna.</p>
+
+

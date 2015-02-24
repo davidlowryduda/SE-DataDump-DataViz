@@ -1,0 +1,52 @@
+## Score:
+5
+
+## Id:
+276171
+
+## ParentId:
+276163
+
+## Body:
+<p>The <strong><em>Art of Problem Solving</em></strong> (AOPS.org) has a website with abundant <a href="http://www.artofproblemsolving.com/Wiki/index.php/Number_theory#Student_Guides_to_Number_Theory" rel="nofollow"><strong>links to number theory resources</strong></a>,  (guides, exercises, reference recommendations) to begin studying number theory, at varying levels of difficulty - from very basic, to progressively more difficult. E.g., To start, see AOPS's <a href="http://www.artofproblemsolving.com/Wiki/index.php/Number_theory/Introduction" rel="nofollow"><strong>Introductory Topics in Number Theory</strong></a>: </p>
+
+<p>"The following topics make a good introduction to number theory:"</p>
+
+<pre><code>Primes
+    Sieve of Eratosthenes
+    Prime factorization 
+Composite numbers
+Divisibility
+    Divisors
+        Common divisors
+            Greatest common divisors 
+        Counting divisors 
+    Multiples
+        Common multiples
+            Least common multiples 
+Division Theorem (the Division Algorithm)
+Base numbers
+Diophantine equations
+    Simon's Favorite Factoring Trick 
+Modular arithmetic
+    Linear congruence 
+</code></pre>
+
+<p>(Links available for each topic above.)</p>
+
+<hr>
+
+<p>Not necessarily directly related to number theory, but more foundational in nature to help prepare you for studying it, see the following</p>
+
+<p>For some background reading in you listed topics: "sets, logic, and reasoning," and to better understand proof-reading/writing (with number theory as examples), you might want to start with </p>
+
+<ul>
+<li><p>Velleman's <a href="http://rads.stackoverflow.com/amzn/click/0521675995" rel="nofollow"><strong><em>How to Prove It: A Structured Approach</em></strong></a>.</p></li>
+<li><p>Mason, Burton, and Stacey's <a href="http://rads.stackoverflow.com/amzn/click/0273728911" rel="nofollow"><strong><em>Thinking Mathematically</em></strong></a></p></li>
+</ul>
+
+<p>Together, they provide both structural knowledge (the "basics" of "building blocks"), and examples and exercises to get your "mind rolling" and to develop agility in your reasoning.</p>
+
+<p>You can preview each of the books at the links above.</p>
+
+

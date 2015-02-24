@@ -1,0 +1,16 @@
+## Title:
+group law on weil-chatelet group
+
+## Tags:
+<number-theory><reference-request><algebraic-geometry>
+
+## Score:
+1
+
+## Id:
+243709
+
+## Body:
+<p>Is there a reference for the gemetric definition of the group law on the Weil-Châtelet group of an Abelian variety more recent than the original Weil's paper ("On algebraic groups and homogeneous spaces") ?</p>
+
+

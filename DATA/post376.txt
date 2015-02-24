@@ -1,0 +1,15 @@
+## Score:
+1
+
+## Id:
+190901
+
+## ParentId:
+176552
+
+## Body:
+<p>Algebraic number theory is a branch of number theory. The algebra is APPLIED to solve number theoretical questions. You do not need to be an expert in commutative algebra to understand it (especially not basic ANT). I feel the ideas and intuitions are more important than the proofs to begin with, there are quite a few interesting studies in this area that can be clouded by details and formalities if studied from purely algebraic sources.</p>
+
+<p>My first text for ANT was Stewart/Tall, "Algebraic number theory and Fermat's Last Theorem". This is a nice book that begins by introducing the basic algebra you need and showing how to use it to study number theory (i.e. solving Diophantine equations by using number fields). They handle the shift from factorisation of elements to factorisation of ideals quite well. The last few chapters handle the applications of this material to Fermat's Last Theorem and goes on to the more recent developments that led to the proof. </p>
+
+

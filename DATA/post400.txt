@@ -1,0 +1,13 @@
+## Score:
+1
+
+## Id:
+234104
+
+## ParentId:
+234103
+
+## Body:
+<p>By the <a href="http://en.wikipedia.org/wiki/Prime_number_theorem" rel="nofollow">prime number theorem</a> it is usually accurate to assume as a heuristic that the probability that $n$ is prime is about $\frac{1}{\log{n}}$.</p>
+
+

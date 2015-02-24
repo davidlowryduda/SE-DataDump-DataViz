@@ -1,0 +1,66 @@
+## Score:
+3
+
+## Id:
+352739
+
+## ParentId:
+352733
+
+## Body:
+<p>As  Steven Stadnicki points out in the comments, this is just an application of <a href="http://en.wikipedia.org/wiki/Euler%E2%80%93Maclaurin_formula" rel="nofollow">Euler–Maclaurin formula</a>.</p>
+
+<hr>
+
+<p>Abel's partial summation technique:
+\begin{align*}
+\sum_{n=1}^{N} a(n) f(n) &amp; = \sum_{n=1}^{N} f(n) (A(n)- A(n-1)) = \sum_{n=1}^{N} A(n) f(n) - \sum_{n=1}^{N} A(n-1) f(n)\\
+&amp; = \sum_{n=1}^{N} A(n)f(n) - \sum_{n=0}^{N-1} A(n) f(n+1)\\
+&amp; = A(N)f(N) - A(0) f(1) - \sum_{n=1}^{N-1} A(n) (f(n+1)-f(n))
+\end{align*}
+(The above is nothing but the discrete version of integration by parts).</p>
+
+<p>$$\sum_{n=1}^{N} a(n) f(n) = \int_{1^-}^{N^+} f(t) d(A(t)) =  f(t) A(t) \rvert_{1^-}^{N^+} - \int_{1^-}^{N^+} A(t) f'(t) dt$$ (The second integral can be interpreted as a Riemann-Stieltjes integral.)</p>
+
+<p>For instance, consider the sum $\displaystyle \sum_{n \leq N} \frac1n$. Choose $a(n) = 1$ and $f(n) = \frac1n$. Note that we have $A(t) = \lfloor t \rfloor = t - \{t\}$. Hence, we get that
+\begin{align*}
+\sum_{n \leq N} \frac1n &amp; = \left. \frac{t-\{t\}}t \right \rvert_{1^-}^{N^+} + \int_{1^-}^{N^+} \frac{(t-\{t\})}{t^2} dt\\
+&amp; = 1 + \int_{1^-}^{N^+} \frac{dt}t - \int_{1^-}^{N^+} \frac{\{t\}}{t^2} dt\\
+&amp; = 1 + \log (N) - \int_{1^-}^{\infty} \frac{\{t\}}{t^2} dt + \int_{N^+}^{\infty} \frac{\{t\}}{t^2} dt\\
+&amp; = \left(1 - \int_{1^-}^{\infty} \frac{\{t\}}{t^2} dt \right) + \log(N) + \int_{N^+}^{\infty} \frac{\{t\}}{t^2} dt
+\end{align*}
+Note that $\displaystyle \int_{N^+}^{\infty} \frac{\{t\}}{t^2} dt \leq \int_{N^+}^{\infty} \frac{1}{t^2} dt = \frac1N$.</p>
+
+<p>Also note that by the same argument, we also have that $\displaystyle 0 &lt; \int_{N^+}^{\infty} \frac{\{t\}}{t^2} dt &lt; 1$ and hence $\displaystyle 0 &lt; \left(1 - \int_{1^-}^{\infty} \frac{\{t\}}{t^2} dt \right) &lt; 1$. Denoting $\displaystyle \left(1 - \int_{1^-}^{\infty} \frac{\{t\}}{t^2} dt \right) = \gamma$, we get the following proposition.
+$$
+\sum_{n \leq N} \frac1n = \gamma + \log(N) + \mathcal{O} \left(\frac1N \right)
+$$</p>
+
+<p>$\gamma \approx 0.5772\ldots$ and is called the Euler-Mascheroni constant.</p>
+
+<p>We will now get a better approximation for the harmonic series by including the $\mathcal{O} \left(1/N \right)$ term. To do this, we need to refine our evaluation of $\displaystyle \int_{N^+}^{\infty} \frac{\{t\}}{t^2} dt$. Note that the average value of $\{t\}$ on any unit interval is $\frac12$. Hence, we would expect, $\displaystyle \int_{N^+}^{\infty} \frac{\{t\}}{t^2} dt = \int_{N^+}^{\infty} \frac{1}{2t^2} dt + $ lower order terms.</p>
+
+<p>We have $\displaystyle \int_{N^+}^{\infty} \frac{\{t\}}{t^2} dt = \int_{N^+}^{\infty} \frac{\{t\} - 1/2}{t^2} dt + \int_{N^+}^{\infty} \frac{1}{2t^2} dt = \frac1{2N} + \int_{N^+}^{\infty} \frac{\{t\} - 1/2}{t^2} dt$. We now need the asymptotics for $\displaystyle \int_{N^+}^{\infty} \frac{\{t\} - 1/2}{t^2} dt$.</p>
+
+<p>Let $\displaystyle B(y) = \{y\} - \frac12$ and let $B_1(t) = \displaystyle \int_0^t B(y) dy$. Note that $\displaystyle \int_x^{x+1} B(y) dy = 0$. Hence, $\displaystyle B_1(t) = \int_{\lfloor t \rfloor}^{t} B(y) dy = \int_{0}^{t} B(y) dy = \int_{0}^{t} (y - 1/2) dy = \frac{\{t\}^2 - \{t\}}{2}$. We then have
+\begin{align}
+\displaystyle \int_{N^+}^{\infty} \frac{B(t)}{t^2} dt &amp; = \left. \frac{B_1(t)}{t^2} \right|_{N^+}^{\infty} + 2 \int_{N^+}^{\infty} \frac{B_1(t)}{t^3} dt\\
+&amp; = -\frac{B_1(N)}{N^2} + 2 \int_{N^+}^{\infty} \frac{B_1(t)}{t^3} dt = 2 \int_{N^+}^{\infty} \frac{B_1(t)}{t^3} dt
+\end{align}</p>
+
+<p>As before, note that the average value of $B_1(t)$ is given by $\displaystyle \int_0^1 \frac{y^2-y}{2} dy = \frac16 - \frac14 = -\frac1{12}$. Hence, we have that $$\displaystyle \int_{N^+}^{\infty} \frac{B_1(t)}{t^3} dt = -\frac1{12} \int_{N^+}^{\infty} \frac{1}{t^3} dt + \int_{N^+}^{\infty} \frac{B_1(t) + \frac1{12}}{t^3} dt = -\frac1{24N^2} + \int_{N^+}^{\infty} \frac{B_1(t) + \frac1{12}}{t^3} dt.$$ Let $B_2(t) = \displaystyle \int_0^t \left( B_1(y) + \frac1{12} \right) dy = \int_0^{\{t\}} \left( B_1(y) + \frac1{12} \right) dy$.</p>
+
+<p>Hence, we now have that 
+\begin{align*}
+\sum_{n \leq N} \frac1n &amp; = \gamma + \log(N) + \frac1{2N} + \int_{N^+}^{\infty} \frac{B(t)}{t^2} dt\\
+&amp; = \gamma + \log(N) + \frac1{2N} + 2 \int_{N^+}^{\infty} \frac{B_1(t)}{t^3} dt\\
+&amp; = \gamma + \log(N) + \frac1{2N} + 2 \left( -\frac1{24N^2} + \int_{N^+}^{\infty} \frac{B_1(t) + \frac1{12}}{t^3} dt \right)\\
+&amp; = \gamma + \log(N) + \frac1{2N} -\frac1{12N^2}+ \int_{N^+}^{\infty} \frac{2B_1(t) + \frac1{6}}{t^3} dt\\
+&amp; = \gamma + \log(N) + \frac1{2N} -\frac1{12N^2}+ \int_{N^+}^{\infty} \frac{dB_2(t)}{t^3}\\
+&amp; = \gamma + \log(N) + \frac1{2N} -\frac1{12N^2}+ \left. \frac{B_2(t)}{t^3} \right|_{N^+}^{\infty} + 3 \int_{N^+}^{\infty} \frac{B_2(t)}{t^4} dt\\
+&amp; = \gamma + \log(N) + \frac1{2N} -\frac1{12N^2} + 3 \int_{N^+}^{\infty} \frac{B_2(t)}{t^4} dt
+\end{align*}</p>
+
+<p>Now proceed like this to get the higher order terms.</p>
+
+

@@ -1,17 +1,16 @@
 ## Title:
-Introductive Book on Modular Forms
+references for an arithmetic function
 
 ## Tags:
-<reference-request><algebraic-number-theory><modular-forms>
+<number-theory><reference-request><analytic-number-theory>
 
 ## Score:
-3
+2
+
+## Id:
+135167
 
 ## Body:
-<p>I'm looking for an introductive book on Modular Forms and their applications to Algebraic Geometry and Algebraic Number Theory.</p>
-
-<p>Some Ideas?</p>
-
-<p>Explaining you my prerequisites, I've a good knowledge of basic instruments of Algebra and Algebraic Geometry, but I need some explanations in geometrical facts about Riemann Surfaces and Advanced Complex Analysis...</p>
+<p>I was wondering if anyone is aware of any existing literature on the arithmetic function defined as $$f(n):=2^{\omega(n)}\tau(n).$$ Here $\omega(n)$ is the number of distinct prime divisors of $n$ and $\tau(n)$ is the number of divisors of $n$. In particular, I am interested in the behavior of $$\sum_{d \mid n}f(d)$$ </p>
 
 

@@ -1,13 +1,15 @@
-## Title:
-Does there exist a branch of mathematics that specifically study the number of lattices enclosed by a region?
-
-## Tags:
-<combinatorics><number-theory><reference-request><soft-question>
-
 ## Score:
-1
+2
+
+## Id:
+123766
+
+## ParentId:
+123592
 
 ## Body:
-<p>I have seen that sometimes, in particular in number theory and combinatorial commutative algebra, our questions are somehow related to finding the number of points with integer components in a region/shape. Since this seems to be related to some open problems and conjectures, does there exist a branch of mathematics that specifically study such questions? If yes, what it's called and what prerequisites one must know to study it.</p>
+<p>Another more recent book (1998) is Smart's <a href="http://books.google.fr/books?id=faYE_41prOkC&amp;pg=PR11" rel="nofollow">"The Algorithmic Resolution of Diophantine Equations"</a>. </p>
+
+<p>From the preface : "Despite the long and noble career of diophantine equations, there appear to be only two books solely devoted to the study of explicit methods for their solution, namely Mordell's <em>Diophantine Equations</em> and de Weger's <em>Algorithms For Diophantine Equations</em>..." (de Weger's book adds the use of LLL-algorithm to solve diophantine equations).</p>
 
 

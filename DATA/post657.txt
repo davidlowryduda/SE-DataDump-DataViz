@@ -1,0 +1,20 @@
+## Title:
+Are most numbers of the form $a\cdot b^n+c$ composite?
+
+## Tags:
+<number-theory><reference-request><prime-numbers><sieve-theory>
+
+## Score:
+4
+
+## Id:
+537054
+
+## Body:
+<p>It seems evident that for $a,b,c$ with $a&gt;0$ and $b&gt;1$ that there are only $o(x)$ primes of the form $a\cdot b^n+c$ with $n\le x.$ Has this been proven?</p>
+
+<p>Hooley (Applications of Sieves to the Theory of Numbers) proves this for Cullen numbers, and apparently this proof generalizes to forms $n\cdot2^{n+a}+b$.</p>
+
+<p>A reference would be great, if one can be found. Otherwise, I'll take what I can get!</p>
+
+

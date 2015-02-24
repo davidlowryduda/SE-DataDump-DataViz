@@ -1,0 +1,17 @@
+## Score:
+6
+
+## Id:
+162523
+
+## ParentId:
+161895
+
+## Body:
+<p>Answer posted by Zev Chonoles in the comments:</p>
+
+<blockquote>
+  <p><a href="http://sbseminar.wordpress.com/2009/05/13/thoughts-on-graduate-school/#comment-5581">Pete Clark recommends</a> the "1958 paper of Lang and Tate, on Galois cohomology of abelian varieties", which I believe refers to the paper <a href="http://boxen.math.washington.edu/edu/2010/582e/refs/lang-tate-principal_homogeneous_spaces_over_abelian_varieties.pdf">Principal Homogeneous Spaces over Abelian Varieties</a>. I assume this is classified as arithmetic geometry?</p>
+</blockquote>
+
+

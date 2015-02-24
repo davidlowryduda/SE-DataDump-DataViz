@@ -1,0 +1,13 @@
+## Score:
+1
+
+## Id:
+347052
+
+## ParentId:
+347040
+
+## Body:
+<p>A Classical Introduction to Modern Number Theory by Ireland and Rosen is a great book. Definitely one of the best. As for Diophantine analysis, well that can mean a few things. Lang has a good book on Diophantine approximations. I suspect that going through a book like Ireland and Rosen's will give you a better idea of what it is, specifically, that you're looking for</p>
+
+

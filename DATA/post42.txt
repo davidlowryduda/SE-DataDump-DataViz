@@ -1,21 +1,32 @@
 ## Title:
-Reference book for Artin-Schreier Theory
+Are there any good algebraic geometry books to recommend?
 
 ## Tags:
-<reference-request><algebraic-number-theory><galois-theory>
+<soft-question><algebraic-geometry><reference-request><big-list><algebraic-number-theory>
 
 ## Score:
-5
+2
+
+## Id:
+24408
 
 ## Body:
-<p>The aim of the question is very simple, I would like to study Artin-Schreier Theory, but I have had embarassing difficulties in finding a book which could help me in doing that.</p>
+<blockquote>
+  <p><strong>Possible Duplicate:</strong><br>
+  <a href="http://math.stackexchange.com/questions/1748/undergraduate-algebraic-geometry-textbook-recomendations">(undergraduate) Algebraic Geometry Textbook Recomendations</a>  </p>
+</blockquote>
 
-<p>In specific I'm looking for a book which write down explicitely the main theorem of Artin-Schreir Theory, and have also a proof of it (or at least a sketch of it) and maybe also a short introduction on the topic.</p>
 
-<p>The closest I get in the matter is with the book "Cohomology of Number Fields" of Neukirch, which is suggested as a reference by the Wikipedia page on Artin-Schreier Theory. But it doesn't fit with the requests I made above.</p>
 
-<p>So the question is, what is the name of such a book? Or, if such abook does not exist, do you have any suggestions on how to proceed?</p>
+<p>I am interested in algebraic number theory and I am recently acquainted with the theory of valuations, which further leads to Riemann-Roch theory, and which is closely related to algebraic geometry, and the algebraic-K-theory.<br>
+Therefore, my problem is:  </p>
 
-<p>Thank you very much!</p>
+<blockquote>
+  <p>Are there excellent introductory books of the theory of Algebraic Geometry to recommend?  </p>
+</blockquote>
+
+<p>Since I know in general nothing about this theory, I may want a book which explains the ideas as clear as possible and which at the mean time contains as much material as possible.<br>
+If I am asking too much, then any good book in your view suffices.<br>
+Thanks very much.</p>
 
 

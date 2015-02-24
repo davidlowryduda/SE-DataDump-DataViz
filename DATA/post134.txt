@@ -1,15 +1,17 @@
-## Title:
-Pre-requisites needed for algebraic number theory
-
-## Tags:
-<number-theory><reference-request>
-
 ## Score:
-2
+7
+
+## Id:
+54708
+
+## ParentId:
+54678
 
 ## Body:
-<p>I acknowledge my limited knowledge of abstract algebra(My background comprising groups and subgroups from Herstein's Topics in Algebra is hardly worth mentioning) .And yet, I confess I really like numbers and primes.In short, I wish to explore algebraic number theory which I am told needs a definite background.I will be happy to know what exactly I need to know before I can study algebraic number theory.</p>
+<p>The local heights at nonarchimedean places are obtained as follows: you spread out
+the elliptic curve $E$ over the ring of integers $\mathcal O_{K_v}$, you spread out the two points into curves in this two-dimensional scheme, and then you compute their intersection.</p>
 
-<p>Edit:I am not seeking any shortcuts.I am talking about studying something really concrete.</p>
+<p>The local height at an archimedean place is obtained by taking the complex points
+of the elliptic curve, and using a Green's function.  However, you can fill out the elliptic curve to a solid torus (this is an analogue of spreading out over $\mathcal O_{K_v}$) and then realize your degree zero divisors (whose local height pairing you are going to compute) as boundaries of $1$-cycles in this solid torus.  The Green's function should then have a geometric interpretation in terms of these $1$-cycles.   (Sorry not to be more precise here; hopefully someone else can add more details.  You can also look at Manin's paper <em>Three dimensional hyperbolic geometry as $\infty$-adic Arakelov geometry</em>, where I think he proves a formula of the type I am suggesting.   The rough idea, though, is that we can "spread out" at the infinite primes too, by passing from a torus to a solid torus, and replacing our points by $1$-cycles.)</p>
 
 

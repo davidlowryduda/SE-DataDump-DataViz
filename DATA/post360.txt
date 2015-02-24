@@ -1,0 +1,19 @@
+## Score:
+3
+
+## Id:
+178168
+
+## ParentId:
+178002
+
+## Body:
+<p>As it turns out, your proposed inequality is false - in fact false for any $\epsilon&gt;0$, even huge $\epsilon$.</p>
+
+<p>The following approximation to the twin primes conjecture was proved by Chen's method: there exist infinitely many primes $b$ such that $c=b+2$ is either prime or the product of two primes. With $a=2$, this gives $\omega(abc)\le4$, and so
+$$
+\omega(abc) \left( \frac{K_\epsilon}{c} \right)^{1/((1+\epsilon) \omega(abc))} \le 4 \bigg( \frac{K_\epsilon}c \bigg)^{1/(4+4\epsilon)},
+$$
+which (for any fixed $\epsilon&gt;0$) can be arbitrarily small as $c$ increases. However, the other side $\sum_{p\mid abc} \frac1p$ is at least $\frac12$, and so the inequality has infinitely many counterexamples.</p>
+
+

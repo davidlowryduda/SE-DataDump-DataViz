@@ -1,0 +1,32 @@
+## Score:
+1
+
+## Id:
+575245
+
+## ParentId:
+567739
+
+## Body:
+<p>Hmm, I don't know whether I got the concept of the mod 2^n- idea in your question correctly. Perhaps this is related/interesting in some way.<br>
+The following table tabulates all odd numbers $a$ and the odd result of one transformation, calling it $b$. One transformation is here defined as 
+$$ b = {3a+1\over2^A}$$ where $A$ is that exponent which makes the result $b$ an odd number.  This $A$ equals also the number $A$ of "even"/"descending" steps in the usual Collatz-notation.       </p>
+
+<p>That transformations are equal in some modular classes, and $k \ge 0$ is there a free parameter 
+$$ \begin{array} {r|rrl|rrl} 
+ c&amp;  a&amp;&amp;\to b  &amp;a &amp; &amp;\to b \\
+\hline \\
+1&amp; 4^1  k &amp;+3  &amp; \to 6k+5 &amp; 2 \cdot 4^1  k &amp;+1 &amp; \to 6k+1 \\
+2&amp; 4^2  k &amp;+13 &amp; \to 6k+5 &amp; 2 \cdot 4^2  k &amp;+5 &amp; \to 6k+1 \\
+3&amp; 4^3  k &amp;+53 &amp; \to 6k+5 &amp; 2 \cdot 4^3  k &amp;+21 &amp; \to 6k+1 \\
+ &amp;   \vdots \\
+c&amp;   4^c  k &amp; + \small {10 \cdot 4^{c-1}-1 \over 3}  &amp; \to 6k+5 
+   &amp; 2 \cdot 4^c  k &amp;+ \small {4^c-1 \over 3} &amp; \to 6k+1 \\
+\end{array} $$</p>
+
+<p>Now this is related to the $\pmod {2^n}$- concept and we see, that always the result of one step is smaller than the initial value $a$ except if $a$ is of the form $a = 4k+3$ where $b \gt a$ and if a is of the form $8k+1$ and $k=0$ then $b=a$.<br>
+The exponent $c$ gives the number of "immediate" steps / directly decreasing and is the stopping time for all numbers $a$ except from the first entry in the table.     </p>
+
+<p>I think, the proposal/observation in the article can then be reproduced if we use this table and apply it for two or even more transformations (I'm not going to do this here but perhaps it is a helpful/interesting view into the modular whereabouts). </p>
+
+

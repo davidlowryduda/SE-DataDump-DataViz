@@ -1,0 +1,36 @@
+## Score:
+2
+
+## Id:
+200240
+
+## ParentId:
+95117
+
+## Body:
+<p>This is not a complete answer but I would like to share some thoughts. First I noticed that $S(p^n)=n/p$, where $S$ is your first sum. This means that any good bound will probably depend on knowledge of the distribution of prime factors in $n$. Denote from now on the $N$-th prime with $p_n$.</p>
+
+<p>Now let's consider $n=pq$ where $p&lt;q$ are primes. Then $S(pq)=2/p+p/q$. If $q$ is fixed then maximum is realized when p is the closest smaller prime. We have $$S(p_n p_{n+1})=\frac{2}{p_n}+\frac{p_n}{p_{n+1}}\le\frac{2}{p_n}+\frac{p_n}{2+p_n}\rightarrow1$$ </p>
+
+<p>So the $S(p_n p_{n+1})$ numbers converge on 1 but are not strictly smaller then 1. You can derive an explicit bound out of this if you want to.</p>
+
+<p>Now let's consider $n=pqр$ where $p&lt;q&lt;r$ are primes.Then $S(pqr)=2/p + 2p/q + 2q/r + r/pq$ if $pq&gt;r$ and  $S(pqr)=4/p + 2p/q + pq/r$ when $pq&lt;r$. It can be argued that the maximum is again attained from consecutive primes and the expression approaches 4.</p>
+
+<p>Numerical experiments showed that $S(\prod_{i=1}^n{q_i}$), where $q_i$ are primes is convergent to the <a href="http://en.wikipedia.org/wiki/Eulerian_number" rel="nofollow">Eulerian number</a> $A(n,1)$. Please note that I can't prove that.</p>
+
+<p>There seem to be similar limits for all divisor multiplicities. I will edit this post if I manage to glean the logic behind it.</p>
+
+<p>EDIT:</p>
+
+<p>Let $M(r)$ be the set of all natural numbers which have multiplicity of their prime divisors $r=(r_1,r_2,..r_n)$. Let $s_i$ be the i-th symmetric polynomial of n variables.</p>
+
+<p>Numerical simulations seem to show that $$\lim_{x\to\infty, x\in M}S(x)=\sum_{i=2}^n{s_i(r)}$$
+Note that the summation starts from 2 - i.e. the second symmetric polynomial.</p>
+
+<p>This may be possible to prove by induction if the initial cases are established. Consider a number $X$ with divisors $1=d_1&lt;d_2&lt;...d_{n}=X$. Now consider the number $p^mX$ where $p$ is a prime much larger then X. We have (in limit $p\to\infty$):$$
+S (p^m X) = \sum _{i=1} \frac{d_i}{d_{i+1}}+\frac{X}{p}+\sum _{i=1} \frac{p d_i}{p d_{i+1}}+...+\frac{p^{m-1}X}{p^m}+\sum _{i=1} \frac{p^m d_i}{p^m d_{i+1}}&lt;(m + 1) S (X) +\frac{m X}{p}
+$$ In limit the last term goes to 0 so we have:$$\lim_{p\to\infty}S(p^m X)=(m+1)\lim_{x\to\infty, x\in M}S(x)$$ </p>
+
+<p>This is of course no proof at all, just some thoughts on the subject.</p>
+
+

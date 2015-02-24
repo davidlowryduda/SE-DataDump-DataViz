@@ -1,0 +1,17 @@
+## Score:
+4
+
+## Id:
+148023
+
+## ParentId:
+147988
+
+## Body:
+<p>You can read the Szpiro-Goldfeld paper de Weger refers to <a href="http://math.gc.cuny.edu/faculty/szpiro/Boundsfortheorder.pdf" rel="nofollow">here</a>. See Theorem 2 and its proof.</p>
+
+<p>I think the procedure is: start with an elliptic curve $E$. By modularity, we get a modular form of weight $2$. Use the <a href="http://en.wikipedia.org/wiki/Shimura_correspondence" rel="nofollow">Shintani-Shimura correspondence</a> to get a modular form of weight $3/2$. To this, we have Shimura's Rankin-Selberg Zeta function for half-integral weight modular forms. This is not the same as the R-S zeta function in Ivic's paper (which is what I think of as the R-S zeta function), though it is not wildly different (unfortunately, I'm having trouble finding online descriptions of it, and even worse, Shimura has two Rankin-Selberg zeta functions attached to his name, one for even-integral weight and one for half-integral weight). It is supposed to be in Shimura's "On modular forms of half-integral weight", but the construction is not given a prominent place (at least, I'm having trouble finding it). Basically, you integrate (over a fundamental domain) a modular form of half-integral weight against a theta series and an Eisenstein series.</p>
+
+<p>Finally, the R-S zeta function is an automorphic $L$-function (with a functional equation), so we have a Riemann Hypothesis for it (that it only vanishes on the center line of its functional equation).</p>
+
+

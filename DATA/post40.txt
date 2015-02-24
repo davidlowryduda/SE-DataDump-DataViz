@@ -1,17 +1,16 @@
 ## Title:
-The Langlands program for beginners
+Fermat's Last Theorem - Special Case of Sophie Germain Primes
 
 ## Tags:
-<reference-request><soft-question><algebraic-number-theory><representation-theory><automorphic-forms>
+<number-theory><reference-request>
 
 ## Score:
-31
+12
+
+## Id:
+22597
 
 ## Body:
-<p>Assuming that a person has taken standard undergraduate math courses (algebra, analysis, point-set topology), what other things he must know before he can understand the Langlands program and its geometric analogue?</p>
-
-<p>What are the good books for learning these topics?</p>
-
-<p>Is there any book which can explain the Langlands program to an undergraduate with very few prerequisites?</p>
+<p>Sophie Germain proved Fermat's Last Theorem $x^p+y^p \neq z^p$ for the special case where p is a Sophie Germain prime and $p\not|xyz$.  Does any one know of a proof for the other case, where $p|xyz$? Note: I am looking for a proof restricted to the Sophie Germain primes, as of course, Wiles proved this generally.</p>
 
 

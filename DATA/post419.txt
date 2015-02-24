@@ -1,0 +1,15 @@
+## Score:
+0
+
+## Id:
+269785
+
+## ParentId:
+269242
+
+## Body:
+<p>I suspect that the statement is false. The effect of prime gaps making some sizes more likely than others disappears after about $e^{e^n},$ but the effect of (small) primes dividing the modulus seems to be a problem except when $n$ is a prime power.</p>
+
+<p>So the conjecture could either be weakened to the case where $n=p^k$ or the density corrected with an appropriate product over primes.</p>
+
+

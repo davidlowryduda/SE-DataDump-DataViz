@@ -1,0 +1,19 @@
+## Score:
+1
+
+## Id:
+195891
+
+## ParentId:
+195847
+
+## Body:
+<p>Let $Z_N=\{0,1,\cdots,N-1\}$. Each integer $a$ creates a function on this set, given by multiplying by $a$ and subsequently reducing modulo $N$ (so the result lies in $Z_N$). Call such a map $\varphi_a$. Then $\varphi_a$ is a bijection if and only if $\gcd(a,N)=1$. By Bezout's identity, there are $x,y$ such that $ax+yn=1$ if $a$ is coprime to $N$, in which case $\varphi_a$ has an inverse map $\varphi_x$. And if $(a,N)&gt;1$, then $\varphi_a$ sends both the elements $0\ne N/\gcd(a,N)\in Z_N$ and $0\in Z_N$ to $0$ and hence is not injective.</p>
+
+<p>Therefore when $\gcd(a,N)=1=\gcd(b,N)$, and if $a'$ and $b'$ are inverses of $a,b$ mod $N$ resp., then</p>
+
+<p>$$\sum_{n\in Z_N}\varphi_a(n)\varphi_k(n)=\sum_{m\in Z_N}m\varphi_k(\varphi_{a'}(m))=\sum_{\ell\in Z_N}\varphi_b(\ell)\varphi_k(\varphi_{a'}(\varphi_b(\ell)))=\sum_{\ell\in Z_N}\varphi_b(\ell)\varphi_{ka'b}(\ell).$$</p>
+
+<p>We make the substitutions $m=\varphi_a(n)=\varphi_b(\ell)$. Thus $k_0=a'b$ and similarly $k_1=ab'$, which are only unique modulo $N$.</p>
+
+

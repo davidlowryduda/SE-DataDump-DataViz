@@ -1,0 +1,22 @@
+## Title:
+presentation of the inertia group of $p$-adic fields
+
+## Tags:
+<reference-request><galois-theory><p-adic-number-theory><group-presentation>
+
+## Score:
+2
+
+## Id:
+431579
+
+## Body:
+<p>It is known (see <a href="http://mathoverflow.net/questions/13733/wild-ramification/13743#13743">here</a>) that the absolute Galois group of a $p$-adic number field $K$ (ie a finite extension of $\mathbb Q_p$) is topologically finitely presented for any odd prime $p$.</p>
+
+<p>Is it also true of the inertia subgroup, $\operatorname{Gal}(\bar K/K^{\rm unr})$, where $\bar K$ is the algebraic closure of $K$ and $K^\rm{unr}$ its maximal unramified extension ?</p>
+
+<p>I know that the presentation cited in the above reference is explicit (so I could check if a lift of the Frobenius automorphism is given as one of the generators, and in that case it would be enough to omit it), but I don't know enough German (in which the original paper is written) to understand it.</p>
+
+<p>I would be thankful for any given reference.</p>
+
+

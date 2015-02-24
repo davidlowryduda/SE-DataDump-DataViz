@@ -1,0 +1,16 @@
+## Score:
+3
+
+## Id:
+368803
+
+## ParentId:
+368756
+
+## Body:
+<p>My memory is that this is given as an exercise in Cassels and Frolich (the exercises were actually written by Serre and Tate).  One uses the fact that being a norm in a cyclic extension of number fields can be detected locally (the so-called Hasse norm theorem), which deals with the case of representations by binary quadratic forms.  Forms in more variables are then handled by induction. (Possibly I'm simplifying here, but this
+is the basic idea.)</p>
+
+<p>If I understand correctly, this is true to history: Hasse's contribution to the theorem was to prove it over number fields, using his norm theorem for cyclic extensions as the initial input.</p>
+
+

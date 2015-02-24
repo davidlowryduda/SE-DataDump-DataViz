@@ -1,0 +1,41 @@
+## Score:
+1
+
+## Id:
+173029
+
+## ParentId:
+172528
+
+## Body:
+<p>No, convergence does not hold for all irrational $x$. There are uncountably many values of $x$ for which the partial sums $\sum_{n=1}^N\frac{f(nx)}n$ are unbounded. In fact, the set of values of $x$ for which the partial sums are bounded is <a href="http://en.wikipedia.org/wiki/Meagre_set" rel="nofollow">meagre</a>. A set (of reals) is meagre if it is a union of countably many nowhere-dense sets and, by the <a href="http://en.wikipedia.org/wiki/Baire_category_theorem" rel="nofollow">Baire category theorem</a>, the complement of a meagre set is nonempty and, in fact, is uncountable in the neighbourhood of any point. So, in this sense, the set of values of $x$ for which the sum converges is negligible. However, being small in the sense of being a meagre set does not correspond to smallness in other senses. In contrast to the statement I just made, and will prove in this answer, the sum does converge for <a href="http://en.wikipedia.org/wiki/Almost_everywhere" rel="nofollow">almost every</a> $x$ in the measure-theoretic sense. There is no contradiction between these statements. A meagre set can have full Lebesgue measure, as discussed in this <a href="http://mathoverflow.net/questions/43478/is-there-a-measure-zero-set-which-isnt-meagre" rel="nofollow">math.MO question</a>.</p>
+
+<p>First, as noted in the question, the sum does converge for $x=p/q$ rational ($p,q\in\mathbb{Z}$, $q &gt; 0$). This is because the fractional parts of $nx$ is periodic and equals each of the values in the set $\{k/q\colon0\le k &lt; q\}$ exactly once on each period (assuming the fraction is in lowest terms). So, the sum of $f(nx)$ is zero over each period and the partial sums $c_N\equiv\sum_{n=1}^Nf(nx)$ are bounded. Writing
+$$
+\begin{align}
+\sum_{n=1}^N\frac{f(nx)}n=\sum_{n=1}^{N-1}\frac{c_n}{n(n+1)}+\frac{c_N}N,&amp;&amp;{\rm(1)}
+\end{align}
+$$
+it can be seen that the limit exists as $N\to\infty$.</p>
+
+<p>I'll show that the set of values of $x$ for which this sum converges is meagre. I'll show rather more than that though. Choosing <em>any</em> function $\theta\colon\mathbb{Z}^+\to\mathbb{R}^+$ such that $\theta(n)=o(\log n)$ (i.e., $\theta(n)/\log n\to0$ as $n\to\infty$) then the set of $x$ such that the partial sums are bounded by a fixed multiple of $\theta$ is meagre. This is an optimal statement as it can be shown that the partial sums do grow at a rate $o(\log n)$ for every $x$. This is because <a href="http://en.wikipedia.org/wiki/Equidistribution_theorem" rel="nofollow">Weyl's equidistribution theorem</a> says that $N^{-1}\sum_{n=1}^Nf(nx)$ tends to 0 so, putting $c_n=o(n)$ in (1) gives a term of order $o(\log N)$ on the right hand side.</p>
+
+<p>Now, fix any rational number $r=p/q$ and choose $x$ in an interval $(r-\epsilon,r)$ for some small $\epsilon &gt; 0$. Note that for any $y &lt; x$ we have the inequality $f(y)\ge f(x)-2(x-y)$ and $f(y)\ge f(x)-2(x-y)+1$ for integer $x$. Therefore,
+$$
+\begin{align}
+\sum_{n=1}^N\frac{f(nx)}{n}&amp;\ge\sum_{n=1}^N\frac{f(nr)-2n\epsilon+1_{\{nr\in\mathbb{Z}\}}}{n}\cr
+&amp;=\sum_{n=1}^N\frac{f(nr)}{n}-2N\epsilon+\sum_{n=1}^N1_{\{q\vert n\}}\frac1n\cr
+&amp;=-2N\epsilon+\sum_{m=1}^{\lfloor N/q\rfloor}\frac1{mq}+O(1)\cr
+&amp;=-2N\epsilon+\frac1q\log(N/q)+O(1)\cr
+&amp;=\frac1q\log N-2N\epsilon+O(1).
+\end{align}
+$$
+The term $O(1)$ on the right hand side depends on the choice of $r$ but, otherwise, is bounded independently of $N$ and $\epsilon$. If $\theta(N)$ is as above then, by choosing $\epsilon$ very small and $N=\lceil1/\epsilon\rceil$ we have
+$$
+\sum_{n=1}^N\frac{f(nx)}{n}=\frac1q\log N+O(1)
+$$
+which exceeds $\theta(N)$ for $N$ large enough (i.e., when $\epsilon$ is very small).</p>
+
+<p>Therefore, if we let $U$ be the union of the open intervals for $x$ on which the partial sums of $c_N(x)\equiv\sum_{n=1}^Nf(nx)/n$ exceed $\theta(N)$ for some $N$, then $U$ is an open set including an open interval $(r-\epsilon,r)$ for each rational $r$. So, $U$ is a dense open set. Its complement is a closed nowhere-dense set. The set of $x$ for which $c_N(x)$ is bounded by $\theta(N)$ is contained in $\mathbb{R}\setminus U$, so is meagre. Similarly, for each $K &gt; 0$, replacing $\theta$ by $K\theta$ in the argument above, the set of $x$ such that $c_N(x)/\theta(N)$ is bounded by $K$ is meagre. Choosing a sequence $K_n\to\infty$ shows that the set of $x$ for which $c_N(x)/\theta(N)$ is bounded in $N$ is a countable union of meagre sets and, hence, is meagre. QED</p>
+
+

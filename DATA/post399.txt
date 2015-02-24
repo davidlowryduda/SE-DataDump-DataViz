@@ -1,0 +1,44 @@
+## Title:
+Questions about assigning a probability to a randomly chosen large integer $n$ being prime
+
+## Tags:
+<probability><analysis><reference-request><prime-numbers><analytic-number-theory>
+
+## Score:
+1
+
+## Id:
+234103
+
+## Body:
+<p>I heard this question a few days ago, so reciting from memory:</p>
+
+<blockquote>
+  <p>If I were to randomly choose an arbitrarily large positive integer $n$, could I write a function that determines the likelihood of it being prime?</p>
+</blockquote>
+
+<p>Intuitively, what would it mean to assign a probability to an integer of being prime?</p>
+
+<p><strong>Edit 1</strong></p>
+
+<p>I'm not sure how to incorporate the <a href="http://en.wikipedia.org/wiki/Prime-counting_function" rel="nofollow">prime-counting function</a> into this.</p>
+
+<p><strong>Edit 2</strong></p>
+
+<p>Alright, so the page on the <a href="http://en.wikipedia.org/wiki/Prime_number_theorem" rel="nofollow">prime number theorem</a> says that:</p>
+
+<blockquote>
+  <p>Informally speaking, the prime number theorem states that if a random integer is selected in the range of zero to some large integer N, the probability that the selected integer is prime is about 1 / ln(N), where ln(N) is the natural logarithm of N.</p>
+</blockquote>
+
+<p>Looking through the references, though, I can't find a more formal proof. So I will revise my question.</p>
+
+<blockquote>
+  <p>For a random integer selected in the range of $0$ to some large integer $N$, prove that the probability the selected integer is prime is $\frac{1}{\ln{N}}$.</p>
+</blockquote>
+
+<p><strong>Edit 3</strong></p>
+
+<p>If the selected integer $n$ was prime, it's necessary that it has no prime factors $p\leq\sqrt{n}$. If we could find the probability that $n$ is divisible by $p$ as some function of $p$, then could we write$$\prod_{p=2}^{\sqrt{n}}\left(1-f(p)\right)$$where $f(p)$ is the probability that $n$ is divisible by $p$?</p>
+
+

@@ -1,0 +1,29 @@
+## Title:
+What are some reasonable things to prove about the Collatz Conjecture?
+
+## Tags:
+<number-theory><reference-request><advice><collatz>
+
+## Score:
+4
+
+## Id:
+390088
+
+## Body:
+<p>I am writing an undergraduate paper on the $3n+1$ problem, and I am looking for some theorems related to the problem that would be reasonable for someone with my mathematical background to prove. I'm near the end of my undergraduate studies. I have had a pretty basic introduction to Number Theory and Group Theory. I have also taken a few introductory Computer Science courses. Those are the only courses that I've taken that seem to be relevant to the problem but otherwise my math classes have been: the usually calculus sequence, real analysis, introductory topology, linear algebra. </p>
+
+<p>A good answer to my question would do the following:</p>
+
+<ul>
+<li>Either state one or more non-trivial theorems related to the Collatz conjecture, or reference sources that would contain this kind of information.</li>
+<li>Would NOT state any proofs unless a proof or partial proof would be essential for someone with my requisites if they are to be able to provide a full proof.</li>
+</ul>
+
+<p>Theorems that I have already proved:</p>
+
+<p>If $L(n)$ is a function that counts the number of mappings in the Collatz function for $n$ to get to 1, then if $n = 8k+4$, $L(n) = L(n+1)$.</p>
+
+<p>If $n = 128k+28$ then $L(n) = L(n+2)$.</p>
+
+

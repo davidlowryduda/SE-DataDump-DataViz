@@ -1,0 +1,18 @@
+## Score:
+7
+
+## Id:
+387509
+
+## ParentId:
+387091
+
+## Body:
+<p>There is the paper <em>Theoretical aspects of the trace formula for</em> $GL_2(2)$ by Knapp (<a href="http://www.math.sunysb.edu/~aknapp/pdf-files/355-405.pdf" rel="nofollow">available here, for example</a>, for example).   It doesn't use much number theory, but requires familiarity with some analysis and rep'n theory.  (It gets a bit adelic
+towards the end.)</p>
+
+<p>The complications in the trace formula have to with the fact that congruence subgroups of $SL(2,\mathbb Z)$ don't give compact quotients of the upper half-plane, and so one has to deal with the issue that the traces you are trying to compute receive divergent contributions from the boundary.  </p>
+
+<p>The case of compact quotients is much simpler, and is treated at the beginning of section 4 of the article.  You might want to begin there, since this gives the basic idea of the trace formula as non-abelian Fourier analysis.</p>
+
+

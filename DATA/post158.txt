@@ -1,29 +1,27 @@
-## Title:
-Reference for Brun-Titchmarsh inequality
-
-## Tags:
-<number-theory><reference-request><prime-numbers>
-
 ## Score:
 2
 
+## Id:
+70992
+
+## ParentId:
+67872
+
 ## Body:
-<p>Does anyone know a proof of the Brun-Titchmarsh inequality in the following form starting from the large sieve inequality?</p>
+<p>I tried using Apostol's <em>Introduction to Analytic Number Theory</em>.</p>
 
-<blockquote>
-  <p><strong>Brun-Titchmarsh inequality:</strong> Let $\pi(x;q,a) = |\{p \text{ prime}: p\equiv a \pmod q , p\le x\}|$, $(a,q) = 1$. Then
-  $$\pi(x;q,a) \ll \frac{x}{\phi(q)} \frac{1}{\log(\frac xq)} \quad \text{for }q&lt;x.$$
-  with an absolute implied constant.</p>
-</blockquote>
-
-<p>By the large sieve inequality I mean </p>
-
-<blockquote>
-  <p><strong>Large sieve inequality:</strong> Fix $M,N\ge 1$, $Q\ge 1$. For primes $p\le Q$, let $\Omega_p\subset \mathbb Z/p\mathbb Z$ be given. Let $\omega = |\Omega_p|$, and $S=\{M\le n\le M+N: n\pmod p\notin \Omega_p \text{ for }p\le Q\}$. Then
-  $$|S|\le \frac{N+Q^2}{H},$$
-  where $H=\sum_{\substack{q\le Q, \\ q\text{ squarefree}}} \prod_{p\mid q} \frac{\omega_p}{p-\omega_p}$.</p>
-</blockquote>
-
-<p>If you can prove it or know a reference, I'd be grateful. Thanks for your help!</p>
+<p>Theorem $ 4.12 $ on page $ 90 $ gives an asymptotic formula for
+$$
+\sum_{p \leq x} \frac{1}{p}.
+$$
+Using this and Theorem $ 4.2 $ on page $ 77 $ (Abel's Identity) with
+\begin{equation}
+a(n) := \left\{
+\begin{array}{ll}
+\frac{1}{n} &amp; \text{if $ n $ is prime;} \\
+0           &amp; \text{otherwise}
+\end{array} \right.
+\end{equation}
+(so as to take the sum over all integers $ n $) and $ f(n) := \dfrac{1}{\log^{\alpha} n} $, I think you get that the partial sum is $ O(1) + O \left( \dfrac{1}{\log^{\alpha} x} \right) $, hence, convergence when $ \alpha &gt; 0 $.</p>
 
 

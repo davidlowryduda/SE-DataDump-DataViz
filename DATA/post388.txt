@@ -1,0 +1,15 @@
+## Score:
+1
+
+## Id:
+200498
+
+## ParentId:
+200478
+
+## Body:
+<p>Concerning your reference request, the proof of the first statement can be found in "Algebraic Number Theory" by Jürgen Neukirch (I think it should be in section 1.8 but I am not sure; I don't have my copy at hand, unfortunately). </p>
+
+<p>You can also check out <a href="http://www.jmilne.org/math/CourseNotes/ant.html" rel="nofollow">Milne's notes on algebraic number theory</a>. In those notes, it is Theorem 3.35 on page 54. Note that Milne proves a somewhat stronger result, and the proof is a little more complicated, in my opinion. So maybe you should check out Neukirch first.</p>
+
+

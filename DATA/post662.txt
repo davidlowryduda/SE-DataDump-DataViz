@@ -1,0 +1,23 @@
+## Score:
+7
+
+## Id:
+539875
+
+## ParentId:
+539823
+
+## Body:
+<p>You can put a group structure on any set (this is equivalent to the axiom of choice). The question should be: does there exist a "natural" group structure on the set of all primes? In all humility, I don't believe that such a thing exists. </p>
+
+<p>However, perhaps you'll be happy to hear this:</p>
+
+<p>Let $\ell$ be a prime number, and let $\mathbf Z_\ell$ denote the ring of $\ell$-adic integers. It is a compact topological commutative ring. Let $\mathbb P$ denote the set of all prime numbers.</p>
+
+<p><strong>Theorem</strong> (Chebotarev - Dirichlet): the set $\mathbb P-\{\ell\}$ is <em>dense</em> in $\mathbf Z_\ell^\times$.</p>
+
+<p><strong>Corollary</strong>: <a href="http://en.wikipedia.org/wiki/Dirichlet%27s_theorem_on_arithmetic_progressions">Dirichlet's theorem on primes in arithmetic progressions</a>.</p>
+
+<p>I do believe, however, that the above theorem comes as close as possible to answering your question (this is my nice way of answering "no"). Primes give rise to conjugacy classes in Galois groups via the "Frobenius", so abelian Galois groups are a natural place to look if one would like to put a group structure on the set of all primes. The example above is the most natural one which appears in this context (because $\mathbf Z_\ell^\times$ appears as the Galois group of the infinite cyclotomic extension $\mathbf Q(\mu_{\ell^\infty})/\mathbf Q$).</p>
+
+

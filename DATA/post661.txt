@@ -1,0 +1,13 @@
+## Score:
+3
+
+## Id:
+539840
+
+## ParentId:
+539832
+
+## Body:
+<p>No, I think the second approach you had is as quickly as this can be solved. Subtracting the first equation from the second gives $y + 2z = 10$, and the only possible ways that both $y$ and $z$ are positive integers is when $(y,z) = (8,1), (6,2), (4,3), (2,4)$. Plugging each set back into the first equation, we get that the four possible combinations for $(x,y,z)$ are $(22,8,1), (23,6,2), (24,4,3), (25,2,4)$.</p>
+
+

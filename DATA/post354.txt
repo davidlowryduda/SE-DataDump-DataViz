@@ -1,0 +1,33 @@
+## Score:
+9
+
+## Id:
+174687
+
+## ParentId:
+174676
+
+## Body:
+<p>By <a href="http://math.stackexchange.com/questions/2991/not-understanding-simple-modulus-congruency/3230#3230">Gauss' algorithm,</a> scale $\rm\:\color{#C00}{\frac{A}B} \to \frac{AN}{BN}\: $ by the least $\rm\,N\,$ so that $\rm\, BN &gt; 13,\, $ reduce mod $13,\,$ iterate.</p>
+
+<p>$$\rm\displaystyle \ mod\ 13\!:\ \color{#C00}{\frac{7}9} \,\equiv\, \frac{14}{18}\, \equiv\, \color{#C00}{\frac{1}5}\,\equiv\, \frac{3}{15}\,\equiv\, \color{#C00}{\frac{3}2} \,\equiv\, \frac{21}{14} \,\equiv\, \color{#C00}{\frac{8}1}$$</p>
+
+<p>Denominators of the $\color{#c00}{\rm  reduced}$ fractions decrease $\,\color{#C00}{ 9 &gt; 5 &gt; 2&gt; \ldots}\,$ so reach $\color{#C00}{1.}$ </p>
+
+<p>Or, simpler, allowing negative residues $\displaystyle\ \ \frac{7}9\,\equiv\, \frac{7}{\!-4\!\ \,}\,\equiv\,\frac{21}{\!\!-12\ \  \ \!\!}\,\equiv\, \frac{8}1$</p>
+
+<p>This optimization of using <em>balanced</em> residues $0,\pm 1, \pm 2.\ldots$ works for modular arithmetic in general. Here we can also optimize by (sometimes) cancelling obvious common factors, or by pulling out obvious factors of denominators, etc. For example</p>
+
+<p>$$\frac{7}9\,\equiv\, \frac{\!-6\,}{\!-4\,}\,\equiv\frac{\!-3\,}{\!-2\,}\,\equiv\frac{10}{\!-2\,}\,\equiv\,-5$$</p>
+
+<p>$$\frac{7}9\,\equiv\,\frac{\!-1\cdot 6}{\ \ 3\cdot 3}\,\equiv\,\frac{\!\,12\cdot 6\!}{\ \ \,3\cdot 3}\,\equiv\, 4\cdot 2$$</p>
+
+<p>As you did, we can check if the quotient $\rm\,a/b\equiv (a\pm\!13\,i)/(b\pm\!13\,j)\,$ is exact for small $\rm\,i,j,\,$ e.g.</p>
+
+<p>$$ \frac{1}7\,\equiv \frac{\!-12}{-6}\,\equiv\, 2;\ \ \ \frac{5}7\,\equiv\,\frac{18}{\!-6\!\,}\,\equiv -3$$</p>
+
+<p>When working with smaller numbers there is a higher probability of such optimizations being applicable (the law of small numbers), so it's well-worth looking for such in manual calculations. </p>
+
+<p><strong>Note</strong> $ $ <em>Gauss' algorithm</em> is <em>my</em> name for a special case of the Euclidean algorithm that's <em>implicit</em> in Gauss' <em>Disq. Arith</em>. I don't recall if Gauss  <em>explicitly</em> used this algorithm. Follow said link for more.</p>
+
+

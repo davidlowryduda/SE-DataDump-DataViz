@@ -1,0 +1,17 @@
+## Score:
+0
+
+## Id:
+186811
+
+## ParentId:
+186800
+
+## Body:
+<p>As stated in the comments, if $a$ and $b$ are coprime to $N$, then each of the sequences has period $N$. In this case $g[n]=f[kn]$ with $k=a^{-1}b$, where $a^{-1}$ is the <a href="http://en.wikipedia.org/wiki/Multiplicative_group_of_integers_modulo_n" rel="nofollow">multiplicative inverse</a> of $a\pmod N$. This also works if only $a$ is coprime to $N$ (but in this case $g[n]$ has a shorter period).</p>
+
+<p>More generally, if $d:=\gcd(a,N)\mid b$, then with $a'=a/d$, $b'=b/d$ and $N'=N/d$ we have $g[n]=f[kn]$ with $k=a'^{-1}b'$, where the multiplicative inverse is taken $\bmod{N'}$.</p>
+
+<p>If $d\nmid b$, then $g[n]$ takes values that $f[n]$ doesn't take, so there can be no $k$ with $g[n]=f[kn]$.</p>
+
+

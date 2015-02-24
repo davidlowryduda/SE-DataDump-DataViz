@@ -1,0 +1,17 @@
+## Title:
+Book about ergodic theory, group actions and number theory.
+
+## Tags:
+<group-theory><number-theory><reference-request><ergodic-theory>
+
+## Score:
+2
+
+## Id:
+156765
+
+## Body:
+<p>Does anyone Know about an introductory book showing the intersection between ergodic theory, group actions and number theory? I have been looking for but it has been impossible to me.
+Thanks.</p>
+
+

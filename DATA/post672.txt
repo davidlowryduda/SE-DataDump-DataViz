@@ -1,0 +1,13 @@
+## Score:
+2
+
+## Id:
+548255
+
+## ParentId:
+548210
+
+## Body:
+<p>Since you're learning on your own, I'd recommend <em>Elementary Number Theory</em> by Jones and Jones.</p>
+
+

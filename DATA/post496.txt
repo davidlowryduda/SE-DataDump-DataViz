@@ -1,0 +1,16 @@
+## Title:
+Proof of Hasse-Minkowski over Number Field
+
+## Tags:
+<number-theory><reference-request><algebraic-number-theory>
+
+## Score:
+5
+
+## Id:
+368756
+
+## Body:
+<p>Can anyone point me towards a good reference which contains the proof of the Hasse-Minkowski theorem of quadratic forms over a number field? Serre's "A Course in Arithmetic" has a self contained proof for the theorem when the base field is $\mathbb{Q}$, but I am looking for the more general setting.</p>
+
+

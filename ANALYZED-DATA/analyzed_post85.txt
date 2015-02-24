@@ -1,0 +1,5 @@
+Gaus
+Disquisitiones Arithmeticae
+Wikipedia
+primitive roots modulo n
+Multiplicative group of integers modulo n

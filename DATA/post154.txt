@@ -1,13 +1,58 @@
 ## Title:
-polynomial values take on arbitrarily large prime factors?
+Do these zeros have real part equal to $0$?
 
 ## Tags:
-<number-theory><reference-request>
+<number-theory><reference-request><complex-numbers>
 
 ## Score:
-6
+1
+
+## Id:
+69505
 
 ## Body:
-<p>Let $P$ be an integer valued polynomial with degree $&gt; 1$, is it a theorem that the values $P(n)$ have arbitrarily large prime factors?</p>
+<p>I guess this is a known result but I could not find it on the Internet. Consider these equations formed from the reciprocals of the divisors of $n$ raised to a complex number $s=a+ib$ :</p>
+
+<p>$\displaystyle 1$</p>
+
+<p>$\displaystyle 1 + \frac{1}{2^s}=0$</p>
+
+<p>$\displaystyle 1 + \frac{1}{3^s}=0$</p>
+
+<p>$\displaystyle 1 + \frac{1}{2^s} + \frac{1}{4^s}=0$</p>
+
+<p>$\displaystyle 1 + \frac{1}{5^s}=0$</p>
+
+<p>$\displaystyle 1 + \frac{1}{2^s} + \frac{1}{3^s} + \frac{1}{6^s}=0$</p>
+
+<p>$\displaystyle 1 + \frac{1}{7^s}=0$</p>
+
+<p>$\displaystyle 1 + \frac{1}{2^s} + \frac{1}{4^s} + \frac{1}{8^s}=0$</p>
+
+<p>$\displaystyle 1 + \frac{1}{3^s} + \frac{1}{9^s}=0$</p>
+
+<p>$\displaystyle 1 + \frac{1}{2^s} + \frac{1}{5^s} + \frac{1}{10^s}=0$</p>
+
+<p>$\displaystyle 1 + \frac{1}{11^s}=0$</p>
+
+<p>$\displaystyle 1 + \frac{1}{2^s} + \frac{1}{3^s} + \frac{1}{4^s} + \frac{1}{6^s} + \frac{1}{12^s}=0$</p>
+
+<p>$...$</p>
+
+<p>Is it true that the zeros have real part equal to $0$ ?</p>
+
+<p><a href="http://www.wolframalpha.com/input/?i=Table%5BFindRoot%5B1%2B1%2F2%5E%28s%29%2B1%2F3%5E%28s%29%2B1%2F5%5E%28s%29%2B1%2F6%5E%28s%29%2B1%2F10%5E%28s%29%2B1%2F15%5E%28s%29%2B1%2F30%5E%28s%29%3D%3D0%2C%7Bs%2C5%2an%2aI%7D%5D%2C+%7Bn%2C+1%2C+30%7D%5D" rel="nofollow">Wolfram Alpha example, sums of reciprocals of divisors of 30</a></p>
+
+<p>This Mathematica program finds some of the zeros up to the number $42$.</p>
+
+<pre><code>Clear[nn, s];
+Do[
+ nn = i;
+ Total[1/Divisors[nn]^(s)];
+ Print[s /.Table[FindRoot[Total[1/Divisors[nn]^(s)] == 0,
+  {s, 5*n*I}], {n, 1, 30}]], {i, 2, 42}]
+</code></pre>
+
+<p>There are cases when the FindRoot command in Mathematica gives solutions that have real part not equal to zero, but these appear to be accompanied with warning messages and I have checked numerically that those solutions are not zeros.</p>
 
 

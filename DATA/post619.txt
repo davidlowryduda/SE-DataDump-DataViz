@@ -1,0 +1,23 @@
+## Score:
+4
+
+## Id:
+481715
+
+## ParentId:
+481684
+
+## Body:
+<p>I would rather make this a comment, but I am afraid this is too long for a comment and, given the format of your question, might as well constitute an answer.</p>
+
+<p>First, I agree with one of the comments above: it depends on the journal. Typical situations when code is cited or included in the article include (but are not limited to) the following.</p>
+
+<p>1) It is an article in applied mathematics where some (sometimes somewhat trivial, most of the time not) numerical computations constitute the core of an argument or a demonstration of an idea. </p>
+
+<p>2) In applied and pure papers, where a proof is computer-assisted. For example, one might be trying to show that a certain quantity behaves in a specific way (say, monotone, for example). Suppose that one also knows that the quantity in question enjoys some continuity properties. Then one could attempt to approximate the quantity numerically and claim, by continuity, that a close enough approximation is enough to conclude the claim. Depending on the technique, the numerical analysis might be quite nontrivial and it would be suitable to include both, the description of the numerical method as well as the code (perhaps in an appendix). </p>
+
+<p>In general, if it is a long algebraic computation that is not general enough that you would foresee its usefulness in another context or for other problems of similar nature (i.e., this computation is not a particular technique, but only a long computation), then I would omit the code completely. You could write something to the effect of "a rather long computation (but one that involves only standard tools) gives the following ..." </p>
+
+<p>It might also be suitable to show how a computation could be broken up into smaller, more manageable blocks. If you still feel uneasy about not giving details on your computation, you could make a small appendix in which you could explain how you carried out the computation (perhaps even include the code).</p>
+
+

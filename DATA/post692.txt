@@ -1,0 +1,13 @@
+## Score:
+1
+
+## Id:
+597215
+
+## ParentId:
+597202
+
+## Body:
+<p>According to my experience, an infinite extension is said to be totally ramified if every finite sub-extension is totally ramified in the usual sense.</p>
+
+

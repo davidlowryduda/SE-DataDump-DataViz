@@ -1,0 +1,13 @@
+## Score:
+5
+
+## Id:
+548247
+
+## ParentId:
+548210
+
+## Body:
+<p>Underwood Dudley, <a href="http://rads.stackoverflow.com/amzn/click/B008TVF6FQ"><em>Elementary Number Theory</em></a>, is an excellent introductory text and exceptionally inexpensive. I have heard good things about Joseph H. Silverman, <a href="http://rads.stackoverflow.com/amzn/click/0321816196"><em>A Friendly Introduction to Number Theory</em></a> from people whose opinions I respect, but I’ve not seen it myself.</p>
+
+

@@ -1,15 +1,24 @@
 ## Title:
-Diophantine equation $x^y-y^x=11$
+Reference book for Artin-Schreier Theory
 
 ## Tags:
-<number-theory><reference-request><elementary-number-theory><diophantine-equations>
+<reference-request><algebraic-number-theory><galois-theory>
 
 ## Score:
-10
+5
+
+## Id:
+50041
 
 ## Body:
-<p>How can one find all integer solutions to $x^y-y^x=k$, for a given k?</p>
+<p>The aim of the question is very simple, I would like to study Artin-Schreier Theory, but I have had embarassing difficulties in finding a book which could help me in doing that.</p>
 
-<p>Example case $x^y-y^x=11$</p>
+<p>In specific I'm looking for a book which write down explicitely the main theorem of Artin-Schreir Theory, and have also a proof of it (or at least a sketch of it) and maybe also a short introduction on the topic.</p>
+
+<p>The closest I get in the matter is with the book "Cohomology of Number Fields" of Neukirch, which is suggested as a reference by the Wikipedia page on Artin-Schreier Theory. But it doesn't fit with the requests I made above.</p>
+
+<p>So the question is, what is the name of such a book? Or, if such abook does not exist, do you have any suggestions on how to proceed?</p>
+
+<p>Thank you very much!</p>
 
 

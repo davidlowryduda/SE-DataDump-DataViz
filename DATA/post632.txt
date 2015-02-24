@@ -1,0 +1,13 @@
+## Score:
+1
+
+## Id:
+499510
+
+## ParentId:
+410144
+
+## Body:
+<p>There is a published instructors guide to go with Dudley's text, which includes some nice commentary as well as exercise solutions. Dover has it posted online: <a href="http://www.doverpublications.com/solutions/46931x.pdf" rel="nofollow">Instructors Guide to Elementary Number Theory</a></p>
+
+

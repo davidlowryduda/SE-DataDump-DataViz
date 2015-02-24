@@ -1,0 +1,18 @@
+## Title:
+Examples of idelic Artin map
+
+## Tags:
+<reference-request><algebraic-number-theory>
+
+## Score:
+0
+
+## Id:
+549180
+
+## Body:
+<p>I do not know of any source on class field theory which explains the idelic Artin map through a couple of examples. </p>
+
+<p>Please provide me some.</p>
+
+

@@ -1,28 +1,17 @@
-## Title:
-Dedekind Sum Congruences
-
-## Tags:
-<number-theory><reference-request>
-
 ## Score:
-15
+4
+
+## Id:
+28032
+
+## ParentId:
+28027
 
 ## Body:
-<p>For $a,b,c \in \mathbb{N}$, let $a^{\prime} = \gcd(b,c)$, $b^{\prime} = \gcd(a,c)$, $c^{\prime} = \gcd(a,b)$ and $d = a^{\prime} b^{\prime} c^{\prime}$. Define $\mathfrak{S}(a,b,c) =  a^{\prime} \mathfrak{s}( \tfrac{bc}{d}, \tfrac{a}{b^{\prime} c^{\prime}}) +   b^{\prime} \mathfrak{s}( \tfrac{ac}{d}, \tfrac{b}{a^{\prime} c^{\prime}}) + c^{\prime} \mathfrak{s}( \tfrac{ab}{d}, \tfrac{c }{a^{\prime} b^{\prime}} )$, where $\mathfrak{s}$ is the <a href="http://mathworld.wolfram.com/DedekindSum.html" rel="nofollow">Dedekind sum</a>. I can prove the following: For $a, b, c \in \mathbb{N}$ with $\gcd(a,b,c) = 1$,
-\begin{align}
-12 a b c \ \mathfrak{S}(a,b,c) \equiv (ab)^{2} + (bc)^{2} + (ca)^{2} + d^{2}  \ \pmod{a b c}.
-\end{align}
-Is this congruence in the literature? I'm aware of the 3-term generalization of Rademacher and Pommersheim and of the work of Beck on the Carlitz-Dedekind Sums, but these don't seem to include this particular congruence as a special case.</p>
+<p>The wikipedia entry for <a href="http://en.wikipedia.org/wiki/Kurt_Heegner" rel="nofollow">Kurt Heegner</a> contains a reference to an article by Harold Stark where he adresses the gap on the original proof and presents an outline of Heegner's argument.</p>
 
-<p>I generalize. For $a_{1}, \dots, a_{n} \in \mathbb{N}$ such that $\gcd(a_1, \dots, a_{n}) = 1$, let $a_{i}^{\prime} = \gcd(a_{1}, \dots, \hat{a}_{i}, \dots, a_{n})$. Define the symmetric summation</p>
+<p>Heegner's original article (cited in the wikipedia entry) seems to be available in SpringerLink if you have access to it. </p>
 
-<p>$$
-\mathfrak{S}(a_{1},\dots, a_{n}) = \sum_{i = 1}^{n} a_{i}^{\prime} \, \mathfrak{s}\left( \tfrac{a_{1} \cdots \hat{a}_{i} \cdots a_{n}}{a_{n+1}},  \tfrac{a_{i}}{a_{1}^{\prime} \cdots \hat{a}_{i}^{\prime} \cdots a_{n}^{\prime}} \right).
-$$
-where $\hat{}$ denotes omission. For subsetwise coprime $a_{1}, \dots, a_{n} \in \mathbb{N}$ (all primed variables equal $1$), I conjecture the following congruence holds for $n = 4$ (and I have a hunch that it continues to hold for $n &gt; 4$):
-$$
-12 a_{1} \cdots a_{n} \, \mathfrak{S}(a_{1}, \dots, a_{n}) \equiv \left( \sum_{i = 1}^{n} (a_{1} \cdots \hat{a}_{i} \cdots a_{n})^{2} \right) + 1 \ \pmod{a_{1} \cdots a_{n}}.
-$$
-Is this more general congruence known?</p>
+<p>Another nice reference which you would like to consult is David Cox's excellent book <a href="http://rads.stackoverflow.com/amzn/click/0471190799" rel="nofollow">Primes of the form $x^2 + ny^2$</a>. In section 12 of that book you can find a proof under the entry <strong>E. Imaginary Quadratic Fields of Class Number 1</strong>. I hope this helps.</p>
 
 

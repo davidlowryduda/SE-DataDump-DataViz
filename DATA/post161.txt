@@ -1,27 +1,24 @@
-## Title:
-generalization of base-n notation from naturals to fractions
-
-## Tags:
-<combinatorics><number-theory><reference-request><information-theory>
-
 ## Score:
-1
+6
+
+## Id:
+71176
+
+## ParentId:
+70950
 
 ## Body:
-<p>not exactly sure how to best ask this. base-$n$ notation involves a series of digits written where each digit is a natural number less than $n$. </p>
+<p>If you want to <em>use</em> the Gaussian integers then I don't think there's any way around the "long" chain of argument that involves showing it is a UFD. However, there are methods of proving Fermat's two-square theorem that make no mention of the Gaussian integers. (There had better be such a method since the Gaussian integers were introduced about 200 years after Fermat stated his two-square theorem and suggested it could be proved by descent. See Chapter 26 of Silverman's Friendly Introduction to Number Theory, 3rd ed., for a proof by descent.) </p>
 
-<blockquote>
-  <p>is there some math/theory generalization of base-$n$ notation &amp; related operations where $n$ is <em>fractional</em>?</p>
-</blockquote>
+<ol>
+<li><p>David's answer mentions an approach using equivalence of binary quadratic forms. </p></li>
+<li><p>A second technique uses Minkowski's geometry of numbers (which is important in some basic theorems of algebraic number theory). You can read this in many textbooks on algebraic number theory, such as Section 7.2 of Stewart and Tall's "Algebraic Number Theory" (you don't need to know anything in the earlier part of the book). Or look at Section 5, Chapter 22 of Goldman's "The Queen of Mathematics: An Historically Motivated Guide to Number Theory".</p></li>
+<li><p>Thue's lemma.  See pp. 264--265 of Burton's "Elementary Number Theory" (7th ed.).
+The geometry of numbers and Thue's lemma are both closely related to the Pigeonhole principle.</p></li>
+<li><p>Jacobi sums (Ireland &amp; Rosen, p. 95). This requires knowing $({\mathbf Z}/p{\mathbf Z})^\times$ has an element of order 4 and leads to an explicit character sum which is a Gaussian integer of norm $p$. It doesn't require knowing the Gaussian integers have unique factorization. </p></li>
+<li><p>Continued fractions.  See C. D. Olds, "Continued Fractions", 132--133.</p></li>
+</ol>
 
-<p>am particularly interested in the case where $1 \leq n \leq 2$. yes of course am familiar with logarithms &amp; exponentiation but this question is a little more "systematic".</p>
-
-<p>a little further background (which is not intended to be definitive or bias any answers too much). the immediate desired application is the study of complexity theory bit vectors. suppose one wants to study operations on bit vectors empirically (ie with computer experiments/simulations). </p>
-
-<p>for the case base $n=2$ there are $n^x=2^x$ possible bit vectors of length $x$. this can grow (in memory &amp; processing requirements) very quickly esp for relatively simple scenarios/constraints eg $x=m^2$ where $m$ is natural. it would be very useful to convert or "scale down" the problem to some possibly more continuous version such that one could study $1 \leq n \leq 2$ and the results would carry/generalize to higher natural $n$. has anyone seen something like this in books or papers?</p>
-
-<p>it appears maybe to be related to something like "fractional bits" that carry "less than 2 states" whatever those might be.</p>
-
-<p>an roughly close example of a strategy along these lines is the "magnification lemma" for studying circuit complexity found the book, <a href="http://www.thi.informatik.uni-frankfurt.de/~jukna/boolean/index.html" rel="nofollow">Boolean Function Complexity</a> by Stasys Jukna.</p>
+<p>One advantage of the proof using unique factorization in the Gaussian integers is that it simultaneously gives you not just the existence of $a$ and $b$ such that $p = a^2 + b^2$ but also the uniqueness of $a$ and $b$ up to order and sign. Other techniques of proving the existence of $a$ and $b$ don't necessarily also explain why these integers are essentially unique (although the uniqueness aspect can be proved on its own too).</p>
 
 

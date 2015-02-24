@@ -1,0 +1,23 @@
+## Score:
+1
+
+## Id:
+457059
+
+## ParentId:
+457043
+
+## Body:
+<p>Here are my thoughts. If you disagree, I'll expand my answers.</p>
+
+<ol>
+<li>We have $m = ax$ and $n = by$. Therefore $mn=(ax)(by)=ab(xy)$. Hence, $ab|mn$.</li>
+<li>Yes (ask for proof). No consider $n=3$.</li>
+<li>Only divisors of $p$ are by definition $1$ and $p$, so its gcd with another number could only possibly be one of these two.</li>
+<li>$(a,2a)=1$. Not sure what you mean with this. $(a,a+1)=1$. $(a,a+2)=1 \text{ or } 2$.</li>
+<li>$(n+1)^3 - n^3 = 3n^2 + 3n + 1 = 3(n+n^2) + 1$.</li>
+<li>If $d=(a+b,a-b)$, then $d \mid a+b$ and $d \mid a-b$. Therefore, $d|(a+b)-(a-b) \iff d \mid 2a$. Also, $d|(a+b)+(a-b) \iff d \mid 2b$. Because $(a,b)=1$, $d$ must be either $1$ or $2$.</li>
+<li>Either $n=2k$ or $n=2k+1$. In first case, $n^2 = (2k)^2 = 4k^2$. In second, we have that $n^2 = (2k+1)^2 = 4k^2 + 4k + 1 = 4(k^2 + k) + 1$.</li>
+</ol>
+
+

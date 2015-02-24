@@ -1,0 +1,13 @@
+## Score:
+2
+
+## Id:
+234111
+
+## ParentId:
+234103
+
+## Body:
+<p>On your second question, what it might mean to assign a probability to the likelihood of a number being prime, you might want to take a look at <a href="http://math.stackexchange.com/a/77177">this answer</a>, the discussion in the comments under it, and in particular the book that I refer to there, <a href="http://rads.stackoverflow.com/amzn/click/0521817226" rel="nofollow">Towards a Philosophy of Real Mathematics</a> by David Corfield.</p>
+
+

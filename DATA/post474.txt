@@ -1,0 +1,19 @@
+## Score:
+5
+
+## Id:
+331561
+
+## ParentId:
+331557
+
+## Body:
+<p>According to <a href="http://oeis.org/A002479">OEIS</a>,</p>
+
+<blockquote>
+  <p>$n$ belongs to this sequence iff every prime $ p \equiv 5,7 \pmod 8$ dividing $n$ occurs to an even power. </p>
+</blockquote>
+
+<p>So the answer to my question "Is there a theorem analogous to the one about $a^2+b^2$?" is "Yes".</p>
+
+

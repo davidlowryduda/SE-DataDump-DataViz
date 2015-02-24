@@ -1,0 +1,43 @@
+## Score:
+2
+
+## Id:
+527071
+
+## ParentId:
+526996
+
+## Body:
+<p>Unfortunately, there is not ever going to be a single source for this as it covers too many areas. We are dealing with several classes of items here from symmetric, asymmetric, stream, hash functions and random number generators, for example. Each has a different approach to attack. As new ciphers are being generated, they are designed to withstand the currently known attack approaches.</p>
+
+<p>There have been some attempts to write books and here are some examples (listed from easier to harder)</p>
+
+<ul>
+<li>Cryptanalysis: A Study of Ciphers and Their Solution, by Helen F. Gaines</li>
+<li>Elementary Cryptanalysis: A Mathematical Approach, Elementary Cryptanalysis, Abraham Sinkov </li>
+<li>Cryptanalysis of RSA and Its Variants, by M. Jason Hinek</li>
+<li>Differential Cryptanalysis of the Data Encryption Standard, by Eli Biham, Adi Shamir</li>
+<li>Cryptanalysis of Number Theoretic Ciphers (Computational Mathematics), Samuel S. Wagstaff Jr.</li>
+<li>Algorithmic Cryptanalysis Series, Antoine Joux</li>
+<li>Modern Cryptanalysis: Techniques for Advanced Code Breaking, Christopher Swenson </li>
+<li>Algebraic Cryptanalysis, Gregory Bard</li>
+</ul>
+
+<p>If you have the mathematical and creative ability, you need to learn this by seeing what others are doing. You can see the examples that were done for the AES and Secure Hash Algorithm (SHA) competition on the web. There are also the proof side for things like symmetric cipher modes of operation you can review. You should also read and understand the Handbook of Applied Cryptography and its Elliptic Curve partner.</p>
+
+<p>Also, Bruce Schneier has written some very nice items on this very topic and these include:</p>
+
+<ul>
+<li><a href="https://www.schneier.com/paper-self-study.pdf" rel="nofollow">https://www.schneier.com/paper-self-study.pdf</a> (excellent write-up and this will show you what I mean)</li>
+<li><a href="https://duckduckgo.com/?kh=1&amp;q=cryptanalysis&amp;sites=www.schneier.com%2Fblog" rel="nofollow">https://duckduckgo.com/?kh=1&amp;q=cryptanalysis&amp;sites=www.schneier.com%2Fblog</a> (look at the different papers and approaches that are needed, more creativity than the designer of the cipher)</li>
+</ul>
+
+<p>Here are some of the military examples:</p>
+
+<ul>
+<li><a href="http://www.umich.edu/~umich/fm-34-40-2/" rel="nofollow">http://www.umich.edu/~umich/fm-34-40-2/</a></li>
+</ul>
+
+<p>There are probably some Opencourseware items on this topic too that you might want to explore.</p>
+
+

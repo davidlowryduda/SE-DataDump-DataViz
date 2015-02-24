@@ -1,15 +1,18 @@
 ## Title:
-places valuations and so on
+Undergraduate/High-School-Olympiad Level Introductory Number Theory Books For Self-Learning
 
 ## Tags:
-<reference-request><algebraic-number-theory><arithmetic-geometry>
+<number-theory><reference-request>
 
 ## Score:
-3
+8
+
+## Id:
+1774
 
 ## Body:
-<p>I am looking for complete references on places, valuations and so on. In particular I need to understand the meaning of "a finite place does not divide a prime number $\ell$" and what is the Frobenius automorphism at a place.</p>
+<p>I don't know whether the books metioned in <a href="http://math.stackexchange.com/questions/329/best-ever-book-on-number-theory">Best ever book on Number Theory</a> are beyond undergraduate/high-school-olympiad level.</p>
 
-<p>Thank you</p>
+<p>Please recommend your favourite.</p>
 
 

@@ -1,0 +1,15 @@
+## Score:
+4
+
+## Id:
+318726
+
+## ParentId:
+318721
+
+## Body:
+<p>Here's a list of the first 10000 numbers</p>
+
+<p><a href="http://oeis.org/A005385/b005385.txt" rel="nofollow">http://oeis.org/A005385/b005385.txt</a></p>
+
+

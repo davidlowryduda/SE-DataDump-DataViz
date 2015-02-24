@@ -1,17 +1,38 @@
-## Title:
-Characterization of integers which has a $2$-adic square root
-
-## Tags:
-<number-theory><reference-request><p-adic-number-theory>
-
 ## Score:
-3
+5
+
+## Id:
+114880
+
+## ParentId:
+110697
 
 ## Body:
-<p>Does anyone know an "elementary" proof of the following theorem?</p>
+<p>Although my question above concerns whether or not the posted identity is a known result, I'll add the following elementary and direct proof (without recourse to Legendre's Theorem or the de Bruijn function needed for a more general version).</p>
 
-<p>Let $k \neq 0$ be a rational integer. Then $k$ admits a square root in $\mathbb{Z}_2$ if $k = 4^a (8b+1)$ for some $a \in \mathbb{N}$, $b \in \mathbb{Z}$.</p>
+<p><strong>Proposition</strong> For real $x \geqslant 1$, the following identity holds
+\begin{align}
+\lfloor x \rfloor! = x^{\lfloor x \rfloor} e^{1-x} e^{\int_1^{x} \frac{\text{frac}(t)}{t} \ dt}.
+\end{align}</p>
 
-<p>About $p$-adic numbers I don't know anything more sophisticated than Hensel lemma. Thank you!</p>
+<p><strong>Proof.</strong> 
+For each positive integer $n$, the function $f(t) = \tfrac{\text{frac}(t)}{t}$ equals $1 - \tfrac{n}{t}$ on $[n,n+1]$. Thus,
+\begin{align}
+\int_{1}^{n} f(t) \ d t &amp;  = \sum_{k = 1}^{n-1} \int_{k}^{k+1} (1 - \tfrac{k}{t}) \ dt \\ &amp; = n - 1 + \log n! - n \log n.
+\end{align}
+By splitting the following integral into two pieces, we compute
+\begin{align}
+\int_{1}^{x} f(t) \ d t &amp; =\int_{1}^{\lfloor x \rfloor} f(t)  \ d t + \int_{\lfloor x \rfloor }^{x} f(t)  \ dt \\ &amp; =  \lfloor x \rfloor - 1 + \log \lfloor x \rfloor! - \lfloor x \rfloor \log \lfloor x \rfloor + \int_{\lfloor x \rfloor}^{x } f(t) \ d t.
+\end{align}
+We need only to compute the last integral,
+\begin{align}
+ \int_{\lfloor x \rfloor}^{x } f(t)  \ dt &amp; =  \int_{0}^{\text{frac}(x)  } \frac{\text{frac}(t + \lfloor x \rfloor)}{t + \lfloor x \rfloor} \ d t \\ &amp; =  \int_{0}^{ \text{frac}(x)  } \frac{t}{t + \lfloor x \rfloor } \ d t
+  \\ &amp; =\text{frac}(x)  + \lfloor x \rfloor \log \lfloor x \rfloor - \lfloor x \rfloor \log x
+\end{align}
+by a change of variables from $t$ to $t + \lfloor x \rfloor$. Hence, together these identities yield
+\begin{align}
+\int_{1}^{x} f(t)  \ dt &amp;  =   x   - 1 + \log \lfloor x \rfloor!      - \lfloor x \rfloor \log x,
+\end{align}
+which completes the proof of the claim.</p>
 
 

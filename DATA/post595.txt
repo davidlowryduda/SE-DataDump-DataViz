@@ -1,0 +1,29 @@
+## Score:
+0
+
+## Id:
+464643
+
+## ParentId:
+462307
+
+## Body:
+<p>In comparison and contrast to <a href="http://math.stackexchange.com/users/10400">WillJagy</a>'s answer, here is the situation when</p>
+
+<p>$$I(N) &lt; \frac{2N}{N + 1}.$$</p>
+
+<p>Following WillJagy's reasoning, we have</p>
+
+<p>$$\sigma(N) &lt; \frac{2{N^2}}{N + 1} = 2N - 2 + \frac{2}{N + 1},$$</p>
+
+<p>from which it follows that</p>
+
+<p>$$\sigma(N) &lt; 2N - 2 + \frac{2}{N + 1} &lt; 2N - 2 + 1 = 2N - 1,$$</p>
+
+<p>since $N = 1$ does not satisfy</p>
+
+<p>$$I(N) &lt; \frac{2N}{N + 1}.$$</p>
+
+<p>In other words, we have the biconditional "$N$ is an Odd Almost Perfect Number [OAPN] if and only if $I(N) \geq \frac{2N}{N + 1}$." [Edit: The numbers $2^k, k \geq 0$ also satisfy this inequality.]</p>
+
+

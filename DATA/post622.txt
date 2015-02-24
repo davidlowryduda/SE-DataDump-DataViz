@@ -1,0 +1,43 @@
+## Score:
+2
+
+## Id:
+489314
+
+## ParentId:
+318721
+
+## Body:
+<p>With a little haskell, you can generate what you want.</p>
+
+<pre><code>ld n = ldf 2 n
+
+ldf k n | rem n k == 0 = k
+        | k^2 &gt; n      = n
+        | otherwise    = ldf (k+1) n
+
+isprime n = isprime' (abs n)
+
+isprime' n
+  | n &lt; 2 = False
+  | otherwise = ld n == n
+
+issophie n | not (isprime n)     = False
+           | isprime (2 * n + 1) = True
+           | otherwise           = False
+
+sophies = filter issophie [2..]
+
+safeprimes = map (\x -&gt; 2 * x + 1) sophies
+</code></pre>
+
+<p>Then something like</p>
+
+<pre><code>first100safes = take 100 safeprimes
+
+the5thsafe = safeprimes!!5
+</code></pre>
+
+<p>Many <code>safeprimes</code> will take a bit (<code>take 10000 safeprimes</code>).  You might want to capture them and keep them somewhere.  With a little modification, you can start with a big <code>sophie</code> and work up.  Maybe generate the next 10000 and add them to your list. Start things up and go get lunch.</p>
+
+

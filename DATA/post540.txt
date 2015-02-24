@@ -1,0 +1,25 @@
+## Title:
+Literature & Multi-Precision packages for Factorising Large Integers
+
+## Tags:
+<number-theory><reference-request><prime-factorization>
+
+## Score:
+0
+
+## Id:
+416600
+
+## Body:
+<p>I will be doing a project on factorising large integers and the standard book people keep recommending to me is Henri Cohen's book "A Course in Computational Algebraic Number Theory". It is in fact quite a good read, but it is also fairly old.</p>
+
+<p>So my questions are:</p>
+
+<ol>
+<li>Are there any <em>recent</em> publications that deal with factorising large integers, specifically the quadratic sieve and/or number field sieve? Introductory as well as advanced publications would be great.</li>
+<li>Since I also want to implement a few algorithms I need a good/fast/reliable multi-precision package (preferably for C/C++) which is suited for calculation with large integers.</li>
+</ol>
+
+<p>I would appreciate any kind of suggestions.</p>
+
+

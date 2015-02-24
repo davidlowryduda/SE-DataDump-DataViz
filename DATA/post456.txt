@@ -1,0 +1,26 @@
+## Title:
+Are there (known) bounds to the following arithmetic / number-theoretic expression?
+
+## Tags:
+<number-theory><elementary-number-theory><reference-request><functional-inequalities>
+
+## Score:
+1
+
+## Id:
+309058
+
+## Body:
+<p>I apologize in advance if this is something that is already well-known in the literature, but I would like to ask nonetheless (for the benefit of those who likewise do not know):</p>
+
+<p>Are there (known) lower and upper bounds to the following arithmetic / number-theoretic expression:</p>
+
+<p>$$\frac{I(x^2)}{I(x)} = \frac{\frac{\sigma_1(x^2)}{x^2}}{\frac{\sigma_1(x)}{x}}$$</p>
+
+<p>where $x \in \mathbb{N}$, $\sigma_1(x)$ is the sum of the divisors of $x$ and $I(x) = \frac{\sigma_1(x)}{x}$ is the abundancy index of $x$?</p>
+
+<p>(Note that a trivial lower bound is $1$ since $x \mid x^2$ implies $I(x) \leq I(x^2)$.)</p>
+
+<p>I would highly appreciate it if somebody will be able to point me to relevant references in the existing literature.</p>
+
+

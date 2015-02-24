@@ -1,0 +1,15 @@
+## Score:
+3
+
+## Id:
+410978
+
+## ParentId:
+410144
+
+## Body:
+<p>[My comment has been well-received, so I'll risk elevating it to an answer] </p>
+
+<p>Numerical questions will have a unique correct answer, but "prove" questions will have so many correct answers that providing one would be pretty useless. If your answer differed from the one provided, you would have no idea whether your answer was wrong, or just different.</p>
+
+

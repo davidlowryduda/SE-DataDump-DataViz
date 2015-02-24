@@ -1,0 +1,19 @@
+## Title:
+Totient summatory function
+
+## Tags:
+<number-theory><reference-request><totient-function><conjectures>
+
+## Score:
+3
+
+## Id:
+530058
+
+## Body:
+<p>Let $\Phi(n) = \sum_{k=1}^n \phi(k)$ be the totient summatory function.
+Here is an interesting conjecture I've made: The ratio $\Phi(n^2)/\Phi(n)$ is an integer only for $n=1,2,3,5$ and $6$. I made a program that shows that these are only solution for about $n&lt;3000$. Is there some way to prove or disaprove it? </p>
+
+<p>Eventually, what about the general case: what conditions should satisfy numbers $n$ and $m$ so that ratio of their totient summatory functions is integer? Is there some paper that deals with it?</p>
+
+

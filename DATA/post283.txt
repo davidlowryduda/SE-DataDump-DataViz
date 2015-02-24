@@ -1,26 +1,24 @@
 ## Title:
-Power series ring over a ring of integers
+The elliptic curve $y^2 = 23328x^3-890273x^2+14755570x-7^7$
 
 ## Tags:
-<abstract-algebra><reference-request><commutative-algebra><algebraic-number-theory>
+<number-theory><reference-request><elliptic-curves>
 
 ## Score:
-0
+4
+
+## Id:
+137674
 
 ## Body:
-<p>Let $K/\mathbb {Q}_p$ be a finite extension, $\mathcal{O} := \mathcal{O}_K$ the ring of integers of $K,$ $\frak p$ the maximal ideal of $\mathcal{O}$, and $\pi$ a uniformizer, i.e., $\frak{p} = (\pi).$  We denote $\Lambda=\mathcal{O}[[T]]$ and $\mathfrak m=(\pi,T).$</p>
+<p>The elliptic curve,</p>
 
-<p>Can someone give me a reference where I can find a proof of this result: </p>
+<p>$$y^2 = 23328x^3-890273x^2+14755570x-7^7 \tag{1}$$</p>
 
-<blockquote>
-  <p>$\Lambda$ is a UFD, and is complete in its $\mathfrak m$-adic topology. </p>
-</blockquote>
+<p>has the small solution $x = 58$.  I know how to find other rational points, but the   number of digits in the denominator gets large fast.</p>
 
-<p>Question: </p>
+<p><em>Question</em>: Does (1) have other rational points of small height, maybe where the numerator or denominator has <em>only 5 digits or less</em>?</p>
 
-<blockquote>
-  <p>How to prove the isomorphism $\Lambda/\mathfrak {m}\cong \mathcal{O}/\frak p,$ and that $\Lambda/\mathfrak {m}^t$ is finite of order
-  $p^{t(t+1)/2} $?</p>
-</blockquote>
+<p>P.S. I routinely come across situations like this. Is there an online <a href="http://www.alpertron.com.ar/ENGLISH.HTM" rel="nofollow"><em>Alpertron</em></a> equivalent for elliptic curves, where given $ax^4+bx^3+cx^2+dx+e = y^2$, you just input {$a,b,c,d,e$} into the applet, and it outputs, if any, rational "<em>x</em>" with small height below a bound? (The <em>Alpertron</em> is a very useful site.)</p>
 
 

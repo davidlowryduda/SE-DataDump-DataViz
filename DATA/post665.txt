@@ -1,0 +1,13 @@
+## Score:
+1
+
+## Id:
+541345
+
+## ParentId:
+541327
+
+## Body:
+<p>I am using Elementary Number Theory by David M. Burton for a course I am teaching. The book is very nice.</p>
+
+

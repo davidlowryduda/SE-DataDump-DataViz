@@ -1,0 +1,18 @@
+## Title:
+Kronecker's approach to unique factorisation in algebraic number theory: books and references
+
+## Tags:
+<abstract-algebra><reference-request><ring-theory><algebraic-number-theory><ideals>
+
+## Score:
+2
+
+## Id:
+450542
+
+## Body:
+<p>I have done a short course (one semester) on algebraic number theory at beginning graduate level, in which the Dedekind theory of ideals features prominently. However I have since discovered that there was an alternative approach put forward by Kronecker featuring 'divisors' which seems not to be used.</p>
+
+<p>My question is, is there a good book for beginners or other reference that I could use to find out more about this? All the textbooks on algebraic number theory I have seen use ideals, certainly in my college library. Thank you</p>
+
+

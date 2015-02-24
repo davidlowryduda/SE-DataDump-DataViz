@@ -1,13 +1,13 @@
-## Title:
-Book recommendations for commutative algebra and algebraic number theory
-
-## Tags:
-<reference-request><algebraic-geometry><commutative-algebra><algebraic-number-theory>
-
 ## Score:
 2
 
+## Id:
+71072
+
+## ParentId:
+70950
+
 ## Body:
-<p>Are there any books which teach commutative algebra and algebraic number theory at the same time. Many commutative algebra books contain few chapters on algebraic number theory at end. But I don't need that. I'm seaching for book which motivates commutative algebra using algebraic number theory.My main is to learn algebraic number theory but while doing so I also want to pick up  enough commutative algebra to deal with algebraic geometry as well.</p>
+<p>As far as i know the shortest proof is the one given in this thread of mathoverflow : <a href="http://mathoverflow.net/questions/31113/zagiers-one-sentence-proof-of-fermats-theorem" rel="nofollow">http://mathoverflow.net/questions/31113/zagiers-one-sentence-proof-of-fermats-theorem</a></p>
 
 

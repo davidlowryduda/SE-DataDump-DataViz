@@ -1,0 +1,18 @@
+## Title:
+A good reference to begin analytic number theory
+
+## Tags:
+<reference-request><analytic-number-theory>
+
+## Score:
+13
+
+## Id:
+153022
+
+## Body:
+<p>I know a little bit about basic number theory, much about algebra/analysis, I've read most of Niven &amp; Zuckerman's "Introduction to the theory of numbers" (first 5 chapters), but nothing about analytic number theory. I'd like to know if there would be a book that I could find (or notes from a teacher online) that would introduce me to analytic number theory's classical results. Any suggestions?</p>
+
+<p>Thanks for the tips,</p>
+
+

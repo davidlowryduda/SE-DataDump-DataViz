@@ -1,0 +1,13 @@
+## Score:
+4
+
+## Id:
+454926
+
+## ParentId:
+454918
+
+## Body:
+<p>I've seen this inverse limit called the $\mathbb Z$-adic completion of $\mathbb Z$.  Unless I'm very confused, this is the same as (i.e., canonically isomorphic to) the inverse limit of all the finite quotients of $\mathbb Z$, because the sequence of quotients in your question is cofinal (or coinitial, depending on which direction you're facing) in the inverse system of all finite quotients.  Also, unless I'm even more confused, this ring is (canonically isomorphic to) the direct product, over all primes $p$, of the $p$-adic completions $\hat{\mathbb Z}_p$.</p>
+
+

@@ -1,0 +1,17 @@
+## Score:
+4
+
+## Id:
+158043
+
+## ParentId:
+157780
+
+## Body:
+<p>Rivat and Sargos, Nombres premiers de la forme $[n^c]$, Canad. J. Math. 53 (2001), no. 2, 414–433, MR1820915 (2002a:11107), reviewed by G. Greaves. </p>
+
+<p>The authors establish an asymptotic formula for the number of primes not exceeding $x$ of the form $[n^c]$. Their result applies for each $c$ with $1\lt c\lt2817/2426$. The review compares this to previous work, and there are links to other papers and reviews that cite this paper. </p>
+
+<p>Apparently the first paper along these lines was by Piatetski-Shapiro in 1953, with $1\lt c\lt12/11$. </p>
+
+

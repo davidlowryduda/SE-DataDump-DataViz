@@ -1,0 +1,13 @@
+## Score:
+0
+
+## Id:
+296043
+
+## ParentId:
+295854
+
+## Body:
+<p>If $n=a^2+kb^2=c^2+kd^2$ with $b\ne\pm d$, then a little algebra shows that $$n={(ad+bc)(ad-bc)\over(d+b)(d-b)}$$ From there, it's not hard to show that if $4n=a^2+27b^2=c^2+27d^2$ with $a\ne\pm c$ then $n$ is not prime. The contrapositive says if $p$ is prime then $4p$ has at most one representation, up to the signs of $a$ and $b$, as $a^2+27b^2$. Now, $a$ can't be a multiple of $3$, so exactly one of the two numbers $\pm a$ must be $1\pmod3$. </p>
+
+

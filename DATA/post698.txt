@@ -1,0 +1,13 @@
+## Score:
+1
+
+## Id:
+605000
+
+## ParentId:
+604996
+
+## Body:
+<p>Yes, Davenport's book (Multiplicative Number Theory) is great, as is Serre's (Course in Arithmetic) Once you read those, check out Iwaniec/Kowalski.</p>
+
+

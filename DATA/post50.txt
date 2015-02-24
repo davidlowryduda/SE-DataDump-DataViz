@@ -1,23 +1,19 @@
-## Title:
-What does Tate mean when he wrote "Higher dimensional class field theory" in the new preface to the Artin-Tate book and another question?
-
-## Tags:
-<reference-request><algebraic-number-theory>
-
 ## Score:
-7
+6
+
+## Id:
+27321
+
+## ParentId:
+27308
 
 ## Body:
-<p>This is probably well-known to the experts or many number theory students, but since I am just starting to learn class field theory (with some basic knowledge of algebraic numbers, e.g. the 3 basic theorems on Dedekind domains, class groups, units; and a little on local/global fields), I would really love to learn what Tate means when he wrote "Higher dimensional class field theory" in the new preface to the Artin-Tate book, as a new direction to the classical class field theory that deals with abelian extensions. So, what does he mean by that? I'd appreciate a summary, and also references/books/papers if necessary. </p>
+<p>Yes, every ideal class contains a split prime.  Here is one possible proof, which however doesn't satisfy the conditions of part B of your question:
+the analogue of Dirichlet's argument, using ideal class characters, shows that
+$\sum_{\mathfrak p \in [I]} N\mathfrak p^{-1}$ (the sum being taken over prime ideals in the class of $I$) diverges.  On the other hand, the sum over non-split primes converges (because a non-split prime lying over $p$ has norm at least
+$p^2$, and so the sum over non-split primes is majorized by (some constant times)
+$\sum_p p^{-2}$, which converges).  Thus there must be infinitely many split primes contributing to this sum.</p>
 
-<p>I can sort of understand that the "usual" class field theory is probably about "1-dimensional objects", made precise by Dedekind's theorem that a prime in a Dedekind domain can be factorized into primes that are determined by a single polynomial (the primes being in the integral closure of the Dedekind domain in a finite separable extension), under certain conditions. Although this is well-known, for definiteness, it's on p. 16 of Professor James Milne's notes on Class Field Theory. </p>
-
-<p>I am not sure how to generalize this to higher dimensions; neither am I sure that the generalization of this theorem answers my own question of what Tate means (and what are "higher dimensional fields" anyway?) I can think of yet another potential meaning of this: from a popular account of what goes into the proof of Fermat's Theorem (the book "Fearless Symmetry"), the quadratic reciprocity law is interpreted as an result on the 1-dimensional Galois representation (I only know the definition of this), so maybe using higher-dimensional Galois representations, maybe one can generalize the class field theory to "higher dimensions". Alas, all these are my speculations and fantasies, probably due to my ignorance on the subject (starting to learn CFT); but I really like to put everything in as nice a perspective (or perspectives) as possible while I am learning CFT. So this leads naturally to my other question below:</p>
-
-<p>How do I find an "optimal" and yet pedagogical (to me) way to learn CFT, incorporating the perspectives and preparations for the most important modern developments in number theory (and potentially algebraic/arithmetic geometry, representation theory, Langlands, etc.)? Are there nice references/books/papers along the way of learning CFT that I should be also looking at?</p>
-
-<p>Thank you very much for your kind suggestions and help.</p>
-
-<p>(EDIT) Thanks to Matt E's explanation of the 2 terms. The 2nd and 3rd to last paragraph of his "Preface to the New Edition" (following link <a href="http://books.google.com/books?id=8odbx9-9HBMC&amp;lpg=PP1&amp;dq=class%20field%20theory&amp;pg=PR6#v=onepage&amp;q&amp;f=false">http://books.google.com/books?id=8odbx9-9HBMC&amp;lpg=PP1&amp;dq=class%20field%20theory&amp;pg=PR6#v=onepage&amp;q&amp;f=false</a>) are the relevant passages, where he also wrote down a few other examples of new directions. I only ventured to try to understand the first one, and has a very very rough superficial idea what the 2nd one is generally about - this means I will come back for more of these after I learn more! Since these 2 background passages are a bit long (esp. 3rd to last one, which might give a better context for what Tate means), so please excuse me for providing a link. Please let me know if you can't see the paragraphs from the preview. </p>
+<p>Note: As the OP points out in a comment below, this argument applies only in the Galois case, and so doesn't actually address the question. </p>
 
 

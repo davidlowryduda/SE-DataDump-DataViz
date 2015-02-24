@@ -1,0 +1,16 @@
+## Title:
+The "theory of compound partitions"
+
+## Tags:
+<number-theory><reference-request><partitions>
+
+## Score:
+0
+
+## Id:
+151452
+
+## Body:
+<p>I was reading a sort of mini-bio on <a href="http://en.wikipedia.org/wiki/James_Joseph_Sylvester" rel="nofollow">Sylvester</a> the other day and a "Theory of Compound Partitions" was mentioned in the discussion of his research interests. I wanted to ask, is this the same or the precursor to <a href="http://en.wikipedia.org/wiki/Integer_partition" rel="nofollow">Partitions</a> from Number Theory today? Thanks to all in advance.</p>
+
+

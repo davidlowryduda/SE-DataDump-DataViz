@@ -1,0 +1,13 @@
+## Score:
+6
+
+## Id:
+307707
+
+## ParentId:
+305367
+
+## Body:
+<p>I am an undergraduate student in the Department of Mathematics of the University of Chicago and we have many people that are working on the Langlands program here. In fact, I think it is, at the moment at least, the best place if you want to progress in the Langlands program. You may want to consider the following website (<a href="http://www.math.uchicago.edu/~mitya/langlands.html">http://www.math.uchicago.edu/~mitya/langlands.html</a>) which is the personal website of a former graduate student in our department. You can get a good idea of topics that are covered IN the Langlands program itself, so this might not be of great help. But knowing this, may lead you to find necessary topics to study in order to better understand the Langlands aspects. If you are not faint-hearted, you may also want to consider this (<a href="http://www.math.uchicago.edu/seminars/geometric_langlands.html">http://www.math.uchicago.edu/seminars/geometric_langlands.html</a>), which is the website of the Geometric Langlands seminar in the University of Chicago. Additionally, you may wish to have a look at Ngô Bảo Châu's personal webpage (<a href="http://www.math.uchicago.edu/~ngo/nbc-homepage">http://www.math.uchicago.edu/~ngo/nbc-homepage</a>). He is a central figure in the development of the Langlands program. You may also wish to contact him, I have spoken to him and he is a really approachable person. He might be willing to give you more information on pre-requisites of the Langlands program. In general though, one needs a masterful control over representation theory, complex analysis and number theory. These three in themselves are quite large subfields of mathematics so it will probably take some time for you to master them, especially fields that are as vast as number theory. </p>
+
+

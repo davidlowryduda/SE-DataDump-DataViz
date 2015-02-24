@@ -1,0 +1,19 @@
+## Score:
+0
+
+## Id:
+539839
+
+## ParentId:
+539832
+
+## Body:
+<p>Subtract the first equation from the second.</p>
+
+<p>Express $y$ in terms of $z$</p>
+
+<p>Now substitute into the first equation and you'll get and relation for $x$ with respect for $z$. </p>
+
+<p>Because $z \in \mathbb{R}$ there are infinite amount of solutions and all of them are of a closed form, you'll obtain. And this is the fastest way to compute solution, maybe you were confused, because there are infinite amount of them.</p>
+
+

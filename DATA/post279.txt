@@ -1,17 +1,44 @@
-## Title:
-Total ramification in infinite Galois extension
-
-## Tags:
-<reference-request><algebraic-number-theory>
-
 ## Score:
-2
+4
+
+## Id:
+134162
+
+## ParentId:
+134153
 
 ## Body:
-<p>Let $L/K$ be an infinite galois extension of fields, and $\frak p$ a prime of $K$  and $\frak P$ a prime  of $L$ above $\frak p.$ We define the ramification index of $\frak p$ by $e(\frak {P}/\frak{p})=$$|T(\frak {P}/\frak{p})|$ where $T$ is the inertia group of $\frak p$. </p>
+<p>From <a href="http://pari.math.u-bordeaux.fr/pub/pari/packages/nftables/README.txt" rel="nofollow">PARI's tables:</a> This directory contains a stripped down version of the number field tables
+published by the Bordeaux computational number theory group (H. Cohen,
+F. Diaz y Diaz, M. Olivier and their students) around 1995, and incorporates
+a number of corrections. The original [uncorrected] tables can be found at <a href="ftp://megrez.math.u-bordeaux.fr/pub/numberfields/" rel="nofollow">ftp://megrez.math.u-bordeaux.fr/pub/numberfields/</a></p>
 
-<p>I searched in books but I can not find the definition of total ramification of $\frak p.$</p>
+<p>AUTHORS: See <a href="ftp://megrez.math.u-bordeaux.fr/pub/numberfields/readme.pdf" rel="nofollow">ftp://megrez.math.u-bordeaux.fr/pub/numberfields/readme.pdf</a>
+for the authors of the original tables (~1995). The present version was
+set up by Karim Belabas (Bordeaux) for the PARI group (2007).</p>
 
-<p>Can anyone give me the exact definition of total ramification in infinite Galois extension? Or a reference in which I can find this?</p>
+<p>FORMAT: The file T.gp contains data pertaining to fields of degree
+$\rm\:3 \le n \le 7\:$ with $\rm\:0 \le r \le n\:$ real places. The data is in GP format, one
+field per line, meant to be fed to the gp calculator as in</p>
+
+<p>v = readvec("T31.gp");</p>
+
+<p>which stores in the vector $\rm\: v\ (182417$ elements) data corresponding to the
+$182417$ complex cubic fields with discriminant $\:\!&gt; -10^6.$ Reading the largest
+table requires a PARI stack size around $\rm\:\!30\:\!M$.
+Entries in the resulting vector are sorted by increasing discriminant absolute
+value. Each entry is a $4$-components vector: [disc, V, h, cyc], where</p>
+
+<ul>
+<li>disc is the field discriminant.</li>
+<li>V is the VECTOR of coefficients of the minimal polynomial of a generator
+of the number field. P = Pol(V) is the true defining polynomial, and
+bnfinit(P) will recompute the bnf data associated to the field.
+polgalois(P) indicates the Galois group of its Galois closure.  </li>
+<li>h is the class number.</li>
+<li>cyc is the vector of orders of the class group cyclic components in
+"elementary divisors" form: cyc $\rm = [d_1, d_2, \ldots, d_k]$ means that
+ $\rm\:Cl(K) \cong (\mathbb Z/d_1 \mathbb Z) \times\cdots \times (\mathbb Z/d_k \mathbb Z),$  with $\rm\:d_k\: |\: \cdots\:|\: d_2\: |\: d_1.$</li>
+</ul>
 
 

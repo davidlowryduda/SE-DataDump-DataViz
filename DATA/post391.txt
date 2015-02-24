@@ -1,0 +1,13 @@
+## Score:
+2
+
+## Id:
+204904
+
+## ParentId:
+204903
+
+## Body:
+<p><strong>HINT:</strong> Consider the smallest positive integer that can be written as $ax+by$</p>
+
+

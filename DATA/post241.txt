@@ -1,17 +1,23 @@
-## Title:
-Gelfond-Schneider Constant $2^{\sqrt{2}}$
-
-## Tags:
-<number-theory><reference-request><irrational-numbers><transcendental-numbers>
-
 ## Score:
-1
+4
+
+## Id:
+114037
+
+## ParentId:
+112915
 
 ## Body:
-<p>Someone knows a proof (books , articles)  that $2^{\sqrt{2}}$ is irrational ?</p>
+<p>I have never really known the answer to this question either. There has to have been a motivation for this. All I can think is that in having CM, the lattice associated the the curve (if working over $\mathbb{C}$) has more symmetry, so that the geometry dictates much more towards the arithmetic.</p>
 
-<p>Without using that $2^{\sqrt{2}}$ is transcendent.</p>
+<p>I am only just studying this stuff myself so I am no expert. The main use of CM that I know of (but have never read much into) is that given a number field $K$, you can use an elliptic curve with CM by $\mathfrak{O}_K$ to get the Hilbert class field of $K$, by simply adjoining the $j$-invariant of the curve to $K$. Knowing the Hilbert class field is a very powerful thing...for example it tells you great things about representations of primes by binary quadratic forms.</p>
 
-<p>Any hints would be appreciated.</p>
+<p>For example for certain $n$ (namely those that are square-free and not $3$ mod $4$) we may study when a prime $p$ can be written as $x^2+ny^2$ for integers $x,y$. Now algebraically this is the same as $p$ splitting, into principal prime ideals, in the ring of integers $\mathbb{Z}[\sqrt{−n}]$  of the number field $\mathbb{Q}(\sqrt{−n})$. Now the principal part is important here because when we involve the Hilbert class field, this is the same as saying that the ideal splits completely in this field. So $p$ can be written in this form iff $p$ splits completely in the Hilbert class field of $Q(\sqrt{n})$</p>
+
+<p>But as I just said, you can get this Hilbert class field by finding an elliptic curve with CM by $\mathbb{Z}[\sqrt{−n}]$ and adjoining its $j$-invariant to $\mathbb{Q}(\sqrt{-n})$. So really, once this has been accomplished, the minimal polynomial $f(x)$ of the $j$-invariant over $\mathbb{Q}$ gives a criterion for the possible $p$'s that can be written as $x^2+ny^2$ (for those $n$'s we restricted to).</p>
+
+<p>Basically (for $p$ not dividing $n$ or the discriminant of $f(x)$): </p>
+
+<p>$p = x^2 + ny^2$ if and only if $\left(\frac{-n}{p}\right) = 1$ and $f(x) \equiv 0$ mod $p$ has a solution.</p>
 
 

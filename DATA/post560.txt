@@ -1,0 +1,22 @@
+## Score:
+16
+
+## Id:
+434355
+
+## ParentId:
+434313
+
+## Body:
+<ol>
+<li><p>We want to compute 
+$$S=\sum_{m=1}^{\infty}\frac{(-1)^{s(m)}}{m},$$
+where $s(m)$ counts the number of appearances of primes of the form $4k+1$ in the prime decomposition of $m$. Note that
+$$S=\sum_{n=0}^{\infty}\frac{(-1)^{s(2n+1)}}{2n+1}+\frac{S}{2}\quad\Longrightarrow \quad
+\frac{S}{2}=\sum_{n=0}^{\infty}\frac{(-1)^{s(2n+1)}}{2n+1}.\tag{1}$$</p></li>
+<li><p>But the latter sum can be written as
+$$\sum_{n=0}^{\infty}\frac{(-1)^{s(2n+1)}}{2n+1}=\prod_{k=2}^{\infty}\left(1+\dfrac{(-1)^{\frac{p_{{k}}-1}{2}}}{p_{k}} \right )^{-1},\tag{2}$$
+where the product on the right is taken over odd primes. To show the equality, expand each factor on the right  into geometric series and multiply them. Further, as shown by answers to <a href="http://math.stackexchange.com/q/372615/73025">this question</a>, this product is equal to $\pi/2$. Being combined with (1), this gives $S=\pi$.</p></li>
+</ol>
+
+

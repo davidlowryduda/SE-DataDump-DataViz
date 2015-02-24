@@ -1,0 +1,21 @@
+## Score:
+3
+
+## Id:
+269409
+
+## ParentId:
+269242
+
+## Body:
+<p>I think it would be extremely unlikely that, at this point in time, one could prove anything of this kind.  Even the much weaker problem (for general $n$) of whether there are infinitely many such pairs (if $\gcd(ab,n) = 1$) seems extremely difficult as soon as $\phi(n) &gt; 2$. </p>
+
+<p>Consider the very special case that $n = 4$. If $\pi_1(x)$ and $\pi_3(x)$ denote the prime counting function for primes congruent to $1$ and $3$ mod $4$ respectively, the fact that:</p>
+
+<p>$$\limsup(\pi_1(x) - \pi_3(x)) = \infty, \qquad \limsup (\pi_3(x) - \pi_1(x)) = \infty$$</p>
+
+<p>implies that there are infinitely many such pairs for any $(a,b)$ mod $4$ with $ab$ odd. However, such results are completely insufficient for showing that there are infinitely many <i>triples</i> (say) of consecutive primes which are $1$ mod $4$. Similarly, the problem for pairs of primes when $\phi(n) &gt; 2$ seems very difficult. It seems to me that the only approach to such problems is via generalizations of the twin prime conjecture, and (at best) such results will never give positive density.</p>
+
+<p>To summarize: as a general heuristic, of course, your conjecture seems quite reasonable, but even the weaker conjecture (that there are infinitely many pairs for all suitable $a$ and $b$) seems out of reach unless $n = 3$, $4$, or $6$.</p>
+
+

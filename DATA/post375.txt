@@ -1,0 +1,13 @@
+## Score:
+1
+
+## Id:
+187063
+
+## ParentId:
+187057
+
+## Body:
+<p>If $an=f[n]=f[0]=0\pmod N$ for some period $n$, then $N$ divides $an$. Since $a$ is coprime to $N$, $N$ divides $n$.</p>
+
+

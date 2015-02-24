@@ -1,0 +1,18 @@
+## Title:
+Pre-requisites needed for algebraic number theory
+
+## Tags:
+<number-theory><reference-request>
+
+## Score:
+2
+
+## Id:
+176552
+
+## Body:
+<p>I acknowledge my limited knowledge of abstract algebra(My background comprising groups and subgroups from Herstein's Topics in Algebra is hardly worth mentioning) .And yet, I confess I really like numbers and primes.In short, I wish to explore algebraic number theory which I am told needs a definite background.I will be happy to know what exactly I need to know before I can study algebraic number theory.</p>
+
+<p>Edit:I am not seeking any shortcuts.I am talking about studying something really concrete.</p>
+
+

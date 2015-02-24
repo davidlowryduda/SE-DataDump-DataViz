@@ -1,0 +1,16 @@
+## Title:
+Reference for relation between class number of $\Bbb Q[\sqrt{-p}]$ and partial quotients of $\sqrt p$
+
+## Tags:
+<number-theory><reference-request><algebraic-number-theory><complex-geometry><continued-fractions>
+
+## Score:
+8
+
+## Id:
+438686
+
+## Body:
+<p>So in Ireland and Rosen's, "Classical Introduction to Modern Number Theory", they mention the following incredible fact at the end of Chapter 13, section 1. Suppose $p \neq 3$ and $p \equiv 3 \pmod 4$ and $\mathbb Q[\sqrt{p}]$ has class number one. Let $\sqrt{p}=[a_{0}, \overline{a_1 ,\ldots a_{n}}]$ be its continued fraction expansion. Then $\frac{1}{3}(a_n - a_{n-1} + \ldots \pm a_1)$ is the class number of $\mathbb Q[\sqrt{-p}]$. The fact is attributed to Hirzebruch, and I have no clue how it is proven, and am unable to find a proof. Talking to a professor and a little research revealed that this has something to do with the Hilbert modular surface. I would appreciate some help in understanding this incredible fact!</p>
+
+

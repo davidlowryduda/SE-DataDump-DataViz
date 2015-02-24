@@ -1,0 +1,29 @@
+## Score:
+5
+
+## Id:
+320017
+
+## ParentId:
+281863
+
+## Body:
+<p>I agree with David Loeffler's answer: there is a large initial segment of algebraic number theory which essentially coincides with the study of Dedekind domains.  A careful study of Dedekind domains gives an introduction to several important commutative algebra topics: e.g. localization, integral closure, discrete valuations, fractional ideals, and the ideal class group.  </p>
+
+<p>So one can motivate <em>much</em> of basic commutative algebra using concepts from algebraic number theory, but there is also a lot missing, for instance:</p>
+
+<p>$\bullet$ Module theory.  Modules over a Dedekind domain are "too nice" compared to modules over an arbitrary commutative ring.  For instance injective = divisible and  flat = torsionfree.  </p>
+
+<p>$\bullet$ The spectrum.  The family of prime ideals in a Dedekind domain is unrepresentatively simple: all the nonzero ones are maximal.  This is not a good motivation for spending time understanding the order-theoretic structure or the Zariski topology on $\operatorname{Spec} R$.  </p>
+
+<p>$\bullet$ Dimension theory.</p>
+
+<p>$\bullet$ Primary decomposition.  One can view primary decomposition in a Noetherian ring as a generalization of factorization of ideals into products of primes in a Dedekind domain, but once again the former is significantly more complicated than the latter.</p>
+
+<p>$\bullet$ The Nullstellensatz.  </p>
+
+<p>Rather, if you study algebraic number theory and algebraic geometry at more or less the same time, you'll see that much of what you're doing is commutative algebra and that algebra will be well motivated.  Among reasonably introductory texts I know of exactly one that pulls this off well: <a href="http://books.google.com/books/about/An_Invitation_to_Arithmetic_Geometry.html?id=c8vnGts4994C">this text</a> by my colleague Dino Lorenzini.</p>
+
+<p>(Since <a href="http://math.uga.edu/~pete/integral.pdf">my own commutative algebra notes</a> have been mentioned, let me say that I view these notes as being at approximately the level of a student who has had a first, relatively nontechnical, course in either algebraic number theory -- e.g. from Marcus's text -- or algebraic geometry -- e.g. from Shafarevich's text -- and has been told that she needs to learn some commutative algebra before proceeding onward.  On the other hand, my notes draw more explicitly on examples from topology and geometry than from either of the aforementioned areas.)</p>
+
+

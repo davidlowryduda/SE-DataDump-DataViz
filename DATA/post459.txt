@@ -1,0 +1,20 @@
+## Score:
+1
+
+## Id:
+310844
+
+## ParentId:
+310840
+
+## Body:
+<p>Some of my favorites:<br>
+<a href="http://books.google.com.tw/books/about/Algebraic_Number_Fields.html?id=RT5R_29X69wC&amp;redir_esc=y" rel="nofollow">Simple and direct method</a> By Janusz<br>
+<a href="http://rads.stackoverflow.com/amzn/click/3540653996" rel="nofollow">One of my favorite authors</a> by Jürgen Neukirch<br>
+<a href="http://www.jmilne.org/math/CourseNotes/ANT.pdf" rel="nofollow">Available online notes</a> J.S.Milne<br>
+<a href="http://books.google.com.tw/books/about/Lectures_on_the_Theory_of_Algebraic_Numb.html?id=QEocn1kbfxAC&amp;redir_esc=y" rel="nofollow">A classic</a> Hecke<br>
+<a href="http://rads.stackoverflow.com/amzn/click/3540586555" rel="nofollow">If you know some background in the integration on groups, then this is a classic!</a> André Weil<br>
+I know not your book, so I cannot say if they follow the approaches in your book, but I am sure that the number of approaches to ANT is not too large, so that they are essentially equivalent.(Per chance they look different at first glance, but they might turn out to be equivalent in the end.)<br>
+Hope this helps.  </p>
+
+

@@ -1,24 +1,33 @@
-## Title:
-How many real quadratic number fields have the class number 1?
-
-## Tags:
-<reference-request><algebraic-number-theory><principal-ideal-domains>
-
 ## Score:
-5
+2
+
+## Id:
+5601
+
+## ParentId:
+5568
 
 ## Body:
-<p>I know that in general the number of ideal classes are not 1, and that there are only 9 imaginary quadratic number fields which are principal ideal domains, i.e. $\mathbb(Q(\sqrt{-m}))$ where m is 1, 2, 3, 7, 11, 19, 43, 67, 163, and that Gauss had conjectured that there are infinitely many real quadratic number fields which are of class number 1. Although this sounds natural, since the order of unit groups in a real quadratic number field is infinity, while that of an imaginary one is finite, I cannot give a proof. So my question is this:  </p>
+<p>The continued fraction expansion of any possible real number falls in one of 2 possible categories:</p>
 
-<blockquote>
-  <p>How many real quadratic number fields are principal ideal domains?  </p>
-</blockquote>
+<ul>
+<li>the continued fraction expansion has a finite length if and only if the number is rational.</li>
+<li>the continued fraction expansion never ends if and only if the number is irrational.</li>
+</ul>
 
-<p>If there is any error, such as this is already known, or there is a wild discussion on this topic, please let me know, thanks very much.  </p>
+<p><em>"quite a few other mathematical constants are known to have an infinite continued fraction"</em></p>
 
-<blockquote>
-  <p><em>In addition:</em><br>
-  Even if this is not solved, I would like to get some modern, or recent, research, or paper, to extend my horizon, so it will be best to have a reference which discusses the number of ideal classes of algebraic number fields, best regards here.  </p>
-</blockquote>
+<p>Yes, and all such constants are therefore all irrational.</p>
+
+<p><em>"Catalan's Constant ... known to have an infinite continued fraction"</em></p>
+
+<p>Do you have a proof? My understanding is that we don't yet know whether or not Catalan's Constant has an finite continued fraction -- therefore we don't yet know whether or not it is rational.</p>
+
+<p>"Why does the degree of an need to be smaller than the degree of bn in order for a continued fraction representation of a constant to be irrational?"</p>
+
+<p>That is required for the sequence to converge on some specific value.
+If the degree of an is <em>larger</em>, that doesn't mean the result is rational -- it indicates that it doesn't converge to any real number, and therefore isn't a "constant" at all.</p>
+
+<p>Is there a way to make the <a href="http://en.wikipedia.org/wiki/Generalized_continued_fraction#Conditions_for_irrationality" rel="nofollow">Wikipedia "generalized continued fraction" article</a> a little less confusing?</p>
 
 

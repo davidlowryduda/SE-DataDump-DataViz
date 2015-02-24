@@ -1,0 +1,23 @@
+## Score:
+5
+
+## Id:
+387829
+
+## ParentId:
+387705
+
+## Body:
+<p>Take a look at Keith Conrad's expository articles here <a href="http://www.math.uconn.edu/~kconrad/blurbs/" rel="nofollow">http://www.math.uconn.edu/~kconrad/blurbs/</a> on Galois Theory and algebraic number theory. They are all wonderful. In particular, he shows you how to compute stuff using the tools you learn which is very essential in my opinion. Most of the topics on Galois Theory covered in his notes seem relevant to algebraic number theory, but I haven't read all of them in detail because I learned Galois theory in a college course. There is a fair bit of elementary algebraic number theory (at the level of Samuels's book mentioned by lhf above) which you will need to be fairly comfortable with before you move on to to class field theory. I think Keith's notes on algebraic number theory covers this elementary material well, with many examples of computations. Finally, I highly recommend his note <strong>"The History of Class Field Theory"</strong>. I am certain you will be adequately prepared to read Lang if you work through some of Conrad's material.</p>
+
+<p>For algebraic number theory, I also recommend <strong>Cassels-Fröhlich's "Algebraic Number Theory"</strong> and <strong>Cox's "Primes of the form $x^2 + ny^2$"</strong>. James Milne's notes on algebraic number theory and class field theory, freely available on his website, are great. The other standard reference is <strong>Neukirch's "Algebraic Number Theory"</strong> which I personally really like. When you read about valuations, completions etc., I recommend the handouts from Pete L. Clark's course available here: <a href="http://www.math.uga.edu/~pete/MATH8410.html" rel="nofollow">http://www.math.uga.edu/~pete/MATH8410.html</a>. Also, highly recommended are <strong>Serre's "Local Fields"</strong> and <strong>Iwasawa's "Local Class Field Theory"</strong> (the latter is harder to find, but I have a pdf copy which I am willing to share with you). You see from this that there are many good choices, and you will have to choose your own poison. </p>
+
+<p>I should mention that there are different approaches to class field theory (discussed in the following link: <a href="http://mathoverflow.net/questions/6932/learning-class-field-theory-local-or-global-first" rel="nofollow">http://mathoverflow.net/questions/6932/learning-class-field-theory-local-or-global-first</a>), and I learned local class field theory through Lubin-Tate formal groups. Their short paper on this topic is a wonderful read. Luckily, Prof. Lubin frequents MSE so he may be able to recommend more sources.</p>
+
+<p>I think that if you want geometric motivation for commutative algebra, you will need some knowledge of algebraic geometry (at least at the level of classical varieties) and DonAntonio's suggestions are great. However, you can learn the required commutative algebra as and when you need it. Certainly books like Cassels-Fröhlich prove most of the results of commutative algebra used in algebraic number theory along the way.</p>
+
+<p>If you want to learn commutative algebra as a subject in its own right, take a look at <strong>Eisenbud's "Commutative Algebra with a View Toward Algebraic Geometry"</strong> which motivates the algebraic constructions using geometry. However, as mentioned in the previous paragraph, you may need some basic knowledge of classical varieties to understand the geometric motivations in this book. For this, I recommend <strong>Karen Smith's "An Invitation to Algebraic Geometry"</strong>. Also, there is this new gem by <strong>Kleiman and Altman</strong> available here: <a href="http://stuff.mit.edu/afs/athena/course/18/18.705/www/syl12f.html" rel="nofollow">http://stuff.mit.edu/afs/athena/course/18/18.705/www/syl12f.html</a>, which is like an Atiyah-Macdonald 2.0. In particular, the authors mention that their aim is to improve some of the exposition in Atiyah-Macdonald using categorical language. The notes are really wonderful.</p>
+
+<p>Despite these recommendations, I don't think you need so much preparation to read Lang. In particular, I came across the various texts mentioned in my answer as and when I needed to learn a particular topic. </p>
+
+

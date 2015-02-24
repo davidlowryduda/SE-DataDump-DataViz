@@ -1,0 +1,13 @@
+## Score:
+1
+
+## Id:
+620949
+
+## ParentId:
+620944
+
+## Body:
+<p>The proof they are referring to is that the number of partitions with odd parts is equal to the number of partitions into distinct parts</p>
+
+

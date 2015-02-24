@@ -1,0 +1,46 @@
+## Score:
+4
+
+## Id:
+295873
+
+## ParentId:
+295854
+
+## Body:
+<p>It looks like you're doing calculation in the number field $\mathbb{Q}(\sqrt{-3})$. In particular, the typical algebraic integer is of the form</p>
+
+<p>$$ u + v \frac{1 + \sqrt{-3}}{2} $$</p>
+
+<p>or put differently, as</p>
+
+<p>$$ \frac{A + B \sqrt{-3}}{2} $$</p>
+
+<p>where $A$ and $B$ have the same parity. The norm of this element is</p>
+
+<p>$$ N = \frac{A + B \sqrt{-3}}{2} \frac{A - B \sqrt{-3}}{2} = \frac{1}{4}(A^2 + 3 B^2)$$</p>
+
+<p>The unit group of (the ring of integers of) this number field is simply the set of sixth roots of unity.</p>
+
+<p>Assuming $N$ is prime, there are only 12 elements whose norm is $N$: the six multiples of this element by the sixth roots of unity, and their complex conjugates:</p>
+
+<ul>
+<li>$\frac{1}{2} (A + B \sqrt{-3}) $</li>
+<li>$\frac{1}{2} (\frac{A-3B}{2} + \frac{A+B}{2} \sqrt{-3}) $</li>
+<li>$\frac{1}{2} (\frac{-A-3B}{2} + \frac{A-B}{2} \sqrt{-3}) $</li>
+<li>$\frac{1}{2} (-A - B \sqrt{-3}) $</li>
+<li>$\frac{1}{2} (\frac{-A+3B}{2} + \frac{-A-B}{2} \sqrt{-3}) $</li>
+<li>$\frac{1}{2} (\frac{A+3B}{2} + \frac{-A+B}{2} \sqrt{-3}) $</li>
+<li>$\frac{1}{2} (A - B \sqrt{-3}) $</li>
+<li>$\frac{1}{2} (\frac{A-3B}{2} + \frac{-A-B}{2} \sqrt{-3}) $</li>
+<li>$\frac{1}{2} (\frac{-A-3B}{2} + \frac{-A+B}{2} \sqrt{-3}) $</li>
+<li>$\frac{1}{2} (-A + B \sqrt{-3}) $</li>
+<li>$\frac{1}{2} (\frac{-A+3B}{2} + \frac{A+B}{2} \sqrt{-3}) $</li>
+<li>$\frac{1}{2} (\frac{A+3B}{2} + \frac{A-B}{2} \sqrt{-3}) $</li>
+</ul>
+
+<p>If $N$ is a prime integer, then $(A + B \sqrt{-3})/2$ is actually a prime element of $\mathbb{Z}[(1 + \sqrt{-3})/2]$. If we also require $N \neq 3$, then $A,B$ are both odd and $A$ is not divisible by $3$.</p>
+
+<p>It's easy to check that exactly four of these elements have a coefficient on $\sqrt{-3}$ equivalent to $0$ modulo $3$. WLOG, we may assume it is the four $(\pm A \pm B \sqrt{-3})/2$. Among these, exactly two have the first term equivalent to $1$ modulo $3$. WLOG assume it is the two $(A \pm B \sqrt{-3})/2$. Finally, WLOG we may assume $B$ is positive, and we're down to a single possibility.</p>
+
+

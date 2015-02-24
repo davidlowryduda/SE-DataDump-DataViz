@@ -1,0 +1,35 @@
+## Score:
+12
+
+## Id:
+142006
+
+## ParentId:
+141971
+
+## Body:
+<p>A counterexample may be interesting. Consider the sequence</p>
+
+<p>$$ a_n = \frac{n!}{n! + 1} $$</p>
+
+<p>In the real numbers, we obviously have</p>
+
+<p>$$ \lim_{n \to +\infty} a_n = 1, $$</p>
+
+<p>but in every $p$-adic field, we have</p>
+
+<p>$$ \lim_{n \to +\infty} a_n = 0, $$</p>
+
+<p>so you should be wary of the idea of trying to sum a series of real numbers by transplanting it to the $p$-adics.</p>
+
+<p>One thing you <em>can</em> consider is $\mathbb{Q}((x))$, the field of rational (formal) Laurent series. In this field, you have an identity</p>
+
+<p>$$ \sum_{n=0}^{+\infty} x^n = \frac{1}{1-x}. $$</p>
+
+<p>There is no issue of convergence or anything here; you just check that multiplying the left hand side by $1-x$ gives you $1$.</p>
+
+<p>There is a subfield of $\mathbb{Q}((x))$ that consists of only those Laurent series for which replacing $x$ by $2$ yields a convergent $2$-adic sum. Evaluation at $2$ then becomes a field homomorphism to the $2$-adic numbers. Since $\sum_{n=0}^{+\infty} x^n$ is in that subfield, its image in $\mathbb{Q}_2$ must be the same as the image of $1/(1-x)$: i.e. $-1$.</p>
+
+<p>Wikipedia has a page on <a href="http://en.wikipedia.org/w/index.php?title=Divergent_series&amp;oldid=489004413">divergent series</a> which talks about "summation methods". You may find this another useful starting point.</p>
+
+

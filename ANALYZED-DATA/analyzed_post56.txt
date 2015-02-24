@@ -1,0 +1,3 @@
+Stephens and Williams
+Computation of real quadratic fields with class number one
+Indivisibility of class numbers of real quadratic fields

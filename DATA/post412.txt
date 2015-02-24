@@ -1,0 +1,15 @@
+## Score:
+2
+
+## Id:
+260342
+
+## ParentId:
+259175
+
+## Body:
+<p>My view is totally based on my experience:</p>
+
+<p>I would recommend David Burton's number theory book. Though the book does not have much examples but ( like 4 or 5 (at most) on each type) but the concepts have been written in such an easy language that you may not need more examples and can directly jump to problems.</p>
+
+

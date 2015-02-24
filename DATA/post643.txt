@@ -1,0 +1,13 @@
+## Score:
+7
+
+## Id:
+516982
+
+## ParentId:
+516972
+
+## Body:
+<p>There is a fantastic book, which you may have seen already - *What is Mathematics" by Courant and Robbins, see <a href="http://en.wikipedia.org/wiki/What_Is_Mathematics%3F">http://en.wikipedia.org/wiki/What_Is_Mathematics%3F</a>. The point is, before you will become a "better mathematician", you should become a mathematician at all. The book shows what this means, and what are the possibilities.</p>
+
+

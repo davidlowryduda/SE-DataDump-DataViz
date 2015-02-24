@@ -1,0 +1,31 @@
+## Title:
+Fact About Equality Proven by Euler in 1748 (Context: Integer Partitions)
+
+## Tags:
+<number-theory><reference-request><discrete-mathematics>
+
+## Score:
+0
+
+## Id:
+620944
+
+## Body:
+<p>I'm currently reading <em>Integer Partitions</em> by Andrews and Eriksson. In the introductory chapter (p.2), there is the following statement:</p>
+
+<blockquote>
+  <p>... The table would have a more efficient design:<br>
+  \begin{array}{r|r}
+ 1 + 1&amp; 2\\  
+ 1 + 1 +1 &amp; 3\\
+ 3 &amp; 2+1\\  
+ 1+1+1+1&amp;4  \\ 
+ 3+1 &amp; 3+1
+ \end{array}</p>
+  
+  <p>The fact that there will always be as many items in the left column as in the right one was first proved by Leonhard Euler in 1748.</p>
+</blockquote>
+
+<p>Which proof by Euler are they talking about?</p>
+
+

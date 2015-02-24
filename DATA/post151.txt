@@ -1,15 +1,17 @@
-## Title:
-Reference request: Clean proof of Fermat's last theorem for $n=3$.
-
-## Tags:
-<elementary-number-theory><reference-request>
-
 ## Score:
-8
+0
+
+## Id:
+67881
+
+## ParentId:
+67872
 
 ## Body:
-<p>I have seen a proof for FLT, $n=3$ using factorisation in the ring of Eisenstein integers, but it's quite long and convoluted; I am wondering if there is a more 'advanced' proof which avoids infinite descent/messy repeated calculations. </p>
+<p>Recall that $$S(x)=\sum_{p\leq x} \frac{1}{p}=\log \log x+B_1+E(x)$$ where $E(x)=O \left(e^{-c\sqrt{\log x}}\right).$  Then</p>
 
-<p>What's your favorite proof of Fermat's last theorem for $n=3$, and where can it be found written down?</p>
+<p>$$\sum_{p\leq x} \frac{1}{p\log^\alpha p}=\int_2^x \frac{1}{\log^\alpha t}d(S(t))=\int_2^x \frac{1}{t\log^{\alpha+1} t}dt+\int_2^x \frac{1}{\log^\alpha t}d(E(t)).$$</p>
+
+<p>By using partial summation you can prove that the second term will contribute very little.  This means that the sum will be close to the main term $$\int_2^x \frac{1}{t\log^{\alpha+1}t}dt$$ and you can then prove that $$\sum_{p} \frac{1}{p\log^\alpha p}\ \ \text{converges} \iff \ \int_2^\infty \frac{1}{t\log^{\alpha+1}t}dt\ \text{converges}.$$  This happens for all $\alpha&gt;0$.</p>
 
 

@@ -1,0 +1,13 @@
+## Score:
+2
+
+## Id:
+494412
+
+## ParentId:
+494401
+
+## Body:
+<p>If we have $a^{n-1} = a^{2pq} \equiv 1 \pmod{n}$, but $\gcd(a^{2p}-1,n) = 1$, then for any prime $r$ dividing $n$, we have $a^{2p} \not\equiv 1 \pmod{r}$, but $a^{2pq} \equiv 1 \pmod{r}$, thus the order of $a$ modulo $r$ is a multiple of $q$, hence $r \equiv 1 \pmod{q}$, in particular $r \geqslant q+1$. But $(q+1)^2 &gt; n$, so $n$ can have only one prime factor.</p>
+
+

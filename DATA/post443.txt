@@ -1,0 +1,28 @@
+## Score:
+1
+
+## Id:
+295845
+
+## ParentId:
+295805
+
+## Body:
+<p>After your comment, the correct thing to say is that there is essentially one representation $$ p = x^2 + 3 y^2,  $$ where in this case the word essentially can be taken to mean up to $\pm$  sign.</p>
+
+<p>Meanwhile, if you multiply the discriminant by 9, there is essentially one way to write 
+$$  p = u^2 + 27 v^2,   $$
+$$ p = 4 u^2 + 2 u v + 7 v^2 $$
+ $$ p = 4 u^2 - 2 u v + 7 v^2. $$
+It is the first of these if 2 is a cube $\pmod p,$ otherwise it is the second and third. We distinguish the $\pm$ cases in the second and third forms so as to get the correct group under Gauss composition. As always, "essentially" means "up to integral automorph." Note that
+$$  4 (u^2 + 27 v^2) = (2u)^2 + 27 (2v)^2, $$
+$$ 4( 4 u^2 + 2 u v + 7 v^2) = (4u+v)^2 + 27 v^2, $$
+which leads to pretty much what you want.</p>
+
+<p>This is treated in Ireland and Rosen, for one. An encyclopaedic treatment in David A. Cox, Primes of the form $x^2 + n y^2,$ in any way to describe the problem you might like. Still, I think your best bet is Hudson and Williams 1991 at <a href="http://zakuski.utsa.edu/~jagy/inhom.html" rel="nofollow">MMMEEEEEEE</a></p>
+
+<p>For, well, culture, see my question <a href="http://math.stackexchange.com/questions/255834/what-numbers-are-integrally-represented-by-4-x2-2-x-y-7-y2-z3">What numbers are integrally represented by $4 x^2 + 2 x y + 7 y^2 - z^3$</a> </p>
+
+<p>This all can be written in the language of imaginary quadratic fields. I've never cared enough to work that out.</p>
+
+

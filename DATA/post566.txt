@@ -1,0 +1,41 @@
+## Score:
+3
+
+## Id:
+438870
+
+## ParentId:
+438686
+
+## Body:
+<p>Very interesting indeed!</p>
+
+<p>This is explained in</p>
+
+<blockquote>
+  <p>Hirzebruch, F., 
+   <em>Hilbert modular surfaces and class numbers.</em> 
+  Colloque “Analyse et Topologie” en l’Honneur de Henri Cartan (Orsay, 1974), pp. 151–164.
+  Asterisque, No. 32-33, Soc. Math.France, Paris, 1976.</p>
+</blockquote>
+
+<p>From the Math.Sci.Net review: </p>
+
+<blockquote>
+  <p>This is a survey, largely without proofs, of recent work of the author, done partly in collaboration
+  with D. B. Zagier, on the geometry of the Hilbert modular surface(s) associated to a real quadratic
+  ﬁeld, concentrating particularly on the appearance therein of class numbers.</p>
+</blockquote>
+
+<p>... and later in the review ...</p>
+
+<blockquote>
+  <p>He then introduces the Hilbert modular surfaces: the compactiﬁed and resolved quotients of the
+  actions of congruence subgroups of SL2 over the integers of the real quadratic ﬁeld, acting on H ×
+  H. He sketches the results [op. cit.] about the signature of the quotient and how, as a consequence
+  of all of the foregoing considerations, one is able to express, for a prime p of form 4m − 1, p > 3,
+  the class number of the quadratic ﬁeld of discriminant −p in terms of the period of the continued
+  fraction for $p^{1/2}$ whenever the class number of the quadratic ﬁeld of discriminant 4p is one.</p>
+</blockquote>
+
+

@@ -1,26 +1,20 @@
-## Title:
-What are some reasonable things to prove about the Collatz Conjecture?
-
-## Tags:
-<number-theory><reference-request><advice><collatz>
-
 ## Score:
-4
+0
+
+## Id:
+91777
+
+## ParentId:
+89949
 
 ## Body:
-<p>I am writing an undergraduate paper on the $3n+1$ problem, and I am looking for some theorems related to the problem that would be reasonable for someone with my mathematical background to prove. I'm near the end of my undergraduate studies. I have had a pretty basic introduction to Number Theory and Group Theory. I have also taken a few introductory Computer Science courses. Those are the only courses that I've taken that seem to be relevant to the problem but otherwise my math classes have been: the usually calculus sequence, real analysis, introductory topology, linear algebra. </p>
+<p>Thanks a lot Prof.Matthew Emerton for taking interest in answering.</p>
 
-<p>A good answer to my question would do the following:</p>
+<p>I never know that there is such theorem but I understood it the other manner, we know that 
+ $$ c_p = \begin{cases} 2 &amp; \text{ if } p \mid \Delta, \\ 1 &amp; \text{otherwise}. \end{cases}. $$</p>
 
-<ul>
-<li>Either state one or more non-trivial theorems related to the Collatz conjecture, or reference sources that would contain this kind of information.</li>
-<li>Would NOT state any proofs unless a proof or partial proof would be essential for someone with my requisites if they are to be able to provide a full proof.</li>
-</ul>
-
-<p>Theorems that I have already proved:</p>
-
-<p>If $L(n)$ is a function that counts the number of mappings in the Collatz function for $n$ to get to 1, then if $n = 8k+4$, $L(n) = L(n+1)$.</p>
-
-<p>If $n = 128k+28$ then $L(n) = L(n+2)$.</p>
+<p>So if we consider $\prod c_p$ it would be $2*2*2*......$ r times ( since we take $p \mid \Delta$= $2^r$ ) , so it follows that $$\prod c_p = 2^r.$$
+ So we have $[Cl^+(k):Cl^+(k)^2] = 2^{r-1}$ so that probably $\prod c_p = 2[Cl^+(k):Cl^+(k)^2] $ , I was looking for that answer but as nobody answered it and as you remarked that you are a bit busy now and cutting of your participation further, I dont wanted to disturb you again sir.
+Your references were very useful and thanks a lot again sir !! . I think its the same version you posted here.</p>
 
 

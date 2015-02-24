@@ -1,0 +1,19 @@
+## Score:
+4
+
+## Id:
+350159
+
+## ParentId:
+350149
+
+## Body:
+<p><a href="http://www.math.upenn.edu/~ted/noframes.html" rel="nofollow">Ted Chinburg</a> has videos of his lectures for what is going on a 2 year course in algebraic number theory online.</p>
+
+<p>Direct link: <a href="http://www.math.upenn.edu/~ted/620F09/hw-620SchedTab.html" rel="nofollow">Semester 1</a>, <a href="http://www.math.upenn.edu/~ted/620S10/hw-621SchedTab.html" rel="nofollow">Semester 2</a> , <a href="http://www.math.upenn.edu/~ted/720F10/hw-720SchedTab.html" rel="nofollow">Semester 3</a> and <a href="http://www.math.upenn.edu/~ted/721S11/hw-721SchedTab.html" rel="nofollow">Semester 4</a></p>
+
+<p>Also, there's the <a href="http://www.msri.org/web/msri;jsessionid=14BA3595943F91FB209B0EF78158E430" rel="nofollow">MSRI</a> database for all the things that go on there, they're all over the website at each program's site.</p>
+
+<p>Source: Mathoverflow.</p>
+
+

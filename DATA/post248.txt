@@ -1,15 +1,25 @@
-## Title:
-(Reference Request) Canonical forms for Real and Complex binary forms of low degree.
-
-## Tags:
-<number-theory><reference-request><lie-groups>
-
 ## Score:
-1
+7
+
+## Id:
+119652
+
+## ParentId:
+119641
 
 ## Body:
-<p>I am asking for a reference for Canonical forms for Real (and Complex) binary forms of low degree with respect to the natural action of the Real (and Complex) special linear group $SL_{n}(\mathbb{R})$ (respectively $SL_{n}(\mathbb{C})$).</p>
+<p>See <em>Princeton Companion to Mathematics</em> (I'm including some more tangential topics since you tagged the question the way you did):</p>
 
-<p>Advanced thanks for any help.</p>
+<ul>
+<li>Section III.27 Fourier Transform</li>
+<li>Section III.36 The Heat Equation</li>
+<li>Section III.89 Spherical Harmonics</li>
+<li>Section III.93 Transforms</li>
+<li>Section III.100 Wavelets</li>
+<li>Section IV.2 Analytic Number Theory</li>
+<li>Section IV.9 Representation Theory (especially subsection 3)</li>
+<li>Section IV.11 Harmonic analysis</li>
+<li>Section VI.25 Jean-Baptiste Joseph Fourier</li>
+</ul>
 
 

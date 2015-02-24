@@ -1,24 +1,47 @@
 ## Title:
-Geometric Explanation of Tamagawa Numbers
+Given $N$, count $\{(m,n) \mid 0\leq m<N, 0\leq n<N, m\text{ and } n \text{ relatively prime}\}$
 
 ## Tags:
-<number-theory><reference-request><algebraic-geometry><measure-theory><differential-forms>
+<homework><number-theory><computer-science><discrete-mathematics><self-learning>
 
 ## Score:
-14
+8
+
+## Id:
+47986
 
 ## Body:
-<p>Sometimes in order to understand a concept thoroughly we need to have a algebraic view ( in terms of equations ) and corresponding geometric view. </p>
+<p>I'm confused at exercise 4.49 on page 149 from the book "Concrete Mathematics: A Foundation for Computer Science":</p>
 
-<p>My interest always lies with understanding the Tamagawa Numbers from different view points. So to say something, I already know the algebraic version of Tamagawa numbers ( both local and global parts ) . It can be stated as follows "  the semisimple linear algebraic group $G$ over $\mathbb Q$, the Tamagawa number of $G$ (which is the standard terminology for the volume of $G(\mathbb Q)\setminus G(\mathbb A)$ with respect to Tamagawa measure) should be equal to $1$, and when $G$ is an elliptic curve rather than a linear group, there are many interesting things that happened, and which gave rise to a series of seminal works, and the Tamagawa numbers are widely used for tori ( by T.Ono ) , and also later the Birch and Swinnerton-Dyer found an analogue of the tamagawa number of elliptic curve ( anlogous to the work of T.Ono in defining the tamagawa numbers of Tori ) that played a central part in defining the Birch and Swinnerton-Dyer conjectures." </p>
+<blockquote>
+  <p>Let $R(N)$ be the number of pairs of integers $(m,n)$ such that $0\leq m &lt; N$, $0\leq n&lt;N$, and $m\perp n$.<br>
+  (a) Express $R(N)$ in terms of the $\Phi$ function.<br>
+  (b) Prove that $$R(N) = \displaystyle\sum_{d\geq 1}\left\lfloor\frac{N}{d}\right\rfloor^2 \mu(d)$$</p>
+</blockquote>
 
-<p>In terms of measure the Tamagawa Number can be defined as $$\large \tau=\rho(G)^{-1} |\Delta_k|^{-\large \frac{1}{2} \rm { dim } G } \prod_{\nu \ | \infty} \omega_{\nu}  \prod_{\mathfrak{p}} L_{\mathfrak{p}}(1,\chi_{G})\omega_{\mathfrak{p}}$$ where $\omega$ is the gauge form on $G$, $\chi_{G}$ is the character of the representation of the Galois group of $\bar{k}/k$ on the lattice $\widehat{G}$ and $\rho(G) = \lim_{ s \mapsto 1 } (s - 1)^{r} L(s, \chi_{G})$ , $\Delta_k$ be the
-discriminant of $k/\mathbb{Q}$. And in some sense $$\large \prod_{\nu \ | \infty} \omega_{\nu}  \prod_{\mathfrak{p}} L_{\mathfrak{p}}(1,\chi_{G})\omega_{\mathfrak{p}}$$ can be taken as the Haar Measure on $G(\mathbb{A})$. </p>
+<ul>
+<li>$m\perp n$ means $m$ and $n$ are relatively prime</li>
+<li>$\mu$ is the <a href="http://en.wikipedia.org/wiki/Mu_function" rel="nofollow">Möbius function</a></li>
+<li>$\Phi(x)=\sum_{1\leq k\leq x}\phi(k)$</li>
+<li>$\phi$ is the <a href="http://en.wikipedia.org/wiki/Totient_function" rel="nofollow">totient function</a></li>
+</ul>
 
-<p>I am now very curious in hearing to alternate interpretations of Tamagawa Number in Geometric sense, as a intuitive way. If there is some geometric way of explaining what is the tamagawa number , and what impact does it give , I would be very happy in listening that. Please don't include the wikipedia article ( as I have read it already ).</p>
+<p>For question (a), my solution is $R(N) = 2 \cdot \Phi(N-1) + [N&gt;1]$ (where $[\;\;]$ is the <a href="http://en.wikipedia.org/wiki/Iverson_bracket" rel="nofollow">Iverson bracket</a>, i.e. [True]=1, [False]=0)</p>
 
-<p>P.S : I know the answer will express something related to the differential forms, but I am a bit confused.  If there is some other intuitive explanation , I would be very happy. Even any article that does this job will be fine.</p>
+<p>Clearly $R(1)$ has to be zero, because the only possibility of $(m,n)$ for testing is $(0,0)$, which doesn't qualify. This agrees with my answer.</p>
 
-<p>Thank you. </p>
+<p>But here is the book's answer:</p>
+
+<blockquote>
+  <p>Either $m&lt;n$ ($\Phi(N−1)$ cases) or $m=n$ (one case) or $m&gt;n$ ($\Phi(N−1)$ again). Hence $R(N) = 2\Phi(N−1) + 1$.</p>
+</blockquote>
+
+<p>$m=n$ is only counted when $m=n=1$, but how could that case appear when $N=1$?</p>
+
+<p>I thought the book assumed $R$ is only defined over $N≥2$. But their answer for question (b) relies on $R(N) = 2Φ(N−1) + 1$ and proves the proposition also for the case $N=1$. They actually prove $2Φ(N−1) + 1 = RHS$ for $N≥1$. And if my assumption about the $R(1)$ case is true, then the proposition in (b) cannot be valid for $N=1$, for $LHS=0$ and $RHS=1$. But the fact that it's invalid just for one value seems a little fishy to me.</p>
+
+<p>My question is, where am I confused? What is wrong in my understanding about the case $R(1)$?</p>
+
+<p>Thank you very much.</p>
 
 

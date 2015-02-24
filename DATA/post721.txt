@@ -1,0 +1,15 @@
+## Score:
+1
+
+## Id:
+632710
+
+## ParentId:
+537054
+
+## Body:
+<p>It seems that the problem is entirely open, as seen by <a href="http://mathoverflow.net/a/154003/6043">this answer on MathOverflow</a>.</p>
+
+<p>The difficulty is that the Cullen form gets equidistribution in all odd moduli from the $n$, while the general case has more restricted residue classes that are harder to control.</p>
+
+

@@ -1,0 +1,22 @@
+## Title:
+Sums of powers being powers of the sum
+
+## Tags:
+<number-theory><reference-request><diophantine-equations>
+
+## Score:
+4
+
+## Id:
+398590
+
+## Body:
+<p>I'm looking for literature on solving problems of the form
+$$
+n_1^\alpha+\cdots+n_k^\alpha=(n_1+\cdots+n_k)^\beta
+$$
+for positive integers $n_1,\ldots,n_k$ and fixed parameters $k$ and $\alpha\ne\beta.$ Any ideas?</p>
+
+<p>This is perhaps similar to multigrade equations or "equal sums of like powers" but not quite similar enough to use those results (as far as I can see). But surely this is too simple not to have been studied?</p>
+
+

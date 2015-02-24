@@ -1,0 +1,19 @@
+## Score:
+2
+
+## Id:
+148546
+
+## ParentId:
+5568
+
+## Body:
+<p>Though infinite, the Zudilin's continued fraction for the Catalan's constant is not "simple".  So, the irrationality theorem does not apply to Zudilin result.  The distinction between "simple" and "generalized" continued fractions can be found at </p>
+
+<p><a href="http://en.wikipedia.org/wiki/Continued_fraction" rel="nofollow">http://en.wikipedia.org/wiki/Continued_fraction</a></p>
+
+<p>Best wishes,</p>
+
+<p>Dr. Fabio M. S. Lima</p>
+
+

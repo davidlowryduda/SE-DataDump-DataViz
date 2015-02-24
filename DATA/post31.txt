@@ -1,33 +1,27 @@
-## Title:
-Multiplication of coefficients in Dirichlet series
-
-## Tags:
-<number-theory><reference-request><riemann-zeta>
-
 ## Score:
-2
+19
+
+## Id:
+15969
+
+## ParentId:
+15966
 
 ## Body:
-<p>This appears to be a relationship:</p>
+<p>Taking logs, one finds that $2^a 3^b \leq N$ if and only if 
+$a \log 2 + b \log 3 \leq \log N.$
+So estimating the number of 3-smooth integers $\leq N$ is the same as estimating
+the number of integer lattice points in the region
+$a, b \geq 0, a \log 2 + b \log 3 \leq \log N.$
+The standard estimate for the number of integer lattice points in a convex region is the area of the region.  In our case the region is a triangle, of area equal to
+$$\dfrac{1}{2}\dfrac{\log N}{\log 2}\dfrac{\log N}{\log 3},$$
+which is close to the estimate you attribute to Ramanujan.</p>
 
-<p>$\sum\limits_{p\;\text{prime}} \frac{1}{p^s} = \log\zeta (s) - \sum\limits_{n=1}^{\infty}\frac{\sqrt{a_{n}b_{n}}}{n^{s}}$</p>
+<p>More precisely, the estimate you wrote down is equal 
+to $$\dfrac{1}{2}\dfrac{\log N + \log 2}{\log 2}\dfrac{\log N + \log 3}{\log 3}
+= \dfrac{1}{2}\left(\dfrac{\log N}{\log 2} + 1\right)\left(\dfrac{\log N}{\log 3} + 1\right).$$
+This probably improves the estimate coming from the area, by including correction terms coming from the integer points along the boundary of the region (in particular, the contributions coming from $a = 0$ or $b = 0$).</p>
 
-<p>where $a_{n}$ is a sequence of fractions beginning $\frac{0}{1}, \frac{1}{1}, \frac{1}{1}, \frac{1}{2}, \frac{1}{1}, \frac{0}{1}, \frac{1}{1}, \frac{1}{3}, \frac{1}{2}, \frac{0}{1}, \frac{1}{1}, \frac{0}{1}...$
-and $b_{n}$ is another sequence of fractions $\frac{0}{1}, \frac{0}{1}, \frac{0}{1}, \frac{1}{2}, \frac{0}{1}, \frac{1}{1}, \frac{0}{1}, \frac{1}{3}, \frac{1}{2}, \frac{1}{1}, \frac{0}{1}, \frac{0}{1}...$</p>
-
-<p>for which the Dirichlet series are defined by:</p>
-
-<p>$\sum\limits_{n=1}^{\infty}\frac{a_{n}}{n^{s}} = +\frac{1}{1}(\zeta (s)-1)^1  -\frac{1}{2}(\zeta (s)-1)^2  +\frac{1}{3}(\zeta (s)-1)^3 - 
-
-\frac{1}{4}(\zeta (s)-1)^4   +\frac{1}{5}(\zeta (s)-1)^5 -...$</p>
-
-<p>$\sum\limits_{n=1}^{\infty}\frac{b_{n}}{n^{s}} = -\frac{0}{1}(\zeta (s)-1)^1  +\frac{1}{2}(\zeta (s)-1)^2  -\frac{2}{3}(\zeta (s)-1)^3 + 
-
-\frac{3}{4}(\zeta (s)-1)^4  -\frac{4}{5}(\zeta (s)-1)^5 +...$</p>
-
-<p>The square root of the elementwise multiplication of $a_{n}$ times $b_{n}$,$\;$
-$\sqrt{a_{n}b_{n}}$ is then: $\frac{0}{1},\frac{0}{1},\frac{0}{1},\frac{1}{2},\frac{0}{1},\frac{0}{1},\frac{0}{1},\frac{1}{3},\frac{1}{2},\frac{0}{1},\frac{0}{1},\frac{0}{1}...$</p>
-
-<p>Is there any literature describing multiplication of coefficients of Dirichlet series?</p>
+<p>(The fact that these "boundary" contributions come with a multiplicity of $1/2$ seems similar to other contexts in which one approximates a discrete sum by an area, e.g. in Euler--MacLaurin summation, and perhaps thinking from that point of view would let one get a better handle on the precise estimates.)</p>
 
 

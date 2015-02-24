@@ -1,0 +1,32 @@
+## Score:
+1
+
+## Id:
+232623
+
+## ParentId:
+232585
+
+## Body:
+<p>See <a href="http://en.wikipedia.org/wiki/Chinese_remainder_theorem" rel="nofollow">the Wikipedia entry on CRT</a> for an introduction.</p>
+
+<p>Essentially, a number is represented in a set of rings, usually by computing modulo a set of primes.  See <a href="http://math.stackexchange.com/a/231069/2626">my answer here</a> about representing the numbers and combining them to get the original number.</p>
+
+<p>To multiply a number, simply multiply the residue (which is the number modulo a prime) by another number modulo the same prime, and calculate the remainder modulo the prime.  To give a concrete example, we have, for two number $a$ and $b$ to be multiplied together modulo another number $p$, the result $r$ is:</p>
+
+<p>$$((a \bmod p)\cdot(b \bmod p))\bmod p \equiv (a \cdot b) \bmod p$$</p>
+
+<p>Then simply perform this calculate with a sufficient set of $p$s.</p>
+
+<p><strong>NOTES ON LINEAR OPERATIONS</strong></p>
+
+<p>The following is a further illustration of trying to find the ring that K. Regan talks about in his statement.  As pointed out by the OP in the comments below, finding the square root may be impossible, as values in RNS for squares are not necessarily unique.  Thus we may require some sort of overdetermined system to do so.</p>
+
+<p>We can note that</p>
+
+<p>$$\text{Max}(a,b) = \frac{(a+b) + \sqrt{(a-b)^2}}{2}$$
+$$\text{Min}(a,b) = \frac{(a+b) - \sqrt{(a-b)^2}}{2}$$</p>
+
+<p>So if we can determine the square root shown above, we can effectively perform a comparison using the formulas above and responding accordingly.</p>
+
+

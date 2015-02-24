@@ -1,0 +1,15 @@
+## Score:
+5
+
+## Id:
+475845
+
+## ParentId:
+473595
+
+## Body:
+<p>You are looking for $x\in\mathbb Z_2$ such that $(1+2x)^2=8b+1$. This is equivalent to 
+$$ x^2+x-2b=0.$$ 
+Now mod $2$, this polynomial is $x(x+1)$ and has (at least) one <b>simple root</b> in $\mathbb F_2$. By Hensel's lemma, the above equation has a solution in $\mathbb Z_2$. </p>
+
+

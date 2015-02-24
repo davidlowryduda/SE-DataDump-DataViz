@@ -1,19 +1,31 @@
-## Title:
-Is there any new improvement in the proof or disproof of the twin prime conjucture?
-
-## Tags:
-<number-theory><reference-request>
-
 ## Score:
-1
+2
+
+## Id:
+54532
+
+## ParentId:
+54391
 
 ## Body:
-<p>I think this is not the first question about twin primes here, but my own is the latest one!</p>
+<p>I don't really understand how your polynomials amount to a meaningful visual representation of prime factorization. The polynomial construction seems entirely forced and artificial, and in that vein doesn't appear to have any natural, salient geometric features that capture factor structure.</p>
 
-<p>I  am a postgraduate student in Mathematics interested in the field of number theory. While searching on net I found out that the <strong><em>twin prime problem</em></strong> is one of the unsolved problem in Number theory. As a kid in mathematics research, I feel I can write something about it. (I do not mean that I will solve the problem, but I will try).</p>
+<p>But your question reminds me of a mathematical note I came across, <a href="http://arxiv.org/abs/0906.0632" rel="nofollow">An Arithmetic Metric</a>, which introduces a "distance between natural numbers based on their arithmetic properties, instead of their position on the real line." Essentially, if you regard multiplying (or dividing) by a prime number as a unit step, then the distance metric in the paper is given by how many steps it takes to go from one natural number to another. As an example, if $a=2^2\cdot 5$ and $b=2^5 \cdot 3$, then the distance between them is $d(a,b)=|5-2|+|1-0|+|0-1|=5$, which counts three multiplications by $2$, one multiplication by $3$, and one division by $5$ in going from $a$ to $b$.</p>
 
-<p>So, is there any new improvement in the proof or disproof of the twin prime conjucture?.</p>
+<p>You can then represent the natural numbers as a graph with vertices $n=1,2,3,\dots$ and all edges of the form $(n,pn)$ or $(pn,n)$ for primes $p=2,3,5,7,\dots$ and naturals $n=1,2,3,\dots$. This construction is called a <a href="http://en.wikipedia.org/wiki/Hasse_diagram" rel="nofollow">Hasse diagram</a>. If desired, one can restrict attention to only special sets of numbers sharing factors, such as $I_n = \{1,2,3,\dots,n\}$ (pictured in the Figure 1 below for $n=12$) or the divisor set $\{d: d|n\}$ (pictured in Figure 2 below for $n=60$).</p>
 
-<p>Thanks. </p>
+<hr>
+
+<p><img src="http://i.stack.imgur.com/t9c4d.png" alt="Figure 1">
+<strong>Figure 1</strong>.</p>
+
+<hr>
+
+<p><img src="http://i.stack.imgur.com/ykblK.png" alt="Figure 2">
+<strong>Figure 2</strong>.</p>
+
+<hr>
+
+<p>In my opinion these types of graphs provide a satisfying and intuitive global view of the relative factor structure of naturals.</p>
 
 

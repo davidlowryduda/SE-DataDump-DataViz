@@ -1,0 +1,13 @@
+## Score:
+5
+
+## Id:
+470222
+
+## ParentId:
+470209
+
+## Body:
+<p>Your reasoning is flawed; while it's true that all of the (non-trivial) elements in the cyclic group $(\mathbb{Z}/p\mathbb{Z})$ are of order $p$ when $p$ is prime, that same fact doesn't hold true for arbitrary groups $(\mathbb{Z}/n\mathbb{Z})$.  Indeed, if the order of the element $g\in(\mathbb{Z}/n\mathbb{Z})$ is $n$, then the order of $g^k$ is $\frac{n}{\gcd(n,k)}$ (why?).  In particular, there are some elements of order $4$ in $(\mathbb{Z}/25\mathbb{Z})^\times$ (how many?) and so there are elements of order $4$ in $(\mathbb{Z}/525\mathbb{Z})^\times$ (why must there be?).  Your notion of using the $LCM$ is essentially solid when restricted to individual elements of the three 'constituent' groups, though, and you should be able to port that step over to determine how many elements there are.</p>
+
+

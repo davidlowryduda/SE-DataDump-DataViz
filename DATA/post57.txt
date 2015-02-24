@@ -1,19 +1,18 @@
 ## Title:
-Quick proof to showing that $p\equiv 1\pmod{4}$ implies $p$ is reducible in $\mathbb{Z}[i]$?
+Supplemental number theory text to Montgomery and Vaughan
 
 ## Tags:
-<number-theory><reference-request>
+<soft-question><big-list><reference-request><analytic-number-theory>
 
 ## Score:
-5
+10
+
+## Id:
+29056
 
 ## Body:
-<p>I want to show that for $p$ a prime, if $p\equiv 1\pmod{4}$, then $p$ is not irreducible in $\mathbb{Z}[i]$. </p>
+<p>We already have a large list of the <a href="http://math.stackexchange.com/questions/329/best-ever-book-on-number-theory">Best ever book on Number Theory</a>, but I'm looking for a more targeted response for analytic number theory. </p>
 
-<p>I know that $x^2\equiv -1\pmod{p}$ has a solution when $p\equiv 1\pmod{4}$, so $p\mid x^2+1$. I could then prove that $\mathbb{Z}[i]$ is a PID, so Euclid's lemma holds, and then see that $p\mid (x+i)$ or $p\mid (x-i)$, using the fact that $\mathbb{Z}[i]$ is a PID, so if $p$ is irreducible, then $p$ is prime. But then this gives a contradiction since $1/p$ is not an integer, so $(x\pm i)/p\notin\mathbb{Z}[i]$. </p>
-
-<p>I could do all this, but it seems like a lot of effort for the result. Is there a slicker, more elegant proof that $p\equiv 1\pmod{4}$ implies $p$ is not irreducible in the Gaussian integers?</p>
-
-<p>By the way, I'm using this to finally conclude Fermat's theorem on the sum of two squares, so I don't want to refer to that in this.</p>
+<p>Specifically, I'm taking a trip on which I may or may not have access to internet resources, nor my University's library. I'm starting to work through Montgomery and Vaughan's <a href="http://books.google.com/books?id=nGb1NADRWgcC&amp;printsec=frontcover&amp;dq=multiplicative+number+theory+montgomery&amp;source=bl&amp;ots=AwKlmhPkvu&amp;sig=p0z-AdItbjwjjnlqmQWULUSEelA&amp;hl=en&amp;ei=_e6MTZObJ7C10QGomYmfCw&amp;sa=X&amp;oi=book_result&amp;ct=result&amp;resnum=2&amp;ved=0CCEQ6AEwAQ#v=onepage&amp;q&amp;f=false"><em>Multiplicative Number Theory</em></a>. What would be the one book you recommend bringing as a supplement? </p>
 
 

@@ -1,23 +1,24 @@
 ## Title:
-Some elementary number theory questions.
+On the Limit of Stirling's Approximation
 
 ## Tags:
-<elementary-number-theory><self-learning>
+<number-theory><reference-request><asymptotics><factorial>
 
 ## Score:
--2
+13
+
+## Id:
+110697
 
 ## Body:
-<p>These are few questions I encountered while self teaching some elementary number theory, I've answered some but I don't have any solutions to check If I'm right.</p>
+<p>I have recently proven the following curious identity: For real $x \geqslant 1$,
+\begin{align}
+\lfloor x \rfloor! = x^{\lfloor x \rfloor} e^{1-x} e^{\int_{1}^{x} \text{frac}(t)/t \ dt}
+\end{align}
+where $\text{frac}(x)$ denotes the fractional part (function) of $x$. A proof follows from an application of <a href="http://en.wikipedia.org/wiki/Factorial#Number_theory" rel="nofollow">Legendre's Theorem</a> on the order of a prime divisor of the factorial function and an identity involving the <a href="http://en.wikipedia.org/wiki/Smooth_number" rel="nofollow">de Bruijn function</a>.</p>
 
-<ol>
-<li><p>If $a \mid m$ and $b \mid n$, prove that $ab \mid mn$.</p></li>
-<li><p>Does $6 \mid 11n$ imply that $6 \mid n$? Justify. Does $6 \mid 34n$ imply $6 \mid n$? Justify.</p></li>
-<li><p>If $p$ is a prime, prove that $(p, a) = 1$ or $(p, a) = p$.</p></li>
-<li><p>If a is a positive integer, what is $(a, 2a)$? What is $(a, a2)$?, $(a, a + 1)$?, and $(a, a + 2)$?</p></li>
-<li><p>Show that the difference of two consecutive cubes is never divisible by $3$.</p></li>
-<li><p>Show that if $(a, b) = 1$, then $(a + b, a - b) = 1$ or $2$.</p></li>
-<li><p>Prove that square of an integer is either a multiple of $4$ or one more than a multiple of $4$.</p></li>
-</ol>
+<p>An asymptotic expansion of the integral as $x \to \infty$ yields <a href="http://en.wikipedia.org/wiki/Stirling%27s_approximation" rel="nofollow">Stirling's Approximation</a>, hence the title of the post. Is this exact result known in the literature?</p>
+
+<p>Thanks!</p>
 
 

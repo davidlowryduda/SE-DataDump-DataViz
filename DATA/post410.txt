@@ -1,0 +1,35 @@
+## Score:
+4
+
+## Id:
+255440
+
+## ParentId:
+76793
+
+## Body:
+<p>This is probably not the answer you are looking for but, since there has been no other answers, it may be of some use. Recently, I have enjoyed finding out how wonderful and mysterious the relationship between (algebraic) number theory and low-dimensional topology is through the links between Galois groups and homotopy/fundamental groups. In particular the framing of properties of prime numbers in class field theory and arithmetic geometry having duality correlations with knots, links and three-dimensional manifolds! This subject of <strong>Arithmetic Topology</strong> was <a href="http://www.neverendingbooks.org/index.php/who-dreamed-up-the-primesknots-analogy.html" rel="nofollow">hinted time ago by several people</a>, like D. Mumford and B. Mazur, which has very recently got its first MARVELOUS book:</p>
+
+<ul>
+<li><strong>Morishita, M.</strong> - <em><a href="http://www.springer.com/mathematics/numbers/book/978-1-4471-2157-2" rel="nofollow">Knots and Primes: An Introduction to Arithmetic Topology</a></em>, Springer 2011.</li>
+</ul>
+
+<p>Some of the first explorations on this were:</p>
+
+<ul>
+<li><strong>Mazur, B.</strong> - <em><a href="http://www.math.harvard.edu/~mazur/papers/alexander_polynomial.pdf" rel="nofollow">Remarks on the Alexander Polynomial</a></em>,</li>
+<li><strong>Mazur, B.</strong> - <em><a href="http://archive.numdam.org/ARCHIVE/ASENS/ASENS_1973_4_6_4/ASENS_1973_4_6_4_521_0/ASENS_1973_4_6_4_521_0.pdf" rel="nofollow">Notes on Étale Cohomology of Number Fields</a></em>,</li>
+<li><strong>Morishita, M.</strong> - <em><a href="http://arxiv.org/abs/0904.3399v1" rel="nofollow">Analogies between Knots and Primes, 3-Manifolds and Number Rings</a></em>,</li>
+<li><strong>Kohno T.; Morishita M.</strong> (eds.) - <em><a href="http://books.google.es/books?id=htTjE4NmWUcC&amp;lpg=PA237&amp;dq=0821834568&amp;pg=PP1#v=onepage&amp;q&amp;f=false" rel="nofollow">Primes and Knots</a></em>, AMS 2006.</li>
+</ul>
+
+<p>The whole point is the study of the fundamental groups of topology but from a number-theoretic perspective, that is, working with the (étale) algebraic fundamental group of varieties and schemes as originally thought by A. Grothendieck in his <strong><a href="http://en.wikipedia.org/wiki/Anabelian_geometry" rel="nofollow">anabelian geometry</a></strong>. For this and as a prerequisite to Morishita's book, along with standard arithmetic geometry, one should get the specific background on the relationship of Galois gropus and fundamental groups of schemes, provided by:</p>
+
+<ul>
+<li><strong>Szamuely, T.</strong> - <em><a href="http://amzn.com/0521888506" rel="nofollow">Galois Groups and Fundamental Groups</a></em>, CUP 2009.</li>
+<li><strong>Schneps, L.</strong> (ed.) - <em><a href="http://amzn.com/0521174570" rel="nofollow">Galois Groups and Fundamental Groups</a></em>, CUP 2011.</li>
+</ul>
+
+<p>These new dualities between apparently so different worlds may open the door to a deep understanding of the mysterious arithmetic-topologic relationship.</p>
+
+

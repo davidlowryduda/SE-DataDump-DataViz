@@ -1,0 +1,33 @@
+## Score:
+1
+
+## Id:
+234210
+
+## ParentId:
+234103
+
+## Body:
+<p>Care should be taken in the sense we take the "density" of primes.</p>
+
+<p>The prime number theorem states that
+$$
+\pi(n)=\frac{n}{\log(n)}+O\left(\frac{n}{\log(n)^2}\right)\tag{1}
+$$
+Thus,
+$$
+\begin{align}
+\pi(n(1+\alpha))-\pi(n)
+&amp;=\frac{n(1+\alpha)}{\log(n)+\log(1+\alpha)}-\frac{n}{\log(n)}+O\left(\frac{n}{\log(n)^2}\right)\\
+&amp;=\frac{n(1+\alpha)}{\log(n)}-\frac{n}{\log(n)}+O\left(\frac{n}{\log(n)^2}\right)\\
+&amp;=\frac{\alpha n}{\log(n)}+O\left(\frac{n}{\log(n)^2}\right)\tag{2}
+\end{align}
+$$
+Therefore,
+$$
+\frac{\pi(n(1+\alpha))-\pi(n)}{\alpha n}
+=\frac1{\log(n)}+O\left(\frac1{\alpha\log(n)^2}\right)\tag{3}
+$$
+In the sense of $(3)$, the density of primes is $\dfrac1{\log(n)}$.</p>
+
+

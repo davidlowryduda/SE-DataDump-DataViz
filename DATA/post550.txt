@@ -1,0 +1,20 @@
+## Title:
+Proof of a Dirichlet's theorem using the Riemann zeta function?
+
+## Tags:
+<number-theory><reference-request><riemann-zeta>
+
+## Score:
+0
+
+## Id:
+429070
+
+## Body:
+<p>Someone could tell me if there is a proof of the <a href="https://en.wikipedia.org/wiki/Dirichlet%27s_theorem_on_arithmetic_progressions" rel="nofollow">Dirichlet's theorem on arithmetic progressions</a> stated below using <strong>only</strong> the <a href="http://en.wikipedia.org/wiki/Riemann_zeta_function" rel="nofollow">Riemann zeta function $\zeta(s)=\sum_{n=1}^\infty 1/n^s,\;\mbox{Re}(s)&gt;1$</a>? Someone reference?</p>
+
+<blockquote>
+  <p><strong>Dirichlet's Theorem</strong>  For any two positive coprime integers $a$ and $d$, there are infinitely many primes of the form $a + nd$, where  $n \in \mathbb{N}$.</p>
+</blockquote>
+
+

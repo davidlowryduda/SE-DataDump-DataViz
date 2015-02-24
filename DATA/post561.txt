@@ -1,0 +1,15 @@
+## Score:
+1
+
+## Id:
+434422
+
+## ParentId:
+434343
+
+## Body:
+<p>About learning local class-field theory in general, I recommend the book <a href="http://www.books.google.com/books/about/Class_Field_Theory.html?id=Wap8MQEACAAJ&amp;redir_esc=y" rel="nofollow"><em>Class Field Theory</em> by <b>Jürgen Neukirch</b></a>.<br>
+It starts from an abstract version of the theory, proceeding to the local theory, and then approaching the global theory both from the adelic method, and from the <em>classical</em> view-point, i.e. ray-class fields. 
+Hope this helps.   </p>
+
+

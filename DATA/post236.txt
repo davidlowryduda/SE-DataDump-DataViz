@@ -1,33 +1,20 @@
 ## Title:
-Proof read from "A problem seminar"
+Elliptic curves with finitely many rational points
 
 ## Tags:
-<elementary-number-theory><self-learning>
+<number-theory><reference-request><elliptic-curves>
 
 ## Score:
-1
+4
+
+## Id:
+113340
 
 ## Body:
-<p>May you help me judging the correctness of my proof?:</p>
+<p>A conjecture by Goldfeld says that half of all elliptic curves have rank zero (i.e. their Mordell-Weil group has finite order.)</p>
 
-<p>Show that the if $a$ and $b$ are positive integers, then
-$$\left(a+\frac{1}{2}\right)^n+\left(b+\frac{1}{2}\right)^n$$
-is integer for only finintely many positive integers $n$</p>
+<p>Are there any known infinite families of elliptic curves (over $\mathbb{Q}$) with only finitely many rational points?</p>
 
-<p>We want $n$ so that
-$$\left(a+\frac{1}{2}\right)^n+\left(b+\frac{1}{2}\right)^n\equiv0\pmod{1}$$
-So we know by the binomial theorem that</p>
-
-<p>$(an+b)^k\equiv b^n\pmod{n}$ for positive $k$</p>
-
-<p>Then,
-$$\left(a+\frac{1}{2}\right)^n\equiv(1/2)^n\pmod{1}$$
-and similarly with the $b$</p>
-
-<p>So 
-$$\left(a+\frac{1}{2}\right)^n+\left(b+\frac{1}{2}\right)^n\equiv 2*(1/2)^n\pmod{1}$$
-Therefore, we want $2*(1/2)^n$ to be integer, so that $2^n|2$
-clearly, the only positive option is $n=1$
-(Editing, my question got prematurely posted. Done)</p>
+<p>For example, in Silverman/Tate, there is an computation which shows that $y^2=x^3+x$ has exactly one rational point and $y^2=x^3+4x$ has exactly three rational points (not counting the point at infinity). I'm wondering if there are any known parameterizations giving an infinite number of such curves.</p>
 
 

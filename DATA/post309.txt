@@ -1,0 +1,13 @@
+## Score:
+0
+
+## Id:
+149758
+
+## ParentId:
+147988
+
+## Body:
+<p>Apparently the Rankin-Selberg zeta function is explicitly defined in <a href="http://www.springerlink.com/content/40654225wq566q37/" rel="nofollow">this paper by Roland Matthes</a>.</p>
+
+

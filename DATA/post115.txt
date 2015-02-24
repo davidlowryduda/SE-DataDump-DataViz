@@ -1,13 +1,24 @@
-## Title:
-Translation for EGA/SGA
-
-## Tags:
-<number-theory><reference-request><arithmetic-geometry>
-
 ## Score:
-7
+16
+
+## Id:
+49179
+
+## ParentId:
+48981
 
 ## Body:
-<p>People often recommend Grothendieck's EGA (Elements de Geometrie Algebrique) and SGA (seminaire de geometrie algebrique) as a good reference for learning arithmetic geometry. However, as the title suggests, these books are in french. Does anyone know if there is a translation available for them?</p>
+<p>I am going to contradict the answers given and say: do not read any introductions to the Langlands program at this stage. Instead, learn the following things first (and take your time over them!) and do lots of exercises:</p>
+
+<ul>
+<li>Complex representation theory of finite groups, character theory (e.g. the book by Isaacs, or <a href="http://homepages.warwick.ac.uk/staff/A.Bartel/docs/reptheory.pdf" rel="nofollow">my lecture notes</a>)</li>
+<li>Algebraic number theory, starting with the basic theory of number fields, Dedekind domains, class numbers, and leading up to class field theory (that's a project for at least a year, you can start with any introductory book on Galois theory, then go on to an introductory book on algebraic number theory)</li>
+<li>Some basics on algebraic groups and Lie groups. I suspect that you will need to learn some very basic things about manifolds and about varieties first.</li>
+<li>An introductory course on modular forms.</li>
+</ul>
+
+<p>When you have that covered (two or three years down the line), then you will benefit from reading about the Langlands program. In the meantime, once you have learned representation theory and Galois theory (can be done in one or two months if you are very bright), you should approach a faculty member at your university. He will be able to give you a very rough overview of the general Langlands philosophy, so that you very roughly know where you are heading.</p>
+
+<p>All this is not supposed to discourage you, but rather to excite you about all the fascinating things that lie ahead of you, and to warn you not to skip any of the essentials if you really want to appreciate the beauty of the whole edifice.</p>
 
 

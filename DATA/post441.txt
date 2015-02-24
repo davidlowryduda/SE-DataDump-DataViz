@@ -1,0 +1,19 @@
+## Score:
+2
+
+## Id:
+295693
+
+## ParentId:
+295679
+
+## Body:
+<p>If $(n,p)=1$, then there are exactly as many roots as there are roots to $x^{n}-1=0$ in $\mathbb F_p=\mathbb Z/p\mathbb Z$. Any solution in $F_p$ can be extended uniquely to a solution in $\mathbb Z_p$ using Hensel's lemma.</p>
+
+<p>The number of solutions to $x^{n}-1=0$ in $\mathbb F_p$ is $(n,p-1)$.</p>
+
+<p>The case where $p|n$ is different. Blanking on what to do here. In think $x^p=1$ has only one solution, $x=1$, and that we can then show that if $n=p^kn'$ where $p\not\mid n'$ then $x^n-1=0$ has as many solutions as $x^{n'}-1=0$.  So again that $(n,p-1)$ (since $(p^k,p-1)=1$ and thus $(n,p-1)=(n',p-1)$.)</p>
+
+<p>The case $p=2$ is a special case - for example, $x^2=1$ has two roots in $\mathbb Q_2$.</p>
+
+

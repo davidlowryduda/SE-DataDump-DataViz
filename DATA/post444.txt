@@ -1,0 +1,22 @@
+## Title:
+If $A\equiv 1\pmod{3}$, then $4p=A^2+27B^2$ uniquely determines $A$.
+
+## Tags:
+<number-theory><elementary-number-theory><reference-request>
+
+## Score:
+4
+
+## Id:
+295854
+
+## Body:
+<p>If $p\equiv 1\pmod{3}$, it's well know that $p$ can be expressed as
+$$
+p=\frac{1}{4}(A^2+27B^2).
+$$
+In this <a href="http://www.ams.org/journals/mcom/1953-07-042/S0025-5718-1953-0055784-0/S0025-5718-1953-0055784-0.pdf" rel="nofollow">letter</a> by Von Neumann, he mentions that Kummer determined that $A$ is in fact uniquely determined by the additional condition $A\equiv 1\pmod{3}$.</p>
+
+<p>The reference that is listed is Kummer's <em>De residuis cubicis disquisitiones nonnullae analyticae</em>, but I'm having a hard time getting my hands on the original source. Is there an elelementary proof of why $A$ is uniquely determined under these two conditions? Thanks.</p>
+
+

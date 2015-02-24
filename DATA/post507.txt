@@ -1,0 +1,15 @@
+## Score:
+1
+
+## Id:
+380095
+
+## ParentId:
+347040
+
+## Body:
+<p>Concerning Diophantine analysis I learned much in a nice little book of Edward Burger : <a href="http://books.google.com/books?id=2l_PKJ5075kC&amp;pg=PA1" rel="nofollow">'Exploring the Number Jungle'</a>.</p>
+
+<p>Concerning Number Theory from a novice level the venerable Hardy &amp; Wright's <a href="http://books.google.com/books?id=rey9wfSaJ9EC&amp;pg=PA1" rel="nofollow">'Introduction to Number Theory'</a> had to be cited.</p>
+
+

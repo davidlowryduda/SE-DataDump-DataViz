@@ -1,19 +1,21 @@
-## Title:
-Proof of Proposition 5.11 of David Cox's Primes of form $x^2+ny^2$?
-
-## Tags:
-<number-theory><reference-request>
-
 ## Score:
 1
 
+## Id:
+48417
+
+## ParentId:
+42755
+
 ## Body:
-<p>I'm just beginning to read the paper <a href="http://journals.cambridge.org/download.php?file=%2FBAZ%2FBAZ52_02%2FS0004972700014763a.pdf&amp;code=fef4a9ce48e1cb8e9a01ec5fab104dcd" rel="nofollow"><em>Finding Eisenstein Elements in Cyclic Number Fields of Odd Prime Degree</em></a>.*</p>
+<p>Here's the citation for an excellent little paper from the MAA's <em>Mathematics Magazine</em> that takes an algebraic approach to this problem:</p>
 
-<p>On the third page, in Lemma 2, the author references Proposition 5.11 of David Cox's <em>Primes of the form $x^2+ny^2$</em>, (John Wiley and Sons, New York, 1989), which is apparently found on page 102. It deals with inert primes.</p>
+<blockquote>
+  <p>David R. Guichard. When is $U(n)$
+  cyclic? An algebraic approach.
+  <em>Mathematics Magazine</em> 72(2) (1999), 139-142.</p>
+</blockquote>
 
-<p>Unfortunately, I don't have access to this book, and it is checked out at my local library for another 3 weeks. Could someone with access perhaps provide the proof of the proposition in question? I'd be very grateful.</p>
-
-<p>*For some reason the link I copy from my browser doesn't seem to work as a link. Googling brings up the paper as the first result though.</p>
+<p>Here's a <a href="http://www.jstor.org/pss/2690598" rel="nofollow">link</a> to this article on JSTOR.</p>
 
 

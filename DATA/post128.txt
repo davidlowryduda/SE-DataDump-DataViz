@@ -1,18 +1,24 @@
 ## Title:
-Summing over a cyclic subgroup of a multiplicative group mod n
+Dixon's Theorem to probabilistically bound largest factor of N
 
 ## Tags:
-<reference-request><elementary-number-theory>
+<probability><number-theory><reference-request>
 
 ## Score:
-8
+6
+
+## Id:
+53607
 
 ## Body:
-<p>Let $x$ be a unit in $\mathbb Z/ n \mathbb Z$ of multiplicative order $m$.
-I am trying to determine when it is that 
-$$
-\sum_{i=0}^{m-1} x^i \equiv 0 \mod n .
-$$
-Is this kind of situation something that has been studied? If so, I would be very interested in any suggestions of books that discuss this kind of problem.</p>
+<p>I have recently decided to read up on the current integer factorization algorithms. When looking into some of the algorithms, I came across the following statement:</p>
+
+<blockquote>
+  <p>Say that p is the smallest prime factor of n. By Dixon's Theorem, the probability that the largest factor of n is less than $(p)^\epsilon$ is roughly $\epsilon ^ {- \epsilon}$.</p>
+</blockquote>
+
+<p>But when I hear Dixon's Theorem, I think of <a href="http://en.wikipedia.org/wiki/Dixon%27s_theorem" rel="nofollow">this</a>. I currently don't see how Dixon's Theorem yields such a probabilistic bound. Can you help me with that?</p>
+
+<p>And the disclaimer - I am not currently in any class, so this was not assigned to me, it is not a homework problem, and I will in no way be receiving any sort of academic credit for this work.</p>
 
 

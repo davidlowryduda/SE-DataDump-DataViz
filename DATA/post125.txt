@@ -1,25 +1,20 @@
 ## Title:
-Reference request in number theory for an analyst.
+Gowers norm - gap between $U_3$ and $U_4$ norms?
 
 ## Tags:
-<number-theory><reference-request><elliptic-curves>
+<number-theory><analysis><reference-request>
 
 ## Score:
-16
+6
+
+## Id:
+53267
 
 ## Body:
-<p>I am a confirmed mathochist. My background is in analysis, and fairly traditional analysis at that; mainly harmonic functions, subharmonic functions and boundary behaviour of functions, but I have for many years had an interest in number theory (who hasn't?) without ever having the time to indulge this interest very much.</p>
+<p>For a function $f$, it is known that $|f|_{U_2} \le |f|_{U_3} \le |f|_{U_4} \le\dots$</p>
 
-<p>Having recently retired from teaching, I now do have the time, and would like to look more deeply into a branch of number theory in which my previous experience might still be useful, and in particular, I would be interested to find out more about the interplay between elliptic curves, complex multiplication, modular groups etc.</p>
+<p>Is there an example for a function $f$ such that $|f|_{U_3} &lt; |f|_{U_4}$ (i.e. they are not equal?). The bigger the gap between them, the better.</p>
 
-<p>I am pretty confident in my background with respect to complex analysis, and I have a working knowledge of the basics of p-adic numbers, but my algebra background is much, much weaker: just what I can remember from courses many years ago in groups, rings, fields and Galois Theory, and absolutely no knowledge of the machinery of homolgy/cohomology, and very little of algebraic geometry (I once read the first 2-3 chapters of Fulton before getting bored and going back to analysis!)</p>
-
-<p>Alas, I now no longer have easy access to a good academic library, so I would need to puchase any text(s) needed, unless any good ones happen to be available online.</p>
-
-<p>My request would then be this:</p>
-
-<p>What text(s) would you recommend for someone who wants to find out more about elliptic curves, complex multiplication and modular groups, bearing in mind that I am very unlikely to want to do any original research, and it is all "just for fun"?</p>
-
-<p>Many thanks for your time!</p>
+<p>I think there is a known construction of Gowers doing it but have no reference.</p>
 
 

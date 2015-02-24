@@ -1,0 +1,13 @@
+## Score:
+0
+
+## Id:
+371297
+
+## ParentId:
+237556
+
+## Body:
+<p>Proof based on method of infinite descent: Method of infinite descent and proof of Fermat's last theorem for $n=3$. Canadian Journal on Computing in Mathematics, Natural Sciences, Engineering and Medicine (CMNSEM), Vol.1, No.6, Septermber 2010, pp. 181-186.</p>
+
+

@@ -1,13 +1,15 @@
-## Title:
-The "theory of compound partitions"
-
-## Tags:
-<number-theory><reference-request><partitions>
-
 ## Score:
-0
+1
+
+## Id:
+49586
+
+## ParentId:
+49584
 
 ## Body:
-<p>I was reading a sort of mini-bio on <a href="http://en.wikipedia.org/wiki/James_Joseph_Sylvester" rel="nofollow">Sylvester</a> the other day and a "Theory of Compound Partitions" was mentioned in the discussion of his research interests. I wanted to ask, is this the same or the precursor to <a href="http://en.wikipedia.org/wiki/Integer_partition" rel="nofollow">Partitions</a> from Number Theory today? Thanks to all in advance.</p>
+<p>It sounds like you'd want to look into <a href="http://en.wikipedia.org/wiki/Dirichlet_character" rel="nofollow">Dirichlet characters</a> and their corresponding $L$-series.</p>
+
+<p>(edit: Oops, the sequences are in a different order. Sorry.)</p>
 
 

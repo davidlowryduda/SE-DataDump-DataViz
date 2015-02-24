@@ -1,0 +1,15 @@
+## Score:
+3
+
+## Id:
+508060
+
+## ParentId:
+501807
+
+## Body:
+<p>Let $S(t)=\sum_{2\leq n\leq t}\chi(n)$, and suppose that $s&gt;1.$ Using integration by parts, we have that $$\sum_{n=2}^{\infty}\chi(n)n^{-s}=\int_{2}^{\infty}t^{-s}d\left(S(t)\right)=s\int_{2}^{\infty}S(t)t^{-s-1}dt,$$ and by applying the trivial bound $|S(t)|\leq q,$ it follows that $$\left|\sum_{n=2}^{\infty}\chi(n)n^{-s}\right|\leq q2^{-s}.\ \ \ \ \ \ \ \ \ \ (1)$$ Another possible bound, as you noted, is $$\left|\sum_{n=2}^{\infty}\chi(n)n^{-s}\right|\leq\sum_{n=2}^{\infty}n^{-s}\ \ \ \ \ \ \ \ \ \ (2),$$ however, we can ask, does equation $(1)$ have any advantages over equation $(2)$? The answer is yes if we care about $s$ close to $1$. As $s$ approaches $1$, the bound in equation $(2)$ goes to infinity, and in particular, by taking the limit as $s\rightarrow 1$, equation $(1)$ implies that $L(1,\chi)$ is finite. </p>
+
+<p>This is a minor detail, and while I doubt the authors added the $q$ to have a result uniform in $s\in[1,\infty)$, it is likely that they used the above method of partial summation. As you found, for the question of $s\rightarrow \infty$, the trivial bound works best.</p>
+
+

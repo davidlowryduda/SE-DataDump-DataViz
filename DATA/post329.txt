@@ -1,0 +1,19 @@
+## Score:
+2
+
+## Id:
+155840
+
+## ParentId:
+155816
+
+## Body:
+<p>Your notion of purity does not depend on $\tau$ for polynomials with $\mathbb{Q}$ coefficients but does depend on $\tau$ for arbitrary polynomials with $\mathbb{Q}_p$ coefficients. Any two isomorphisms from $\overline{\mathbb{Q}_p}$ to $\mathbb{C}$ will differ by an automorphism of $\mathbb{C}$. An automorphism of $\mathbb{C}$ must interchange roots of any polynomial with $\mathbb{Q}$ coefficients, so if $P$ is pure with respect to one choice of $\tau$ it is pure with respect to an arbitrary $\tau$.</p>
+
+<p>To see that it doesn't work in general, let's work over $\mathbb{Q}_7$. This field has two square roots of 2(Hensel's lemma); we call them $\pm \alpha$. We'll reserve the symbol $\sqrt{2}$ to mean the usual positive element of $\mathbb{R}$. There's a $\tau$ that takes $j$ to $\sqrt{2}$ and there's a $\tau$ that takes $j$ to $-\sqrt{2}$ (simply compose $\tau$ with any extension of the unique automorphism of $\mathbb{Q}(\sqrt{2})$ to $\mathbb{C}$. Now consider the polynomial 
+$$
+(x-1)^2 - \alpha.
+$$
+If $\tau(\alpha) = \sqrt{2}$ then the roots of this polynomial are $1 + 2^{1/4}$ and $1 - 2^{1/4}$, which have different complex absolute values. If $\tau(\alpha) = -\sqrt{2}$ the roots are $1 + 2^{1/4}i$ and $1 - 2^{1/4}i$, which have the same complex absolute value.</p>
+
+

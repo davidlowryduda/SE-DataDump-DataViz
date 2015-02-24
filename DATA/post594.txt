@@ -1,0 +1,65 @@
+## Score:
+2
+
+## Id:
+464035
+
+## ParentId:
+463960
+
+## Body:
+<p>This sketch is adapted from Apostol's proof that for $x\geq 2$ there is a constant A such that </p>
+
+<blockquote>
+  <p>$$\sum_{p\leq x}\frac{1}{p} = \log\log x + A + O(\frac{1}{\log x}) $$</p>
+</blockquote>
+
+<p>Since $\lim_{x\to \infty}\frac{1}{\log x} = 0$ this would give your result...if you will accept an A instead of a C.</p>
+
+<p>The proof is essentially the same as that in Landau's <em>Handbuch</em> at pages 100-102 which is probably the same as Mertens'. </p>
+
+<p>The proof below is an outline, since the footnotes require separate nontrivial proof and I have left out some intermediate integration steps. Note, $\log^n t =(\log t)^n.$</p>
+
+<p>Proof. Let $A(x) = \sum_{p\leq x} \frac{\log p}{p}$ and let</p>
+
+<p>$a(n) = 1 $ for $n$ prime and $a(n) = 0$ for $n$ nonprime. </p>
+
+<p>Then $\sum_{p \leq x} \frac{1}{p} = \sum_{n \leq x} \frac{a(n)}{n}$ and </p>
+
+<p>$A(x) = \sum_{n \leq x} \frac{a(n)}{n}\log n.$</p>
+
+<p>Let $f(t) = \frac{1}{\log t}$ in Abel's identity$^1;$ since $A(t) = 0$ for $t&lt;2,$</p>
+
+<p>$$\sum_{p\leq x}\frac{1}{p}= \frac{A(x)}{\log x} + \int_2^x \frac{A(t)}{t\log^2t}dt. \hspace{20mm}(1)$$ We need the ancillary result$^2$ which gives us that </p>
+
+<p>$A(x) = \log x + R(x),$ with $R(x) = O(1).$</p>
+
+<p>Applying this to (1) we have </p>
+
+<p>$\sum_{p\leq x}\frac{1}{p}= \frac{\log x+ O(1)}{\log x}+\int_2^x\frac{\log t + R(t)}{t \log^2 t}$</p>
+
+<p>$ = \sum_{p\leq x}\frac{1}{p} = 1 + O(\frac{1}{\log x}) + \int_2^x\frac{dt}{t\log t} + \int_2^x \frac{R(t)}{t \log^2 t}dt \hspace{20mm}(2)$</p>
+
+<p>The last two integrals on the right:</p>
+
+<p>$\int_2^x \frac{dt}{t\log t}= \log\log x - \log \log 2;$</p>
+
+<p>$\int_2^x \frac{R(t)}{t\log^2 t} =\int_2^\infty \frac{R(t)}{t\log^2 t}dt - \int_x^\infty \frac{R(t)}{t\log^2t}dt$</p>
+
+<p>and $\int_x^\infty\frac{R(t)}{t\log^2 t}dt =  O( \int_x^\infty \frac{dt}{t\log^2 t} )= O(\frac{1}{\log x}).$ </p>
+
+<p>We can write (2) as </p>
+
+<p>$$\sum_{p\leq x}\frac{1}{p}= \log\log x +O(\frac{1}{\log x}) + A$$</p>
+
+<p>in which $A = 1 - \log \log 2 + \int_2^\infty \frac{R(t)}{t \log^2 t}dt.$ </p>
+
+<hr>
+
+<p>$^1$For f smooth on $[y,x],~~ 0 &lt; y &lt; x,$ we can write</p>
+
+<p>$\sum_{y&lt; n \leq x}a(n)f(n)= A(x)f(x) - A(y)f(y) - \int_{y}^x A(t)f'(t)dt.$ </p>
+
+<p>$^2~$ $\sum_{p\leq x}\frac{\log p}{p}= \log x + O(1) $ for $x\geq 1.$</p>
+
+

@@ -1,0 +1,28 @@
+## Title:
+Plato's Disc of Gold
+
+## Tags:
+<number-theory><reference-request><math-history>
+
+## Score:
+4
+
+## Id:
+265804
+
+## Body:
+<p>In the book <em>Mathematical Cranks</em>, Underwood Dudley describes the following problem on page 36:</p>
+
+<blockquote>
+  <p>Dear Archimedes,</p>
+  
+  <p>Your problem is solved but:-- About twenty years ago he lived on Crete and was moving to Thrinacia. The cost of transporting his herd to Thrinacia was one ounce of gold per animal with all shiploads being equal.</p>
+  
+  <p>His gold was in large circular discs with a hole one unit in diameter at the center. Each disc was uniform in thickness and all had the same weight, but they varied widely in diameter. He divided the discs into concentric rings having whole numbers for their weights and inside and outside diameters. A successive outer and inner ring from any disc would pay for each shipload. One-half of the weight of the outer fifteen rings was in the outer six. Again dividing the outer six, leaves the outer five balancing the next six. How many discs were there, to use the last disc of gold? How many animals per load, and how many loads, if the number of discs is a triangular number, the number per load is a square number, and the number of loads is a product of a pentagonal number, a square number, a triangular number and of a cubic number?</p>
+  
+  <p>s/s Eratosthenes</p>
+</blockquote>
+
+<p>For an allegedly classical problem, it is surprisingly obscure. Is it legitimate, or a modern fiction? I can't tell from the context, and Dudley leaves no references or notes. Have there been any attempts to solve it (or even to interpret it in a sensible way)?</p>
+
+

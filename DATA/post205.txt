@@ -1,31 +1,24 @@
-## Title:
-Is there a mathematics field that studies the displaying of numbers?
-
-## Tags:
-<number-theory><reference-request>
-
 ## Score:
-5
+1
+
+## Id:
+93823
+
+## ParentId:
+93803
 
 ## Body:
-<p>I've read somewhere (not sure where) - that there is a dicotomy between the numbers and the symbols used for representing them, for example: We have the idea of twoness which can be represented in decimal base as $2$ and also in binary as $10$, in this case we're talking about the same number represented in two different bases. It could also be represented in roman symbols $II$ for example.</p>
+<p>I think you would learn enough from   Choie, Y.-J.,
+Lichiardopol, N.,
+Moree, P., and
+Sole, P. which can be downloaded at  <a href="http://www.mpim-bonn.mpg.de/preprints/send?year=&amp;number=&amp;name=&amp;title=robin" rel="nofollow">MAX_PLANCK</a></p>
 
-<p>For the decimal base, there is a <em>logic of succession</em>, which is:</p>
+<p>See the references, I think you would also like the Lagarias paper. Alaoglu and Erdos is available online.  The general area in use here is the colossally abundant numbers, see <a href="http://en.wikipedia.org/wiki/Colossally_abundant_number" rel="nofollow">COLOSSAL</a>   </p>
 
-<p>$$0,1,2,3,4,5,6,7,8,9$$</p>
+<p>I gave a fairly complete description of these numbers at <a href="http://mathoverflow.net/questions/79927/which-n-maximize-gn-frac-sigmann-log-log-n/79987#79987" rel="nofollow">ME</a> </p>
 
-<p>And then when we reach nine, we <em>rotate</em> the number in the left (which was $0$ previously):</p>
+<p>A preprint of Lagarias is on the arXiv, <a href="http://arxiv.org/abs/math.NT/0008177" rel="nofollow">LAGARIAS</a> </p>
 
-<p>$$\color{red}{\square} 8, \color{red}{\square} 9, \color{red}{1}0,...$$</p>
-
-<p>The algorithm for roman symbols is fairly different:</p>
-
-<p>$$I,II,III,IV,V,VI,VII,VIII,IX,X,...$$</p>
-
-<p>It's possible to express $I$, $II$, $III$ and $V$, the four is formed with a rule of subtracting $1$ from the number in the right $\color{blue}{I}\color{red}{V}=\color{red}{5}-\color{blue}{1}=4$, It's the same for nine: $\color{blue}{I}\color{red}{X}=\color{red}{10}-\color{blue}{1}=9$.</p>
-
-<p>Is there a field of study for these representations? Has anyone proposed axioms for their inner working or we've always used them intuitively? I remember of reading how these representations worked, but I never read about axiomatic basis for them nor sytems with completely different axioms.</p>
-
-<p><strong>Note</strong>: I have no idea on how to tag this question, if you know better tags, feel free to  edit.</p>
+<p>The C.A. numbers are in a list on the <a href="http://oeis.org/A004490" rel="nofollow">OEIS</a>  </p>
 
 

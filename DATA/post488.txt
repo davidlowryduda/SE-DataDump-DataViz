@@ -1,0 +1,16 @@
+## Score:
+2
+
+## Id:
+352102
+
+## ParentId:
+352098
+
+## Body:
+<ul>
+<li><p><a href="http://www.springer.com/mathematics/numbers/book/978-0-387-90163-3" rel="nofollow"><em>Introduction to Analytic Number Theory</em></a> by Apostol.</p></li>
+<li><p><a href="http://www.ams.org/bookstore-getitem/item=STML-6" rel="nofollow"><em>The Prime Numbers and Their Distribution</em></a> by Tenenbaum and Mendès France.</p></li>
+</ul>
+
+

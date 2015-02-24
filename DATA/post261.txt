@@ -1,15 +1,16 @@
-## Title:
-The number of Number Fields of discriminant less than or equal to a particular value
-
-## Tags:
-<reference-request><algebraic-number-theory>
-
 ## Score:
-5
+0
+
+## Id:
+124696
+
+## ParentId:
+124688
 
 ## Body:
-<p>By Hermite's theorem, there are only finitely many number fields of bounded (equivalently, fixed) discriminant. But I assume that people have collected data about this to say more than just that? </p>
+<p>Let $g$ be a primitive root modulo $p$, i.e. $1,g,g^2,\ldots,g^{p-2}$ are the nonzero elements of $\mathbb F_p$. Show that $g^n$ is a quadratic residue iff $n$ is even, so $1,g^2,\ldots,g^{p-3}$ are all quadratic residues and their number is $(p-1)/2$.</p>
 
-<p>I tried looking around and found several tables about related results but never about this particular one. Thank you in advance for any help!</p>
+<p>Alternatively, consider $$\prod_{a\in\mathbb F_p^\times}(X-a) = X^{p-1}-1 = (X^\frac{p-1}{2}-1)(X^\frac{p-1}{2}+1).$$
+By Euler's criterion, $a\in \mathbb F_p^\times$ is a quadratic residue iff $a^\frac{p-1}{2} \equiv 1\pmod p$, i.e. iff $a$ is a root of $X^\frac{p-1}{2}-1$. The above factorisation shows that the number of those roots is exactly $(p-1)/2$.</p>
 
 

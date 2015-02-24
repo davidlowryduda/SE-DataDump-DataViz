@@ -1,0 +1,17 @@
+## Score:
+4
+
+## Id:
+548213
+
+## ParentId:
+548210
+
+## Body:
+<p>If you want to study number theory from a solid foundation, I would recommend:</p>
+
+<p><a href="http://www.amazon.co.uk/Elementary-Number-Theory-David-Burton/dp/0071289194" rel="nofollow">Elementary Number Theory</a>, by David Burton.</p>
+
+<p>It has been used at undergraduate level by universities successfully, and at least the earlier chapters should be well within the ability of a bright school student.</p>
+
+

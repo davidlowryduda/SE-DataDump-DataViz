@@ -1,19 +1,15 @@
-## Title:
-How many solutions for $x^2 = 1$?
-
-## Tags:
-<number-theory><reference-request><algebraic-number-theory><convention>
-
 ## Score:
-2
+13
+
+## Id:
+43523
+
+## ParentId:
+43519
 
 ## Body:
-<p>Let $F$ be an non-archimedean local field, let $o$ be its ring of integers, and let $p$ be the maximal ideal</p>
+<p>Here are a few proofs: <a href="http://www.math.uconn.edu/~kconrad/blurbs/ugradnumthy/4squarearithprog.pdf">1</a>, <a href="http://www.math.ku.dk/~kiming/lecture_notes/2007-2008-elliptic_curves/4_squares_in_arithmetic_progression.pdf">2</a> (which is excellent), and the somewhat bizarre <a href="http://www.mathpages.com/home/kmath044/kmath044.htm">3</a>.</p>
 
-<p>Is there a closed form for the cardinality</p>
-
-<p>$$ | \{ x \in o / p^N: x^2  = -1 \bmod p^N\} | =A(o, p^N)?$$</p>
-
-<p>I am actually interested in $\chi(p^N) = (-1)^{\frac{p^{N} - p^{N-1}+A(o,p^N)}{2}}$ or $\chi(p^N) / \chi(p^{N-1})$. Are these functions characters? Do they have a name and are they well understood?</p>
+<p>Unfortunately, there are no cases where you have nontrivial arithmetic progressions of higher powers. This is a string of proofs. Carmichael himself covered this for n = 3 and 4, about a hundred years ago. But it wasn't completed until Ribet wrote a paper on it in the 90s. His paper can be found <a href="http://math.berkeley.edu/~ribet/Articles/acta.pdf">here</a>. The statement is equivalent to when we let $\alpha = 1$. Funny enough, he happens to have sent out a notice on scimath with a little humor, which can still be found <a href="http://www.math.niu.edu/~rusin/known-math/96/fermatlike">here</a>.</p>
 
 

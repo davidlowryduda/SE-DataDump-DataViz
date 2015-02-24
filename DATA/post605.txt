@@ -1,0 +1,20 @@
+## Title:
+Gelfond-Schneider Constant $2^{\sqrt{2}}$
+
+## Tags:
+<number-theory><reference-request><irrational-numbers><transcendental-numbers>
+
+## Score:
+1
+
+## Id:
+469489
+
+## Body:
+<p>Someone knows a proof (books , articles)  that $2^{\sqrt{2}}$ is irrational ?</p>
+
+<p>Without using that $2^{\sqrt{2}}$ is transcendent.</p>
+
+<p>Any hints would be appreciated.</p>
+
+

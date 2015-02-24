@@ -1,0 +1,34 @@
+## Title:
+Applications of Bounds of the Sum of Inverse Prime Divisors $\sum_{p \mid n} \frac{1}{p}$
+
+## Tags:
+<number-theory><reference-request>
+
+## Score:
+2
+
+## Id:
+178002
+
+## Body:
+<p><strong>Question</strong>: What interesting or notable problems involve the additive function $\sum_{p \mid n} \frac{1}{p}$ and depend on sharp bounds of this function? </p>
+
+<p>I'm aware of at least one: A certain upper bound of the sum implies the <a href="http://en.wikipedia.org/wiki/Abc_conjecture" rel="nofollow">ABC conjecture</a>.</p>
+
+<p>By the Arithmetic-Geometric Inequality, one can bound the <a href="http://en.wikipedia.org/wiki/Radical_of_an_integer" rel="nofollow">radical function</a> (squarefree kernel) of an integer,
+\begin{align}
+\left( \frac{\omega(n)}{\sum_{p \mid n} \frac{1}{p}} \right)^{\omega(n)} \leqslant \text{rad}(n).
+\end{align}
+If for any $\epsilon &gt; 0$ there exists a finite constant $K_{\epsilon}$ such that for any triple $(a,b,c)$ of coprime positive integers, where $c = a + b$, one has
+\begin{align}
+\sum_{p \mid abc} \frac{1}{p} &lt; \omega(abc) \left( \frac{K_\epsilon}{c} \right)^{1/((1+\epsilon) \omega(abc))},
+\end{align}
+then
+\begin{align}
+c &lt; K_{\epsilon} \left( \frac{\omega(abc)}{\sum_{p \mid abc} \frac{1}{p}} \right)^{(1+ \epsilon)\omega(abc)} \leqslant \text{rad}(abc)^{1+\epsilon},
+\end{align}
+and the ABC-conjecture is true.</p>
+
+<p><em>Edit:</em> Now, whether or not any triples satisfy the bound on inverse primes is a separate issue. Greg Martin points out that there are infinitely many triples which indeed violate it. This begs the question of whether there are any further refinements of the arithmetic-geometric inequality which remove such anomalies, but this question is secondary.</p>
+
+

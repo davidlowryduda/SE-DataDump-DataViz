@@ -1,0 +1,28 @@
+## Title:
+Almost primes - k as function of x
+
+## Tags:
+<number-theory><reference-request><prime-numbers>
+
+## Score:
+0
+
+## Id:
+642985
+
+## Body:
+<p>Below is the plot $N_k(x)$, where $N_k(x)$ is the counting function of numbers with $k$ prime factors (counted with multiplicity), and $k=\lfloor\log_2(x)\rfloor-2$, which generates a repeating 'Devil's Staircase', (repeating every $2^n$, where $n\in\mathbb{N}$):</p>
+
+<p><img src="http://i.stack.imgur.com/Xaku8.gif" alt="enter image description here"></p>
+
+<p>The oeis sequence A052130 alludes to the limits of such plots. I was wondering whether there was any other information out there on this? (Most studies on almost primes seems to be for fixed $k$.)</p>
+
+<p>I also include a plot of the sequence mentioned above, each term divided by $2(e-\gamma)^n$:</p>
+
+<p><img src="http://i.stack.imgur.com/wQJDW.gif" alt="enter image description here"></p>
+
+<p>&amp; two cycles of $N_k(x)$ (after limit of $84$ reached) for $k=\lfloor\log_2(x)\rfloor-6$ for comparison:</p>
+
+<p><img src="http://i.stack.imgur.com/04YMT.gif" alt="enter image description here"></p>
+
+

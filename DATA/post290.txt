@@ -1,17 +1,13 @@
-## Title:
-Reference request for proof of Landau's generalised PNT
-
-## Tags:
-<number-theory><reference-request><prime-numbers>
-
 ## Score:
-1
+2
+
+## Id:
+140120
+
+## ParentId:
+131627
 
 ## Body:
-<p>Could someone please point me in the direction of a proof for Landau's asymptotic formula for k-almost primes:</p>
-
-<p>$$\pi_k(n) \sim \left( \frac{n}{\log n} \right) \frac{(\log\log n)^{k-1}}{(k - 1)!}$$</p>
-
-<p>I realise that it was derived directly from the PNT - would like to see the steps involved though. </p>
+<p>Here are my two cents: some references  <a href="http://www.math.uwo.ca/~adhillon/papers/geotam.pdf" rel="nofollow">1</a> and <a href="http://www.mathunion.org/ICM/ICM1966.1/Main/icm1966.1.0509.0511.ocr.pdf" rel="nofollow">2</a>. </p>
 
 

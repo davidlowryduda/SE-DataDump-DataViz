@@ -1,0 +1,19 @@
+## Score:
+3
+
+## Id:
+350909
+
+## ParentId:
+350833
+
+## Body:
+<p>My two-pennyworth:</p>
+
+<ol>
+<li>John Stillwell, <em>Elements of Number Theory</em> (Springer 2002). This is by a masterly expositor, and is particularly approachable.</li>
+<li>G.H. Hardy and E.M. Wright, <em>An Introduction to the Theory of Numbers</em> (OUP 1938, and still going strong with a 6th edition in 2008). Also aimed at beginning undergraduate mathematicians and pleasingly accessible.</li>
+<li>Alan Baker, <em>A Comprehensive Course in Number Theory</em> (CUP 2012) is a nice recent textbook (and a lot shorter than its title would suggest, too).</li>
+</ol>
+
+

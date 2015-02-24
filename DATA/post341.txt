@@ -1,0 +1,13 @@
+## Score:
+1
+
+## Id:
+162257
+
+## ParentId:
+162042
+
+## Body:
+<p>I note that <a href="http://oeis.org/A020463" rel="nofollow">Primes that contain digits 3 and 7 only</a> are tabulated at the Online Encyclopedia of Integer Sequences. My understanding is that there is no set $D$ of fewer than 10 digits for which it has been proved that there are infinitely many primes which use only the digits in $D$. </p>
+
+

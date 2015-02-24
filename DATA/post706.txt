@@ -1,0 +1,17 @@
+## Title:
+Are the conjectural values of $H_{k}:=\lim\inf_{n\to\infty}p_{n+k}-p_{n}$ available somewhere?
+
+## Tags:
+<number-theory><reference-request><prime-numbers>
+
+## Score:
+1
+
+## Id:
+616763
+
+## Body:
+<p>The question is in the title. It can be found on the current Polymath 8b project page that one expects to have $H_{1}=2$, $H_{2}=6$, $H_{3}=8$, $H_{4}=12$ and $H_{5}=16$ but I'm interested in larger values. Could someome tell me where I can find them?<br>
+Thanks in advance.</p>
+
+

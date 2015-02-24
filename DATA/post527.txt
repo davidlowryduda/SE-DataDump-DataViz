@@ -1,0 +1,14 @@
+## Score:
+1
+
+## Id:
+398946
+
+## ParentId:
+398590
+
+## Body:
+<p>I do not know about the literature, but it is clear that for each $k,$ there is only finitely many solutions. Clearly, $\alpha&gt;\beta.$ Assuming that $n_1\le n_2...\le n_k$ we can estimate, $(kn_k)^{\beta}\ge RHS=LHS\ge n_k^{\alpha},$ hence
+$n_k^{\alpha-\beta}\le k^{\beta}.$ </p>
+
+

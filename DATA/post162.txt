@@ -1,13 +1,18 @@
 ## Title:
-Generators for $\mathbb F_p^*$
+Analytic number theory primer -- sequences and series
 
 ## Tags:
-<abstract-algebra><number-theory><reference-request><field-theory><finite-fields>
+<analysis><reference-request><asymptotics><analytic-number-theory>
 
 ## Score:
-3
+8
+
+## Id:
+71514
 
 ## Body:
-<p>Let $p$ be prime, then it is a well-known fact that $\mathbb F_p^*= \mathbb F_p -\{0\}$ is a cyclic group under multiplication. Are there any methods to determine the generators of this cyclic or any results which help in actually finding the generators?</p>
+<p>For a book like Titchmarsh, or Iwaniec and Kowalski, it seems a thorough knowledge of asymptotics is a prerequisite. </p>
+
+<p>What are  good books for training oneself in such manipulation of asymptotics, bounding of integrals and all that paraphernalia which analytic number theorists seem to be very good at; but is not explicitly developed in these books? In other words, what is a good book for hard analysis? </p>
 
 

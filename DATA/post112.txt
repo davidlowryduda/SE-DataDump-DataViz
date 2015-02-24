@@ -1,15 +1,20 @@
 ## Title:
-explicit formula for norm map of Kummer extensions
+The Langlands program for beginners
 
 ## Tags:
-<number-theory><reference-request>
+<reference-request><soft-question><algebraic-number-theory><representation-theory><automorphic-forms>
 
 ## Score:
-1
+31
+
+## Id:
+48981
 
 ## Body:
-<p>Since it is particularly easy to write down a basis of a Kummer extension $K=k(\mu)/k$ (where $\mu^n=a \in k$) as a $k$-vector space, I suspect that it is should not be terribly hard to write an explicit formula for a norm of an element in terms of its coordinates in this basis.</p>
+<p>Assuming that a person has taken standard undergraduate math courses (algebra, analysis, point-set topology), what other things he must know before he can understand the Langlands program and its geometric analogue?</p>
 
-<p>Is there a standard text where this derivation is carried out?</p>
+<p>What are the good books for learning these topics?</p>
+
+<p>Is there any book which can explain the Langlands program to an undergraduate with very few prerequisites?</p>
 
 

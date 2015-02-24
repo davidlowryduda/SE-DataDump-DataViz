@@ -1,0 +1,21 @@
+## Score:
+1
+
+## Id:
+182066
+
+## ParentId:
+174657
+
+## Body:
+<p>I will use this post to catalog results and miscellaneous thoughts about the problem.</p>
+
+<p>The optimal solution for the $(6,6)$ case is very simple; it has $A=\{1,\ldots ,6\}, B=\{a, 7,\ldots,11\}$ (where $a$ is some element of $A$, say 1), and $M=66$. Clearly no solution can reduce the largest element of $A$.  Any solution that reduces the largest element of $B$ will create a second overlap with $A$ that must be addressed by increasing the largest element of $A$. But 66 is too small to be improved in this way: $7×9$ is out of reach and $8×8$ is forbidden. Nothing else can work since each set must contain an element of 6 or more.</p>
+
+<p>The solution seems to be simple in this case  because there is a good home for the problem child 6, which is best housed with 2 and 3. [Add reason later.] In the 5×5 case the partial solution $A=\{1,\ldots,5\}, B=\{a, 6,\ldots\}$ is dominated by $A=\{1,2,3,4,6\}, B=\{a, 5, \ldots\}$ for the same reason.</p>
+
+<hr>
+
+<p>A choice of $A$ induces a graph on ${\Bbb N}\setminus A$ where there is an edge between $n$ and $n'$ whenever there exist $a, a'\in A$ with $a/a' = n/n'$. Legal choices of $B$ then correspond to independent sets in this graph, and it is usually easy to pick out the optimal $B$ for a given $A$.</p>
+
+

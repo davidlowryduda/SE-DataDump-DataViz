@@ -1,0 +1,15 @@
+## Score:
+4
+
+## Id:
+181281
+
+## ParentId:
+181264
+
+## Body:
+<p>Maple has a package called ellpack for handling elliptic curves. Also if you type $$\rm Cremona\quad elliptic$$ into the web, many useful links will appear. </p>
+
+<p>I also recommend the <a href="http://www.inf.unideb.hu/~pethoe/cikkek/67_MORDELL.pdf" rel="nofollow">paper</a>, Gebel, Petho and Zimmer, On Mordell's equation. According to the summary, they solve Mordell for all $k$ up to 10,000, so you may be asking for a bit much if you want to go up to 1,000,000.  </p>
+
+

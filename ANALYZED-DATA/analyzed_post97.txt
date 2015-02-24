@@ -1,0 +1,2 @@
+Pernet, Clement; Stein, William
+Fast computation of Hermite normal forms of random integer matrices

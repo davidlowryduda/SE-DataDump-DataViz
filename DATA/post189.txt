@@ -1,14 +1,17 @@
-## Title:
-Reference for proof of harmonic number asymptotic expansion
-
-## Tags:
-<number-theory><reference-request>
-
 ## Score:
-1
+3
+
+## Id:
+85973
+
+## ParentId:
+85972
 
 ## Body:
-<p>Can anyone show me where I can find a proof of the following?
-$$H_n \sim \ln{n}+\gamma+\frac{1}{2n}-\sum_{k=1}^\infty \frac{B_{2k}}{2k n^{2k}}=\ln{n}+\gamma+\frac{1}{2n}-\frac{1}{12n^2}+\frac{1}{120n^4}-\cdots$$</p>
+<p>That xkcd strip is not about number theory, but about set theory (and a particularly slippery part of set theory at that; the Axiom of Choice is tricky!). </p>
+
+<p>A possible first set theory book might be Halmos's <a href="http://rads.stackoverflow.com/amzn/click/0387900926" rel="nofollow"><em>Naive Set Theory</em></a>, though it can be tough in parts and suffers somewhat for having few exercises.</p>
+
+<p>There are several introductory Number Theory books; e.g., William Stein's <a href="http://rads.stackoverflow.com/amzn/click/1441927522" rel="nofollow"><em>Elementary Number Theory: Primes, Congruences and Secrets</em></a>; Leveque's <a href="http://rads.stackoverflow.com/amzn/click/0486663485" rel="nofollow"><em>Elementary Number Theory</em></a>; and <a href="http://rads.stackoverflow.com/amzn/click/048646931X" rel="nofollow">Underwood Dudley's book of the same title</a>. </p>
 
 

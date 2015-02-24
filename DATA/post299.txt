@@ -1,0 +1,19 @@
+## Score:
+0
+
+## Id:
+146959
+
+## ParentId:
+146944
+
+## Body:
+<p>Check out Chapter 1 of Johan Bosman's Ph.D. thesis available at his homepage</p>
+
+<p><a href="http://homepages.warwick.ac.uk/~masjam/" rel="nofollow">http://homepages.warwick.ac.uk/~masjam/</a></p>
+
+<p>He discusses modular forms and modular curves. </p>
+
+<p>Modular forms are functions on the complex upper half-plane satisfying certain conditions and modular curves are obtained as quotients of the complex upper half-plane by congruence subgroups.</p>
+
+

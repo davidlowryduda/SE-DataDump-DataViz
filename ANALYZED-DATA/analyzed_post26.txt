@@ -1,0 +1,6 @@
+Primes of the Form x<sup>2</sup> + ny<sup>2</sup>
+David Cox
+Wikipedia
+class field theory
+Wikipedia
+elliptic curves with complex multiplication

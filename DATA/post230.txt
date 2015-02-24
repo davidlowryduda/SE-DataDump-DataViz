@@ -1,25 +1,49 @@
 ## Title:
-Extending the primes
+Is an integer in the interval $\left[\small {3^n+1 \over 2^n+1}\lt {3^n \over 2^n} \lt{3^n-1 \over 2^n-1}\right] $ for some $\small n>1$?
 
 ## Tags:
-<geometry><number-theory><reference-request><prime-numbers><natural-numbers>
+<number-theory><reference-request><diophantine-approximation>
 
 ## Score:
-7
+3
+
+## Id:
+108489
 
 ## Body:
-<p>I had an idea and I'd like to find out whether it has a name or has been studied before. </p>
+<p>Consider the expression $$ f_n(j)= {3^n+j \over 2^n+j} $$ where we select some fixed  $n \gt 1$ and let <em>j</em> vary over the reals from <em>+1</em> to <em>-1</em> . I'm concerned with the problem, whether in the interval $\small f_n(+1).. f_n(-1) $ or
+ $$ {3^n+1 \over 2^n+1} \le x \le  {3^n-1 \over 2^n-1} $$ 
+an <em>x</em> can be integer <em>(In the original version of this question I asked for a "crossing of an integer value" in $\small f_n(+1) \ldots f_n(-1) $ which seemed to be somehow obfuscating).</em>       </p>
 
-<p>Imagine the natural numbers and the operations of addition and multiplication, but with the following restriction: multiplication can only be carried out $d$ times, and only with prime numbers. Any number that usually has more than $d$ prime factors now becomes 'prime' in the new system. So, if $d=2$ say, then $8$ becomes a new 'prime' because the usual prime decomposition of $8= 2\times2\times2$ takes 'too many' multiplications; similarly, if $d=3$ then $16=2\times2\times2\times2$ becomes 'prime'.</p>
+<p>Obviously this interval is roughly centered around the noninteger number $ {3^n \over 2^n}$ and the question can be reformulated whether for all $n \gt 1$
+ $$ \left\lfloor {3^n \over 2^n} \right\rfloor \lt {3^n+1 \over 2^n+1} \le {3^n \over 2^n} \le  {3^n-1 \over 2^n-1} \lt \left\lceil {3^n \over 2^n} \right\rceil $$ 
+Or one could ask whether in the interval $\small f_n(1)&lt;x=f_n(j)&lt;f_n(-1) $ there is an integer <em>x</em> for some j where  $ -1 \le j \le 1 $.    </p>
 
-<p>Has this kind of thing ever been studied?</p>
-
+<p>Empirically we'll find an integer only for $\small n \in \{1,4,7\}  $ and moreover, such an integer for some negative <em>j</em>  only at <em>n=1</em> .<br>
 <hr>
+<em>Remarks:</em><br>
+It's worth to note that 
+ $${3^n+ \frac12 (\frac43)^n \over 2^n+\frac12 (\frac43)^n}
+     \ldots {3^n- \frac12 (\frac43)^n \over 2^n-\frac12 (\frac43)^n } $$
+defines an interval which increases with $\small n \ge 1$ from width <em>0.375</em> up to $\small 1 $ (not including). 
+Thus it can contain at most one integer number and the interval here in question
+ $\small f(1) \ldots f(-1) $ or $ {3^n+ 1 \over 2^n+1} \ldots  {3^n- 1 \over 2^n-1} $
+is always enclosed within.</p>
 
-<p>Edit: I've been asked to clarify this, so here's two other ways of describing the same object.</p>
+<hr>       
 
-<p>Geometrically. In a $d$-dimensional Euclidean space, let $\mathscr{D}$ be the smallest set of natural numbers such that you can represent every natural number as the volume of a $d$-dimensional box with edge lengths that are members of $\mathscr{D}$. $\mathscr{D}$ always contains the primes, and if $d&lt;\infty$ it also contains other numbers. Perhaps it'd be interesting to understand those other numbers.</p>
+<p>The problem (to prove this for <em>n>7</em>)      </p>
 
-<p>Algorithmically. First, put all the prime numbers in a set $\mathscr{D}$. Then, put every number $n$ with $\Omega(n)&gt;d$ in $\mathscr{D}$ (where $\Omega(n)$ is the number of indistinct prime divisors of $n$). Finally, go through each of the numbers $n$ for which $\Omega(n)&gt;d$ (i.e. the ones which were just added to $\mathscr{D}$) in increasing order, and for each such number $n$ that has not yet been removed from $\mathscr{D}$, remove from $\mathscr{D}$ every number $m$ that is product of $n$ and $d-1$ (possibly identical) numbers $k_1,k_2,...,k_{d-1}$ such that each $k_i\in\mathscr{D}$ and each $k_i \le n$. We can call the remaining numbers in $\mathscr{D}$ '$d$-prime'.</p>
+<ul>
+<li>is related to the disproof of the so-called "1-cycles" in the collatz-problem (the proof of that <a href="http://en.wikipedia.org/wiki/Collatz_conjecture#Theorems" rel="nofollow">Collatz-detail due to Ray Steiner in 1977</a> is based on the proof, that $\small g_n(k)_{for k&gt;1} \notin \{2^m\} $ for <em>n>1</em> which is a much sharper requirement and could be solved using results of transcendental number theory)     </li>
+<li>is also related to a detail in the Waring-problem which is unsolved due to <a href="http://mathworld.wolfram.com/PowerFractionalParts.html" rel="nofollow">Eric Weissstein at mathworld-wolfram.com</a>    </li>
+<li>and has also a relation to the problem of <em><a href="http://mathworld.wolfram.com/Z-Number.html" rel="nofollow">z-numbers</a></em> which were introduced by Kurt Mahler to solve a problem which was formulated quite similar.</li>
+</ul>
+
+<p>so I don't expect a solution here.    </p>
+
+<p>But that problem "took me" quite a long time in the last years and I'm still curious in its relevant aspects, and I was just re-reading some of my older notes on it. So my question is, whether I can find more interesting discussions around this problem, may be in other formulations or with other focus just to possibly widen my horizon here (there is no nice general convention how to use numerical expressions in search-strings, so I ask here with the more verbal environment).     </p>
+
+<p>P.s. perhaps there might be some more appropriate tag for this question?</p>
 
 

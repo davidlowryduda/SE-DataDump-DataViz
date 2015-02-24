@@ -1,0 +1,43 @@
+## Score:
+4
+
+## Id:
+591069
+
+## ParentId:
+589344
+
+## Body:
+<p>In this answer I will prove that for any $\epsilon&gt;0$, there are infinitely many primes $p$ with $p&gt;(1-\epsilon)n\log n$ and $p|n^2+1$. The idea is to bound the product $$H(N)=\prod_{n\leq N}(n^{2}+1)$$ in two different ways, and is similar in spirit to Erdos' proof of Chebyshev's inequalities${}^{**}$. </p>
+
+<p><strong>Lower bound:</strong> Notice that $$H(N)\geq\prod_{n\leq N}n^{2}=(N!)^{2}\geq N^{2N}/e^{2N-2},$$ and so $$\log(H(N))\geq2N\log N-(2N-2). \ \ \ \ \ \ \ \ \ \ (1)$$</p>
+
+<p><strong>Upper bound:</strong> This is the meat of the argument. Lets assume that $H(N)$  has no prime divisor greater than a parameter $w$ which is chosen so that $w&gt;N$. Our end goal is to show that $w$ cannot be too small, as this implies that $n^2+1$ will have large prime divisors for some $n$. Writing $H(N)$ as a product of primes, we have $$H(N)=\prod_{p\leq w}p^{\alpha_{p}}$$ for some coefficients $\alpha_{p}$. Each prime $p&gt;x$ can divide $n^{2}+1$ for at most two different values of $n$, and so we see that $\alpha_{p}\leq2$ in this case. For $p\leq x$, if $p|n^{2}+1$, then $n^{2}\equiv-1\text{ mod }p$. This congruence can only be solved when $p\equiv1\text{ mod }4$, and in that case there will be at most $2\lceil N/p\rceil$  values of $n$ for which $p|n^{2}+1$. Similarly, if $p^{k}|n^{2}+1$, then $n^{2}\equiv-1\text{ mod }p^{k}$, and there are at most $\gcd(\phi(p^{k}),2)=2$ solutions to this congruence, and hence at most $2\lceil N/p^{k}\rceil$  values of $n$ for which $p^{k}|n^{2}+1$. Putting this all together, we find that for $p\leq N$, and $$p\equiv1\text{ mod }4 ,\alpha_{p}\leq2\lceil\frac{N}{p}\rceil+2\lceil\frac{N}{p^{2}}\rceil+2\lceil\frac{N}{p^{3}}\rceil+\cdots+2\lceil\frac{N}{p^{k}}\rceil$$ where $k=\lceil\log_{p}N\rceil.$ Using the upper bound $\lceil x\rceil\leq x+1,$ we obtain  $$\alpha_{p}\leq\frac{2N}{p-1}+2\left(\log_{p}(N)+1\right)$$ since $1+\frac{1}{p}+\frac{1}{p^{2}}+\cdots+\frac{1}{p^{k}}\leq\frac{1}{1-1/p}.$ Thus, $$H(N)\leq\prod_{\begin{array}{c}
+p\leq N\\
+p\equiv1\text{ mod }4
+\end{array}}p^{\frac{2N}{p-1}+2\log_{p}(N)+2}\prod_{\begin{array}{c}
+N&lt;p\leq w\\
+p\equiv1\text{ mod }4
+\end{array}}p^{2},$$ and so, noting that $p^{\log_{p}(N)}=N,$ we have $$H(N)\leq\prod_{\begin{array}{c}
+p\leq N\\
+p\equiv1\text{ mod }4
+\end{array}}N^{2}\prod_{\begin{array}{c}
+p\leq N\\
+p\equiv1\text{ mod }4
+\end{array}}p^{\frac{2N}{p-1}}\prod_{\begin{array}{c}
+p\leq w\\
+p\equiv1\text{ mod }4
+\end{array}}p^{2}.$$ Taking the logarithm it follows that $$\log H(N)\leq2\pi(N;4,1)\log N+2N\sum_{\begin{array}{c}
+p\leq N\\
+p\equiv1\text{ mod }4
+\end{array}}\frac{\log p}{p-1}+2\theta(w;4,1).$$ By using the prime number theorem for arithmetic progressions, we have the asymptotics $\sum_{p\leq N,\ p\equiv1\ (4)}\frac{\log p}{p-1}\sim\frac{1}{2}\log N$, $\theta(w;4,1)\sim w/2$  and $\pi(N;4,1)\log N\sim N/2$, and so $$\log H(N)\lesssim N\log N+w.\ \ \ \ \ \ \ \ \ \ (2)$$ </p>
+
+<hr>
+
+<p>Combining equations $(1)$ and $(2)$ together, it follows that $$2N\log N-(2N-2)\leq\log H(N)\lesssim N\log N+w,$$ and hence for $N&gt;N_0(\epsilon)$ we must have $$(1-\epsilon)N\log N\leq w.$$ Since $w$ cannot be taken to smaller, this implies that for any $\epsilon&gt;0$, we can take $N$ large enough so that there exists $p&gt;(1-\epsilon)N\log N$ such that $p|H(N)$. It follows that for any $\epsilon&gt;0$, there are infinitely many  primes $p$ such that $$p&gt;(1-\epsilon) n\log n \text{ and } p|n^{2}+1.$$</p>
+
+<hr>
+
+<p>${}^{**}$  See these three answers for more details on proving Chebyshevs estimates in a similar fashion: <a href="http://math.stackexchange.com/questions/95766/chebyshev-proof-prod-limits-p-leq-2k-p-2k/95783#95783">Chebyshev: Proof $\prod \limits_{p \leq 2k}{\;} p &gt; 2^k$</a>,  <a href="http://math.stackexchange.com/questions/38917/are-there-any-combinatoric-proofs-of-bertrands-postulate/38954#38954">Are there any Combinatoric proofs of Bertrand&#39;s postulate?</a> and <a href="http://math.stackexchange.com/questions/33980/how-to-prove-chebyshevs-result-sum-p-leq-n-frac-log-pp-sim-log-n-a/33995#33995">How to prove Chebyshev&#39;s result: $\sum_{p\leq n} \frac{\log p}{p} \sim\log n $ as $n\to\infty$?</a></p>
+
+

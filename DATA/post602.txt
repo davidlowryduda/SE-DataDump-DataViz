@@ -1,0 +1,23 @@
+## Title:
+Twist of elliptic curve
+
+## Tags:
+<number-theory><reference-request><algebraic-geometry><elliptic-curves><algebraic-curves>
+
+## Score:
+1
+
+## Id:
+468108
+
+## Body:
+<p>It is continuation of this question: <a href="http://math.stackexchange.com/questions/467088/explict-form-of-the-equation-of-elliptic-curve">explict form of the equation of elliptic curve</a></p>
+
+<p>Let $p$ is prime and $p = 3 ($mod $4)$. $q = p^n$. It is easy to see that $E: y^2 = x^3 + x$ has $1 \pm 2q + q^2$ rational points over $\mathbb{F}_{q^2}$. </p>
+
+<p>It is excerpt from "Constructing supersingular elliptic curves" of Reinier Broker(<a href="http://www.math.brown.edu/~reinier/supersingular.pdf" rel="nofollow">http://www.math.brown.edu/~reinier/supersingular.pdf</a>) for $p \not= 1$ mod $3$, we can twist by a primitive sixth root
+of unity $\zeta_6 ∈ \mathbb{F}_{q^2}$ to obtain curves with trace of Frobenius $\pm 2q$ and $\pm q$ (I changed some for saving my designation).</p>
+
+<p>So how it can be done? Or can you give a reference on material about twist of elliptic curves over finite field?</p>
+
+

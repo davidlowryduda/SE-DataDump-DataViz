@@ -1,0 +1,25 @@
+## Title:
+A proof of Jacobsthal identities
+
+## Tags:
+<number-theory><reference-request>
+
+## Score:
+6
+
+## Id:
+304727
+
+## Body:
+<p>I have heard of the following result: if $p=a^2+b^2\equiv1\pmod4$, and if $a$ is odd, while $b$ is even, then   </p>
+
+<blockquote>
+  <p>$\displaystyle\sum_{x=0}^{p-1}(\frac{x^3-nx}{p})=\pm 2a\ $ for $n$ a residue of $p$;<br>
+  $\displaystyle\sum_{x=0}^{p-1}(\frac{x^3-nx}{p})=\pm 2b\ $ for $n$ a non-residue of $p$;<br>
+  and the sum is $0\ $ for $p\equiv-1\pmod4$.  </p>
+</blockquote>
+
+<p>However I could not find a proof of this result, other than <a href="https://docs.google.com/file/d/0B7R7MAVT--Fkdnk4QnR2OXFQRmM/edit" rel="nofollow">one document</a>, in which one finds a proof using L-functions of elliptic curves. but some of the lemmas are not associated with a proof, and are not so obvious. Since the author says that there are elementary ways of proving it, one then asks how can one prove this.<br>
+P.S. the references in the document are beyond my reach. So any reference is also welcomed.</p>
+
+

@@ -1,14 +1,31 @@
 ## Title:
-Can someone provide a readable discourse on factorization, norms, maximality of norms of ideals in a number field.
+Small primes attract large primes
 
 ## Tags:
-<number-theory><reference-request>
+<number-theory><reference-request><prime-numbers><analytic-number-theory>
 
 ## Score:
-1
+31
+
+## Id:
+73763
 
 ## Body:
-<p>I have already introduced myself as the communications liaison of a small study group of math Ph. D.'s who are thirty plus years away from grad studies. We are currently working on Stewart &amp; Tall's ANT and Fermat's Last Theorem. We are having as rough time with Chapter 5 and are seeking alternative readings. Unfortunately there seem to be as many approaches to ANT as there are textbooks written. This makes it much harder to find those "alternate Readings" which follow their (Stewart &amp; Tall) development.
-Any direction would be appreciated.</p>
+<p>$$
+\begin{align}
+1100 &amp; = 2\times2\times5\times5\times11 \\
+1101 &amp; =3\times 367 \\
+1102 &amp; =2\times19\times29 \\
+1103 &amp; =1103 \\
+1104 &amp; = 2\times2\times2\times2\times 3\times23 \\
+1105 &amp; = 5\times13\times17 \\
+1106 &amp; = 2\times7\times79
+\end{align}
+$$
+In looking at this list of prime factorizations, I see that <b>all</b> of the first 10 prime numbers, 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, appear within the factorizations of only seven consecutive integers.  (The next prime number, 31, has its multiples as far from 1100 as it could hope to get them (1085 and 1116).)  So no nearby number could hope to be divisible by 29 or 23, nor even by 7 for suitably adjusted values of "nearby".  Consequently when you're factoring nearby numbers, you're deprived of those small primes as potential factors by which they might be divisible.  So nearby numbers, for lack of small primes that could divide them, must be divisible by large primes.  And accordingly, not far away, we find $1099=7\times157$ (157 doesn't show up so often---only once every 157 steps---that you'd usually expect to find it so close by) and likewise 1098 is divisible by 61, 1008 by 277, 1096 by 137, 1095 by 73, 1094 by 547, etc.; and 1097 and 1109 are themselves prime.</p>
+
+<p>So if an unusually large number of small primes occur unusually close together as factors, then an unusually large number of large primes must also be in the neighborhood.</p>
+
+<p>Are there known precise results quantifying this phenomenon?</p>
 
 

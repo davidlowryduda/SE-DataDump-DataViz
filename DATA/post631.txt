@@ -1,0 +1,45 @@
+## Score:
+2
+
+## Id:
+498494
+
+## ParentId:
+498407
+
+## Body:
+<p>In case that some people are interested to know more about 'geometry of numbers' I found some good books on the subject. Some of them were too long and advanced, so they require that you devote a good time on this subject, but the best book I found on this topic is "<strong>The geometry of numbers</strong>" written by <strong>C.D. Olds</strong>, <strong>Anneli Lax</strong> and <strong>Giuliana P. Davidoff</strong> which has been published by <em>The Mathematical Association of America</em>.</p>
+
+<p>The topics that it covers includes:</p>
+
+<p>Part I - Lattice points and number theory</p>
+
+<p>Chapter 1 - Lattice points and Straight Lines</p>
+
+<p>Chapter 2 - Counting Lattice points</p>
+
+<p>Chapter 3 - Lattice points and the area of Polygons</p>
+
+<p>Chapter 4 - Lattice points in Circles</p>
+
+<p>Part II - An introduction to the geometry of numbers</p>
+
+<p>Chapter 5 - Mikowski's fundamental theorem</p>
+
+<p>Chapter 6 - Applications of Minkowski's theorems</p>
+
+<p>Chapter 7 - Linear transformations and Integral Lattices</p>
+
+<p>Chapter 8 - Geometric interpretations of Quadratic forms</p>
+
+<p>Chapter 9 - A new principle in the Geometry of numbers</p>
+
+<p>Chapter 10- A Minkowski Theorem(Optional)</p>
+
+<p>Appendix I   - Gaussian Integers. by Peter D. Lax</p>
+
+<p>Appendix II  - The closest packing of Convex Bodies</p>
+
+<p>Appendix III - Brief biographies</p>
+
+

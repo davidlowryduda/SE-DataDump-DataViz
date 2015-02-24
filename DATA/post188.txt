@@ -1,19 +1,16 @@
 ## Title:
-Dirichlets theorem on primes
+Number theory for a high school Calculus student?
 
 ## Tags:
-<linear-algebra><number-theory><reference-request><prime-numbers>
+<reference-request><elementary-number-theory><self-learning>
 
 ## Score:
 1
 
+## Id:
+85972
+
 ## Body:
-<p>I want to use Dirichlets theorem on primes for my diploma thesis. I want to use following form</p>
-
-<p>Let $a,b\in\mathbb{N}$, such that $\gcd(a,b)=1$. Then the set $\{a\cdot n+b| n\in\mathbb{N}\}$ contains infinitely prime numbers.</p>
-
-<p>Does anyone knows a good book as reference?</p>
-
-<p>Thanks for help.</p>
+<p>I've always loved playing with numbers, but haven't had any formal guidance in the study of advanced mathematics and number theory. Is there a book (or a few books) on mathematics that I wouldn't have learned in my high school curriculum (algebra, trig, and calculus) that could help me understand higher level maths and get me started on number theory? I know it's quite a broad question, but when I see things like <a href="http://xkcd.com/982/" rel="nofollow">this xkcd</a>, and in trying to understand concepts I go to Wikipedia articles to find them chock full of terminology that flies over my head, it's quite frustrating.</p>
 
 

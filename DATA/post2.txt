@@ -1,15 +1,13 @@
-## Title:
-Undergraduate/High-School-Olympiad Level Introductory Number Theory Books For Self-Learning
-
-## Tags:
-<number-theory><reference-request>
-
 ## Score:
-8
+37
+
+## Id:
+331
+
+## ParentId:
+329
 
 ## Body:
-<p>I don't know whether the books metioned in <a href="http://math.stackexchange.com/questions/329/best-ever-book-on-number-theory">Best ever book on Number Theory</a> are beyond undergraduate/high-school-olympiad level.</p>
-
-<p>Please recommend your favourite.</p>
+<p>I would still stick with Hardy and Wright, even if it is quite old.</p>
 
 

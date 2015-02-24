@@ -1,0 +1,21 @@
+## Score:
+4
+
+## Id:
+146783
+
+## ParentId:
+48981
+
+## Body:
+<p>I don't think the Langlands program is accessible to the average undergraduate student. In particular, you won't understand a thing if you have no prior knowledge of algebraic number theory (and class field theory). But, once you passed through the requirements spelled out in Alex B's answer (and <a href="http://www.math.sunysb.edu/~aknapp/pdf-files/china1.pdf" rel="nofollow">in this paper</a>), then here's a list of interesting references:</p>
+
+<ol>
+<li>I second both Gelbart's <em>Introduction to the Langlands program</em> and the book <em><a href="http://rads.stackoverflow.com/amzn/click/0817632115" rel="nofollow">Introduction to the Langlands program</a></em>.</li>
+<li>More advanced is the paper of Knapp called <em>Introduction the Langlands program</em> (yes, another one!), in the Edinburgh Proceedings.</li>
+<li>In fact, there is a whole website full of different resources related to automorphic forms, automorphic representations, and the Langlands program. <a href="http://www.math.ou.edu/~kmartin/afrefs.html" rel="nofollow">You can find it here.</a></li>
+</ol>
+
+<p>But again, remember this: <strong>One does not simply learn what the Langlands program is about.</strong></p>
+
+

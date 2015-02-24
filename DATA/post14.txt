@@ -1,27 +1,14 @@
-## Title:
-Looking to understand the rationale for money denomination
-
-## Tags:
-<combinatorics><reference-request><elementary-number-theory><algorithms><optimization>
-
 ## Score:
-9
+3
+
+## Id:
+2676
+
+## ParentId:
+1774
 
 ## Body:
-<p>Money is typically denominated in a way that allows for a greedy algorithm when computing a given amount $s$ as a sum of denominations $d_i$ of coins or bills:</p>
-
-<p>$$
-s = \sum_{i=1}^k n_i d_i\quad\text{with } n_i &gt; 0, d_i &gt; d_{i-1}
-$$</p>
-
-<p>We start with the highest denomination $d$ not exceeding $s$ and subtract it.  We repeat this process until $s$ is completely represented. As long as all denominations are available, this simple algorithm guarantees the minimum number of coins or bills used. (This is a little sketchy but I guess we are all familiar with it and it's not central to my question.)</p>
-
-<p>My question is: what property of $d_i$ makes this work? I once heard that the value of any coin must be bigger than the sum of all coins of lower denomination for the greedy algorithm to work. This holds for the typical denomination:</p>
-
-<p>$$
-1,2,5,10,20,50,100
-$$</p>
-
-<p>However, I wasn't able to come up with a counter example or even a proof. Surely this problem has been studied and I would be glad to know more about it. In fact, I'm not even sure about the right tags -- feel free to edit them. I assume the algorithm to find the sum with the minimum number of coins becomes tricky when we no longer can assume that all denominations are available.</p>
+<p>Davenport's The Higher Arithmetic was my first number theory book. I think its very accessible to a high school student or beginning undergraduate student. It's quite short and very quickly readable.
+If you find this treatment too informal, Niven and Zuckerman's an Introduction to the Theory of Numbers is a standard text that I think is a very well written undergraduate text, but this has already been mentioned.</p>
 
 

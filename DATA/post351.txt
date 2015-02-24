@@ -1,0 +1,72 @@
+## Title:
+Multiplication tables with all entries distinct
+
+## Tags:
+<reference-request><elementary-number-theory><arithmetic>
+
+## Score:
+17
+
+## Id:
+174657
+
+## Body:
+<p>Let positive integers $\alpha$ and $\beta$ be given. It is easy to
+find sets $A$ and $B$ of positive integers such that:</p>
+
+<ul>
+<li>$|A|=\alpha$ and $|B|=\beta$</li>
+<li>The set $P = \{ab : a\in A, b\in B\}$ contains exactly $\alpha\beta$ members. That is, if  $a_1,a_2\in A$ and $b_1,b_2\in B$, and $a_1b_1 = a_2b_2$, then $a_1=a_2$ and $b_1=b_2$. Or put another way, multiplication is injective when restricted to $A\times B$. Or another way: if we compute the multiplication table of members of $A$ multiplied by members of $B$, no entry appears more than once in the table.</li>
+</ul>
+
+<p>I want to find $A$ and $B$ such that the largest entry in the multiplication table, $M = \max P = \max A\cdot\max B$, is as small as possible.</p>
+
+<blockquote>
+  <p>My questions are: What are good asymptotic bounds on the minimum $M$ as a function of $\alpha$ and $\beta$? What is a good algorithm for finding sets $A$ and $B$ with small $M$, given $\alpha$ and $\beta$? What else can be said about this problem that is interesting? Has it been studied before, and if so, what is already known?</p>
+</blockquote>
+
+<h2>Example: $(\alpha, \beta) = (2,4)$</h2>
+
+<p>For example, let's say that $\alpha=2$, $\beta=4$.  Then taking $A = \{1, 2\}$  and $B=\{1,3,4,5\}$ we make $M=10$, since the products are $\{1,3,4,5,2,6,8,10\}$. </p>
+
+<p>$$\begin{array}{r|rrrr}
+\times  &amp; 1 &amp; 3 &amp; 4 &amp; 5 \\
+ \hline\\
+1  &amp; 1 &amp; 3 &amp; 4 &amp; 5 \\
+2  &amp; 2 &amp; 6 &amp; 8 &amp; 10 
+\end{array}$$</p>
+
+<p>It is not possible to get a smaller $M$ for this case.  If it were possible, the 8 elements of $P$ would have to be chosen from $\{1,\ldots 9\}$.  But $P$ cannot contain 7, since then either $A$ or $B$ must contain 7, and then $P$ would have to contain a second distinct multiple of 7, so $M=\max P \ge 14$. Similarly if $P$ contained 5, it would have to contain a second multiple of 5, and so $M\ge 10$.  So $M\le 9$ implies $P\subset \{1,2,3,4,6,8,9\}$ and this is impossible, since $P$ has 8 elements. This $M=10$ is optimal.</p>
+
+<h2>Example: $(\alpha, \beta) = (3,4)$</h2>
+
+<p>Now let's consider  $\alpha=3$, $\beta=4$.Taking $A=\{1,5,6\}$ and $B=\{1,2,3,4\}$ works and makes $M=24$, so this is an upper bound for $M$:</p>
+
+<p>$$\begin{array}{r|rrrr}
+\times   &amp; 1 &amp; 2 &amp; 3 &amp; 4 \\
+\hline \\
+1  &amp; 1 &amp; 2 &amp; 3 &amp; 4 \\
+5  &amp; 5 &amp; 10 &amp; 15 &amp; 20 \\
+6  &amp; 6 &amp; 12 &amp; 18 &amp; 24 
+\end{array}$$</p>
+
+<p>$|A|=3$, so $\max A\ge 3$, and $|B|=4$, so $\max B\ge 4$.
+It is easily seen that $|A\cap B|\le 1$, since if $|A\cap B| \ge 2$ we can find distinct $p$ and $q$ in $A\cap B$ and then $(p, q)$ and $(q, p)$ fail to have distinct products. So $|A\cup B| \ge 6$, and we know that at least one set must have an element that is at least 6. </p>
+
+<p>$M$ is equal to $\max A\cdot\max B$. $M=23$ is impossible, since then $M=1\cdot 23$ and so one of $A$ or $B$ would have a max of 1; similarly $M=22 = 2\cdot 11$ is impossible, since then one of $A$ or $B$ would have a max of 1 or 2. </p>
+
+<p>So to find sets that make $M&lt;24$, we must have $M\le 21$. $M=20$ is impossible since then one of $A$ and $B$ would have a a max of 4 and one has a max of 5 and we said at least one has a max of at least 6. (Obviously, $20=2\cdot10$ and $20 = 1\cdot20$ also fail.) $M=19$ is impossible by the same argument that ruled out $M=23$. Each $M&lt;18$ can be similarly ruled out.  The only remaining possibilities are $(\max A, \max B) = (3, 6)$ or $(3, 7)$. Then $A=\{1,2,3\}$. Taking $\max B = 6$ we get $\{4,5,6\}\subset B$ since $|A\cap B|\le 1$.  But then $\{2,3\}\subset A$ and $\{4,6\}\subset B$, so the products are not all distinct since $2\cdot6 = 3\cdot 4$. This rules out $\max B = 6$.</p>
+
+<p>But $\max B=7$ <em>does</em> work:</p>
+
+<p>$$\begin{array}{r|rrrr}
+\times   &amp; 1 &amp; 4 &amp; 5 &amp; 7 \\
+\hline \\
+1  &amp; 1 &amp; 4 &amp; 5 &amp; 7 \\
+2  &amp; 2 &amp; 8 &amp; 10 &amp; 14 \\
+3  &amp; 3 &amp; 12 &amp; 15 &amp; 21 
+\end{array}$$</p>
+
+<p>And the foregoing arguments show that this is the best possible.</p>
+
+

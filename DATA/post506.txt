@@ -1,0 +1,16 @@
+## Title:
+Number Theoretic Gaps for Shell Sort
+
+## Tags:
+<number-theory><reference-request><algorithms><computer-science>
+
+## Score:
+0
+
+## Id:
+378319
+
+## Body:
+<p>Has anyone investigated the efficiency of certain number theoretic gaps for shell sort?  I'm thinking the Fibonacci sequence may be interesting, or maybe the prime numbers since small coprime sets seem to perform well in practice.  I haven't seen any papers on this as of yet; most sequences studied seem to be of explicit construction.  Thanks in advance!</p>
+
+

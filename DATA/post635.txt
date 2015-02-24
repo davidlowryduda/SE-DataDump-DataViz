@@ -1,0 +1,18 @@
+## Score:
+3
+
+## Id:
+505154
+
+## ParentId:
+505102
+
+## Body:
+<p>$2^n$ begins with a $2$<br>
+$\iff 2^n /10^k \in [2;3)$ with $k \in \Bbb N$<br>
+$\iff n\log 2- k \log 10 \in [log 2; \log 3)$ with $k \in \Bbb N$<br>
+$\iff \left\{n\frac{\log 2}{\log 10}\right\} \in \left[\frac{\log 2}{\log 10}; \frac{\log 3}{\log 10}\right)$, where $\{x\} \in [0;1)$ is the fractional part of $x$.</p>
+
+<p>Since $\frac{\log 2}{\log 10}$ is irrational, the sequence $\left\{n\frac{\log 2}{\log 10}\right\}$ is equidistributed in $[0;1)$, and so it lands in $\left[\frac{\log 2}{\log 10}; \frac{\log 3}{\log 10}\right)$ with "probability" $\frac{\log 3 - \log 2}{\log 10}$.</p>
+
+

@@ -1,0 +1,18 @@
+## Title:
+Solutions to $x+y+z=31$ and $x+2y+3z=41$
+
+## Tags:
+<elementary-number-theory><discrete-mathematics><diophantine-equations><self-learning>
+
+## Score:
+1
+
+## Id:
+539832
+
+## Body:
+<p>For the equations
+$$x+y+z=31$$ $$x+2y+3z=41$$
+is there a elegant way or method to find all the positive solutions in integers? Thus far, I have been using trial and error (which is time consuming). Another approach I tried was subtracting the first equation from the second to get $y+2z=10$. But I feel like there must be some faster way of doing this that I am not thinking of right now. Any input is appreciated.</p>
+
+

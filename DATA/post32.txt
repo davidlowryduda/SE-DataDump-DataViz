@@ -1,21 +1,33 @@
-## Title:
-Squares in arithmetic progression
-
-## Tags:
-<number-theory><reference-request>
-
 ## Score:
-11
+14
+
+## Id:
+15974
+
+## ParentId:
+15966
 
 ## Body:
-<p>It is easy to find 3 squares (of integers) in arithmetic progression. For example, $1^2,5^2,7^2$.</p>
+<p>For any reference requirement related to Ramanujan, it is always a good idea to check the series of volumes, titled Ramanujan's notebooks, compiled and annotated by Bruce C. Berndt and others.</p>
 
-<p>I've been told Fermat proved that there are no progressions of length 4 in the squares. Do you know of a proof of this result? </p>
+<p>This is a special case of Entry 15 in Ramanujan's second notebook, which is about numbers of the form $\displaystyle a^p b^q$.</p>
 
-<p>(Additionally, are there similar results for cubes, 4th powers, etc? If so, what would be a good reference for this type of material?)</p>
+<p>A reference to this can be found here: <a href="http://books.google.com/books?id=tX5UUCempn8C&amp;pg=PA66" rel="nofollow">Ramanujan's notebooks, Volume 4</a>.</p>
 
-<hr>
+<p>(I suggest you read page 66 onwards)</p>
 
-<p><strong>Edit, March 30, 2012:</strong> The following <a href="http://mathoverflow.net/questions/92707/squares-in-an-arithmetic-progession" rel="nofollow">question</a> in MO is related and may be useful to people interested in the question I posted here.</p>
+<p>A snapshot (from the google books link itself):</p>
+
+<p><img src="http://i.stack.imgur.com/OI2J1.png" alt="alt text"></p>
+
+<p>This volume talks about the "proof" Ramanujan gave (pages 68 and 69), provides references to Hardy's book (which apparently has a whole chapter on this) and also mentions a paper by Hardy and Littlewood which deals with it.</p>
+
+<p>De Bruijn has considered the number of $y$-smooth numbers in this paper: <a href="http://alexandria.tue.nl/repository/freearticles/597499.pdf" rel="nofollow">On the number of positive integer less than x and free of prime factors greater than y</a>. </p>
+
+<p>The number of $y$-smooth numbers $\le x$ is apparently now known in literature as the DeBruijn function: $\psi(x,y)$. </p>
+
+<p>A closely related function is the <a href="http://en.wikipedia.org/wiki/Dickman_function" rel="nofollow">DeBruijn-Dickman</a> function.</p>
+
+<p>There is also a <a href="http://archive.numdam.org/ARCHIVE/JTNB/JTNB_1993__5_2/JTNB_1993__5_2_411_0/JTNB_1993__5_2_411_0.pdf" rel="nofollow">survey</a> by Hildebrand and Tenenbaum which should be helpful.</p>
 
 

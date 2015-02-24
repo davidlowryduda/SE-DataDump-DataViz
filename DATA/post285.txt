@@ -1,19 +1,48 @@
-## Title:
-Landau's PNT extension
-
-## Tags:
-<number-theory><reference-request><prime-numbers>
-
 ## Score:
-0
+6
+
+## Id:
+138025
+
+## ParentId:
+137674
 
 ## Body:
-<p>In Tenenbaum's book <em>An Introduction to Analytic and Probabilistic Number Theory</em>, he states in chapter 2.6:</p>
+<p>The answer to your question is <strong>no</strong>, there are no other points with numerator or denominator of $5$ digits or less.</p>
+
+<p>If you have access to a Linux system, you may want to try Michael Stoll's "ratpoints", which <a href="http://www.mathe2.uni-bayreuth.de/stoll/programs/">can be found here</a>. The documentation for <em>ratpoints</em>, and <a href="http://www.mathe2.uni-bayreuth.de/stoll/programs/ratpoints-doc.pdf">a description of the algorithm is here</a>. This program tries to ﬁnd all
+rational points within a given height bound on a hyperelliptic curve in the most
+eﬃcient way possible.</p>
+
+<p>Otherwise, <em>ratpoints</em> can be accessed through Sage. In the Sage command line, type</p>
 
 <blockquote>
-  <p>From the prime number theorem, it is easy to show by induction on the integer $k\geq1$ that, for each fixed value of $k$, we have $$N_k(x):=\ \mid\{n\leq x : \Omega(n)=k\}\mid \ \sim \frac{x}{\log x}\frac{(\log_2 x)^{k-1}}{(k-1)!}\ (x \rightarrow \infty)$$ -cf.Landau (1909)</p>
+  <p>from sage.libs.ratpoints import ratpoints</p>
 </blockquote>
 
-<p>Could someone please point me in the direction of this particular proof, or walk me through the steps? Many thanks in advance.</p>
+<p>Then, </p>
+
+<blockquote>
+  <p>ratpoints([$a_0$,$a_1$,$a_2$,...,$a_n$], H, verbose=False, max=0)</p>
+</blockquote>
+
+<p>finds all the rational points on $y^2=a_0+a_1x+\cdots+a_nx^n$, where H is the bound for the denominator and the absolute value of the numerator of the x-coordinate. When I type,</p>
+
+<blockquote>
+  <p>ratpoints([-7^7,14755570,-890273,23328],10000000)</p>
+</blockquote>
+
+<p>the answer is</p>
+
+<blockquote>
+  <p>[(1, 0, 0), (58, 49109, 1), (58, -49109, 1), (5170922, 1182208159673289,
+  344763), (5170922, -1182208159673289, 344763)]</p>
+</blockquote>
+
+<p>meaning that after $\pm P =(58,\pm 49109)$ the next point with lowest height is </p>
+
+<p>$$\pm Q =\left(\frac{5170922}{344763} , \pm \frac{387482189339}{38958219}\right),$$</p>
+
+<p>and there are no other points (other than $\pm P$ or $\pm Q$) such that the $x$ coordinate has a numerator (in absolute value) or denominator less than $10^7$.</p>
 
 

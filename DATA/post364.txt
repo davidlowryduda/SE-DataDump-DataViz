@@ -1,0 +1,24 @@
+## Title:
+Mordell equation implemented anywhere?
+
+## Tags:
+<number-theory><reference-request>
+
+## Score:
+0
+
+## Id:
+181264
+
+## Body:
+<p>I admit I have no idea how to tag this post, but I'm looking for a CAS/number theory software package that would implement a decent algorithm for computing the integral solutions to</p>
+
+<p>$x^2 = y^3 - k$,</p>
+
+<p>$k \in \mathbb{Z}_+$ a parameter taking values up to order of $10^5-10^6$, say? Since these are so frequent in "math contests", it would be a help for people working with such things, not to say that it's also of interest in itself.</p>
+
+<p>This came to my mind some time ago and it'll be nice to see it implemented somewhere, since I couldn't find anything of the kind. Maybe I should try in a cryptography-related area, but where to start?</p>
+
+<p>You can close this if software recommendations are contrary to the site rules. If this is "too localized" and trivial, at least I'd like to know if it stays within the confines of classical elliptic curves theory and algorithms.</p>
+
+

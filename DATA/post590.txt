@@ -1,0 +1,22 @@
+## Title:
+Prime numbers and limit(?)
+
+## Tags:
+<number-theory><reference-request><numerical-methods>
+
+## Score:
+1
+
+## Id:
+463960
+
+## Body:
+<p>Can someone help me to prove the following:</p>
+
+<p>$$\lim_{x\to\infty}(\sum_{p\leq x}\frac{1}{p}-\log(\log(x)) -C)=0$$</p>
+
+<p>Where $C$ is a proper constant. </p>
+
+<p>Thank you...</p>
+
+

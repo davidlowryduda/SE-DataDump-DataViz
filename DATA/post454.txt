@@ -1,0 +1,24 @@
+## Score:
+3
+
+## Id:
+308100
+
+## ParentId:
+307274
+
+## Body:
+<p>Related problems: <a href="http://math.stackexchange.com/questions/327416/solve-the-sequence-u-n-1-fracu-1n-fracu-2n-1-ldots-frac/328401#328401">(I)</a>, <a href="http://math.stackexchange.com/questions/193702/find-an-expression-for-the-n-th-derivative-of-fx-ex2/193914#193914">(II)</a>, <a href="http://math.stackexchange.com/questions/397325/closed-form-for-nth-derivative-of-exponential-of-f">(III)</a>, <a href="http://math.stackexchange.com/questions/383068/finding-the-expansion-of-arcsinz2">(IV)</a>. Here is a formula for the nth derivative of the function $\ln(1+e^{x})$ at the point $x=0$</p>
+
+<blockquote>
+  <p>$$ \left( \ln(1+e^{x})\right)^{(n)}= \sum _{k=1}^{n}\begin{Bmatrix} n\\k \end{Bmatrix} \left( -1 \right)^{k+1}2^{-k}\,
+\Gamma\left( k \right),\quad n \in \mathbb{N}, $$</p>
+</blockquote>
+
+<p>where $\begin{Bmatrix} n\\k \end{Bmatrix} $ are the Stirling numbers of the second kind. The above formula allows us to construct the Taylor series of the function as</p>
+
+<blockquote>
+  <p>$$ \ln(1+e^x) = \ln(2)+\sum_{n=1}^{\infty} \sum _{k=1}^{n}\begin{Bmatrix} n\\k \end{Bmatrix} \left( -1 \right)^{k+1}\, 2^{-k}\,\Gamma\left( k \right) \frac{x^n}{n!}. $$ </p>
+</blockquote>
+
+

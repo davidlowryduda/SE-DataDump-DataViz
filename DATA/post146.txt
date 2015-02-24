@@ -1,13 +1,17 @@
 ## Title:
-Matiyasevich polynomial proof
+Beginner's text for Algebraic Number Theory
 
 ## Tags:
-<number-theory><reference-request><polynomials><prime-numbers>
+<number-theory><reference-request>
 
 ## Score:
-1
+10
+
+## Id:
+66086
 
 ## Body:
-<p>Can someone provide a proof, or a link to a proof, of why does the Matiyasevich polynomial always generate primes for the nonnegative results? Any help will be appreciated.</p>
+<p>What's good book for learning Algebraic Number Theory with minimum prerequisites?
+Assume that the reader has done an basic abstract algebra course.</p>
 
 

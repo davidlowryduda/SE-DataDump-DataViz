@@ -1,0 +1,19 @@
+## Score:
+3
+
+## Id:
+350343
+
+## ParentId:
+350149
+
+## Body:
+<p>Some online notes:</p>
+
+<p><a href="http://www.math.uiuc.edu/~r-ash/ANT.html" rel="nofollow">Robert B. Ash</a></p>
+
+<p><a href="http://www.jmilne.org/math/CourseNotes/ant.html" rel="nofollow">J. Milne</a></p>
+
+<p>Neukirch and Stein have already been mentioned, but I'd second both of them, Stewart and Tall is good too!</p>
+
+

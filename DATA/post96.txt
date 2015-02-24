@@ -1,15 +1,23 @@
-## Title:
-Is there a catalogue of solved Diophantine equations?
-
-## Tags:
-<number-theory><reference-request><diophantine-equations>
-
 ## Score:
-8
+12
+
+## Id:
+44133
+
+## ParentId:
+44126
 
 ## Body:
-<p>Is there a book, website or something else aiming to catalogue all or many of the Diophantine equations that have already been solved?</p>
+<p>This problem is hard in the sense that it is still unproven. I will provide a set of references, but little conclusive work (as far as I know) has been done on any of them.</p>
 
-<p>I have two tiny books by Sierpiński in which he gives some of those, but I suspect lots of kinds of equations must have been solved. (Although I really don't have much of an idea how many.) I would like to see such a catalogue to get an idea of what has been done.</p>
+<p>This is a conjecture of Hardy; he later generalized it to say: if a, b, c are relatively prime, a is positive, and $(a+b)$ and c are not both even, and $b^2 - 4ac$ is not a perfect square (I know, quite a set of conditions) - then there are infinitely many primes $an^2 + bn + c$.</p>
+
+<p>He does this on pg. 19 of his <a href="http://www.ams.org/mathscinet-getitem?mr=81i:10002" rel="nofollow">book</a>.</p>
+
+<p>I should note that it is proved (even in the same book) that there are infinitely many primes of the form $n^2 + m^2$ and $n^2 + m^2 + 1$. (I'm pretty sure).</p>
+
+<p>There is another statement of this conjecture that is earlier - Are there infinitely many primes p such that p - 1 is a perfect square? This is a conjecture of Landau, and it amounts to the same thing (but without Hardy's generalization). As far as I know, the greatest work is to show that there are infinitely many numbers $n^2 + 1$ that have at most 2 prime factors, and it's pretty intense.</p>
+
+<p>Finally, there is a far stronger conjecture called the <a href="http://en.wikipedia.org/wiki/Bateman%E2%80%93Horn_conjecture" rel="nofollow">Horn Conjecture</a> or the Bateman Horn Conjecture. It's a sort of generalization of many other conjectures.</p>
 
 

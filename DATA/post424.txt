@@ -1,0 +1,13 @@
+## Score:
+2
+
+## Id:
+276169
+
+## ParentId:
+276163
+
+## Body:
+<p>Since you are a hobbyist, I highly recommend <a href="http://rads.stackoverflow.com/amzn/click/0883857510" rel="nofollow">"Number Theory Through Inquiry"</a> by Marshall et al. It is a small book that presents elementary number theory in a way that you can explore the theorems yourself at your own pace. You don't need any math background to read and work through it. It may take a bit longer to go through than reading a normal textbook, but I find this style of learning way more enjoyable.</p>
+
+

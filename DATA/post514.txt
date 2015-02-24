@@ -1,0 +1,31 @@
+## Title:
+A formula by R.L.Graham,AMM(1995)
+
+## Tags:
+<number-theory><reference-request>
+
+## Score:
+4
+
+## Id:
+387500
+
+## Body:
+<p>I see this formula in a book, it comes from R.L.Graham,AMM(1995) :
+$$\frac{1}{3}=\frac{1}{2^2}+\frac{1}{4^2}+\frac{1}{7^2}+\frac{1}{54^2}+\frac{1}{112^2}+\frac{1}{640^2}+\frac{1}{4032^2}+\frac{1}{10080^2}+\frac{1}{24192^2}+\frac{1}{40320^2}+\frac{1}{120960^2}$$
+But I can not find this article in AMM(1955),can you help me to find which month it belongs to ?Thank you!</p>
+
+<p>Addition:There is another example in Paul Erdos and Egyptian Fractions:</p>
+
+<p><a href="http://www.math.ucsd.edu/~ronspubs/pre_Egyptian.pdf" rel="nofollow">http://www.math.ucsd.edu/~ronspubs/pre_Egyptian.pdf</a></p>
+
+<p>$$\frac{1}{2}=\frac{1}{2^2}+\frac{1}{3^2}+\frac{1}{4^2}+\frac{1}{5^2}+\frac{1}{6^2}+\frac{1}{15^2}+\frac{1}{16^2}+\frac{1}{36^2}+\frac{1}{60^2}+\frac{1}{180^2}$$</p>
+
+<p><img src="http://i.stack.imgur.com/Up1m5.jpg" alt="enter image description here"></p>
+
+<p>And in [38]<a href="http://www.math.ucsd.edu/~ronspubs/64_07_reciprocals.pdf" rel="nofollow">http://www.math.ucsd.edu/~ronspubs/64_07_reciprocals.pdf</a> , I find a better formula:
+$$\frac{1}{3}=\frac{1}{2^2}+\frac{1}{4^2}+\frac{1}{10^2}+\frac{1}{12^2}+\frac{1}{20^2}+\frac{1}{30^2}+\frac{1}{60^2}$$</p>
+
+<p>$PS$: Since I have found the above papers,this problem has been less important.Thanks for your attention!</p>
+
+

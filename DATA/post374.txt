@@ -1,0 +1,20 @@
+## Title:
+Proof for length of period in simple modulo $N$ sequence.
+
+## Tags:
+<sequences-and-series><elementary-number-theory><self-learning>
+
+## Score:
+1
+
+## Id:
+187057
+
+## Body:
+<p>I am looking for a concise proof that the length of the smallest period of the sequence
+$$f[n] = a n \pmod N $$
+is $N$ if $(a,N) = 1$.  From the <a href="http://en.wikipedia.org/wiki/Pigeonhole_principle" rel="nofollow">Pigeonhole Principle</a>, it is not hard to show that $f[n]$ is periodic with $N$, but how do I know that it is not periodic with a number $M &lt; N$.  Is a proof by contradiction the way to go?</p>
+
+<p>I found a lemma in the proof of Fermat's Theorem <a href="http://rads.stackoverflow.com/amzn/click/048646931X" rel="nofollow">here</a>, that takes me most of the way by arguing that of $1a, 2a, 3a, \ldots, (N-1)a$ are not congruent modulo $N$ if $(a,N)=1$.  This question seems so trivial and is used in discussions of the periodicity of sequences so I thought there might be several ways to show it to be true.  </p>
+
+

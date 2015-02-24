@@ -1,13 +1,16 @@
 ## Title:
-A sum involving the Möbius function
+Where can I find Heegner's proof?
 
 ## Tags:
-<number-theory><reference-request>
+<reference-request><algebraic-number-theory>
 
 ## Score:
-3
+1
+
+## Id:
+28027
 
 ## Body:
-<p>I am trying to find some work done on the following: $$\sum_{d \vert n}\frac{2^{\omega(d)}}{d}\mu(d)$$ where $\omega(d)$ is the number of distinct prime factors of $d$ and $\mu$ is the Möbius function. I saw something about $$\sum_{d \vert n}\frac{\mu(d)}{d}=\phi(n)/n$$ (where $\phi$ is the Euler phi function) on planetmath, but I'm not entirely certain how to use it. Does anyone know of any work done on the first sum?</p>
+<p>Where can I read a corrected up to date version of Heegner's solution of the class 1 problem of Gauss?</p>
 
 

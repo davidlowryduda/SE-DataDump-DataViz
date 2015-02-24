@@ -1,0 +1,17 @@
+## Title:
+Mathematica code as reference?
+
+## Tags:
+<algebra-precalculus><reference-request><algebraic-number-theory><article-writing>
+
+## Score:
+1
+
+## Id:
+481684
+
+## Body:
+<p>I am preparing a paper wherethere are a lot of algebraic simplifications needed. One of them takes 3 pages to get the result. Instead of consuming all the pages can I cite a mathematica code which is only 5 lines. Is this acceptable?
+Thank you</p>
+
+

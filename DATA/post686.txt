@@ -1,0 +1,30 @@
+## Title:
+On prime factors of $n^2+1$
+
+## Tags:
+<number-theory><reference-request><prime-numbers><analytic-number-theory>
+
+## Score:
+11
+
+## Id:
+589344
+
+## Body:
+<p>It is a well-known conjecture that there are infinitely many primes of the form $n^2+1$. However, there are weaker results that one can prove. For example,</p>
+
+<blockquote>
+  <p>There are infinitely many positive integers $n$ such that $n^2+1$ has
+  a prime divisor greater than $2n+\sqrt{2n}$.</p>
+</blockquote>
+
+<p>This was Problem N6 in IMO 2008 Shortlist. See solution <a href="http://www.imo-official.org/problems/IMO2008SL.pdf">here</a> (in page 50). It is remarked there that by tools of analytic number theory (using distribution of prime numbers of the form $4k+1$ somehow), one can show something considerably stronger, namely:</p>
+
+<blockquote>
+  <p><strong>Theorem.</strong> There are infinitely many positive integers $n$ such that $n^2+1$ has
+  a prime divisor greater than $n\log(n)$.</p>
+</blockquote>
+
+<p>I would appreciate if someone gave a proof of the <strong>Theorem</strong> or provide a reference where it is proved. </p>
+
+

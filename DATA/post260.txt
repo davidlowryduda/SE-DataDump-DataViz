@@ -1,26 +1,19 @@
-## Title:
-Every two positive integers are related by a composition of these two functions?
-
-## Tags:
-<elementary-number-theory><reference-request><prime-numbers><function-composition>
-
 ## Score:
-3
+1
+
+## Id:
+124694
+
+## ParentId:
+124688
 
 ## Body:
-<p>How would one prove/disprove this? ...</p>
+<p>Let $p&gt;2$ be a prime and consider the following map:
+$$\psi : (\mathbb{F}_p)^\times \to (\mathbb{F}_p)^\times$$
+that sends $\psi(x)\equiv x^2 \bmod p$. This is a homomorphism of groups. Indeed:
+$$\psi(x\cdot y) \equiv (x\cdot y)^2 \equiv x^2\cdot y^2 \equiv \psi(x)\cdot \psi(y)\bmod p.$$
+Moreover, the kernel has order $2$, because $\psi(x)\equiv 1 \bmod p$ if and only if $x^2\equiv 1 \bmod p$ if and only if $x\equiv \pm 1\bmod p$. (Note: a prime $p$ divides $x^2-1=(x-1)(x+1)$ if and only if $p$ divides $x+1$ or $x-1$.)</p>
 
-<blockquote>
-  <p><strong>Conjecture</strong>:<br>
-  Suppose $p$, $q$ are distinct primes, and define $\ f(n) = n p, \ 
- g(n) = \left \lfloor \frac{n}{q} \right \rfloor$ for all $n \in
- \mathbb{N_+}$; then <br>for all $x,y \in \mathbb{N_+}$, there exists a composition $F = g \circ g \circ \cdots \circ g \circ f \circ f \cdots \circ f$ such that $ \ y = F(x) $.</p>
-</blockquote>
-
-<p>A weaker conjecture is implicit in the title question -- same as above, but allowing compositions with the functions in <em>arbitrary</em> order. </p>
-
-<p>If this is something well-known or discussed elsewhere, my apologies (I did search); a reference would then be welcome. </p>
-
-<p>(An analogous <a href="http://www.perlmonks.org/?node_id=443037" rel="nofollow">conjecture by Donald Knuth</a> involving factorial and integer-squareroot functions suggested this question.)</p>
+<p>Hence, the image of $\psi$ is isomorphic to $\mathbb{F}_p^\times/\{\pm 1\}$, which has order $\frac{p-1}{2}$. Since the image of $\psi$ is exactly the subgroup of quadratic residues modulo $p$, we obtain the desired result. </p>
 
 

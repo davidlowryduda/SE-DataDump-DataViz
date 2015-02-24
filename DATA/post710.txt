@@ -1,0 +1,35 @@
+## Score:
+4
+
+## Id:
+619880
+
+## ParentId:
+619379
+
+## Body:
+<p>I want to give a remark for the interesting properties section.</p>
+
+<p>But first-of-all a (non-effective) formula: for all primes $p\leq \sqrt{x}$ let $$\begin{eqnarray}\delta_1(p) &amp;=&amp; -( x \bmod p), \\ \delta_2(p)&amp;=&amp;p+\delta_1(p). \end{eqnarray}$$ These are the distances to the multiples of $p$ which are nearest to $x$. Then</p>
+
+<blockquote>
+  <p>$$f(x) = \min_{a,b \in \Bbb Z}\{b-a+1 \mid \forall p:a\leq\delta_1(p) \text{ or } \delta_2(p)\leq b\}$$</p>
+</blockquote>
+
+<p>because $x+a$ and $x-b$ are bounds for the minimal sequence. </p>
+
+<blockquote>
+  <p>This shows that the sequence $(f(n))_{n \in \Bbb N}$ has the property
+  $|f(n)-f(n+1)|\leq 1$  $\forall n$.</p>
+</blockquote>
+
+<p>Proof: Let $n  \in \Bbb N$ and select $a(n), b(n)$ minimizing the equation above (the choice is not unique in general), that is $f(n)$ is determined by $a(n),b(n)$. There are two cases: </p>
+
+<ul>
+<li><p>There is no prime $\sqrt{n} &lt; p \leq \sqrt{n+1}$: Then if $n+1 \leq b(n)$ the two bounds are already of the required form (but not necessarily minimal) and if $n+1&gt;b(n)$ choose $b(n)+1$ as a bound. This shows $f(n+1)-f(n)\leq 1$. The same consideration also works the other way round (with $a$ instead of $b$) showing $f(n)-f(n-1)\leq 1$.</p></li>
+<li><p>There is a prime $\sqrt{n} &lt; p \leq \sqrt{n+1}$. Then $p^2 = n+1$, hence $p \mid n+1$ and we don't have to care about divisibility by $p$ for our bounds. So we can choose bounds as chosen in the first part of the proof.</p></li>
+</ul>
+
+<p>This suggests to investigate the sequence $(f(n+1)-f(n))_{n\in \Bbb N}$ instead of $f$.</p>
+
+

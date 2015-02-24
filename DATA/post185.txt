@@ -1,27 +1,29 @@
-## Title:
-Foundation on Diophantine Analysis and Number Theory
-
-## Tags:
-<elementary-number-theory><reference-request><soft-question><diophantine-equations><big-list>
-
 ## Score:
-4
+5
+
+## Id:
+82697
+
+## ParentId:
+82260
 
 ## Body:
-<p>I want to read particularly about diophantine Analysis and Elementary Number Theory from a novice level.</p>
+<p>Google is your friend.</p>
 
-<p>The books which I found on net:</p>
+<p>If you looked in google scholar for <a href="http://scholar.google.com/scholar?as_subj=eng&amp;q=author%3ah-darmon" rel="nofollow">author:h-darmon</a> you would find that there is only one paper in 2001 with big number of citations. (Note that you can easily search in google scholar - you can choose which scientific disciplines you want to search, you can specify author and even range for the years. Google also tries to find papers citing given paper and papers which are related to the given paper - which is more difficult to automatize, so here you can sometimes find weird results. Just click on <em>Advanced Scholar Search</em> to see many search options you have there.)</p>
 
-<ol>
-<li><p>A Guide to Elementary Number Theory by Underwood Dudley</p></li>
-<li><p>Diophantine Analysis by Robert Daniel Carmichael</p></li>
-<li><p>Diophantine Analysis by Jorn Steuding</p></li>
-</ol>
+<ul>
+<li>H. Darmon Integration on $\mathcal H_p \times \mathcal H$ and Arithmetic Applications. The Annals of Mathematics, Second Series, Vol. 154, No. 3 (Nov., 2001), pp. 589-639. Link at <a href="http://www.jstor.org/stable/3062142" rel="nofollow">jstor</a>, <a href="http://www.math.mcgill.ca/darmon/pub/Articles/Research/28.Integration/paper.pdf" rel="nofollow">author's page</a>.</li>
+</ul>
 
-<p>Help me with good suggestions as I think M.SE. has people from novice to professional users.</p>
+<p>If you had closer look at <a href="http://www.birs.ca/events/2011/5-day-workshops/11w5125" rel="nofollow">http://www.birs.ca/events/2011/5-day-workshops/11w5125</a> from which you have that quote you could find <a href="http://www.birs.ca/workshops/2007/07w5065/report07w5065.pdf" rel="nofollow">this</a>, where the same paper is mentioned. If you did not want to browse the whole site of the workshop, you could have tired to google for <a href="https://www.google.com/#sclient=psy-ab&amp;hl=en&amp;source=hp&amp;q=darmon+site%3awww.birs.ca+2001&amp;pbx=1&amp;oq=darmon+site%3awww.birs.ca+2001" rel="nofollow">darmon site:www.birs.ca 2001</a>. BTW including the link to the webpage from which you have the statement would make it much easier for us to help you track down the paper.</p>
 
-<p>Thanks.</p>
+<hr>
 
-<p>P.S. I have searched M.SE. for this type of question, I didn't find any. If you know someone, you may give the link.</p>
+<p>You might also find useful to have a look at answers to this question: <a href="http://math.stackexchange.com/questions/40762/finding-a-paper">Finding a paper</a></p>
+
+<hr>
+
+<p>As far as the second part of your question is concerned, when you ask for outline/explanation of this: Unfortunately I cannot help you with this - I do not know anything about this topic.</p>
 
 

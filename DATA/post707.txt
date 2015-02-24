@@ -1,0 +1,22 @@
+## Score:
+2
+
+## Id:
+616804
+
+## ParentId:
+616763
+
+## Body:
+<p>I don't know values for larger $k$, except for $k\le 342$ computed by Thomas Engelsma (see the tables here: <a href="http://math.mit.edu/~primegaps/" rel="nofollow">http://math.mit.edu/~primegaps/</a>), but the Hensley-Richards results imply that
+$$
+H(k) ≤ (1+ o(1))\, k\log (k),
+$$
+and the Brun and Titchmarsh results imply 
+$$
+H(k) ≥ (1/2−o(1))\, k\log (k).
+$$
+It is actually expected that $H(k) = k \log k + O(k)$. Numerically,
+$H(k) ≤ k\, \log (k) + k$ appears to hold for all sufficiently large k.</p>
+
+

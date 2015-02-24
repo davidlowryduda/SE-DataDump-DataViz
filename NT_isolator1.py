@@ -1,9 +1,9 @@
 """
-Automate the extraction step. This should be followed by NT_isolator2.py.
-The reason they are done separately is because python's sax module does
-fancy threading and asynchronous computation, and I don't know anything
-about threading. So this is currently run in bash with bash's wait called
-between the two.
+Automate the extraction step. This should be followed by NT_isolator2.py and
+NT_isolator3.py.  The reason they are done separately is because python's sax
+module does fancy threading and asynchronous computation, and I don't know
+anything about threading. So this is currently run in bash with bash's wait
+called between the two.
 
 To generalize, this should accept command-line arguments. Not important.
 """

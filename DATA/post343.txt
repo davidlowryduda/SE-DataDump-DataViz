@@ -1,0 +1,15 @@
+## Score:
+5
+
+## Id:
+163124
+
+## ParentId:
+161895
+
+## Body:
+<p>"A Modular Construction of Unramified p-Extensions of $\textbf{Q}(\mu_p)$" by Ken Ribet</p>
+
+<p>pdf: <a href="http://math.berkeley.edu/~ribet/Articles/invent_34.pdf">http://math.berkeley.edu/~ribet/Articles/invent_34.pdf</a></p>
+
+

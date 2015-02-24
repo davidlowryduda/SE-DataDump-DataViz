@@ -1,0 +1,15 @@
+## Score:
+7
+
+## Id:
+382650
+
+## ParentId:
+376152
+
+## Body:
+<p>Rearanging your series, we have that</p>
+
+<p>$$\sum_{n=1}^{\infty}\sum_{k=n}^{\infty}\frac{1}{k^{2k}}=\sum_{k=1}^{\infty}\frac{1}{k^{2k}}\sum_{n=1}^{k}1=\sum_{k=1}^{\infty}\frac{1}{k^{2k-1}}.$$ Now, you are asking why is the above so close to $$\sum_{n=1}^{\infty}\frac{1}{n^{p_{n}}},$$ where $p_{n}$  is the $n^{th}$  prime number. The reason is the following: The terms in these series decrease to $0$ extremely quickly, faster than the function $n^{-n}$, and since the first few terms are the same for both series, it follows that the error will be very small. Notice that $$\sum_{n=1}^{\infty}\frac{1}{n^{p_{n}}}=1+\frac{1}{2^{3}}+\frac{1}{3^{5}}+\frac{1}{4^{7}}+\frac{1}{5^{11}}+\cdots,$$ whereas $$\sum_{k=1}^{\infty}\frac{1}{k^{2k-1}}=1+\frac{1}{2^{3}}+\frac{1}{3^{5}}+\frac{1}{4^{7}}+\frac{1}{5^{9}}+\cdots,$$ so the difference between them is on the order of $$\frac{1}{5^{9}}-\frac{1}{5^{11}}=4.9152\times10^{-7},$$ which explains why there agree for the first $7$ digits.  If you are curious why the first few terms agree, it is because each of $3,5,7$ can be written as $2k-1$, for $k=2,3,4$.</p>
+
+

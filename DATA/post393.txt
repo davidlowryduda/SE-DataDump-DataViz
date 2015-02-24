@@ -1,0 +1,16 @@
+## Title:
+Matiyasevich polynomial proof
+
+## Tags:
+<number-theory><reference-request><polynomials><prime-numbers>
+
+## Score:
+1
+
+## Id:
+210035
+
+## Body:
+<p>Can someone provide a proof, or a link to a proof, of why does the Matiyasevich polynomial always generate primes for the nonnegative results? Any help will be appreciated.</p>
+
+

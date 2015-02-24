@@ -1,0 +1,15 @@
+## Score:
+1
+
+## Id:
+531800
+
+## ParentId:
+302048
+
+## Body:
+<p>I don't know if this can be considered algebraic number theory or if it is more algebraic geometry; but, here goes.</p>
+
+<p>Deligne uses the methods of Hadamard-de la Vallée-Poussin to prove the Weil conjectures. Even if it is not an application of the ordinary PNT as such, the exact same methods are applied elsewhere.</p>
+
+

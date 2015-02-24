@@ -1,19 +1,25 @@
-## Title:
-When does a prime $q$ not divide $\lambda p +1$ for all $\lambda$?
-
-## Tags:
-<number-theory><reference-request><elementary-number-theory>
-
 ## Score:
-1
+2
+
+## Id:
+45531
+
+## ParentId:
+45504
 
 ## Body:
-<p>What can be said about the following question?</p>
+<p>Here is an answer to your question in the context of DVRs.</p>
 
-<p>For which prime numbers $p$ there exists another prime number $q(p)$ such that $q(p)$ does  not divide $\lambda p +1$ for all integers $\lambda$ ? </p>
+<p>The argument with ramification filtrations from Serre shows that
+if $L/K$ is tame, then $Gal(L/K)$ embeds into $\mathcal O_L^{\times}/(1+\mathfrak
+m_L)$, and hence is cyclic (being isomorphic to a finite subgroup of the multiplicative group of a field).  Since $K$ contains all prime-to-$p$ power roots of $1$, by the strict Henselian assumption (here $p$ is the char. of the 
+residue field $\mathcal O_K/\mathfrak m_K$), we see that $L/K$ is a Kummer extension, i.e. obtained by extracting the $n$th root of some element of $K$,
+for some $n$ prime to $p$. Again by strict Henselianess, the $n$th root
+of all elements of $O_K^{\times}$ already lie in $K$ (using the fact that
+$n$ is prime-to-$p$), and so in fact $L$ comes by extracting the $n$th root
+of a uniformizer of $\mathcal O_K$.</p>
 
-<p>For example, $2$ is a prime number not satisfying the above condition. We also know there are infinite prime numbers in the set $\{\lambda p +1 | \lambda \in Z\}$ by Dirichlet's theorem. </p>
-
-<p>Does anybody know a simple answer, or any reference talking about this kind of question?</p>
+<p>If I can get my thoughts in order, I might come back and address the non-DVR
+aspects of the question as well.</p>
 
 

@@ -1,15 +1,17 @@
-## Title:
-percentage of numbers starting with $2$ in $\{2^n\}$
-
-## Tags:
-<sequences-and-series><number-theory><reference-request><fourier-analysis>
-
 ## Score:
-6
+0
+
+## Id:
+123781
+
+## ParentId:
+123592
 
 ## Body:
-<p>I have once heard a professor telling (during a course on Fourier theory) that there is a way to determine the numbers starting with a $2$ in the sequence $\{2^n\colon n\in\mathbb{N}\}$. I asked him about it, but he could not remember how. The proof involved the theory of <a href="https://en.wikipedia.org/wiki/Equidistributed_mod_1">equidistributed sequences</a> the <a href="https://en.wikipedia.org/wiki/Weyl%27s_criterion">Weyl criterion</a>.</p>
+<p>For many "classical" equations, Leonard E Dickson's "History of the Theory of Numbers" vol 2 is still very useful. But that was published in the 1920s, and is inevitably miles out of date for some equations (including doubtless many of those it mentions).</p>
 
-<p>Is there someone who knows how to prove this? Or is there a nice reference (preferably a book)?</p>
+<p>Some years later someone, possibly Adrian Albert, published an updated version of Dickson's work with long bibliographies a-la Dickson; but I think that mostly covered more technical aspects of algebraic number theory rather than the classsical equations of Dickson's vol 2.</p>
+
+<p>I imagine a complete catalog and bibliography today, bang up to date but in the same detail as Dickson, would require dozens of volumes and would be more a WIkipedia style project than anything one could reasonably contemplate publishing in book form.</p>
 
 

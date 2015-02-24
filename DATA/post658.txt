@@ -1,0 +1,42 @@
+## Title:
+Are there Groups of Strictly Primes
+
+## Tags:
+<group-theory><reference-request><prime-numbers><algebraic-number-theory>
+
+## Score:
+11
+
+## Id:
+539823
+
+## Body:
+<h2>Motivation</h2>
+
+<p>Since Euclid's proof of the infinitude of the primes, the structure and properties of primes has always fascinated mathematicians. This lead to great work in their properties and distribution, such as the Prime Number Theorem. However, much of the study of the structure of primes is done via Analytic Number Theory where much of the work is done using the tools of Analysis.</p>
+
+<p>I am aware of Algebraic Number Theory (it is my goal to have this be my field of expertise so forgive me if perhaps this question comes from my ignorance), but I have not seen groups comprised strictly of primes. Rather, one sees the structure of primes$-$or even number fields in general rather$-$studied through use of Algebraic Geometry, algebraic number fields, Iwasawa Theory, group cohomologies, et cetera. </p>
+
+<p>However, these employ notions far "broader" such as fields (larger special rings that add more structure than just the notion of a group). One doesn't see a group consisting <em>strictly</em> of prime numbers.</p>
+
+<h2>My Attempts</h2>
+
+<p>For example, in my research into <a href="http://en.wikipedia.org/wiki/Permutable_prime" rel="nofollow">absolute primes</a> (also known as permutation primes), cyclic primes, and <a href="http://en.wikipedia.org/wiki/Palindromic_prime" rel="nofollow">palindromic primes</a>, often I am forced to long calculations with big $O$'s and large scale modular arithmetic (some of the more basic tools of Analytic Number Theory). It would be nice to form a group out of these primes and work with them from a group perspective instead. For those that don't know, absolute primes are primes whose digit permutations are also prime and cyclic primes are those whose cyclic permutations of digits remain prime. Even with this added structure of permutations acting on primes, I have never been able to find an operation on the set of such primes that creates a group$-$nevertheless a ring (in any nontrivial way that focuses on the primes at hand and does not end up reflecting more the structure of $\mathbb{Q}$, $\mathbb{Z}$, or $\mathbb{R}$).</p>
+
+<p>When I took a step back and tried to make a group out of the primes in general, any structure I attempted to create failed either with closure under the operation or under inverses. Consulting the literature has yielded nothing. For example, attempting to create a group of primes under ordinary multiplication lacks closure. Moreover, would would inverses look like? Then adding "primes" of the of the form $\frac{1}{p}$ really doesn't give one anything useful. Switching or even adding ordinary addition creates $\mathbb{Q}$ which of course is nothing new. Obviously, I have found people studying primes using groups, rings, and fields. However, the groups, rings, or fields they employ do not consist "primarily" of primes. Using such objects seems like a great way to approach primes.</p>
+
+<p>As Alexey Sosinsky put it, </p>
+
+<blockquote>
+  <p>"The notion of a "group", viewed only 30 years ago as the epitome of sophistication, is today one of the mathematical concepts most widely used in physics, chemistry, biochemistry, and mathematics itself."</p>
+</blockquote>
+
+<h2>Question</h2>
+
+<p>To avoid an unanswerable question or one that would require years of research, my question is this: are there examples of groups consisting of only primes in the literature? </p>
+
+<p>This could mean a set $G=\{p \mid p \text{ prime}\}$ under some <em>natural</em> operation or a <em>natural</em> operation on a set like this $G=\{\frac{1}{p}\mid p \text{ prime}\}$. Examples of rings or fields out of "mostly" primes would also be great. To clear up the possible lack of rigor of "mostly primes", say the group, ring, or field must have only finitely many elements that are not of prime form. Meaning they are primes, something of the form $\frac{1}{p}$ where $p$ is prime along with the ordinary primes, et cetera. (basically, they "look" like a prime in some form as in the sets $G$ above). If you can produce such an example in the literature, please be explicit in its construction or provide a citation. Thank you.</p>
+
+<p>EDIT: As suggested by the comments and Marie, the group operation should arrive naturally and certainly nontrivially.</p>
+
+

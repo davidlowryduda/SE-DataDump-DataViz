@@ -1,0 +1,15 @@
+## Score:
+6
+
+## Id:
+385977
+
+## ParentId:
+385967
+
+## Body:
+<p>The proof seems to be due to Lindemann (1933) and Zermelo (1934), independently.  See the beginning of <a href="http://math.uga.edu/~pete/factorization2010.pdf">this note</a> for the references.</p>
+
+<p>Strangely, the result appears earlier in the literature: in a 1928 paper of Hasse.  So in an earlier draft of <em>loc. cit.</em> I referred to the "Hasse-Lindemann-Zermelo proof".  But actually the argument was known to Zermelo in 1912: see the footnote at the bottom of p. 4 of <a href="http://math.uga.edu/~pete/factorization2010.pdf"><em>loc. cit.</em></a> for more information on that.</p>
+
+

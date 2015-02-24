@@ -1,0 +1,15 @@
+## Score:
+4
+
+## Id:
+289294
+
+## ParentId:
+288715
+
+## Body:
+<p>EDIT: start with <a href="http://en.wikipedia.org/wiki/Markov_number" rel="nofollow">THIS</a></p>
+
+<p>The nontrivial use of this is in the Markov spectrum. See  <a href="http://www.ams.org/bookstore?s3=cusick&amp;quicksearch.x=0&amp;quicksearch.y=0&amp;pg1=&amp;s1=&amp;op1=AND&amp;co1=AND&amp;pg2=&amp;s2=&amp;op2=AND&amp;co2=AND&amp;op3=AND&amp;co3=AND&amp;pg3=ALLF&amp;fn=100&amp;d=BOOK&amp;p=1&amp;u=&amp;r=0&amp;l=100&amp;f=S&amp;subj=genint" rel="nofollow">CUSICK and FLAHIVE</a>. Kap and I found a number of other trees and related problems, see <a href="http://zakuski.utsa.edu/~jagy/papers/Illinois_2003.pdf" rel="nofollow">KAP PDF</a>  . Hurwitz expanded Markov's original tree in three variables to $n$ variables about 1907, see info in <a href="http://mathoverflow.net/questions/84927/conjecture-on-markov-hurwitz-diophantine-equation" rel="nofollow">http://mathoverflow.net/questions/84927/conjecture-on-markov-hurwitz-diophantine-equation</a> . The result becomes a forest rather than a single tree for some $n \geq 14.$ Many related problems are possible, as the term $a x_1 x_2 \ldots x_n$ can be replaced by any homogeneous symmetric polynomial as long as the exponent on each $x_i$ is 1 and the total degree of each term is at least 3.  </p>
+
+

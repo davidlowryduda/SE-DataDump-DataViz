@@ -1,19 +1,16 @@
 ## Title:
-An elegant non-technical account on the work of Joseph Fourier. 
+Primes of the form $n^2+1$ - hard?
 
 ## Tags:
-<number-theory><reference-request><pde><fourier-analysis><fourier-series>
+<number-theory><reference-request><prime-numbers><open-problem>
 
 ## Score:
-6
+17
+
+## Id:
+44126
 
 ## Body:
-<p>It would seem difficult for a naive person to understand the beauty of work done by Fourier. So as far as I know, one can use the Fourier transforms, analysis and series to apply them for heat equations, and its very evident that present world's seminal mathematician J.Tate has also used the Fourier analysis in his celebrated thesis.</p>
-
-<p>So I was looking for some most elegant explanation about the beauty of Fourier analysis giving an intuition into the subject, and for the sake of brevity, assume that the targeted naive reader has some basic mathematical knowledge, ( not so naive !! ). I think the most difficult job is to explain things naively. But there are many people who can explain it mathematically taking a function and applying it and showing the effect, but its the most tough job to do it other way, as remarked by Prof.Einstein, " If you can't explain simply, you don't understand it well-enough " . </p>
-
-<p>I would be very happy if someone maps the theory to the nature and explain the theory in terms of things going on around us, like trees, leaves etc..( not necessarily trees and leaves, but in any way ) and how could one apply them to the nature practically. </p>
-
-<p>Thanks a lot !!</p>
+<p>I met a student that is trying to prove for fun that there are infinitely many primes of the form $n^2+1$. I tried to tell him it's a hard problem, but I lack references. Is there a paper/book covering the problem? Is this problem really hard or I remember incorrectly?</p>
 
 

@@ -1,23 +1,52 @@
-## Title:
-Why is positional number system natural?
-
-## Tags:
-<elementary-number-theory><reference-request><computational-complexity><computability>
-
 ## Score:
-1
+3
+
+## Id:
+122116
+
+## ParentId:
+122080
 
 ## Body:
-<p>In the theory of computation, one mainly deals with maps $\Sigma^*\rightarrow\Sigma^*$.  To discuss computation on other sets $X$ than $\Sigma^*$, one fixes a <em>representation</em> $\gamma:\Sigma^*\rightarrow X$ to interpret a word as an element of $X$.  If $X=\mathbb N$, $\gamma$ can be (maps defined by) unary numeral system, positional number system base 2 or more, arithmetic circuits, or even description of algorithms that compute a natural number.  Of course the standard one is positional number system base 2 or more (call this $\gamma_2$).  Many interesting questions in the theory of computation, such as $\mathrm{PRIMES}\in \mathscr P$? and $\mathrm{KNAPSACK}\in\mathscr P$?, arise because of this particular representation.</p>
+<p>This is a comment, but it is too long and complex to be added in the usual manner.</p>
 
-<p>However I do not find reason for favoring $\gamma_2$ other than that it is most used by human and electronic computers.  One can argue that unary numerals are the most simple representation.  If you want a concise representation, you could use arithmetic circuits or algorithms. I am beginning to doubt if it is an arbitrary decision to choose $\gamma_2$ as standard.</p>
+<p>The proposed mathematical structure is not in the paper above, which references three other sources by the same author. I was able to find one online:</p>
 
-<p>Thus my question is why is $\gamma_2$ is the most favorable, or <em>natural</em> way of representing natural numbers (if it is).</p>
+<p><a href="http://www.mii.lt/Informatica/pdf/INFO725.pdf" rel="nofollow">A new applied approach for executing computations with infinite and infinitesimal quantities</a> (<a href="http://arxiv.org/abs/1203.3132" rel="nofollow">arXiv:1203.3132</a>)</p>
 
-<p>Of course, in an informal way I understand why $\gamma_2$ is favorable and natural. (You cannot claim that you found the $10^{500}$-th prime number by showing an algorithm that computes it.)  My question is how to formalize this intuitive notion of naturalness and how to show $\gamma_2$ is the most natural (or at least as natural as other representations) according to it.</p>
+<p>This paper apparently introduces the structure, but does not define it very formally.  From the paper:</p>
 
-<p>I believe someone should have considered this problem before.  I am also looking for resources that deal with matter.</p>
+<blockquote>
+  <p>[The Infinite Unit Axiom] is added to axioms for real numbers (remind that we consider axioms in sense of Postulate 2). Thus, it is postulated that associative and commutative properties of multiplication and addition, distributive property of multiplication over addition, existence of inverse elements with respect to addition and multiplication hold for grossone as for finite numbers</p>
+</blockquote>
 
-<p>Thank you in advance.</p>
+<p>leaving to the reader to decide exactly what those are* and how to extend them to include this new element. It seems that we start with a complete ordered Archimedean field and adjoin a new element to result in, at least, a field. (I intentionally omit completeness and order, q.v. below.)</p>
+
+<p>The Infinite Unit Axiom has three parts:</p>
+
+<blockquote>
+  <p><em>Infinity</em>. Any finite natural number n is less than grossone</p>
+</blockquote>
+
+<p>This limits the order on the new structure. By the Archimedean property, any real x is less than grossone.</p>
+
+<blockquote>
+  <p><em>Identity</em>. The following relations link grossone to identity elements 0 and 1
+  [six formulas: multiplication by 0, division by itself, and exponents work for grossone as for real numbers]</p>
+</blockquote>
+
+<p>This supports the quote about grossone acting like finite numbers.</p>
+
+<blockquote>
+  <p><em>Divisibility</em>. For any finite natural number n sets Nk,n, $1\le k\le n$, being the nth
+  parts of the set, N, of natural numbers have the same number of elements indicated by
+  the numeral grossone/n where $$\mathbb{N}_{k,n}=\{k,k+n,k+2n,\ldots\},\ 1\le k\le n,\ \bigcup_{k=1}^n\mathbb{N}_{k,n}=\mathbb{N}.$$</p>
+</blockquote>
+
+<p>This gives some kind of definition of what cardinalities look like in this system.</p>
+
+<hr>
+
+<p>Normally given a system like this I'd look for contradictions, but the definitions are too wishy-washy to nail that down easily.  My assumption that the "axioms for real numbers" were the ordered field axioms plus completeness is inadequate, for example, since apparently exponentiation is included as well.  Perhaps someone will find these notes useful, though, so I leave them here.</p>
 
 

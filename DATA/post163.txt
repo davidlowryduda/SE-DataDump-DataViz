@@ -1,15 +1,21 @@
-## Title:
-Resource for Vieta root jumping
-
-## Tags:
-<number-theory><reference-request><proof-strategy><contest-math>
-
 ## Score:
-6
+5
+
+## Id:
+71523
+
+## ParentId:
+71514
 
 ## Body:
-<p>I can't seem to find a good resource on <a href="http://en.wikipedia.org/wiki/Vieta_jumping" rel="nofollow">Vieta's root jumping</a>, which would explain various scenarios that suggest using the technique.</p>
+<p>Speaking completely from personal experience, I learned almost everything I know in terms of asymptotics and bounding integrals from doing analytic number theory problems.  (For the 1-2 from UBC, it was those Math 539 problem sets!)</p>
 
-<p>Does anyone have a suggestion for a reference?</p>
+<p>These specific types of manipulations didn't actually come up in any of my analysis courses over the years.  However, knowing basic analysis and how to work with limits <em>is very important,</em> and is a definite prerequisite.  Rudin's "Principles of Mathematical Analysis 3E" is the standard text for an introduction to analysis.  Understanding the basics in the first 1-7 chapters and having some basic complex analysis is fundamental.</p>
+
+<p>If you are already familiar with these concepts, then I suggest working through the proofs and the exercises in your analytic number theory book. </p>
+
+<p><strong>Remark:</strong>  Both of the books you mention are excellent, but I would not usually recommended them if you have never seen analytic number theory before.</p>
+
+<p>I personally used Montgomery and Vaughn's book, which I quite like, but I have heard very good things about Davenport's Multiplicative Number Theory.  <a href="http://math.stackexchange.com/questions/29056/supplemental-number-theory-text-to-montgomery-and-vaughan">This Math Stack Exchange question</a> deals with books for analytic number theory.</p>
 
 

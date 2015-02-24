@@ -1,0 +1,13 @@
+## Score:
+2
+
+## Id:
+463432
+
+## ParentId:
+463429
+
+## Body:
+<p>You're talking about the <a href="https://en.wikipedia.org/wiki/Collatz_conjecture" rel="nofollow">Collatz conjecture</a>, a.k.a. the $3x+1$ problem.</p>
+
+

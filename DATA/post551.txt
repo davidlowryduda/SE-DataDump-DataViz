@@ -1,0 +1,15 @@
+## Score:
+3
+
+## Id:
+429073
+
+## ParentId:
+429070
+
+## Body:
+<p>Yes, there is, but it is quite technical (at least the one I know), and at the same time sooooo beautiful! I suggest you read the first 30-40 pages of Davenport's Multiplicative Number Theory. It illustrates the ideas of Dirichlet and if you go through the details, not only you will enjoy the proof, but learn a lot of ideas that emerged from number theory.</p>
+
+<p>Hope that helps,</p>
+
+

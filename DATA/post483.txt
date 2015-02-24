@@ -1,0 +1,13 @@
+## Score:
+6
+
+## Id:
+350189
+
+## ParentId:
+350149
+
+## Body:
+<p>I really think <em>Algebraic Number Theory</em> by Nuekirch is incredible. Very thorough and not too hard to pick up. <em>Problems in Algebraic Number Theory</em> by Murty and Esmonde is another great book to work through problems. Also, William Stein has a great set of notes online that give a computational approach to the subject. I'd also like recommend <em>A Course in Computational Algebraic Number Theory</em> as a companion guide. Not much theory, but after you get the basics down it's great for computing </p>
+
+

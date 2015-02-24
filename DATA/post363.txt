@@ -1,0 +1,17 @@
+## Score:
+4
+
+## Id:
+179576
+
+## ParentId:
+179353
+
+## Body:
+<p>The number of prime divisors counted with multiplicity is maximized for powers of $2$ and so</p>
+
+<p>$$\Omega(n)\le\frac{\log n}{\log 2}=\log_2 n$$</p>
+
+<p>and since it is exactly equal for infinitely many $n$ it is also the tighest possible bound.</p>
+
+

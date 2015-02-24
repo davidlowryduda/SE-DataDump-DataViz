@@ -1,37 +1,21 @@
-## Title:
-Reference request for the following proof of Euclid's Lemma
-
-## Tags:
-<reference-request><elementary-number-theory>
-
 ## Score:
-4
+3
+
+## Id:
+24411
+
+## ParentId:
+24408
 
 ## Body:
-<p>I'm looking for a reference containing the following proof of Euclid's Lemma.</p>
+<p>As I mentioned at another post <a href="http://math.stackexchange.com/questions/13575/teaching-myself-differential-topology-and-differential-geometry/22583#22583">Teaching myself differential topology and differential geometry.</a></p>
 
-<p>Recall the statement: Let $a,b$ be positive integers and let $p$ be a prime dividing $ab$. Then $p$ divides $a$ or $b$.</p>
+<p>If you are interested in learning Algebraic Geometry I recommend the books of my Amazon list. They are in recommended order to learn from the beginning by yourself:</p>
 
-<p>[I'm rewriting the proof taking into account Geoff Robinson's comments:]</p>
+<p><a href="http://www.amazon.com/lm/RHQS8Y3V7LJRQ/ref=cm_pdp_lm_title_1" rel="nofollow">http://www.amazon.com/lm/RHQS8Y3V7LJRQ/ref=cm_pdp_lm_title_1</a></p>
 
-<p>Let $Q$ be the set of those quadruples $(p,c,a,b)$ of positive integers such that</p>
+<p>In particular, from that list, a quick path to understand basic Algebraic Geometry would be to read <strong>Bertrametti et al</strong>. <em>"Lectures on Curves, Surfaces and Projective Varieties"</em>, <strong>Shafarevich</strong>'s "<em>Basic Algebraic Geometry"</em> vol. 1, 2 and <strong>Perrin</strong>'s <em>"Algebraic Geometry an Introduction"</em>. But then you are entering the world of abstract algebra.</p>
 
-<ul>
-<li><p>$p$ is prime,</p></li>
-<li><p>$ab=pc$,</p></li>
-<li><p>$p$ divides neither $a$ nor $b$.</p></li>
-</ul>
-
-<p>Assume by contradiction that $Q$ is nonempty and let $(p,c,a,b)$ be its least element with respect to the lexicographical ordering. We clearly have $c &gt; 1$. We also have $c &lt; p$ because otherwise $(p,c-a,a,b-p)$ would be in $Q$. </p>
-
-<p>[Edit (Aug. 4): Assuming $c\ge p$, we have $b &gt; p$ (and thus $c > a$), for the contrary would imply $a\le b &lt; p$, and thus $ab &lt; p^2\le pc=ab$. (Thank you to Bill Dubuque!)] </p>
-
-<p>If $q$ is a prime factor of $c$, then $(p,c/q,a/q,b)$ or $(p,c/q,a,b/q)$ is in $Q$, a contradiction.  </p>
-
-<p><strong>EDIT (July 24).</strong> Thank you to Martin Sleziak for his comments. I'll look quietly at his links, and make perhaps a new edit. In the meantime here is the argument used by Gauss in his <strong>Disquisitiones Arithmeticae</strong>, Art. 13. [I should have studied this Article more seriously before posting my question. My apologies.]</p>
-
-<p>Let $p$ be a prime and $a$ a positive integer not divisible by $p$. Assume by contradiction that the set $B$ of all positive integers $x$ such that $p$ divides $ax$, but doesn't divide $x$, is nonempty, and let $b$ be the minimum of $B$. The inequalities $1 &lt; b &lt; p$ are clear. There is a positive integer $m$ such that $mb &lt; p &lt; (m+1)b$, and one easily checks that $p-mb$ is less than $b$ and belongs to $B$, a contradiction. QED</p>
-
-<p>Actually I like Gauss's argument much better than the one I gave above. But here is what puzzles me. Many Elementary Number Theory and Algebra textbooks prove the Fundamental Theorem of Arithmetic (or Euclid's Lemma) using only Peano like axioms, and in particular not using the construction of $\mathbb Z$ from $\mathbb N$. I find it's a very good idea to do so. [I agree that the construction of $\mathbb Z$ is  of paramount importance, but I believe, it's also important to realize that the Fundamental Theorem doesn't rely on it.] The trouble is that these proofs, I feel, tend to be much more complicated than the above argument of Gauss. [Thank you for correcting me if I'm wrong.]</p>
+<p>There is no a single complete book and much less explaining the ideas as clearly as possible. If you are starting from the very beginnig, I recommend these in this order: Karen <strong>Smith's, Beltrametti, Hulek, Safarechiv vol. 1, Perrin, Shafarevich vol. 2</strong> and then scheme theory with <strong>Ueno</strong>'s three volumes.... then you can jump with enough background to the bible by <strong>Hartshorne</strong>, or <strong>Griffiths/Harris</strong> for the more complex geometric side. </p>
 
 

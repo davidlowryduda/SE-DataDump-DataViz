@@ -1,17 +1,41 @@
-## Title:
-Missing Exercises in Elementary Number Theory by Underwood Dudley.
-
-## Tags:
-<number-theory><elementary-number-theory><reference-request><online-resources>
-
 ## Score:
--2
+2
+
+## Id:
+94016
+
+## ParentId:
+93210
 
 ## Body:
-<p>I'm a beginner in math and I just started studying Elementary Number Theory by Dudley. So far I'm impressed, but I've noticed that the book does not include all the solutions to the exercises they present in the chapters, namely those that require you to prove some property. </p>
+<p>You are referring to the generalized proof of " Twin-Prime Conjecture ", by using the Prime Number Theorem ( PNT ).</p>
 
-<p>I would really like to find the worked out solutions to all the exercises. I've looked all over for a solution to all the exercises with no luck. Perhaps I'm missing something or perhaps someone knows a source I could use?</p>
+<p>Prime number theorem states that  the density of primes is ruled by the law $$\pi(n) \sim \large\frac{n}{log(n)}$$ We can state this in a more precise form using Riemann's Li function, as $$\pi(n)=Li(n)+O(ne^{-a\sqrt{Log(n)}})$$ for some constant $a$.</p>
 
-<p>Thank You</p>
+<p>we can compute that the probability of finding twin primes ( $a-b=2$ , but you are looking at $2k$ which will be an implication ) $a$ at $n + 1$ and $b$ at $n -1$ is about $\large\frac{2}{\rm{Log(n)}}$ , but you are writing about the case for some $k$ but here in this case I mentioned above its $k=1$ and the number of twin primes in the interval $n$ is about $\large\frac{2n}{\rm{Log(n)}^2}$.</p>
+
+<p>So its clearly evident to say from the above things that </p>
+
+<ul>
+<li>The difference of two prime numbers $a$ and $b$ is an even number $2k$.</li>
+<li>The probability of finding primes $a$ at $n + k$ and $b$ at $n - k$ decreases as $n$ increases.</li>
+</ul>
+
+<p>The prime number theorem states that the number of primes less
+than $n$ is asymptotic to $1/\rm{Log(n)}$. So if we choose a random integer
+$m$ from the interval $[1,n]$, then the probability that $m$ is prime is
+asymptotic to $1/\rm{Log(n)}$</p>
+
+<p>So its crystal clear that one can apply the same thing to your conditions by adjusting the values and as the $n$ is in the denominator of probability its evident that they are inversely proportional.</p>
+
+<p>I end here, and I seriously advice you to completely go through <a href="http://www.utm.edu/staff/caldwell/preprints/Heuristics.pdf" rel="nofollow">this</a> and <a href="http://primes.utm.edu/howmany.shtml" rel="nofollow">this</a>.</p>
+
+<p>But I find there are some more beautiful articles about this, but it takes some time for me to fish them out. I surely re-edit once if I find any of such things.</p>
+
+<p>Thank you, </p>
+
+<p>Yours truly,</p>
+
+<p>Iyengar.</p>
 
 

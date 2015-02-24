@@ -1,17 +1,13 @@
-## Title:
-Looking for a very gentle first book on number theory
-
-## Tags:
-<elementary-number-theory><reference-request>
-
 ## Score:
-2
+4
+
+## Id:
+86445
+
+## ParentId:
+73354
 
 ## Body:
-<p>My gf is the classic math-phobe, totally traumatized by math, etc., which surprises me, since she's whip-smart.  The only explanation I can think of is that she got off to a bad start in elementary school.</p>
-
-<p>My own love for mathematics was kindled by an old book on number theory that I found in my school's library.  Unfortunately, I can't remember that book's title or author, so...</p>
-
-<p>I'm looking for a <em>very gentle</em> first book on number theory.</p>
+<p>See my response <a href="http://mathoverflow.net/questions/82097/two-dirichlets-series-related-to-the-divisor-summatory-function-and-to-the-riema/" rel="nofollow">here</a>.</p>
 
 

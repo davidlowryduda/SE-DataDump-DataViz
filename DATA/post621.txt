@@ -1,0 +1,13 @@
+## Score:
+1
+
+## Id:
+487467
+
+## ParentId:
+485079
+
+## Body:
+<p>We need the convention that $c$ is not divisible by a $6$th power, since for any nonzero integer $m$ the equations $y^2=x^3+c$ and $y^2 =x^3 +m^6 c$ are easily transformed into each other by a rational change of variables, so their rational solutions are in a simple bijection. It's for sixth-power free integers $c$ that $y^2 =x^3 +c$ has torsion points with nonzero $x$ and $y$ only when $c=1$ or $−432$. In any event, I think this is discussed in the little book by Cassels on elliptic curves. It's mentioned as Prop. 17.10.1 in Ireland &amp; Rosen. See also Prop 17.9.1 in Ireland &amp; Rosen.</p>
+
+

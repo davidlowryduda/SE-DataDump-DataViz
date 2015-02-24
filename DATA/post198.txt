@@ -1,19 +1,23 @@
-## Title:
-Introduction to the trace formula for people outside number theory
-
-## Tags:
-<reference-request><algebraic-geometry><representation-theory><algebraic-number-theory><complex-geometry>
-
 ## Score:
-12
+1
+
+## Id:
+90792
+
+## ParentId:
+90781
 
 ## Body:
-<p>I am looking for references on the trace formula, by which I mean the Selberg trace formula and its successor the Arthur-Selberg trace formula.</p>
+<p>(This is more of an extended comment.)</p>
 
-<p>I am aware that there are "standard references" on the subject, and I have looked at some of those standard references.  However, I am not necessarily looking for a "standard reference". I am looking for a reference that doesn't actually assume much number-theoretic background.</p>
+<p>I'll only note that your $h_{r,c}$ are easily generated as the first column of the product of a diagonal matrix and a lower triangular matrix. More precisely, the matrix that generates your $h_{r,c}$ can be expressed as $\mathbf D\mathbf L^{r+1}$, where $\mathbf D=\mathrm{diag}(1,2,\dots,n)$ and</p>
 
-<p>My own background is in complex algebraic geometry.  I would like to have a reference that would be readable to someone who is comfortable with portions of either Griffiths-Harris or Hartshorne and with basic representation theory, but who may not have had much prior exposure to algebraic number theory.</p>
+<p>$$\ell_{j,k}=\begin{cases}\frac1{j}&amp;\text{if }j\geq k\\0&amp;\text{otherwise}\end{cases}$$</p>
 
-<p>Any advice would be appreciated it.</p>
+<p>$\mathbf L$, which is <a href="http://oeis.org/search?q=%22lower%20triangular%20mean%20matrix%22" rel="nofollow">apparently</a> called the "lower triangular mean matrix", looks a bit like this:</p>
+
+<p>$$\mathbf L=\begin{pmatrix}1\\\frac12&amp;\frac12\\\frac13&amp;\frac13&amp;\frac13\\\vdots&amp;\vdots&amp;\vdots&amp;\ddots\\\frac1{n}&amp;\cdots&amp;\cdots&amp;\cdots&amp;\frac1{n}\end{pmatrix}$$</p>
+
+<p>$h_{2,c}$ is expressible in terms of generalized harmonic numbers: $\dfrac{(H_c)^2+H_c^{(2)}}{2}$, where $H_c^{(k)}=\sum\limits_{j=1}^c\frac1{j^k}$. I haven't been able to find a simpler form for $h_{3,c}$ and others.</p>
 
 

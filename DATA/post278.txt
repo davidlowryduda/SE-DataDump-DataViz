@@ -1,37 +1,15 @@
-## Title:
-Fermat-quotient of "order" 3: I found $68^{112} \equiv 1 \pmod {113^3}$ - are there bigger examples known?
-
-## Tags:
-<number-theory><reference-request><numerical-methods><prime-numbers>
-
 ## Score:
-3
+7
+
+## Id:
+134155
+
+## ParentId:
+134153
 
 ## Body:
-<p>I'm rereading an older text on fermat-quotients (see <a href="https://en.wikipedia.org/wiki/Fermat_quotient" rel="nofollow">wikipedia</a>) from which I have now the    </p>
+<p>Hideo Wada, A table of ideal class groups of imaginary quadratic fields, Proc. Japan Acad. Volume 46, Number 5 (1970), 401-403 is available at <a href="http://projecteuclid.org/DPubS?verb=Display&amp;version=1.0&amp;service=UI&amp;handle=euclid.pja/1195520300&amp;page=record">http://projecteuclid.org/DPubS?verb=Display&amp;version=1.0&amp;service=UI&amp;handle=euclid.pja/1195520300&amp;page=record</a>. </p>
 
-<p><strong><em>Question</em></strong> for
-$$ b^{p-1} \equiv 1 \pmod{ p^m} \qquad \text{ with $p \in \mathbb P $, $1 \lt b \lt p$ and $m \gt 2$} $$ 
-(This is a generalization of the question for Wieferich primes).     </p>
-
-<p>Note that I ask here for examples, where the bases $b$ are <em>smaller</em> than the prime $p$, so a very well known weaker case $3^{10} \equiv 1 \pmod {11^2 } $ were an example, but only if the exponent at $11$ where one more; however frequent and well known cases like $18^6 \equiv 1 \pmod {7^3} $ were not because the base is bigger than the prime.      </p>
-
-<p>The only example that I've found so far is
-$$ 68^{112} \equiv 1 \pmod {113^3 } $$
-but I've scanned only the first <em>2000</em> primes $p \in (3 \ldots 17389)$ and my primitive brute force algorithm has more than quadratic time-characteristic, so checking <em>10 000</em> or <em>100 000</em> primes were no fun - the quadratic regression prognoses <em>1</em> hour for testing <em>10 000</em> primes and <em>101</em> hours for testing <em>100 000</em> primes...      </p>
-
-<p>I'm aware of a couple of webpages containing lists of fermat quotients up to much higher primes, but either there is no explicite mention of the cases of $b \lt p$ and quotient $m \gt 2$ or I've been too dense when scanning through the listings (<a href="http://www.fermatquotient.com/" rel="nofollow">Richard Fischer</a>, <a href="http://www1.uni-hamburg.de/RRZ/W.Keller/FermatQuotient.html" rel="nofollow">Wilfrid Keller</a>, <a href="http://www.cecm.sfu.ca/~mjm/WieferichBarker/" rel="nofollow">Michael Mossinghoff</a>)</p>
-
-<p><hr>
-For reference: my Pari/GP-code is</p>
-
-<pre><code>for(j=2,2000,p=prime(j);p3=p^3;
-    for(k=2,p-1,
-        r = lift(Mod(k,p3)^(p-1));
-        if(r==1,print(p," ",k," ",r)));
-    );
-</code></pre>
-
-<p>P.s. I've no real good idea for tagging of this question; I just tried the most similar...</p>
+<p>I found that by typing $$\rm table\ class\ group$$ into Google, and I expect more can be found by that technique. </p>
 
 

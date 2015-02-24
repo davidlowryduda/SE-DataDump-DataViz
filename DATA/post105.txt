@@ -1,13 +1,22 @@
 ## Title:
-Looking for a database of results in number theory
+Closed-form Expression of the Partition Function $p(n)$
 
 ## Tags:
-<number-theory><reference-request>
+<number-theory><reference-request><partitions>
 
 ## Score:
-3
+8
+
+## Id:
+48075
 
 ## Body:
-<p>Is there a public database in this world consisting of known number fields, their discriminants, and their ideal class groups, etc? If so, how does a lay person like me have access to this database?</p>
+<p>I feel like I have seen news that a paper was recently published, at most a few months ago, that solved the well-known problem of finding a closed-form expression for the partition function $p(n)$ which enumerates the number of integer partitions of $n$: does anybody have the reference of this paper?</p>
+
+<p>And if not a closed-form exactly, then I seem to recall some significant advance was made recently: can you provide any bibliography (2010, 2011)?</p>
+
+<p>Hopefully this will ring a bell with someone...</p>
+
+<p>Thanks!</p>
 
 

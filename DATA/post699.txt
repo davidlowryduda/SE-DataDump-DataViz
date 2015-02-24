@@ -1,0 +1,20 @@
+## Title:
+Introductive Book on Modular Forms
+
+## Tags:
+<reference-request><algebraic-number-theory><modular-forms>
+
+## Score:
+3
+
+## Id:
+606639
+
+## Body:
+<p>I'm looking for an introductive book on Modular Forms and their applications to Algebraic Geometry and Algebraic Number Theory.</p>
+
+<p>Some Ideas?</p>
+
+<p>Explaining you my prerequisites, I've a good knowledge of basic instruments of Algebra and Algebraic Geometry, but I need some explanations in geometrical facts about Riemann Surfaces and Advanced Complex Analysis...</p>
+
+

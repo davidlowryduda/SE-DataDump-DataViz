@@ -1,21 +1,22 @@
 ## Title:
-Does every ideal class contains a prime ideal that splits?
+Why are some mathematical constants irrational by their continued fraction while others aren't?
 
 ## Tags:
-<number-theory><reference-request><algebraic-number-theory>
+<number-theory><reference-request><approximation><irrational-numbers><continued-fractions>
 
 ## Score:
-5
+6
+
+## Id:
+5568
 
 ## Body:
-<p>Suppose you have a number field $L$, and a non-zero ideal $I$ of the ring of integers $O$ of $L$. </p>
+<p><a href="http://mathworld.wolfram.com/CatalansConstant.html" rel="nofollow">Catalan's Constant</a> and quite a few other mathematical constants are known to have an infinite continued fraction (see the bottom of that webpage). On  wikipedia (I'm sorry, I can't post anymore hyperlinks because of my low rep.), a condition for irrationality of that continued fraction is given (see 'generalized continued fractions'). It is said that a given continued fraction converges to an irrational limit if $ b_n > a_n $ in the continued fraction $b_0 + a_0/(b_1 + a_1/(b_2 + a_2/(...b_n+a_n)))$ for some sufficiently large $n$. In the webpage I provided you with, however, the degree of the polynomial $a_n$ of the continued fractions is bigger than the one of $b_n$. Therefore, all values of $b_n$ will never exceed all values of $a_n$, even after some large $n$. </p>
 
-<p><strong>Question part A:</strong> Is there prime ideal $\mathcal{P} \subseteq O$ in the ideal class of $I$ such that $p =\mathcal{P} \cap \mathbb{Z}$ splits completely in $O$?  </p>
+<p>My question is: Why does the degree of $a_n$ need to be smaller than the degree of $b_n$ in order for a continued fraction representation of a constant to be irrational? I think I read somewhere it had to do with something like 'Tietschzes criterion' (but I'm not sure). (bonus question: Does anyone know where a proof of this 'criterion for irrationality' can be found?) </p>
 
-<p>If the extension $L/\mathbb{Q}$ is Galois I think one can show that the answer is yes. In fact I think it is possible to show that for every $I$ there are infinitely many such $\mathcal{P}$'s. The necessary tools for this are class field theory and Chebotarev's density theorem. On the other hand I'm not asking for infinitely many primes, only for one. So to be concrete:</p>
+<p>Thanks,</p>
 
-<p><strong>Question part B:</strong> If the answer to A is yes, is it possible to give a proof that avoids showing that there are infinitely many $\mathcal{P}$'s?</p>
-
-<p>Thank you.</p>
+<p>Max Muller</p>
 
 

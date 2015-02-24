@@ -1,0 +1,15 @@
+## Score:
+6
+
+## Id:
+191211
+
+## ParentId:
+329
+
+## Body:
+<p><em>A Friendly Introduction to Number Theory</em> by Joseph H. Silverman.  Although the proofs provided are fairly rigorous, the prose is very conversational, which makes for an easy read.  Also, the material is presented so that even a student with a low to moderate level of mathematical maturity can follow the text conceptually and do many of the exercises, but there are plenty of exercises to stretch the more curious mathematician's mind.  </p>
+
+<p>As an undergrad I found it very useful and even years later it is one of my all-time favorite number theory references.</p>
+
+

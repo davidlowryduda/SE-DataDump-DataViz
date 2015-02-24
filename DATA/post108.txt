@@ -1,21 +1,13 @@
-## Title:
-The elliptic curve $y^2 = 23328x^3-890273x^2+14755570x-7^7$
-
-## Tags:
-<number-theory><reference-request><elliptic-curves>
-
 ## Score:
-4
+13
+
+## Id:
+48371
+
+## ParentId:
+329
 
 ## Body:
-<p>The elliptic curve,</p>
-
-<p>$$y^2 = 23328x^3-890273x^2+14755570x-7^7 \tag{1}$$</p>
-
-<p>has the small solution $x = 58$.  I know how to find other rational points, but the   number of digits in the denominator gets large fast.</p>
-
-<p><em>Question</em>: Does (1) have other rational points of small height, maybe where the numerator or denominator has <em>only 5 digits or less</em>?</p>
-
-<p>P.S. I routinely come across situations like this. Is there an online <a href="http://www.alpertron.com.ar/ENGLISH.HTM" rel="nofollow"><em>Alpertron</em></a> equivalent for elliptic curves, where given $ax^4+bx^3+cx^2+dx+e = y^2$, you just input {$a,b,c,d,e$} into the applet, and it outputs, if any, rational "<em>x</em>" with small height below a bound? (The <em>Alpertron</em> is a very useful site.)</p>
+<p>Apostol, Introduction to Analytic Number Theory. I think it' very well written, I got a lot out of it from self-study.</p>
 
 

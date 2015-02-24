@@ -1,0 +1,80 @@
+## Score:
+4
+
+## Id:
+530661
+
+## ParentId:
+530564
+
+## Body:
+<p><em>I've not enough time to complete that answer at the  moment, but I can leave you in a position where you likely can proceed on your own.</em>       </p>
+
+<p>The factoring-out is a good start: You get
+$$ 2^b(2^A-1) = 3^d(3^C-1) $$
+Then you rewrite
+$$ {2^A-1\over 3^d} = {3^C-1 \over 2^b} $$
+<strong><em>[lhs]</em></strong>: Then there is a little rule <em>(see "Euler's totient theorem")</em> , which values $A$ must assume for the numerator in the lhs to be divisible by $3$ or more precisely exactly by $3^d$: 
+$$A = \varphi(3^d) = 2 \cdot 3^{d-1} \qquad \text{ by Euler's totient theorem}$$
+<em>Sidenote: in this case, we deal with the primefactor $3$ and the $\varphi(3^d)$ is indeed the "order of the cyclic subgroup of $2^n \pmod 3$ - which is relevant here, since we want the exponent $A$ such that the denominator divides exactly. The situation here, with primefactor $3$ is easier than (and different from) some other primefactors like for instance $p=7$ where the $\varphi(7)=6$ but the order of the cyclic subgroup $ \pmod 7$ is smaller and actually $\lambda_7=3$ (Note, this is not the Carmichael-function!)   .</em><br>
+One can multiply additional factors to $A$ which only must not contain the primefactor <em>3</em>: with $v$ where $\gcd(v,3)=1$ the complete expression is
+$$A = \varphi(3^d) \cdot v = 2 \cdot 3^{d-1} \cdot v \qquad \qquad \gcd(v,3)=1 \tag 1$$</p>
+
+<p><em><strong>[rhs]</em></strong>: Similarly this is for the rhs: 
+$$ {C =  1 \cdot w \text{ for } b=1  \text{ and } \qquad \qquad \gcd(w,2)=0 \tag {2.1} } $$ $$  C=2^{b-2} \cdot w  \text{ for } b \ge 3 \qquad \qquad \gcd(w,2)=0 \tag {2.2}$$
+Here a solution for $b=2$ does not exist; because any $3^C-1$ which is divisible by $2^2$ is also divisible by $2^3$ and thus one factor $2$ remains, and then this cannot equal the lhs which has an odd value. In effect, this blows up our equation to
+$$ {2^{2 \cdot 3^{d-1} \cdot v} - 1\over 3^d} = {3^{1 \cdot w}-1 \over 2^1} \tag {3.1 when $b=1$}$$
+$$ {2^{2 \cdot 3^{d-1} \cdot v} - 1\over 3^d} = {3^{2^{b-2} \cdot w}-1 \over 2^b} \tag {3.2 when  $b\ge 3$ }$$<br>
+<hr>
+I'm not going further at the moment; but now you might look for existence of different additionally primefactors on the lhs and the rhs for choices of $d$ and $b$ and $v$ and $w$. For instance, if $d \gt 1$ we have in the lhs additional primefactors with group-order $3,6,9,18$ which means the primefactors $7,-,73,19$ which must then also occur in the rhs. We know by a theorem of Szigmondy(?spell) that only for $A=2\cdot 3=6$ there is no other additional ("primitive") primefactor existent. This and the "trivial" cases should come out as the only possible solutions.      </p>
+
+<p>[update] 
+To make Jack's observation more explicite. First we observe, that in the exponent of the LHS there is unconditionally a factor <em>2</em> , so to improve readability a bit we write
+$$ {4^{ 3^{d-1} \cdot v} - 1\over 3^d} = {3^{2^{b-2} \cdot w}-1 \over 2^b} \tag {3.2}$$<br>
+were we took the second version, assuming $b \ge 3$<br>
+Then we observe the table of cycle-lengthes for the first few primes for the numerator in the LHS and the RHS:</p>
+
+<pre><code>  pf   4^A-1  3^C-1
+ -------------------
+    2    -    1
+    3    1    -
+    5    2    4
+    7    3    6
+   11    5    5
+   13    6    3
+   17    4   16
+   19    9   18
+   23   11   11
+   29   14   28
+   31    5   30
+   37   18   18
+   41   10    8
+   43    7   42
+   47   23   23
+   53   26   52
+   59   29   29
+   61   30   10
+   67   33   22
+   71   35   35
+   73    9   12 
+ ...    ...  ...
+</code></pre>
+
+<p>Now we discuss the possibility of equality, given that $d=2$. Then we look at the composition of $A$, see, what primefactors on the lhs are involved, conclude that they are involved in the rhs (note: must be to the same power!), that sets conditions on $C$ which includes more primefactors for the rhs thus also for the lhs, which then imposes a new composition of A, and so on, until we possibly get a contradiction. Here is a short decision-path-diagram. The "*" sign marks the inclusion of the primefactor due to compositions of $A$ or $C$:</p>
+
+<pre><code>       A=3^1
+         |
+ *   3   1    0
+ *   7   3    6 ==&gt; C=2.3.w
+              |
+ *  13   6    3 ==&gt; A=2.3
+         |
+ *   5   2    4 ==&gt; C=4.3.w
+              |
+ * 73    9   12 ==&gt; A=2.3^2  #####
+contradiction, because exponent of 3 in A was assumed=1
+</code></pre>
+
+<p>So for the assumption of $d=2$ there is no solution of the original problem</p>
+
+

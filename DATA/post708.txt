@@ -1,0 +1,36 @@
+## Score:
+5
+
+## Id:
+616940
+
+## ParentId:
+539823
+
+## Body:
+<p>As written your question seems to be underdetermined: you want a group law on the set $\mathcal{P}$ of prime numbers.  As has already been pointed out, no problem: every nonempty set admits a group law, and for a countably infinite set this is especially easy to do (and does not require the Axiom of Choice): simply choose a bijection to your favorite countably infinite group and transport the group law using this bijection.  Thus you can make a group with underlying set $\mathcal{P}$ which is: cyclic, finitely generated abelian but not cyclic, infinitely generated abelian, nilpotent of any desired nilpotency class, solvable but not nilpotent of any desired solvability class, simple,...If I am not mistaken the set of nonisomorphic group laws on $\mathcal{P}$ has the cardinality of the continuum.</p>
+
+<p>However the first paragraph does not take into account that the elements of the countably infinite set are prime numbers in any way: any countably infinite set would work as well.  You acknowledge that you want more than this, namely a <strong>natural group law</strong> on $\mathcal{P}$.  But what do you mean by this?  You don't say, so your question cannot really be answered in its current form.</p>
+
+<p>There is a natural algebraic structure on $\mathcal{P}$, but it is not a group law.  Rather, the natural structure is that $\mathcal{P}$ forms a <strong>basis</strong> for the commutative monoid $(\mathbb{Z}^+,\cdot)$ of positive integers under multiplication.  This is precisely a restatement in more algebraic language of the uniqueness of prime factorization, and it has as a consequence that the monoid $(\mathbb{Z}^+,\cdot)$ is isomorphic to a <strong>free commutative monoid of countably infinite  rank</strong>, namely $\bigoplus_{i=1}^{\infty} (\mathbb{N},+)$.  (These considerations are worked out in more detail in the exercise G1) from the first problem set of an under/graduate number theory course I taught at UGA in 2007 and 2009: see <a href="http://math.uga.edu/~pete/NT2009HW1.pdf" rel="nofollow">here</a>.)</p>
+
+<p>In summary, the whole point of the prime numbers is that they are <em>not</em> closed under their natural operation.  Your question is a bit like asking for a way of combining two chemical elements to get a third chemical element.  Such operations can be defined, but are in a clear chemical sense <strong>unnatural</strong>: rather we combine elements to get compounds.  That's the point of elements.  </p>
+
+<p>There are however natural group laws on <strong>quotient sets</strong> of the primes, especially if we generalize $\mathcal{P}$ to the set of prime ideals in a Dedekind ring $R$.  Namely, let $\mathcal{I}(R)$ be the monoid of all nonzero ideals of $R$, and let $\operatorname{Cl} R$ be the ideal class group of $R$.  Then we have natural maps</p>
+
+<p>$\mathcal{P} \stackrel{\iota}{\rightarrow} \mathcal{I}(R) \stackrel{q}{\rightarrow} \operatorname{Cl} R$.  </p>
+
+<p>Now once again the map $\iota$ is an injection which realizes $\mathcal{P}$ as a basis for the free commutative monoid $\mathcal{I}(R)$: this is the natural algebraic structure on the primes!  The map $q$ is a surjective monoid homomorphism.  Denote by $\Phi$ the composite map $\mathfrak{p} \mapsto [\mathfrak{p}]$ which sends a prime ideal to its ideal class.  Since $\mathcal{P}$ is a set of generators for $\mathcal{I}(R)$ and $q$ is surjective, $\Phi(\mathcal{P})$ is certainly a set of generators for $\operatorname{Cl} R$ (which is a group, but we get a set of generators even as a monoid -- i.e., without having to take inverses).  One can ask whether or not $\Phi$ is actually surjective -- i.e., when every ideal class can be represented by a prime ideal.  In <a href="http://math.uga.edu/~pete/ellipticded.pdf" rel="nofollow">this paper of mine</a> I call $R$ <strong>replete</strong> when $\Phi$ is surjective.  When this holds, the class group $\operatorname{Cl} R$ is a group formed out of the images of the prime numbers.  Moreover, we can define something which is "almost" a group law on $\mathcal{P}$: we <em>try to define</em> 
+$\mathfrak{p}_1 \cdot \mathfrak{p}_2 = \mathfrak{p_3}$ if $[\mathfrak{p_1}][\mathfrak{p_2}] = [\mathfrak{p_3}]$, but it doesn't quite work: $\mathfrak{p}_3$ is not well-defined but only its ideal class: i.e., if $\mathfrak{p}_4$ is another prime ideal such that there are $\alpha,\beta \in R \setminus \{0\}$ with $\alpha \mathfrak{p}_3 = 
+\beta \mathfrak{p}_4$, then also $\mathfrak{p}_1 \cdot \mathfrak{p}_2 = \mathfrak{p}_4$.  So it is a group law on the quotient of $\mathcal{P}$ by the equivalence relation of equality up to a principal ideal: it is still natural and important in the study of $R$ and $\operatorname{Cl} R$.  When $R$ is not replete, the relationship between $\mathcal{P}$ and $\operatorname{Cl} R$ is more complicated.</p>
+
+<p>When is $R$ replete?  When $R = \mathbb{Z}_K$ is the ring of integers of a number field, then the repleteness of $R$ is a weak form of the <strong>Chebotarev Density Theorem</strong> (applied to the Hilbert class field of $K$), which says moreover that the fibers of the map $\Phi$ all have the same density.  In my paper I observe that when $k$ is a field, $E_{/k}$ is an elliptic curve, and $k[E^{\circ}]$ is the coordinate ring of the affine curve $E^{\circ} = E \setminus \{O\}$, then $k[E^{\circ}]$ is (a Dedekind domain, as is well known) and is at least very close to being replete: it satisfies a condition that I called <strong>weakly replete</strong> which is good enough for the applications.  But when is $k[E^{\circ}]$ actually replete?  I give only partial information about this in Theorem 14 of my paper:</p>
+
+<p>$\bullet$ If $k$ is alebraically closed, $k[E^{\circ}]$ is not replete.<br>
+$\bullet$ If $k$ does not have characteristic $2$ and $k[E^{\circ}]$ is not replete, then let $y^2 = P_3(x)$ be a Weierstrass equation for $E$.  Then the $x$--coordinate map $E^{\circ}(k) \rightarrow k$ is surjective.</p>
+
+<p>I don't say so in the paper, but the second part implies that $k[E^{\circ}]$ is replete whenever $k$ is a <strong>Hilbertian field</strong> of characteristic different from $2$: in particular when $k$ is a number field.  And now that I look back on it, the characteristic not equal to $2$ hypothesis just looks like a bit of laziness on my part.</p>
+
+<p>This discussion was a bit technical, but since you say you are interested in number fields and elliptic curves I thought you might be interested.  In fact, giving a precise necessary and sufficient condition on $E$ and $k$ that makes $k[E^{\circ}]$ replete remains an open question.  I am pretty sure that no one is working on this..</p>
+
+

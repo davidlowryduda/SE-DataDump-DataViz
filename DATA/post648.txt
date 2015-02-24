@@ -1,0 +1,36 @@
+## Score:
+14
+
+## Id:
+522152
+
+## ParentId:
+522091
+
+## Body:
+<p>It is a fundamental problem in algebraic number theory to determine asymptotically how many number fields there are of a given degree $d$ of discriminant $\leq X$, and there is a lot of research on this question.</p>
+
+<p><a href="http://annals.math.princeton.edu/wp-content/uploads/annals-v163-n2-p11.pdf">This paper</a> of Ellenberg and Venkatesh is devoted to this problem.  In the introduction it discusses a conjecture of Linnik that (for $d$ fixed) this number grows like a constant times $X$.  As mentioned there, it is known for $d \leq 5$. (The case $d = 2$ is pretty straightforward from the theory of quadratic extensions, the case $d = 3$ is due to Davenport and Heilbron, and the cases $d =  4$ and $5$ are due to Bhargava.)  However, it is open in general.  They get the upper bound of $a X^{\exp(b \sqrt{\log d})},$ where $a$ and $b$ are constants.</p>
+
+<p><a href="http://arxiv.org/abs/1005.0672">This paper</a> of Bhargava, Shankar, and 
+Tsimerman gives a nice treatment, and refinement, of the Davenport--Heilbron
+theorem (i.e. the case $d = 3$).</p>
+
+<hr>
+
+<p>To give an idea of why the question might be hard, consider non-Galois cubic extensions $F$ of $\mathbb Q$.  Such an extension comes by adjoining the root
+of an irred. cubic whose disc. is not a square.  If we let $L$ be the splitting field of this polynomial, then $L$ contains a quad. subfield $K$ (coming by adjoining the square root of the disc. of the cubic), and $L$ is a Galois cubic extension of $K$.</p>
+
+<p>We have the formula 
+$\newcommand{\disc}{\operatorname{disc}}$</p>
+
+<p>$$
+\disc(L) = N_{K/\mathbb Q}\disc(L/K) \disc(K)^3 = N_{F/\mathbb Q}\disc(L/F) \disc(F)^2.$$</p>
+
+<p>Now suppose, for example, that $L/K$ is everywhere unramified.
+Then we find that $\disc(F)^2 \leq \disc(K)^3$, and so we get a
+cubic extension of $\mathbb Q$ of discriminant bounded by $\disc(K)^{3/2}$.</p>
+
+<p>Now everywhere unram. cubic Galois extension $L$ of $K$ corresond, by class field theory, to the existence of 3-torsion in the class group of $K$.  So controlling cubic extensions of $\mathbb Q$ of bounded discriminant requires controlling the amount of 3-torsion that can appear in the class groups of quadratic extensions of $\mathbb Q$.  </p>
+
+

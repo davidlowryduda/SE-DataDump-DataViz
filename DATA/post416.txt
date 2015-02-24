@@ -1,0 +1,15 @@
+## Score:
+3
+
+## Id:
+266498
+
+## ParentId:
+265804
+
+## Body:
+<p>Unfortunately, no letters written either <em>by</em> Eratosthenes or <em>to</em> Archimedes have been preserved. </p>
+
+<p>There is a letter from Archimedes to Eratosthenes which describes <a href="http://www.math.nyu.edu/~crorres/Archimedes/Cattle/Statement.html" rel="nofollow">Archimedes' Cattle Problem</a>. The problem described by Dudley is obviously a modern follow-up on this problem. </p>
+
+

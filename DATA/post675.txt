@@ -1,0 +1,18 @@
+## Title:
+software for rational points on quartic plane curves
+
+## Tags:
+<number-theory><reference-request><math-software>
+
+## Score:
+0
+
+## Id:
+550253
+
+## Body:
+<p>Faltings' theorem tells us the number of rational points on a smooth quartic plane curve is finite.</p>
+
+<p><strong>Question</strong>: Is there any software for computing all the rational points over $\mathbb{Q}$ on a given (smooth) quartic plane curve?</p>
+
+

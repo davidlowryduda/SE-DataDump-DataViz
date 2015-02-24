@@ -1,0 +1,17 @@
+## Score:
+8
+
+## Id:
+153094
+
+## ParentId:
+153022
+
+## Body:
+<ul>
+<li><p>If you haven't read the chapter on Dirichlet's theorem on primes in arithmetic proression in Serre's <em>Course in arithmetic</em>, I highly recommend that you do.
+You can read it independently of what came before.  </p></li>
+<li><p>I liked the book of Ayoub when I was a student.  My memory is that it is somewhere between a textbook and a monograph, and that it covers lots of fundamental topics, such as partitions, Dirichelt's theorem, the circle method, and so on.   I found it compelling enough that I failed an English course because I spent all my time reading the book instead of writing the required essay.</p></li>
+</ul>
+
+

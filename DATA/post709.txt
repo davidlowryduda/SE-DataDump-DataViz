@@ -1,0 +1,50 @@
+## Title:
+Is this a known number-theoretic function?
+
+## Tags:
+<number-theory><reference-request>
+
+## Score:
+15
+
+## Id:
+619379
+
+## Body:
+<p>I am wondering if there is a name for a certain function and/or a literature concerning it?</p>
+
+<p>For $x=1,2,3,4,5,6,\ldots$, let $f(x)$ be the length of the shortest sequence of consecutive integers including $x$ for which all prime numbers $\le\sqrt{x}$ occur as factors of numbers in the sequence.</p>
+
+<p>For example, consider $f(1350)$.  We know that $36^2&lt;1350&lt;37^2$.  In the sequence from $1349=19\cdot71$ through $1364=2\cdot2\cdot11\cdot31$, one finds the first $11$ prime numbers $2,3,5,7,11,13,17,19,23,29,31$, and the next is $37$, which is bigger than the square root of all the numbers in $\{1349,\ldots,1364\}$.  Hence $f(1350)=16$.</p>
+
+<p>$$
+\begin{array}{crlc}
+\text{count} &amp; &amp; \text{factorization} &amp; \text{small primes seen so far} \\
+\hline
+1 &amp; 1349 &amp; = 19\cdot71 &amp; 19 \\
+2 &amp; 1350 &amp; = 2\cdot3\cdot3\cdot3\cdot5\cdot5 &amp; 2,3,5,19 \\
+3 &amp; 1351 &amp; = 7\cdot191 &amp; 2,3,5,7,19 \\
+4 &amp; 1352 &amp; = 2\cdot2\cdot2\cdot13\cdot13 &amp; 2,3,5,7,13,19 \\
+5 &amp; 1353 &amp; = 3\cdot11\cdot41 &amp; 2,3,5,7,11,13,19 \\
+6 &amp; 1354 &amp; = 2\cdot677 &amp; \text{ditto (no new ones this time)} \\
+7 &amp; 1355 &amp; = 5\cdot271 &amp; \text{ditto} \\
+8 &amp; 1356 &amp; = 2\cdot2\cdot3\cdot113 &amp; \text{ditto} \\
+9 &amp; 1357 &amp; = 23\cdot59 &amp; 2,3,5,7,11,13,19,23 \\
+10 &amp; 1358 &amp; = 2\cdot7\cdot97 &amp; \text{ditto} \\
+11 &amp; 1359 &amp; = 3\cdot3\cdot151 &amp; \text{ditto} \\
+12 &amp; 1360 &amp; =2\cdot2\cdot2\cdot2\cdot5\cdot17 &amp; 2,3,5,7,11,13,17,19,23 \\
+13 &amp; 1361 &amp; = 1361 &amp; \text{ditto} \\
+14 &amp; 1362 &amp; = 2\cdot3\cdot227 &amp; \text{ditto} \\
+15 &amp; 1363 &amp; = 29\cdot27 &amp; 2,3,5,7,11,13,17,19,23,29 \\
+16 &amp; 1364 &amp; = 2\cdot2\cdot11\cdot31 &amp; 2,3,5,7,11,13,17,19,23,29,31
+\end{array}
+$$
+The "$\text{count}$" is $16$, so that is $f(1350)$.  That's how long the sequence had to be to get all $11$ of the "small" primes, i.e. primes no bigger than $\sqrt{1350}$.</p>
+
+<p>A reason to care about this is that if one wants to factor an integer in this range, one looks at its distances from each of those first $11$ primes to decide whether it's divisible by any of them, and if not, then it's prime. So one need not search beyond that sequence.</p>
+
+<p>I lean toward taking $f(1)$, $f(2)$, and $f(3)$ to be $0$ since no prime numbers are $\le$ the square roots of those numbers.  But that would require a slight rephrasing of the definition of $f$, and I'm not immediately sure how best to do that.</p>
+
+<p><b>So here's my question:</b> Is this a known function?  Does it have a standard name?  Are the theorems of interest concerning it?  What books give an account of it?  (Confession: I haven't yet checked OEIS for it.)</p>
+
+

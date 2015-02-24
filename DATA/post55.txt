@@ -1,14 +1,27 @@
 ## Title:
-Convergence of prime series
+How many real quadratic number fields have the class number 1?
 
 ## Tags:
-<reference-request><prime-numbers><convergence><analytic-number-theory>
+<reference-request><algebraic-number-theory><principal-ideal-domains>
 
 ## Score:
-3
+5
+
+## Id:
+28478
 
 ## Body:
-<p>Where can I read about convergence of series constituted of prime number such as the following:
-$$\sum_p \frac{1}{p (\log{p})^\alpha}\;?$$ How does convergence depend on $\alpha$?</p>
+<p>I know that in general the number of ideal classes are not 1, and that there are only 9 imaginary quadratic number fields which are principal ideal domains, i.e. $\mathbb(Q(\sqrt{-m}))$ where m is 1, 2, 3, 7, 11, 19, 43, 67, 163, and that Gauss had conjectured that there are infinitely many real quadratic number fields which are of class number 1. Although this sounds natural, since the order of unit groups in a real quadratic number field is infinity, while that of an imaginary one is finite, I cannot give a proof. So my question is this:  </p>
+
+<blockquote>
+  <p>How many real quadratic number fields are principal ideal domains?  </p>
+</blockquote>
+
+<p>If there is any error, such as this is already known, or there is a wild discussion on this topic, please let me know, thanks very much.  </p>
+
+<blockquote>
+  <p><em>In addition:</em><br>
+  Even if this is not solved, I would like to get some modern, or recent, research, or paper, to extend my horizon, so it will be best to have a reference which discusses the number of ideal classes of algebraic number fields, best regards here.  </p>
+</blockquote>
 
 

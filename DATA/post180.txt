@@ -1,13 +1,32 @@
-## Title:
-Is there a list of safe prime numbers?
-
-## Tags:
-<number-theory><reference-request><prime-numbers>
-
 ## Score:
-5
+6
+
+## Id:
+79422
+
+## ParentId:
+79406
 
 ## Body:
-<p>I am looking for a list of precomputed <a href="http://en.wikipedia.org/wiki/Safe_prime" rel="nofollow">safe prime numbers</a>. Where can I get such a list?</p>
+<p>You could look at Serre's article <em>Modular forms of weight one and Galois representations</em> in the 1975 Durham proceedings (also in his collected works).  My memory is that he gives several examples of Artin $L$-functions (including examples
+relating them to Hecke $L$-functions in the case when the Artin representation is induced from a character).</p>
+
+<p>As for computing the residue at $1$ of a Dedekind zeta-function, using the standard formula for this, this is basically just a matter of computing the regulator and  class number of the field.  In any particular case, it is what it is.</p>
+
+<p>If you haven't considered the examples of quadratic fields you should do those
+(taking into account the difference between the real and imaginary case; in the former case there are non-trivial units, and so a non-trivial regulator term).</p>
+
+<p>The basic fact relating the Dedekind zeta function and Artin $L$-functions is that
+the former factors into a product of the latter.  (More precisely, if $L$ is Galois over $K$, then $\zeta_L$ is a product of the Artin $L$-functions $L(\rho)$, where $\rho$ runs over the irreps. of $Gal(L/K)$, and where $L(\rho)$ appears with multiplicity equal to $\dim \rho$.)</p>
+
+<p>In the case when $L$ is a quadratic extension of $K = \mathbb Q$, the Galois group has order two, there is
+one non-trivial $\rho$ --- a character of order $2$ --- which by class field theory is identifed with a quadratic Dirichlet character $\chi$, and $L(\rho) = L(\chi)$.   Thus $\zeta_L = \zeta_{\mathbb Q} L(\chi)$, and so the residue
+formula for $\zeta_L$ at $s = 1$ becomes a formula for the value of $L(\chi)$
+at $s = 1$.  This is Dirichlet's original class number formula, which you can find in many places if you don't already know it.</p>
+
+<p>As for applications: the standard application for analytic continuation (and zero-freeness) up to and including the line $\Re s = 1$ is equidistribution results.  E.g. for $\zeta$-functions this gives the prime number theorem (and its analogue in an arbitrary number field), for Artin $L$-functions (where we have such analytic continuation thanks to Brauer) it gives Cebotarev (although Cebotarev proved his result earlier in a different, trickier, way!), for Hecke $L$-functions it gives equidistribution results for values of Hecke characters
+analogous to the equidistribution results for values of Dirichlet characters that follow from Dirichlet's theorem on primes in arithmetic progression (or, better, from this proof of this result).</p>
+
+<p>Continuing past the line $\Re s = 1$, and getting zero-free regions, gives better error terms in the equidistribution results.  It is harder to find direct applications of the full analytic continuation and functional equation results.  From the modern point of view, these are usually interpreted (via converse theorems) as expressing the fact that the $L$-functions in question are <em>automorphic $L$-functions</em>. (Serre's article mentioned above addresses particular cases of this.)</p>
 
 

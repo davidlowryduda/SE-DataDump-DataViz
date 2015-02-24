@@ -1,28 +1,33 @@
-## Title:
-Fact About Equality Proven by Euler in 1748 (Context: Integer Partitions)
-
-## Tags:
-<number-theory><reference-request><discrete-mathematics>
-
 ## Score:
-0
+1
+
+## Id:
+139365
+
+## ParentId:
+139298
 
 ## Body:
-<p>I'm currently reading <em>Integer Partitions</em> by Andrews and Eriksson. In the introductory chapter (p.2), there is the following statement:</p>
+<p>Just for reference, here is Cox's Proposition 5.11 and proof from the book. </p>
 
-<blockquote>
-  <p>... The table would have a more efficient design:<br>
-  \begin{array}{r|r}
- 1 + 1&amp; 2\\  
- 1 + 1 +1 &amp; 3\\
- 3 &amp; 2+1\\  
- 1+1+1+1&amp;4  \\ 
- 3+1 &amp; 3+1
- \end{array}</p>
-  
-  <p>The fact that there will always be as many items in the left column as in the right one was first proved by Leonhard Euler in 1748.</p>
-</blockquote>
+<hr>
 
-<p>Which proof by Euler are they talking about?</p>
+<p><strong>Proposition 5.11.</strong> Let $K\subset L$ be a Galois extension, where $L=K(\alpha)$ for
+some $\alpha\in\mathcal{O}_L$. Let $f(x)$ be the monic minimal polynomial of 
+$\alpha$ over $K$, so that $f(x)\in \mathcal{O}_K[x]$. If $\frak{p}$ is prime in $\mathcal{O}_K$ 
+and $f(x)$ is separable modulo $\frak{p}$, then </p>
+
+<ol>
+<li>$\frak{p}$ is unramified in $L$.</li>
+<li>If $f(x)\equiv f_1(x)\cdots f_g(x)\mod \frak{p}$, where the $f_i(x)$ are distinct and irreducible 
+modulo $\frak{p}$, then ${\frak{P}}_i={\frak{p}}\mathcal{O}_L+f_i(\alpha)\mathcal{O}_L$
+is a prime ideal of $\mathcal{O}_L$, ${\frak{P}}_i\neq{\frak{P}}_j$ for $i\neq j$, and 
+$${\frak{p}}\mathcal{O}_L= {\frak{P}}_1\cdots {\frak{P}}_g.$$ Furthermore, all of the $f_i(x)$ have the same degree, which is the inertial degree $f$. </li>
+<li>$\frak{p}$ splits completely in $L$ if and only if $f(x)\equiv 0\mod \frak{p}$ has a solution in $\mathcal{O}_K$. </li>
+</ol>
+
+<p><em>Proof.</em> Note that 1. and 3. are immediate consequences of 2. (see Exercise 5.5). To prove 2., note that $f(x)$ separable modulo $\frak{p}$ implies that 
+$$f(x)\equiv f_1(x)\cdots f_g(x)\mod\frak{p},$$ where the $f_i(x)$ are distinct and irreducible modulo $\frak{p}$. The fact that the above congruence  governs the 
+splitting of $\frak{p}$ in $\mathcal{O}_L$ is a general fact that  holds for arbitrary finite extensions (see Marcus [77, Theorem 27]). However, the decomposition group from Proposition 5.10 makes the proof in the Galois case especially easy. See Exercise 5.6.$\qquad$ Q.E.D.</p>
 
 

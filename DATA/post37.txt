@@ -1,44 +1,47 @@
 ## Title:
-Given $N$, count $\{(m,n) \mid 0\leq m<N, 0\leq n<N, m\text{ and } n \text{ relatively prime}\}$
+Is that series-transformation known in the context of divergent summation
 
 ## Tags:
-<homework><number-theory><computer-science><discrete-mathematics><self-learning>
+<number-theory><matrices><reference-request><sequences-and-series>
 
 ## Score:
-8
+1
+
+## Id:
+20759
 
 ## Body:
-<p>I'm confused at exercise 4.49 on page 149 from the book "Concrete Mathematics: A Foundation for Computer Science":</p>
+<p><strong>Background:</strong>
+In the context of divergent summation I'm analyzing the matrix of eulerian numbers for a regular matrix-summation method. Beginning indexes at zero (r for "row", c for "column") the entries of M are </p>
 
-<blockquote>
-  <p>Let $R(N)$ be the number of pairs of integers $(m,n)$ such that $0\leq m &lt; N$, $0\leq n&lt;N$, and $m\perp n$.<br>
-  (a) Express $R(N)$ in terms of the $\Phi$ function.<br>
-  (b) Prove that $$R(N) = \displaystyle\sum_{d\geq 1}\left\lfloor\frac{N}{d}\right\rfloor^2 \mu(d)$$</p>
-</blockquote>
+<p>$$m_{r,c}=\frac{eul(r,c)}{r!}  $$ and $ eul(r,c)=\displaystyle\sum_{k=0}^{c}(-1)^k \binom{r+1}{k} (c+1-k)^r $. <em>(see for instance <a href="http://en.wikipedia.org/wiki/Eulerian_numbers" rel="nofollow">wikipedia</a>)</em>  </p>
 
-<ul>
-<li>$m\perp n$ means $m$ and $n$ are relatively prime</li>
-<li>$\mu$ is the <a href="http://en.wikipedia.org/wiki/Mu_function" rel="nofollow">Möbius function</a></li>
-<li>$\Phi(x)=\sum_{1\leq k\leq x}\phi(k)$</li>
-<li>$\phi$ is the <a href="http://en.wikipedia.org/wiki/Totient_function" rel="nofollow">totient function</a></li>
-</ul>
+<p>The top-left segment of this (infinite, triangular) matrix is<br>
+$$ \small{ 
+\begin{array} {rrrrr}
+ 1 &amp; . &amp; . &amp; . &amp; . &amp; . \\
+ 1 &amp; 0 &amp; . &amp; . &amp; . &amp; . \\
+ 1/2! &amp; 1/2! &amp; 0 &amp; . &amp; . &amp; . \\
+ 1/3! &amp; 4/3! &amp; 1/3! &amp; 0 &amp; . &amp; . \\
+ 1/4! &amp; 11/4! &amp; 11/4! &amp; 1/4! &amp; 0 &amp; . \\
+ 1/5! &amp; 26/5! &amp; 66/5! &amp; 26/5! &amp; 1/5! &amp; 0
+ \end{array} } $$</p>
 
-<p>For question (a), my solution is $R(N) = 2 \cdot \Phi(N-1) + [N&gt;1]$ (where $[\;\;]$ is the <a href="http://en.wikipedia.org/wiki/Iverson_bracket" rel="nofollow">Iverson bracket</a>, i.e. [True]=1, [False]=0)</p>
+<p>The idea is, to sum a sequence $ \{a_k\}_{k=0..\infty} $ using the double sum<br>
+  $$ s = \sum_{r=0}^{\infty} a_r = \sum_{r=0}^{\infty} ( a_r \sum_{c=0}^r m_{r,c} ) 
+= \sum_{c=0}^{\infty} ( \sum_{r=0}^{\infty} a_r m_{r,c} )= \sum_{c=0}^{\infty} b_c $$</p>
 
-<p>Clearly $R(1)$ has to be zero, because the only possibility of $(m,n)$ for testing is $(0,0)$, which doesn't qualify. This agrees with my answer.</p>
+<p>I was studying that summation with various sequences $ {a_k}$ but I wanted to optimize the computation. For instance, if $ \{a_k\}_{k=0..\infty} = q^k $ and thus define a geometric series with quotient <em>q</em> the $ b_c $ are finite compositions of exponentialseries of $q $ and of powers of $q$:
+$$b_c = e^{q(1+c)}+\sum_{k=1}^c (-1)^k \frac{z^k+kz^{k-1}}{k!}e^z $$
+where for sum-term $ z=(c+1-k)q $ is simply a shortcut.     </p>
 
-<p>But here is the book's answer:</p>
+<p>Writing the formula for the partial sums $$ ps(q,c)= \sum_{k=0}^c b_k $$ this boils down to the following series-transformation:</p>
 
-<blockquote>
-  <p>Either $m&lt;n$ ($\Phi(N−1)$ cases) or $m=n$ (one case) or $m&gt;n$ ($\Phi(N−1)$ again). Hence $R(N) = 2\Phi(N−1) + 1$.</p>
-</blockquote>
+<p>$$ ps(x,c) = e^{x(1+c)} \sum_{k=0}^c \frac{(c+1-k)^k}{k!}(-x e^{-x})^k $$
+and we have in the limit $$ \lim_{c\to \infty} ps(x,c) = \frac{1}{1-x} $$</p>
 
-<p>$m=n$ is only counted when $m=n=1$, but how could that case appear when $N=1$?</p>
+<p>After arriving at the term $-x e^{-x} $ I've a vague impression I should have seen this transformation; but even if: I cannot remember. On the other hand - this summation-procedure is powerful, so this transformation is possibly interesting in more general use.     </p>
 
-<p>I thought the book assumed $R$ is only defined over $N≥2$. But their answer for question (b) relies on $R(N) = 2Φ(N−1) + 1$ and proves the proposition also for the case $N=1$. They actually prove $2Φ(N−1) + 1 = RHS$ for $N≥1$. And if my assumption about the $R(1)$ case is true, then the proposition in (b) cannot be valid for $N=1$, for $LHS=0$ and $RHS=1$. But the fact that it's invalid just for one value seems a little fishy to me.</p>
-
-<p>My question is, where am I confused? What is wrong in my understanding about the case $R(1)$?</p>
-
-<p>Thank you very much.</p>
+<p><strong>Question:</strong> Does someone know this transformation and/or can provide a source where I can read more about it?</p>
 
 

@@ -1,35 +1,22 @@
 ## Title:
-Classes of groups known to be realizable (IGP)
+A good introduction to S unit equations
 
 ## Tags:
-<group-theory><reference-request><algebraic-number-theory><galois-theory><big-list>
+<number-theory><reference-request>
 
 ## Score:
-5
+1
+
+## Id:
+105019
 
 ## Body:
-<p>A finite group $G$ of order $n$ is said to be realizable (over $\mathbb{Q}$) if there exists a Galois extension $L/\mathbb{Q}$ such that $\mathrm{Gal}(L/\mathbb{Q})=G$. I'm curious what classes of groups are known to be realizable?</p>
+<p>I was looking up some stuff when I stumbled across S unit equations. It seems to me that they are quite helpful in number theory, as given in this paper.</p>
 
-<p>Shafarevich proved that solvable groups are realizable. Thus the following results "nontrivially" imply realizability:</p>
+<p><a href="http://faculty.nps.edu/pstanica/research/fiboprimeProcAMS.pdf" rel="nofollow">http://faculty.nps.edu/pstanica/research/fiboprimeProcAMS.pdf</a></p>
 
-<blockquote>
-  <p>If $n$ is odd, $G$ is solvable.</p>
-  
-  <p>If $n$ has prime factorization $n=\prod p_i$, then $G$ is solvable.</p>
-  
-  <p>If $n$ is of the form $p^\alpha q^\beta$ where $p,q$ are prime and $\alpha,\beta \geq 0$, $G$ is solvable.</p>
-</blockquote>
+<p>Here, the authors prove that there are only a finite number of Fibonacci numbers that are the sum of two prime powers. As an example, they exhibit a class where infinitely many Fibonacci numbers belong and are not the sum of two prime powers. While the example is produced using a covering system, the lemma cited is that of S unit equations. I looked up on net, but could not find a good introductory material on them. </p>
 
-<p>It is worthwhile to point out that:</p>
-
-<blockquote>
-  <p>If $G_1,\ldots,G_m$ are solvable then so is $G_1 \times \cdots \times G_m$.</p>
-</blockquote>
-
-<p>What other classes are known to be realizable? I've googled on it but can't find a big list or whatever.</p>
-
-<p>(The smallest group I've found through Groupprops not to be immediately identifiable as realizable is $\mathrm{SL}(2,\mathbb{F}_5)$.)</p>
-
-<p>Edit: If no one objects I'll continuously update this question whenever I find something interesting.</p>
+<p>Any help will be appreciated. Thanks in advance.</p>
 
 

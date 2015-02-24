@@ -1,0 +1,13 @@
+## Score:
+0
+
+## Id:
+434545
+
+## ParentId:
+48075
+
+## Body:
+<p>There is a rather unkown expression obtained by G.Iommi Amunátegui: <em>A non-recursive expression for the number of irreducible representations of the symmetric group $S_n$</em>", Physica 114A (1982), 361-364, which gives $p(n)$.</p>
+
+

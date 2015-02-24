@@ -1,15 +1,23 @@
-## Title:
-List of Primes in UFD
-
-## Tags:
-<abstract-algebra><number-theory><reference-request>
-
 ## Score:
-4
+1
+
+## Id:
+139343
+
+## ParentId:
+139298
 
 ## Body:
-<p>Are there websites/databases containing lists ordered by norm of prime/irreducible elements in domains like $\mathbb{Z}[\sqrt{-2}]$ and $\mathbb{Z}\left[\frac{-1+\sqrt{-3}}{2}\right]$ for easy reference, such as the one here? <a href="http://en.wikipedia.org/wiki/Table_of_Gaussian_integer_factorizations" rel="nofollow">http://en.wikipedia.org/wiki/Table_of_Gaussian_integer_factorizations</a></p>
+<p>Here are <a href="http://www.stud.uni-hannover.de/~mschepke/tex/schepke_algebraic_number_theory.pdf" rel="nofollow">lecture notes</a> of a number theory course in Cambridge written by Markus Schepke.
+Theorem 20 and Proposition 21 are essentially proposition 5.11 in Cox's book. However the author of your paper only uses a small corollary of the proposition, which is easy to prove on its own: </p>
 
-<p>Any help is appreciated. Thanks in advance.</p>
+<p>Let $L=K(\alpha)/K$ with $\alpha\in\mathcal{O}_L$ be an extension of number fields, $p$ a prime of $K$. If the minimal polynomial of $\alpha,~m_\alpha(x)$ is irreducible over $\mathcal{O}_K/p$, then $p$ is inert.</p>
+
+<p><strong>Proof:</strong> Let $q$ be a prime of $L$ above $p$. Then $\mathcal{O}_L/q$ contains the image of $\alpha$, a root of $m_\alpha(x)\mod p$ and hence $[L:K]\geq f_{q/p}=[\mathcal{O}_L/q:\mathcal{O}_K/p]\geq\deg m_\alpha(x)=[L:K]$. So $q$ is the only prime above $p$.</p>
+
+<p><strong>Remark:</strong> For the first inequality above and the conclusion you can use Theorem 19 in the lecture notes I sent you. If $p\mathcal{O}_L=\prod_i q_i^{e_i}$, then 
+$$
+[L:K]=\sum_i e_{q_i/p}f_{q_i/p}.
+$$</p>
 
 

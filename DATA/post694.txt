@@ -1,0 +1,28 @@
+## Title:
+Multiplicative Order Modulo Evaluated Cyclotomic Polynomials
+
+## Tags:
+<group-theory><elementary-number-theory><reference-request>
+
+## Score:
+2
+
+## Id:
+599280
+
+## Body:
+<p>If $\Phi_n(x)$ is the $n$th cyclotomic polynomial, then for which positive integers $n$ and $a&gt;1$ is it true that $\operatorname{ord}_{\Phi_n(a)}(a) = n;$ that is, when is $n$ the smallest positive integer such that $\Phi_n(a)\,|\,a^n - 1$?</p>
+
+<p>My conjecture (based on empirical data for smallish values of $n$ and $a$) is that this equation holds for every $n$ and $a$ except $(n,a) = (6,2)$, in which case $\operatorname{ord}_{\Phi_6(2)}(2) = 2 \ne 6.$</p>
+
+<p>However, proving this for general $n$ and $a$ has given me some trouble.</p>
+
+<p>I can show that the equation holds when $n=p^k$ is a prime power:</p>
+
+<p>For all $1 \le r\le p^{k-1}$,
+$$1 &lt; a^r &lt; 1 + a^{p^{k-1}} + a^{2p^{k-1}} + \ldots + a^{(p-1)p^{k-1}} = \Phi_{p^k}(a).$$
+Since $\Phi_{p^k}(x)$ divides $x^{p^k}-1$, the order of $a$ modulo $\Phi_{p^k}(a)$ must divide $p^k$. The inequality above shows that the order of $a$ must be greater than $p^{k-1};$ hence the order of $a$ is equal to $p^k$. </p>
+
+<p>Beyond that, I haven't had much luck in producing a proof of the conjecture. Does anyone have any suggestions? Any references to related material would also be appreciated.</p>
+
+

@@ -1,0 +1,21 @@
+## Score:
+0
+
+## Id:
+604232
+
+## ParentId:
+329
+
+## Body:
+<p>Another interesting book: <a href="http://rads.stackoverflow.com/amzn/click/0521575400" rel="nofollow"><strong>A Pathway Into Number Theory - Burn</strong></a></p>
+
+<blockquote>
+  <p><strong>[B.B]</strong> The book is composed entirely of exercises leading the reader through
+  all the elementary theorems of number theory. Can be tedious (you get
+  to verify, say, Fermat's little theorem for maybe $5$ different sets of
+  numbers) but a good way to really work through the beginnings of the
+  subject on one's own.</p>
+</blockquote>
+
+

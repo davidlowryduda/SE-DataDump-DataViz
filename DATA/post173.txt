@@ -1,21 +1,51 @@
-## Title:
-How can I prove my conjecture for the coefficients in $t(x)=\log(1+\exp(x)) $?
-
-## Tags:
-<sequences-and-series><number-theory><reference-request><proof-strategy><dirichlet-series>
-
 ## Score:
-15
+6
+
+## Id:
+73658
+
+## ParentId:
+48843
 
 ## Body:
-<p>I'm considering the transfer-function
-$$ t(x) = \log(1 + \exp(x)) $$
-and find the beginning of the power series (simply using Pari/GP) as
-$$ t(x) = \log(2) + 1/2 x + 1/8 x^2 – 1/192 x^4 + 1/2880 x^6 - \ldots $$
-Examining the pattern of the coefficients I find the much likely composition
-$$ t(x) = \sum_{k=0}^\infty {\eta(1-k) \over k! }x^k $$ where $ \eta() $ is the Dirichlet eta-(or "alternating zeta") function.<br>
-I'm using this definition in further computations and besides the convincing simplicitiness of the pattern the results are always meaningful. However, I've no idea how I could prove this description of the coefficients.     </p>
+<p>The definition of factorial gives
+$$
+\log(n!)-\log((n-1)!)=\log(n)\tag{1}
+$$
+Since the derivative of $\log(x)$ is $1/x$, $(1)$ and the Mean Value Theorem yield
+$$
+\begin{align}
+\log(\log(n!))-\log(\log((n-1)!))
+&amp;\in\left(\frac{\log(n)}{\log(n!)},\frac{\log(n)}{\log(n!)-\log(n)}\right)\\
+&amp;=\frac{\log(n)}{n\log(n)-n+O(\log(n))}\tag{2}
+\end{align}
+$$
+The density of $\log(\log(n!))$ is the reciprocal of $(2)$: $n-\frac{n}{\log(n)}+O(1)$ and
+$$
+\log(\log(n!))=\log(n)+\log(\log(n))-\frac{1}{\log(n)}+O\left(\frac{1}{\log(n)^2}\right)\tag{3}
+$$
+As $n\to\infty$, $\log(\log(n!))\sim\log(n)$ and the density $\sim n$. Since the limiting density is determined when $n$ is large, we get that the density of $\{\log(\log(n!))\}$ is $\frac{e^x}{e-1}$ on $[0,1]$.</p>
 
-<p>Q: Does someone has a source or an idea, how to do such a proof on oneself?</p>
+<p><strong>More explanation about $\frac{e^x}{e-1}$:</strong></p>
+
+<p>Since $\log(\log(n!))=\log(n)+\log(\log(n))-\frac{1}{\log(n)}+O\left(\frac{1}{\log(n)^2}\right)$, $\{\log(\log(n!))\}$ cycles through $[0,1]$ just a bit quicker than $\log(n)$ does; approximately when $n$ goes to $ne\left(1-\frac{1}{\log(n)}\right)$. In each of those cycles, the logarithm of the density, $\log\left(n-\frac{n}{\log(n)}\right)+O\left(\frac{1}{n}\right)$, increases approximately linearly by $1$. Thus, the density of $\{\log(\log(n!))\}$ is proportional to $e^x$, and $\frac{e^x}{e-1}$ is normalized to have total weight $1$.</p>
+
+<p><strong>Density Details:</strong></p>
+
+<p>Let $I_n=\{k\in\mathbb{Z}:n-1&lt;\log(\log(k!))\le n\}$. The density approximated here is the function $\phi:[0,1]\mapsto\mathbb{R}$ so that 
+$$
+\int_a^b\phi(x)\;\mathrm{d}x=\lim_{n\to\infty}|\{k\in\mathbb{Z}:n-1+a&lt;\log(\log(k!))\le n-1+b\}|/|I_n|
+$$
+Within a given $I_n$ this density is roughly proportional to the reciprocal of the distance between $\log(\log((k-1)!))$ and $\log(\log(k!))$, which is $k-\frac{k}{\log(k)}+O(1)$. For $k\in I_n$, let $x=\log(\log(k!))-n+1=\log(k)+\log(\log(k))-n+1+O\left(\frac{1}{\log(k)}\right)$. Then
+$$
+k=\frac{e^{x+n-1+O(1/(x+n))}}{(x+n-1)^{1-1/(x+n)}}=\frac{e^{n-1+O(1/(x+n))}}{(x+n-1)^{1-1/(x+n)}}e^x
+$$
+Thus, in terms of $x$, the density is
+$$
+k-\frac{k}{\log(k)}+O(1)=\frac{e^{n-1+O(1/(x+n))}}{(x+n-1)^{1-1/(x+n)}}e^x
+$$
+As $n\to\infty$, the coefficient of $e^x$ tends toward constancy. Normalizing this so that the integral over $[0,1]$ is $1$, we get $\phi(x)=\frac{e^x}{e-1}$. </p>
+
+<p>We get the same density if we consider $\displaystyle\lim_{N\to\infty} \bigcup_{n\le N} I_n$. However, if we use a partial $I_N$, the fact that $|I_N|$ is approximately $(e-1)\left|\bigcup_{n&lt;N} I_n\right|$ causes  bad behavior.</p>
 
 

@@ -1,0 +1,24 @@
+## Title:
+Linear independence of the numbers $\{1,e,e^2,e^3\}$
+
+## Tags:
+<number-theory><reference-request><irrational-numbers><transcendental-numbers>
+
+## Score:
+23
+
+## Id:
+476899
+
+## Body:
+<p>Does someone know a proof that $\{1,e,e^2,e^3\}$  is linearly independent over $\mathbb{Q}$?</p>
+
+<p>The proof should not use that $e$ is transcendental.</p>
+
+<p>$e:$ Euler's number</p>
+
+<p><a href="http://paramanands.blogspot.com/2013/03/proof-that-e-is-not-a-quadratic-irrationality.html#.Uhv87tJFUnl">$\{1,e,e^2\}$  is linearly independent over $\mathbb{Q}$</a></p>
+
+<p>Any hints would be appreciated.</p>
+
+

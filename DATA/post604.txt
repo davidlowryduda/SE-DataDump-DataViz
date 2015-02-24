@@ -1,0 +1,27 @@
+## Score:
+4
+
+## Id:
+469046
+
+## ParentId:
+468966
+
+## Body:
+<p>It's easier to understand prime ideals in the algebraic integers by looking at their intersection with normal number fields :</p>
+
+<p>Let $O$ be the ring of algebraic integers.
+If $\mathfrak p$ is a prime ideal in $R$ and $\Bbb Q \subset K \subset \overline{\Bbb Q}$ is a Galois finite extension, then $\mathfrak p_K = \mathfrak p \cap K$ is a prime ideal of $O_K = O \cap K$. Since $\overline{\Bbb Q} = \bigcup K$, we have $\mathfrak p = \bigcup \mathfrak p_K$, and so the data of the $\mathfrak p_K$ is enough to recover $\mathfrak p$.</p>
+
+<p>Conversely, if we are given a family $(\mathfrak p_K)$ for every $K$, such that whenever $K \subset L$, $\mathfrak p_K = \mathfrak p_L \cap K$, then $\mathfrak p = \bigcup \mathfrak p_K$ is a prime ideal of $O$.</p>
+
+<p>The action of the Galois group is also completely determined by the actions of $Gal(K/\Bbb Q)$ on the $\mathfrak p_K$ : if we have a family $\sigma_K$ such that $\sigma_L|_K = \sigma_K$ when $K \subset L$, then the glueing of the $\sigma_K$ give an automorphism $\sigma$ of $\overline{\Bbb Q}$. Then $(\sigma(\mathfrak p))_K = \sigma_K(\mathfrak p_K)$. </p>
+
+<p>If it's easier, you can pick a sequence of finite Galois extensions $K \subset K_1 \subset K_2 \subset \ldots$ such that $\bigcup K_n = \overline{\Bbb Q}$, and only use those fields.
+Then, to construct an ideal of $O$, you can start from an ideal of $\Bbb Z$ and find a sequence of primes of $O_{K_i}$ lying above one another. Similarly, to construct an automorphism, start from $id_\Bbb Q$ and find a sequence of automorphisms of $K_i$ extending one another.</p>
+
+<p>From there it's easy to see that if $\mathfrak p_K$ is a prime of $O_K$then there are (uncountably many) primes $\mathfrak p$ above $\mathfrak p_K$, and that the action of $Gal(\overline{\Bbb Q}/K)$ on them is transitive.</p>
+
+<p>As an explicit example, pick a prime integer $p$ and look at the extensions $ \Bbb Q(\sqrt q)$ where $q$ is prime and $q \equiv 1 \pmod p$. For every $q$, $q$ is a square mod $p$, so $(p)$ splits in two ideals in $\Bbb Q(\sqrt q)$. And for any finite family $(q_1,\ldots,q_n)$, there are $2^n$ prime ideals above $p$ in the composition $\Bbb Q(\sqrt {q_1} \ldots \sqrt{q_n})$. Looking at the infinite extension $\Bbb Q(\sqrt{q_i})$, we get uncountably many ideals above $(p)$.</p>
+
+

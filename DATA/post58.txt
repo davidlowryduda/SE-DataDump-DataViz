@@ -1,15 +1,33 @@
-## Title:
-Analytic number theory primer -- sequences and series
-
-## Tags:
-<analysis><reference-request><asymptotics><analytic-number-theory>
-
 ## Score:
-8
+6
+
+## Id:
+29746
+
+## ParentId:
+29056
 
 ## Body:
-<p>For a book like Titchmarsh, or Iwaniec and Kowalski, it seems a thorough knowledge of asymptotics is a prerequisite. </p>
+<p>Of course, the second book in their sequence:  <a href="http://www-personal.umich.edu/~hlm/math775/handouts.html">Montgomery and Vaughn Chapters 16-27 draft version</a>  (online only)</p>
 
-<p>What are  good books for training oneself in such manipulation of asymptotics, bounding of integrals and all that paraphernalia which analytic number theorists seem to be very good at; but is not explicitly developed in these books? In other words, what is a good book for hard analysis? </p>
+<p>Here are some other well known titles (in no particular order):</p>
+
+<blockquote>
+  <p>H. Iwaniec and E. Kowalski, Analytic Number Theory</p>
+  
+  <p>H. Davenport, Multiplicative Number Theory</p>
+  
+  <p>A. E. Ingham, The Distribution of Prime Numbers</p>
+  
+  <p>T. M. Apostol, Introduction to Analytic Number Theory</p>
+  
+  <p>P. T. Bateman and H. G. Diamond, Analytic Number Theory: An introductory course</p>
+  
+  <p>E. C. Titchmarsh (revised by D. R. Heath-Brown), The Theory of the Riemann Zeta-Function</p>
+</blockquote>
+
+<p>Hope that helps,</p>
+
+<p><strong>Remark:</strong>  These books were all suggested readings from one of my courses.  The books by Davenport, Bateman, Apostol and Ingham were suggested reading for the basics of analytic number theory, while Titchmarsh and Iwaniec and the online chapters of M&amp;V were more related to the course material.</p>
 
 

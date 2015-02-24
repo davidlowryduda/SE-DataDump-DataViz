@@ -1,0 +1,18 @@
+## Title:
+Subtractive Goldbach
+
+## Tags:
+<number-theory><reference-request>
+
+## Score:
+3
+
+## Id:
+318228
+
+## Body:
+<p>In <a href="http://math.stackexchange.com/questions/318193/3-primes-conjecture">this excellent question</a> it occurred to me that there is a subtractive Goldbach problem: Every even integer may be written as $p-q$ for primes $p,q$.</p>
+
+<p>Does anyone have a reference for this problem?</p>
+
+

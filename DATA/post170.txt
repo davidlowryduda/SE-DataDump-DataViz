@@ -1,22 +1,15 @@
-## Title:
-Applications of prime-number theorem in algebraic number theory?
-
-## Tags:
-<reference-request><soft-question><algebraic-number-theory><analytic-number-theory>
-
 ## Score:
 1
 
+## Id:
+73590
+
+## ParentId:
+73565
+
 ## Body:
-<p>Dirichlet arithmetic progression theorem, or more generally, Chabotarev density theorem, has applications to algebraic number theory, especially in class-field theory.<br>
-Since we might think of the density theorem as an analytic theorem, and as prime number theorem is one main theorem of analytic number theory, one is led to wonder:  </p>
+<p>(A somewhat tongue-in-cheek answer.)</p>
 
-<blockquote>
-  <blockquote>
-    <p>if there is any application of prime number theorem to algebraic number theory.  </p>
-  </blockquote>
-</blockquote>
-
-<p>Thanks for any attention in advance.   </p>
+<p>Since you never bothered to specify your personal background, I'll take the liberty that you are familiar with category theory. In which case, one can construct the $p$-adic numbers by taking an appropriate inverse limit. <a href="http://math.stackexchange.com/questions/38517/in-relatively-simple-words-what-is-an-inverse-limit/38522#38522">This MathSE post by Arturo</a> would, for (the hypothetical) you (who is familiar with category theory) then, give a good introduction to what $p$-adic numbers are. See also the book reference Arturo gave there. </p>
 
 

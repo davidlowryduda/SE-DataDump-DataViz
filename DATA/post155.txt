@@ -1,13 +1,33 @@
-## Title:
-Need a recommendation for a book that covers congruence classes.
-
-## Tags:
-<elementary-number-theory><reference-request>
-
 ## Score:
-1
+2
+
+## Id:
+69513
+
+## ParentId:
+69505
 
 ## Body:
-<p>I want to learn about congruence classes and need a book recommendation. With a lot of examples.</p>
+<p>If $s=0$, the property fails hence one can assume without loss of generality that $s\ne0$ and that the integer $n\geqslant2$ is the product of some $p_j^{k_j}$. Define $Z=2i\pi\mathbb Z$ as the set of integer multiples of $2i\pi$.</p>
+
+<p>First assume that $p_j^s\ne1$ for every $j$. Then, the sum you are interested in is
+$$
+S_n(s)=\prod_j\left(\sum_{t=0}^{k_j}p_j^{-st}\right)=\prod_j\frac{1-p_j^{-s(k_j+1)}}{1-p_j^{-s}}.
+$$
+The zeros $s$ of $S_n$ solve one of the equations
+$$
+p_j^{s(k_j+1)}=1.
+$$
+This happens if and only if $s(k_j+1)\log p_j$ is in $Z$.</p>
+
+<p>On the other hand, $p_j^s=1$ for some $j$ means that $s\log p_j$ is in $Z$. For every such $j$, one should replace the contribution of $p_j$ in $S_n(s)$ by $k_j+1\ne0$. </p>
+
+<p>One is left with the condition that there exists at least one $j$ such that $s\log p_j$ is not in $Z$ and $s(k_j+1)\log p_j$ is in $Z$. That is, there exists $j$ and an integer $\ell$ which is not zero modulo $k_j+1$, such that
+$$
+s=\frac{2i\pi\ell}{(k_j+1)\log p_j}.
+$$
+Note that since the $\log p_j$ are linearly independent over the rationals, this can happen for at most one prime number $p_j$ dividing $n$.</p>
+
+<p>In particular the real part of $s$ must be zero.</p>
 
 

@@ -1,0 +1,30 @@
+## Score:
+5
+
+## Id:
+345826
+
+## ParentId:
+336550
+
+## Body:
+<p>Of the two solutions you mention, only the second appears in Letac’s note.</p>
+
+<p>He used (among other things) the following two lemmas :</p>
+
+<p><b> Fact 1. </b> If $a_1^k+a_2^k+a_3^k=b_1^k+b_2^k+b_3^k$ for
+$k=2$ and $k=4$, then 
+$$
+a_1^p+(\pm a_2)^p+(\pm a_3)^p+(2b_1)^p+(2b_2)^p+(2b_3)^p=
+b_1^p+(\pm b_2)^p+(\pm b_3)^p+(2a_1)^p+(2a_2)^p+(2a_3)^p \ (p=2,4,6,8)
+$$</p>
+
+<p><b> Fact 2. </b> Under the hypotheses of fact 1, for $h=\frac{a_1+a_2-a_3}{4}$
+we have</p>
+
+<p>$$
+(2a_1-3h)^k+(2a_2-h)^k+(2a_2-3h)^k+(2a_2-h)^k+(2b_3+h)^k=
+(2a_3+h)^k+(2a_3+h)^k+(2b_1-h)^k+(2b_1-h)^k+(2b_2-h)^k+(3h)^k \ (k=1,3,5)
+$$</p>
+
+
