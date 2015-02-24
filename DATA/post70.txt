@@ -1,0 +1,30 @@
+## Title:
+Tamagawa numbers and Genus class numbers
+
+## Tags:
+<number-theory><reference-request><algebraic-geometry><algebraic-number-theory><elliptic-curves>
+
+## Score:
+2
+
+## Body:
+<p>I was reading the paper of Prof.Franz Lemmermeyer titled "Pell-conics" which is <a href="http://www.fen.bilkent.edu.tr/~franz/publ/conics.pdf" rel="nofollow">here</a>, in that the author writes in page 9 that one can define Tamagawa numbers as $$ c_p = \begin{cases} 2 &amp; \text{ if } p \mid \Delta, \\ 1 &amp; \text{otherwise}. \end{cases}. $$</p>
+
+<p>Then he writes that Gauss-genus theory implies that $$\prod c_p=2(\rm{Cl^+(k):Cl^+(k)^2})$$ where $Cl^+(k)$ is the narrow class group of $k$, but I have referred to articles in the reference but can't find any such statement upto my sight.
+I know that one can write $\rm{Cl_{\large gen}}\cong \rm{Cl(k)/Cl(k)^2}$ where $\rm{Cl_{\large gen}}$ is the genus class group, I read the entire book of Reciprocity laws written by Prof.Franz Lemmermeyer but can't find any such notion.</p>
+
+<p>After intensive search I found <a href="http://mathoverflow.net/questions/5611/the-class-number-formula-the-bsd-conjecture-and-the-kronecker-limit-formula" rel="nofollow">this</a> one, even though Prof.Franz remarks that " latter is twice the genus class number ",  he didn't point to any proof or reference pointing to that statement. </p>
+
+<p>So I want any reference or proof of this statement </p>
+
+<blockquote>
+  <p>How can one say that product of Tamagawa numbers is equal to twice the Genus class numbers ? Is there any reference ?</p>
+</blockquote>
+
+<p>Please answer this question as I dont have a proper access to materials neither know the current works.</p>
+
+<p>Thanking you all.</p>
+
+<p>Iyengar.</p>
+
+

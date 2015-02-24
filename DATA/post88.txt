@@ -1,0 +1,21 @@
+## Title:
+On the Limit of Stirling's Approximation
+
+## Tags:
+<number-theory><reference-request><asymptotics><factorial>
+
+## Score:
+13
+
+## Body:
+<p>I have recently proven the following curious identity: For real $x \geqslant 1$,
+\begin{align}
+\lfloor x \rfloor! = x^{\lfloor x \rfloor} e^{1-x} e^{\int_{1}^{x} \text{frac}(t)/t \ dt}
+\end{align}
+where $\text{frac}(x)$ denotes the fractional part (function) of $x$. A proof follows from an application of <a href="http://en.wikipedia.org/wiki/Factorial#Number_theory" rel="nofollow">Legendre's Theorem</a> on the order of a prime divisor of the factorial function and an identity involving the <a href="http://en.wikipedia.org/wiki/Smooth_number" rel="nofollow">de Bruijn function</a>.</p>
+
+<p>An asymptotic expansion of the integral as $x \to \infty$ yields <a href="http://en.wikipedia.org/wiki/Stirling%27s_approximation" rel="nofollow">Stirling's Approximation</a>, hence the title of the post. Is this exact result known in the literature?</p>
+
+<p>Thanks!</p>
+
+

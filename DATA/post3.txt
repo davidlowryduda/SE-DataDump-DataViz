@@ -1,0 +1,19 @@
+## Title:
+Why are some mathematical constants irrational by their continued fraction while others aren't?
+
+## Tags:
+<number-theory><reference-request><approximation><irrational-numbers><continued-fractions>
+
+## Score:
+6
+
+## Body:
+<p><a href="http://mathworld.wolfram.com/CatalansConstant.html" rel="nofollow">Catalan's Constant</a> and quite a few other mathematical constants are known to have an infinite continued fraction (see the bottom of that webpage). On  wikipedia (I'm sorry, I can't post anymore hyperlinks because of my low rep.), a condition for irrationality of that continued fraction is given (see 'generalized continued fractions'). It is said that a given continued fraction converges to an irrational limit if $ b_n > a_n $ in the continued fraction $b_0 + a_0/(b_1 + a_1/(b_2 + a_2/(...b_n+a_n)))$ for some sufficiently large $n$. In the webpage I provided you with, however, the degree of the polynomial $a_n$ of the continued fractions is bigger than the one of $b_n$. Therefore, all values of $b_n$ will never exceed all values of $a_n$, even after some large $n$. </p>
+
+<p>My question is: Why does the degree of $a_n$ need to be smaller than the degree of $b_n$ in order for a continued fraction representation of a constant to be irrational? I think I read somewhere it had to do with something like 'Tietschzes criterion' (but I'm not sure). (bonus question: Does anyone know where a proof of this 'criterion for irrationality' can be found?) </p>
+
+<p>Thanks,</p>
+
+<p>Max Muller</p>
+
+

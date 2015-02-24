@@ -1,0 +1,13 @@
+## Title:
+Need a recommendation for a book that covers congruence classes.
+
+## Tags:
+<elementary-number-theory><reference-request>
+
+## Score:
+1
+
+## Body:
+<p>I want to learn about congruence classes and need a book recommendation. With a lot of examples.</p>
+
+

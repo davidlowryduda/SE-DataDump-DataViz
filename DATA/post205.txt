@@ -1,0 +1,31 @@
+## Title:
+Is there a mathematics field that studies the displaying of numbers?
+
+## Tags:
+<number-theory><reference-request>
+
+## Score:
+5
+
+## Body:
+<p>I've read somewhere (not sure where) - that there is a dicotomy between the numbers and the symbols used for representing them, for example: We have the idea of twoness which can be represented in decimal base as $2$ and also in binary as $10$, in this case we're talking about the same number represented in two different bases. It could also be represented in roman symbols $II$ for example.</p>
+
+<p>For the decimal base, there is a <em>logic of succession</em>, which is:</p>
+
+<p>$$0,1,2,3,4,5,6,7,8,9$$</p>
+
+<p>And then when we reach nine, we <em>rotate</em> the number in the left (which was $0$ previously):</p>
+
+<p>$$\color{red}{\square} 8, \color{red}{\square} 9, \color{red}{1}0,...$$</p>
+
+<p>The algorithm for roman symbols is fairly different:</p>
+
+<p>$$I,II,III,IV,V,VI,VII,VIII,IX,X,...$$</p>
+
+<p>It's possible to express $I$, $II$, $III$ and $V$, the four is formed with a rule of subtracting $1$ from the number in the right $\color{blue}{I}\color{red}{V}=\color{red}{5}-\color{blue}{1}=4$, It's the same for nine: $\color{blue}{I}\color{red}{X}=\color{red}{10}-\color{blue}{1}=9$.</p>
+
+<p>Is there a field of study for these representations? Has anyone proposed axioms for their inner working or we've always used them intuitively? I remember of reading how these representations worked, but I never read about axiomatic basis for them nor sytems with completely different axioms.</p>
+
+<p><strong>Note</strong>: I have no idea on how to tag this question, if you know better tags, feel free to  edit.</p>
+
+

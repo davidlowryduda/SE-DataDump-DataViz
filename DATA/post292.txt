@@ -1,0 +1,15 @@
+## Title:
+What is the best book learn Galois Theory if I am planning to do number theory in future?
+
+## Tags:
+<number-theory><reference-request><algebraic-number-theory>
+
+## Score:
+2
+
+## Body:
+<p>What is the best book learn Galois Theory if I am planning to do number theory in future?</p>
+
+<p>In a year i'll be joining for my Phd and my area of interest is number theory. So I want to know if there is any book which emphasizes on number theoretic applications of Galois theory. </p>
+
+

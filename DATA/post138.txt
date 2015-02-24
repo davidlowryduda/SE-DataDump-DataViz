@@ -1,0 +1,24 @@
+## Title:
+Parameters giving maximal-length Collatz-like sequence
+
+## Tags:
+<reference-request><elementary-number-theory><prime-numbers>
+
+## Score:
+7
+
+## Body:
+<p>In a <a href="http://math.stackexchange.com/questions/183259/collatz-ish-olympiad-problem">recent question</a> the following recursive sequence was considered:
+$$
+    a_{n+1} = \cases{\frac{a_n}{2} &amp; $a_n$ is even \\ a_n +d &amp; $a_n$ is odd}, \quad a_1 = d + 1
+$$
+where $d$ is an odd positive integer. Such a sequence will eventually reach $1$, and let $m(d)$ be the value of the index, where the sequence element equals one, $a_m = 1$. Here is a visualization of $m(d)$:
+  <img src="http://i.stack.imgur.com/j4qAP.png" alt="Plot of the length of Collatz-like sequence as a function of parameter d"></p>
+
+<p>It is apparent from the plot that $m(d) \leqslant 3 \left\lfloor \frac{d-1}{2} \right\rfloor$. Selecting those $d$ which saturate the bound:
+<img src="http://i.stack.imgur.com/8rBoG.png" alt="enter image description here">
+OEIS tells us that this is sequence <a href="http://oeis.org/A001122">A001122</a> of "<em>primes with primitive root</em> $2$". </p>
+
+<p>This begs for an explanation. References, intuitive insights, solutions are welcome.</p>
+
+

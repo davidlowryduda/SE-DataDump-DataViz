@@ -1,0 +1,13 @@
+## Title:
+More contemporary resource for Greenberg
+
+## Tags:
+<number-theory><reference-request><online-resources>
+
+## Score:
+1
+
+## Body:
+<p>Is there a more modern textbook than Greenberg's forms in many variables, or a set of notes, that summarizes the developments about $C_i$ fields? Is there such a thing as $C_i$ field where $i$ is not an integer?</p>
+
+

@@ -1,0 +1,19 @@
+## Title:
+Where can the original paper by Takagi in English be found?
+
+## Tags:
+<reference-request><algebraic-number-theory>
+
+## Score:
+3
+
+## Body:
+<p>As we all know, the theory of class fields began at the paper by Takagi on the abelian extensions of the field of rational numbers. Then one naturally has the following  </p>
+
+<blockquote>
+  <p>Where can one find the English version of that paper, or had this paper been translated into English yet?  </p>
+</blockquote>
+
+<p>Thanks.</p>
+
+

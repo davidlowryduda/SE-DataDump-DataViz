@@ -1,0 +1,26 @@
+## Title:
+Do there exist any visual representations of prime factorizations?
+
+## Tags:
+<number-theory><reference-request>
+
+## Score:
+7
+
+## Body:
+<p>Introduction:
+The question that I really want to ask is, “Are there any well-known visual representations for the integers $\ge 2$, with perhaps one of them even being regarded as canonical?” However, since concrete questions are almost always more interesting/memorable/concise than abstract questions, I gave the title question that I did.</p>
+
+<p>In order to show where I’m coming from, let me present this as a combination of a draft followed by a critique.</p>
+
+<p>Draft
+Observe that the set of polynomials with non-negative integer coefficients maps bijectively with the set of integers $\ge 2$ in a natural way, namely, that given such a polynomial, whose coefficients are a(n), … a(1), a(0), the corresponding integer is the one such that the exponent of the k-th prime in its canonical prime factorization (ie, the primes occurring in ascending sequence) is a(k-1). For example, if the coefficients are 2, 0, 1, 3, then the corresponding integer is 49 x 3 x 8 = 2976. (This bijective mapping seems to me so obvious and natural, that I can’t believe that no one has ever explored it before, and yet I don’t recall seeing any such discussion of it in the literature, but anyway, that is why I included the tag “reference-request” on this question.) Now, the roots of these polynomials may or may not be of interest, but what we want to focus on (no pun intended), is presenting the sequence consisting of the graphs of these polynomials rapidly, like the frames of in a movie film, that is, like a movie. Does this movie show any striking visual pattern? Or perhaps the n-th frame should consist not simply of the graph of the polynomials for (n + 1), but of the sum of the first n such polynomials. Anyway, does the movie show any striking visual pattern?</p>
+
+<p>Critique
+In the draft, we ignored the issue of what the (algebraic) sign of a given coefficient should be, simply assuming that they should all be non-negative. However, bearing in mind the example of the determinant (of a square matrix), in which negative signs are alternately assigned, perhaps we should specify that, say, the coefficients of the terms of odd index be negative. Many such schemes of specifying negative coefficients are possible. Indeed, there are infinitely many possible schemes, because the scheme might not be independent of the degree of the polynomial. So, the question is, which scheme is best, in terms of generating a visual pattern when the movie is played? If we don’t know, we could pick some promising/plausible ones and then just run them and see which gives the best results.</p>
+
+<p>Moreover, one may object that the visual representations need not depend on the prime factorizations, but on something else (hence the more general question that I gave in the introduction).</p>
+
+<p>OK, Lights! Camera! Action!</p>
+
+

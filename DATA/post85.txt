@@ -1,0 +1,19 @@
+## Title:
+A good introduction to S unit equations
+
+## Tags:
+<number-theory><reference-request>
+
+## Score:
+1
+
+## Body:
+<p>I was looking up some stuff when I stumbled across S unit equations. It seems to me that they are quite helpful in number theory, as given in this paper.</p>
+
+<p><a href="http://faculty.nps.edu/pstanica/research/fiboprimeProcAMS.pdf" rel="nofollow">http://faculty.nps.edu/pstanica/research/fiboprimeProcAMS.pdf</a></p>
+
+<p>Here, the authors prove that there are only a finite number of Fibonacci numbers that are the sum of two prime powers. As an example, they exhibit a class where infinitely many Fibonacci numbers belong and are not the sum of two prime powers. While the example is produced using a covering system, the lemma cited is that of S unit equations. I looked up on net, but could not find a good introductory material on them. </p>
+
+<p>Any help will be appreciated. Thanks in advance.</p>
+
+

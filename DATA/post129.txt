@@ -1,0 +1,32 @@
+## Title:
+A special factorization
+
+## Tags:
+<number-theory><reference-request><polynomials><factoring>
+
+## Score:
+1
+
+## Body:
+<p>Suppose that monic polynomial $f(x)\in\Bbb Z[x]$ such that for all $m\in\Bbb Z$, $m&gt;1$, there's no integers $\langle r,r_1,\ldots,r_m\rangle$ such that $f(r)=f(r_1)\cdots f(r_m)$. Is there any interesting property of $f$, or criterion for $f$, or any background?</p>
+
+<p>There's something trivial:</p>
+
+<ol>
+<li>if $\deg f=2$, there's no such polynomial. Let $f(x)=(x+\alpha)(x+\beta)=x^2+bx+c$, we have
+\begin{align*}
+f(t)f(t+1)
+&amp;=(t+\alpha)(t+\beta)(t+1+\alpha)(t+1+\beta)\\
+&amp;=(t+\alpha)(t+1+\beta)\cdot (t+1+\alpha)(t+\beta)\\
+&amp;=\big(t^2+t+t(\alpha+\beta)+\alpha\beta+\alpha\big)\big(t^2+t+t(\alpha+\beta)+\alpha\beta+\beta\big)\\
+&amp;=\big(t^2+(b+1)t+c+\alpha\big)\big(t^2+(b+1)t+c+\beta\big)\\
+&amp;=f\big(t^2+(b+1)t+c\big)
+\end{align*}</li>
+<li>$f(x)=(x+1)\cdots(x+l)+2$ satisfies whenever $l\ge4$, for $f(r)\equiv2\pmod4$ whenever $r\in\Bbb Z$, and $f(r_1)\cdots f(r_m)\equiv0\pmod4$.</li>
+</ol>
+
+<p>Could you give me some reference or idea about the criterion of such $f(x)$?</p>
+
+<p><strong>Source</strong> <a href="http://www.artofproblemsolving.com/Forum/resources.php?c=37&amp;cid=229&amp;year=2011&amp;sid=6fd4e287d7ea0dde07d81040691fc886" rel="nofollow">Chinese Second Round Olympiad</a></p>
+
+

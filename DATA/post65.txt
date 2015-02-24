@@ -1,0 +1,17 @@
+## Title:
+Good undergraduate level book on Cyclotomic fields
+
+## Tags:
+<reference-request><algebraic-number-theory><field-theory>
+
+## Score:
+7
+
+## Body:
+<p>I have Lang's 2 volume set on "Cyclotomic fields", and Washington's "Introduction to Cyclotomic Fields", but I feel I need something more elementary. Maybe I need to read some more on algebraic number theory, I do not know.</p>
+
+<p>So I would appreciate suggestions of books, or chapters in a book, lecture notes, etc. that would give me an introduction. I am specifically interested in connection of cyclotomic fields and Bernoulli numbers.</p>
+
+<p>Thank you.</p>
+
+

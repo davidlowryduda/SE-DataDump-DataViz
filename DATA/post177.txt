@@ -1,0 +1,21 @@
+## Title:
+The mathematics behind Sobol sequences
+
+## Tags:
+<number-theory><reference-request><finite-fields><random>
+
+## Score:
+1
+
+## Body:
+<p>I am using Sobol sequence as random number generator in a computer program.</p>
+
+<p>Beyond just making the program work, I would like to learn the mathematics behind the Sobol sequence (and other quasi-random sequences).</p>
+
+<p>I understand that the Sobol sequence is based on finite field, but I have not found any introductory finite field book with applications on quasi-random sequence.</p>
+
+<p>May I ask for some related book/links on this specific topic?</p>
+
+<p>Thank you.</p>
+
+

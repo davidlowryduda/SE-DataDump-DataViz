@@ -1,0 +1,19 @@
+## Title:
+unramified extensions
+
+## Tags:
+<number-theory><reference-request>
+
+## Score:
+9
+
+## Body:
+<p>Let $K$ be a number field with ring of integers $O_K$. It is well known that for almost all prime $p\in\mathbb{Z}$, the prime $p$ is unramified in $K$, that is, if $pO_K=\mathfrak{p}_1^{e_1}\ldots \mathfrak{p}_r^{e_r}$, where $\mathfrak{p}_1,\ldots,\mathfrak{p}_r$ are the different primes in $O_K$ which lie above $p$, then $e_i=1$ for $i=1,\ldots,r$.</p>
+
+<p>1-I want some reference where I can read a proof of this fact.</p>
+
+<p>But I am mainly interested in the following question: Is it true that for almost all primes $p\in\mathbb{Z}$ we have that $N\mathfrak{p}_1=N\mathfrak{p}_2$ for all primes $\mathfrak{p_1}$ and $\mathfrak{p}_2$ which lie above $p$? (here $N\mathfrak{p}_i$ means the cardinality of $O_K/\mathfrak{p}_i$). This is certainly true when the extension is Galois, but I am intersted in the general case. That's why the expression "for almost all primes".</p>
+
+<p>Thanks!</p>
+
+

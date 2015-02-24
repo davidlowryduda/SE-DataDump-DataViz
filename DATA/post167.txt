@@ -1,0 +1,19 @@
+## Title:
+Uniqueness up to sign of $L$ and $M$ in $p=\frac{1}{4}(L^2+27M^2)$.
+
+## Tags:
+<number-theory><reference-request>
+
+## Score:
+2
+
+## Body:
+<p>If $p\equiv 1\pmod{3}$, it's well know that $p$ can be expressed as
+$$
+p=\frac{1}{4}(L^2+27M^2).
+$$
+A handful of places, like wikipedia, say that in this representation $L$ and $M$ are unique up to sign, but none actually has a proof.</p>
+
+<p>Is there a elementary proof that $L$ and $M$ are unique up to sign? Thanks.</p>
+
+

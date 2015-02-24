@@ -1,0 +1,13 @@
+## Title:
+Does number theory have any role in the proof of convergence of Fourier series for certain functions?
+
+## Tags:
+<number-theory><reference-request><soft-question><fourier-series>
+
+## Score:
+1
+
+## Body:
+<p>Does number theory have any role in the proof of convergence of Fourier series for certain functions? I vaguely remember reading in a book on signal processing, way back, that the proof (original proof by Dirichlet) of convergence of Fourier series for functions which satisfy Dirichlet's conditions is very complicated and involves some number theory as well. I'd like to know whether it is true and appreciate a reference in case it is. I am really sorry if it turned out to be a silly question based on vague memory. I've seen the Wikipedia page on <a href="http://en.wikipedia.org/wiki/Convergence_of_Fourier_series" rel="nofollow">convergence of Fourier series</a> but couldn't find an answer.</p>
+
+

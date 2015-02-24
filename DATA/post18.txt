@@ -1,0 +1,13 @@
+## Title:
+Where can I find Heegner's proof?
+
+## Tags:
+<reference-request><algebraic-number-theory>
+
+## Score:
+1
+
+## Body:
+<p>Where can I read a corrected up to date version of Heegner's solution of the class 1 problem of Gauss?</p>
+
+

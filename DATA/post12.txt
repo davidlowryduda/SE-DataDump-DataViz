@@ -1,0 +1,13 @@
+## Title:
+Fermat's Last Theorem - Special Case of Sophie Germain Primes
+
+## Tags:
+<number-theory><reference-request>
+
+## Score:
+12
+
+## Body:
+<p>Sophie Germain proved Fermat's Last Theorem $x^p+y^p \neq z^p$ for the special case where p is a Sophie Germain prime and $p\not|xyz$.  Does any one know of a proof for the other case, where $p|xyz$? Note: I am looking for a proof restricted to the Sophie Germain primes, as of course, Wiles proved this generally.</p>
+
+

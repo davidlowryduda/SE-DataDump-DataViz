@@ -1,0 +1,21 @@
+## Title:
+"Dirichlet's theorem" on pairs of consecutive primes
+
+## Tags:
+<number-theory><reference-request><prime-numbers><sieve-theory>
+
+## Score:
+9
+
+## Body:
+<p>The number of primes in each of the $\phi(n)$ residue classes relatively prime to $n$ are known to occur with asymptotically equal frequency (following from the proof of the Prime Number Theorem). Does the same result hold on pairs of consecutive primes on the $\phi(n)^2$ pairs of congruence classes?</p>
+
+<p>To wit: Consider $\{(2, 3), (3, 5), (5, 7), (7, 11), \ldots\}\pmod n$. Does $(a,b)$ occur with natural density
+$$\begin{cases}
+1/\phi(n)^2,&amp;\gcd(ab,n)=1\\
+0,&amp;\text{otherwise}
+\end{cases}
+$$
+?</p>
+
+

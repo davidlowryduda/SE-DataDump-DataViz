@@ -1,0 +1,29 @@
+## Title:
+Reference for Brun-Titchmarsh inequality
+
+## Tags:
+<number-theory><reference-request><prime-numbers>
+
+## Score:
+2
+
+## Body:
+<p>Does anyone know a proof of the Brun-Titchmarsh inequality in the following form starting from the large sieve inequality?</p>
+
+<blockquote>
+  <p><strong>Brun-Titchmarsh inequality:</strong> Let $\pi(x;q,a) = |\{p \text{ prime}: p\equiv a \pmod q , p\le x\}|$, $(a,q) = 1$. Then
+  $$\pi(x;q,a) \ll \frac{x}{\phi(q)} \frac{1}{\log(\frac xq)} \quad \text{for }q&lt;x.$$
+  with an absolute implied constant.</p>
+</blockquote>
+
+<p>By the large sieve inequality I mean </p>
+
+<blockquote>
+  <p><strong>Large sieve inequality:</strong> Fix $M,N\ge 1$, $Q\ge 1$. For primes $p\le Q$, let $\Omega_p\subset \mathbb Z/p\mathbb Z$ be given. Let $\omega = |\Omega_p|$, and $S=\{M\le n\le M+N: n\pmod p\notin \Omega_p \text{ for }p\le Q\}$. Then
+  $$|S|\le \frac{N+Q^2}{H},$$
+  where $H=\sum_{\substack{q\le Q, \\ q\text{ squarefree}}} \prod_{p\mid q} \frac{\omega_p}{p-\omega_p}$.</p>
+</blockquote>
+
+<p>If you can prove it or know a reference, I'd be grateful. Thanks for your help!</p>
+
+

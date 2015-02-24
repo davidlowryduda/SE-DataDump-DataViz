@@ -1,0 +1,17 @@
+## Title:
+References on density of subsets of $\mathbb{N}$
+
+## Tags:
+<number-theory><reference-request>
+
+## Score:
+8
+
+## Body:
+<p>I'm interested in books (maybe chapter(s) of a book), articles, results or whatever on the concept of density of subsets $A \subset \mathbb{N}$, often defined as:</p>
+
+<p>$$\lim_{n \rightarrow \infty} \frac{|A \cap I_{n}|}{n}$$</p>
+
+<p>where $I_{n} = \{1, 2, ..., n\}$. I've also seen the $\limsup$ being taken instead, defined as upper density. I know a few basic results (that I could prove myself) plus some famous results like <a href="http://en.wikipedia.org/wiki/Szemer%C3%A9di%27s_theorem">Szemerédi's theorem</a>. Is there any sort of reference where I could learn about this in greater detail and scheme?</p>
+
+

@@ -1,0 +1,31 @@
+## Title:
+Is it  known or new?
+
+## Tags:
+<number-theory><reference-request><exponentiation><conjectures>
+
+## Score:
+6
+
+## Body:
+<blockquote>
+  <p><strong>Possible Duplicate:</strong><br>
+  <a href="http://math.stackexchange.com/questions/13131/starting-digits-of-2n">Starting digits of 2^n</a>  </p>
+</blockquote>
+
+
+
+<p>While I was randomly working with number patterns, I came along with some interesting pattern which seems to turn to a conjecture in fact. </p>
+
+<p>My conjecture can be stated as follows :  For any number $n$ there exists any number $p$ such that the number $np$ can be a power of two or $2^k$ ( here the $np$ doesn't represent product of $n$ an $p$ but the number $p$ is placed to the right of $n$ , for eg: if the number $n$ is $11$ then if $p$ is $12$ then $np$ is $1112$ not $11 \cdot 12$ ). For a practical demonstration let us consider a number $11$ there exists any number you choose for example $80591620717411303424$ ( I have selected this number deliberately and I need to find an effective way of choosing numbers )  such that if the number is placed to right of $11$ it becomes $1180591620717411303424$ which in turn makes the complete entity as $2^{70}$ .</p>
+
+<p>For a practical formulation, it took some time for me in the mathematical representation.<br>
+My conjecture can be stated as " Consider a number $N$, then there exist a number $P$ such that $$((N\cdot 10^{\lceil\,\log_{10} P\,\rceil})+P) \equiv 0\pmod{2^k} $$for some $K$. " </p>
+
+<p>Does this already exists or it is new? , if it exists please give me a reference. </p>
+
+<p>P.S : I have been trying for a proof, and I have a proof with me. Is it worth of publishing ? </p>
+
+<p>Thank you. </p>
+
+

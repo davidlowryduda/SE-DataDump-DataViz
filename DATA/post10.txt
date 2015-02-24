@@ -1,0 +1,15 @@
+## Title:
+places valuations and so on
+
+## Tags:
+<reference-request><algebraic-number-theory><arithmetic-geometry>
+
+## Score:
+3
+
+## Body:
+<p>I am looking for complete references on places, valuations and so on. In particular I need to understand the meaning of "a finite place does not divide a prime number $\ell$" and what is the Frobenius automorphism at a place.</p>
+
+<p>Thank you</p>
+
+

@@ -1,0 +1,17 @@
+## Title:
+Elliptic curves with finitely many rational points
+
+## Tags:
+<number-theory><reference-request><elliptic-curves>
+
+## Score:
+4
+
+## Body:
+<p>A conjecture by Goldfeld says that half of all elliptic curves have rank zero (i.e. their Mordell-Weil group has finite order.)</p>
+
+<p>Are there any known infinite families of elliptic curves (over $\mathbb{Q}$) with only finitely many rational points?</p>
+
+<p>For example, in Silverman/Tate, there is an computation which shows that $y^2=x^3+x$ has exactly one rational point and $y^2=x^3+4x$ has exactly three rational points (not counting the point at infinity). I'm wondering if there are any known parameterizations giving an infinite number of such curves.</p>
+
+

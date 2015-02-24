@@ -1,0 +1,31 @@
+## Title:
+Automorphism action on Artin map
+
+## Tags:
+<reference-request><algebraic-geometry><algebraic-number-theory>
+
+## Score:
+2
+
+## Body:
+<p>I would like to refer you to <a href="http://books.google.co.uk/books/about/Elliptic_Functions.html?id=QFC8ajjIHOAC&amp;redir_esc=y" rel="nofollow">Serge Lang's book on Elliptic Functions</a> $\S10.4$ (page 140).</p>
+
+<p>I'm trying to understand a part in theorem 10 where he proves that
+$$\mu(\mathfrak{p})'=\mu(\mathfrak{p}')$$
+where $\mu$ is the hecke character of an elliptic curve $A$ over a field $K_0$ which does not contain $\text{End}(E)=k$, $\mathfrak{p}$ is a prime of $K = K_0 k$ above $\mathfrak{p}_0$ which is a prime of $K_0$, and $\;'$ is complex conjugation.</p>
+
+<p>(i)  Let $\theta:k\rightarrow End(A)_{\mathbb{Q}}$ be a normalized isomorphism defined over $K$, $\rho$ be the automorphism of $K=K_0k$ over $K_0$. How do you get  $(*)$ in the following equation?
+$$\theta(\mu(\mathfrak{p}))=(\rho\mathfrak{p},K)\overset{(*)}=\rho(\mathfrak{p},K)\rho^{-1}$$
+Is this a well known identity? I can't seem to find anything about it in any of the books I have.</p>
+
+<p>(ii) A couple of lines later, he goes on to say</p>
+
+<blockquote>
+  <p>From the formula $\big(\lambda(x)\big)^{\rho}=\lambda^{\rho}(x^{\rho})$, we conclude that $\lambda^{\rho}=\rho(\mathfrak{p},K)\rho^{-1}$ on $K(A^{(l)})$ <br>where $\lambda=\theta(\mu(\mathfrak{p}))$</p>
+</blockquote>
+
+<p>How did he reach that conclusion?<br>
+Is it just because action of $\rho$ on $\theta(\mu(\mathfrak{p}))$ must be $\rho\theta(\mu(\mathfrak{p}))\rho^{-1}$?<br>
+But because $\rho\in \text{Aut}(K/K_0)$ and $(\mathfrak{p},K)\in \text{Gal}(K/K_0)$, the action looks a little awkward to me and seems like it should be a composition instead of a conjugation.</p>
+
+

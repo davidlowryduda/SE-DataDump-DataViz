@@ -1,0 +1,19 @@
+## Title:
+is number theory a good place to start learning maths after a long break?
+
+## Tags:
+<elementary-number-theory><self-learning>
+
+## Score:
+1
+
+## Body:
+<p>I haven't studied maths since my engineering degree some 15 years ago.  </p>
+
+<p>At the time, I enjoyed maths and found it quite easy.  However, now I feel that I have lost everything I learnt and I'm really struggling to re-learn my lost knowledge.</p>
+
+<p>Through my work, I'm currently quite interested in Cryptography and would like a basic understanding of the Maths behind it</p>
+
+<p>Is number theory a good place to start re-learning maths, or should I go right back to the basics and re-learn algebra, trig, calculus, etc., first?  If I should go back to the basics, what is the normal order in which subjects are learnt?</p>
+
+

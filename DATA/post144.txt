@@ -1,0 +1,13 @@
+## Title:
+GCD to Linear Diophantine Equation without Euclid Algorithm
+
+## Tags:
+<elementary-number-theory><diophantine-equations><self-learning>
+
+## Score:
+1
+
+## Body:
+<p>Is there a technique other than performing Euclid's algorithm in reverse that can elegantly show that if GCD$(a,b) = d$ then there exist integers $x$ and $y$ such that $ax + by = d$?</p>
+
+

@@ -1,0 +1,105 @@
+## Title:
+Two Dirichlet's series related to the Divisor Summatory Function and to the Riemann's zeta-function, $\zeta(s)$
+
+## Tags:
+<sequences-and-series><reference-request><analytic-number-theory><riemann-zeta><dirichlet-series>
+
+## Score:
+10
+
+## Body:
+<p>Considering the $\textit{Divisor Summatory Function}$, $D(n)$, defined as
+$$
+D(n) = \sum_{k=1}^{n}d(k) ,
+$$
+where
+$$
+d(n) = \sum_{k|n}^{n}1.
+$$</p>
+
+<p>One can observe the following pattern in the values of $D(n)$
+$$
+\lbrace D(n) \rbrace = \left\lbrace \overbrace{\underbrace{0}_{\text{even}}}^{1},\overbrace{ \underbrace{1,3,5}_{\text{odd}}}^{3},\overbrace{\underbrace{8,10,14,16,20}_{\text{even}}}^{5},\overbrace{\underbrace{23,27,29,35,37,41,45}_{\text{odd}}}^{7}, \cdots  \right\rbrace,
+$$
+where groups of odd elements alternate with groups of even elements and where the $n^{th}$ group has $2n-1$ elements, (we can see that the pattern pesists). Now, based on this (but it is not necessary that this pattern of $D(n)$ is verified for all $n$ we can only assume that such a similar pattern exists), and considering that any number can be written as
+$$
+\begin{align*}
+n=p_{1}^{\alpha_{1}}\cdot p_{2}^{\alpha_{2}}\cdot p_{3}^{\alpha_{3}} \cdots p_{n}^{\alpha_{n}}
+\end{align*}
+$$
+where $p_{i}$ are prime numbers, one can define some arithmetical functions as follows
+$$
+a(n)=
+\begin{cases}
+1, &amp; \text{if all } D(\alpha_1), D(\alpha_2), \ldots, D(\alpha_n) \text{ are even} ,\\
+\\
+\\
+0, &amp; \text{if one or more of the } D(\alpha_{i}) \text{ is odd},
+\end{cases}
+$$
+and
+$$
+b(n)=
+\begin{cases}
+(-1)^{n_1+n_2+\cdots+n_i}, &amp;\text{if } \alpha_i = n_i^2, 
+\\
+0, &amp; \text{if } \alpha_i \text{ is not of the form } n_i^2,
+\end{cases}
+$$
+($b(n)=$<a href="https://oeis.org/A197774" rel="nofollow">A197774</a>) then we can define two Dirichlet series $A(s)=\sum_{k=1}^{\infty}\frac{a(k)}{n^{s}}$ with $a(1)=1$ and $B(s)=\sum_{k=1}^{\infty}\frac{b(k)}{n^{s}}$ with $b(1)=1$.</p>
+
+<p>Both of the Dirichlet series have, respectively, the following Euler's products
+$$
+\begin{align*}
+A(s) &amp;= \prod_{p\in \mathbb{P}}\left(1+\frac{1}{p^{4s}}+\cdots+\frac{1}{p^{8s}}+\frac{1}{p^{16s}}+\cdots+\frac{1}{p^{24s}}+\cdots\right)\\
+    &amp;=\prod_{p\in\mathbb{P}}\left(1+\frac{1}{p^{4s}}\left(1+\frac{1}{p^{s}}+\cdots+\frac{1}{p^{4s}}\right)
+    +\frac{1}{p^{16s}}\left(1+\frac{1}{p^{s}}+\cdots+\frac{1}{p^{8s}}\right)
+    +\cdots\right)\\
+&amp;=\prod_{p\in\mathbb{P}}\left(1+\sum_{k=1}^{\infty}\frac{1}{p^{(2k)^{2}s}}\left(1+\frac{1}{p^{s}}+\cdots+\frac{1}{p^{4ks}}\right)\right)\\
+\end{align*}
+$$
+and
+$$
+B(s) = \prod_{p\in \mathbb{P}}\left(1 - \frac{1}{p^{s}}+\frac{1}{p^{4s}}-\frac{1}{p^{9s}}+\frac{1}{p^{16s}}-\frac{1}{p^{25s}}+\frac{1}{p^{36s}}-\cdots\right)
+$$
+First we can see that $A(s)$ is absolutely convergent for $s&gt;\frac{1}{4}$. Secondly we can observe that $B(s)$ is related to $\vartheta_{4}(0,x)=1-x+x^{4}-x^{9}+x^{16}\cdots$ (the Jacobi Theta function) by
+$$
+\begin{equation*}
+B(s) = \prod_{p\in \mathbb{P}}\left(\frac{1}{2} \vartheta_{4}(0,p^{-s})+1 \right)
+\end{equation*}
+$$
+and thirdly
+$$
+\begin{equation*}
+\zeta(s) = \frac{A(s)}{B(s)}
+\end{equation*}
+$$
+We can think of $b(n)$ as a generalization of $\mu(n)$, the Möbius function and we can assume that if $B(s)$ converges for $\Re{s}&gt;\frac{1}{2}$ then $\zeta(s)$ has no zeros on the right of $\frac{1}{2}$, just like the Mertens function, where
+$$
+\begin{equation*}
+\frac{1}{\zeta(s)} = s\int_{1}^{\infty}\frac{M(x)}{x^{s+1}}dx
+\end{equation*}
+$$
+similarly for $\zeta(s)$ we have
+$$
+\begin{equation*}
+\zeta(s) = \frac{A(s)}{ s\int_{1}^{\infty}\frac{B(x)}{x^{s+1}}dx}
+\end{equation*}
+$$
+where $M(x)$ is the Mertens function
+$$
+\begin{equation*}
+M(x)=\sum_{1\leq n \leq x}\mu(x)
+\end{equation*}
+$$
+and $B(x)$ is
+$$
+\begin{equation*}
+B(x)=\sum_{1 \leq n \leq x}b(x)
+\end{equation*}
+$$
+My question is: Were these Dirichlet series, $A(s)$ and $B(s)$, studied before and related to the $\zeta(s)$-function the way I did? Or... is this something new?</p>
+
+<p>Thanks.</p>
+
+

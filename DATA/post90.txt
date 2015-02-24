@@ -1,0 +1,21 @@
+## Title:
+Special privilege enjoyed by Elliptic Curves with Complex Multiplication
+
+## Tags:
+<number-theory><reference-request><algebraic-geometry><algebraic-number-theory><elliptic-curves>
+
+## Score:
+7
+
+## Body:
+<p>I think after reading the title one may understand the intention of me, this question is concerned about the Elliptic curves having a Complex Multiplication. </p>
+
+<blockquote>
+  <p>I have been reading many theorems, ( celebrated papers of Zagier and Kolyvagin ). In majority, much of the proofs I came across, considers Elliptic Curves with Complex Multiplication. And many results have been discovered in that direction. I know what is meant by Complex Multiplication and endomorphism rings. But if some one asks for the reason behind such privilege enjoyed by the elliptic curves with CM ( Complex Multiplication ), what are the precise things one can tell ?</p>
+</blockquote>
+
+<p>To put in other way, how come the proofs are discovered about Elliptic curves with CM are discovered so easily and why not for the other case ? ( Is there some bird's eye view ? )</p>
+
+<p>Thank you.</p>
+
+

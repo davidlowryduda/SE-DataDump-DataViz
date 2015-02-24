@@ -1,0 +1,19 @@
+## Title:
+Reference request for "Weierstrass equation" and "Weierstrass normal form"
+
+## Tags:
+<number-theory><reference-request><math-history><elliptic-curves>
+
+## Score:
+3
+
+## Body:
+<p>I would like to know more about the history of the widely used terms "Weierstrass equation" and "Weierstrass normal form", as they appear in the theory of elliptic curves. When were these terms first coined? What did Weierstrass exactly prove? Was he first to prove that every elliptic curve can be written in this form? What papers or books of Weierstrass are relevant here?</p>
+
+<p>A model for an elliptic curve $E$ of the form
+$$y^2+a_1xy+a_3y=x^3+a_2x^2+a_4x+a_6$$
+is said to be a Weierstrass equation for $E$. A model of the form $y^2=f(x)$, where $f(x)$ is a monic cubic polynomial, is a model in Weierstrass normal form. (Classically, a Weierstrass normal form may refer to an equation of the form $y^2=4x^3-g_4x-g_6$, or one of the form $y^2=x^3+Ax+B$.) </p>
+
+<p>Thanks!</p>
+
+

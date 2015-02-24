@@ -1,0 +1,18 @@
+## Title:
+Summing over a cyclic subgroup of a multiplicative group mod n
+
+## Tags:
+<reference-request><elementary-number-theory>
+
+## Score:
+8
+
+## Body:
+<p>Let $x$ be a unit in $\mathbb Z/ n \mathbb Z$ of multiplicative order $m$.
+I am trying to determine when it is that 
+$$
+\sum_{i=0}^{m-1} x^i \equiv 0 \mod n .
+$$
+Is this kind of situation something that has been studied? If so, I would be very interested in any suggestions of books that discuss this kind of problem.</p>
+
+

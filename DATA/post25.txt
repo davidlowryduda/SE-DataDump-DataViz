@@ -1,0 +1,13 @@
+## Title:
+On Albanese varieties
+
+## Tags:
+<number-theory><reference-request>
+
+## Score:
+-3
+
+## Body:
+<p>Can anyone give me a precise information or formulation of Birch and Swinnerton-Dyer conjecture for Jacobians -- I mean for Albanese varieties.  Any reference to useful links or expository articles, or any material is appreciated.</p>
+
+

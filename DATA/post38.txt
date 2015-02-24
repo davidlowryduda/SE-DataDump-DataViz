@@ -1,0 +1,19 @@
+## Title:
+Closed-form Expression of the Partition Function $p(n)$
+
+## Tags:
+<number-theory><reference-request><partitions>
+
+## Score:
+8
+
+## Body:
+<p>I feel like I have seen news that a paper was recently published, at most a few months ago, that solved the well-known problem of finding a closed-form expression for the partition function $p(n)$ which enumerates the number of integer partitions of $n$: does anybody have the reference of this paper?</p>
+
+<p>And if not a closed-form exactly, then I seem to recall some significant advance was made recently: can you provide any bibliography (2010, 2011)?</p>
+
+<p>Hopefully this will ring a bell with someone...</p>
+
+<p>Thanks!</p>
+
+

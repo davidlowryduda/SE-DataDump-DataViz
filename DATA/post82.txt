@@ -1,0 +1,17 @@
+## Title:
+L-function at s=5 with D=-4?
+
+## Tags:
+<number-theory><reference-request><l-functions>
+
+## Score:
+4
+
+## Body:
+<p>I want to know the value of $L(5,-4)$. Recall that
+$$
+L(s,D)=\sum_{n=1}^\infty \left(\frac{D}{n}\right) n^{-s}.
+$$
+I would like a reference with computations of $L(5,D)$, or more generally, of $L(s,D)$ with $s$ and odd natural number.</p>
+
+

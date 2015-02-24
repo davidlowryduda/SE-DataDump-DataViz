@@ -1,0 +1,15 @@
+## Title:
+Formal statement of theorem about perfect numbers?
+
+## Tags:
+<number-theory><reference-request><soft-question><computability>
+
+## Score:
+1
+
+## Body:
+<p>I cannot seem to find the formal statement of the theorem if there are infinite perfect numbers in <a href="http://en.wikipedia.org/wiki/Perfect_number" rel="nofollow">Wikipedia</a> or online. I searched this site but the closest is the <a href="http://math.stackexchange.com/questions/22366/a-question-on-a-generalization-of-perfect-numbers">generalization of perfect numbers</a> question dealing with group theory.</p>
+
+<p>Where can I find resources relating to the computability aspect of perfect numbers? </p>
+
+

@@ -1,0 +1,17 @@
+## Title:
+Preparations for reading Algebraic Number Theory by Serge Lang
+
+## Tags:
+<reference-request><algebraic-number-theory>
+
+## Score:
+6
+
+## Body:
+<p>I am eager to learn algebraic number theory. It seems that Serge Lang's <em>Algebraic Number Theory</em> is one of the standard introductory texts (correct me if this is an inaccurate assessment). I flipped through the first pages and realized that I am not quite ready to read it. In particular, the two main prerequisites that I'm lacking seem to be:</p>
+
+<p><strong>Commutative algebra.</strong> I have read more than half of Atiyah-Macdonald. But I am having a hard time, because it's concise and somewhat unmotivated. Is there another book that is easier to read? Which topics are relevant to algebraic number theory?</p>
+
+<p><strong>Galois theory.</strong> I am practically blind about Galois theory. Same questions as before: what are good books in Galois theory, and which topics are relevant to algebraic number theory?</p>
+
+

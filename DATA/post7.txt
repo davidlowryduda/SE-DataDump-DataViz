@@ -1,0 +1,25 @@
+## Title:
+"On the consequences of an exact de Bruijn Function", or "If Ramanujan had more time..."
+
+## Tags:
+<number-theory><real-analysis><combinatorics><reference-request>
+
+## Score:
+4
+
+## Body:
+<p>In this <a href="http://math.stackexchange.com/questions/15966/ramanujans-first-letter-to-hardy-and-the-number-of-3-smooth-integers">question</a> on Math.SE, I asked about Ramanujan's (ridiculously close) approximation for counting the number of 3-smooth integers less than or equal to a given positive integer $N$, namely, 
+\begin{eqnarray}
+\frac{\log 2 N \ \log 3 N}{2 \log 2 \ \log 3}.
+\end{eqnarray}
+In his posthumously published <a href="http://books.google.com/books?id=tX5UUCempn8C&amp;pg=PA66#v=onepage&amp;q&amp;f=false" rel="nofollow">notebook</a>, Ramanujan generalized this formula to similarly counting numbers of the form $b_1^{r_1} b_{2}^{r_{2}}$, where $b_1, b_2 &gt; 1$ are (not necessarily distinct) natural numbers and $r_1, r_2 \geq 0$:
+\begin{eqnarray}
+\frac{\log b_1 N \ \log b_2 N}{2 \log b_1 \ \log b_2},
+\end{eqnarray}
+where a factor of $\frac{1}{2}$ is to be added if $N$ is of the prescribed form. Both of these problems could be understood by counting the number of non-negative integer solutions of the Diophantine inequality: $(\log b_1) x_1 + (\log b_2) x_2 \leq \log N$, which also counts the number of $\mathbb{Z}$-lattice points in the $\log N$ dilate of the $2$-polytope $\mathcal{P} = \textbf{conv}(\mathbf{0}, (\log b_{1})^{-1} \mathbf{e}_1, (\log b_2)^{-1} \mathbf{e}_{2})$. Here, $\{ \mathbf{e}_{i}\}$ is the standard basis of $\mathbb{R}^{n}$. Unfortunately, counting lattice points in <em>real</em> polytopes is <em>hard</em>.</p>
+
+<p>My question, now, is how important a contribution to mathematics would it be if one had an <em>exact formula</em> for counting $y$-smooth integers less than or equal to a real $x &gt; 0$, i.e., an exact formula for the <a href="http://en.wikipedia.org/wiki/Dickman_function" rel="nofollow">de Bruijn function</a> $\Psi(x,y)$? This would, at the same time, translate into an exact formula for counting lattice points of real polytopes of the form $\textbf{conv}(\mathbf{0}, a_{1} \mathbf{e}_{1}, \dots, a_{n} \mathbf{e}_{n})$ with $a_{i} \in \mathbb{R}_{&gt; 0}$.</p>
+
+<p>I'm aware of the review articles by <a href="http://websites.math.leidenuniv.nl/algebra/sieving.pdf" rel="nofollow">Pomerance</a>, <a href="http://library.msri.org/books/Book44/files/09andrew.pdf" rel="nofollow">Granville</a>, <a href="http://archive.numdam.org/ARCHIVE/JTNB/JTNB_1993__5_2/JTNB_1993__5_2_411_0/JTNB_1993__5_2_411_0.pdf" rel="nofollow">Hildebrand and Tenenbaum</a>, which each deal with various estimates of the De Bruijn function and its useful in the Quadratic Sieve Method of factorization and applications to cryptography, and even Waring's Problem. However, none of these review articles deal with the consequences of having an exact formula.</p>
+
+

@@ -1,0 +1,17 @@
+## Title:
+The sum of a square and twice a square
+
+## Tags:
+<elementary-number-theory><reference-request>
+
+## Score:
+1
+
+## Body:
+<p>Consider the set $\{3,6,9,11,12,17,18,19,22\ldots\}$ (<a href="http://oeis.org/A154777" rel="nofollow">OEIS A154777</a>) of positive integers that are expressible in the form $a^2 + 2b^2$.   Is there a theorem about the form of such numbers analogous to the one about integers representable in the form $a^2 + b^2$? Is there a way to relate this problem to that one?</p>
+
+<p>Some numbers, such as $27, 33, 51, 54,\ldots$ are expressible in the form $a^2 + 2 b^2$ in more than one way.  Is the set of such numbers infinite? (OEIS search for this sequence finds nothing.)  It appears that all such numbers are divisible by 3; is there a proof of this?  What else is known about this? </p>
+
+<p>(Mercio observes in a comment that $121 = 11^2 + 2\cdot0^2 = 7^2 + 2\cdot6^2$ is not divisible by 3; another example is $209 =3^2 + 2\cdot 10^2 = 9^2 + 2\cdot 8^2$.)</p>
+
+

@@ -1,0 +1,23 @@
+## Title:
+Why is positional number system natural?
+
+## Tags:
+<elementary-number-theory><reference-request><computational-complexity><computability>
+
+## Score:
+1
+
+## Body:
+<p>In the theory of computation, one mainly deals with maps $\Sigma^*\rightarrow\Sigma^*$.  To discuss computation on other sets $X$ than $\Sigma^*$, one fixes a <em>representation</em> $\gamma:\Sigma^*\rightarrow X$ to interpret a word as an element of $X$.  If $X=\mathbb N$, $\gamma$ can be (maps defined by) unary numeral system, positional number system base 2 or more, arithmetic circuits, or even description of algorithms that compute a natural number.  Of course the standard one is positional number system base 2 or more (call this $\gamma_2$).  Many interesting questions in the theory of computation, such as $\mathrm{PRIMES}\in \mathscr P$? and $\mathrm{KNAPSACK}\in\mathscr P$?, arise because of this particular representation.</p>
+
+<p>However I do not find reason for favoring $\gamma_2$ other than that it is most used by human and electronic computers.  One can argue that unary numerals are the most simple representation.  If you want a concise representation, you could use arithmetic circuits or algorithms. I am beginning to doubt if it is an arbitrary decision to choose $\gamma_2$ as standard.</p>
+
+<p>Thus my question is why is $\gamma_2$ is the most favorable, or <em>natural</em> way of representing natural numbers (if it is).</p>
+
+<p>Of course, in an informal way I understand why $\gamma_2$ is favorable and natural. (You cannot claim that you found the $10^{500}$-th prime number by showing an algorithm that computes it.)  My question is how to formalize this intuitive notion of naturalness and how to show $\gamma_2$ is the most natural (or at least as natural as other representations) according to it.</p>
+
+<p>I believe someone should have considered this problem before.  I am also looking for resources that deal with matter.</p>
+
+<p>Thank you in advance.</p>
+
+

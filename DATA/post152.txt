@@ -1,0 +1,15 @@
+## Title:
+Partitions of an integer into k parts.
+
+## Tags:
+<number-theory><reference-request><partitions>
+
+## Score:
+2
+
+## Body:
+<p>I am interested in knowing whether an exact formula (analogous to the Hardy-Ramanujan-Rademacher formula for $p(n)$) for the number of partitions of a positive integer into k parts is known. I tried searching on the internet but could not find such a formula. Can someone confirm whether such a formula is known and provide a link to its proof if possible.</p>
+
+<p>Thanks</p>
+
+

@@ -1,0 +1,35 @@
+## Title:
+Why is $a\equiv b \pmod n$   equivalent to the congruences $a\equiv  b,b+n,b+2n,\dots,b+(c-1)n\pmod {cn}$?
+
+## Tags:
+<reference-request><elementary-number-theory>
+
+## Score:
+4
+
+## Body:
+<p>I learned the following proposition (in which there is no proof) in a GRE math preparation book. I don't understand what it means and I am not able to find any theorem about this statement in Hardy's <em>An Introduction to the Theory of Numbers</em>.</p>
+
+<blockquote>
+  <p>For any positive integer $c$, the
+   statement $a\equiv b \pmod n$ is
+   equivalent to the congruences $a\equiv
+ b,b+n,b+2n,\dots,b+(c-1)n\pmod {cn}.$</p>
+</blockquote>
+
+<p>I cannot even apply this proposition to an example such as $7\equiv 1\pmod 6$. If the above is true, then </p>
+
+<p>$$7\equiv 1,7,13,19\pmod{24}$$
+which is obvious not true. </p>
+
+<p>Is there any typo here? Or how should I understand this "proposition"?</p>
+
+<p><strong>Edit</strong>: This question may be related to the question <a href="http://math.stackexchange.com/q/46017/9464">here</a>. </p>
+
+<p><strong>Added</strong>: </p>
+
+<blockquote>
+  <p>How should I prove this proposition?</p>
+</blockquote>
+
+

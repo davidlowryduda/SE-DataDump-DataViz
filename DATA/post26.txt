@@ -1,0 +1,20 @@
+## Title:
+Zeta functions in Chebychev's Prime Number theory
+
+## Tags:
+<reference-request><math-history><analytic-number-theory>
+
+## Score:
+6
+
+## Body:
+<blockquote>
+  <p>In two papers from 1848 and 1850, the Russian mathematician Pafnuty L'vovich Chebyshev attempted to prove the asymptotic law of distribution of prime numbers. His work is notable for the use of the zeta function ζ(s) predating Riemann's celebrated memoir of 1859 - <a href="http://en.wikipedia.org/wiki/Prime_number_theorem#History_of_the_asymptotic_law_of_distribution_of_prime_numbers_and_its_proof" rel="nofollow">wikipedia</a></p>
+</blockquote>
+
+<p>I could not find these two papers, I think they may not have been translated to English. 
+<a href="http://www.archive.org/details/oeuvresdepltche02chebrich" rel="nofollow">Oeuvres de P.L. Tchebychef</a> is available on archive but I checked the table of contents and I don't think it covers this work.</p>
+
+<p>Where can I read about his use of zeta functions and original proof?</p>
+
+

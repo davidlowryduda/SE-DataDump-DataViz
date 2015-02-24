@@ -1,0 +1,42 @@
+## Title:
+Something like : "recursive" harmonic numbers? Where can I read more?
+
+## Tags:
+<sequences-and-series><reference-request><elementary-number-theory>
+
+## Score:
+1
+
+## Body:
+<p>In <a href="http://math.stackexchange.com/questions/89853">my other thread</a> I discussed a matrix-decomposition; for one matrix (<strong><em>U</em></strong>) I found now a description of its entries, which may best be denoted as "recursive harmonic numbers". However, googling with this term leads to hits on a different thing. What I have is the following.    </p>
+
+<p>Define a recursive type of harmonic-numbers of two arguments:      </p>
+
+<p>$ \qquad \small h_{0,c} =1   \text{      for all } c\gt 0 $<br>
+$ \qquad \small h_{r,1} =1   \text{      for all } r\gt 0  $<br>
+$ \qquad \small h_{r,c} = h_{r,c-1} + h_{r-1,c}/c \text{      for all } c\gt r $     </p>
+
+<p>Then we have<br>
+$\qquad \small h_{0,*} = (1,1,1,1,1,\ldots) $<br>
+$\qquad \small h_{1,*} = (1,
+                          1+{1 \over 2}, 
+                          1+{1 \over 2}+{1 \over 3},
+                          1+{1 \over 2}+{1 \over 3}+{1 \over 4},
+                          \ldots) $
+$\qquad \small h_{2,*} = (1,
+                          1+ {1 \over 2}\left( 1+{1 \over 2}\right), 
+                          1+ {1 \over 2}\left(1+{1 \over 2}\right)
+                            +{1 \over 3}\left(1+{1 \over 2}+{1 \over 3},\right),
+                          \ldots) $<br>
+where the recursion becomes visible by<br>
+$\qquad \small h_{2,*} = (1,
+                          1+ {1 \over 2} h_{1,2}, 
+                          1+ {1 \over 2} h_{1,2} + {1 \over 3} h_{1,3} 
+                          \ldots) $        </p>
+
+<p>Is someone aware of such a generalization/extension? I have a vague idea that I've seen the terms of $\small h_{2,*} $ in some online available article not too long ago (arXiv?) but can't remember exactly. Also with "generalized harmonic numbers" mostly is meant either the summation to fractional bounds of the index and/or higher exponents in the denominator of the harmonic numbers, so this is different...</p>
+
+<p><hr>
+I've <a href="http://arxiv.org/abs/math/9502217" rel="nofollow">found the arXiv-article</a>. However, the recursive harmonic numbers are only mentioned as intermediate terms (pg 6, eq (6)) for a generalization of the Stirling numbers first kind (which is in the context of my own discussion not surprising). If there are some more references dealing more specific with these, this were very good...</p>
+
+

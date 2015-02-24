@@ -1,0 +1,17 @@
+## Title:
+Missing Exercises in Elementary Number Theory by Underwood Dudley.
+
+## Tags:
+<number-theory><elementary-number-theory><reference-request><online-resources>
+
+## Score:
+-2
+
+## Body:
+<p>I'm a beginner in math and I just started studying Elementary Number Theory by Dudley. So far I'm impressed, but I've noticed that the book does not include all the solutions to the exercises they present in the chapters, namely those that require you to prove some property. </p>
+
+<p>I would really like to find the worked out solutions to all the exercises. I've looked all over for a solution to all the exercises with no luck. Perhaps I'm missing something or perhaps someone knows a source I could use?</p>
+
+<p>Thank You</p>
+
+

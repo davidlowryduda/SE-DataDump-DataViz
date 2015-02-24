@@ -1,0 +1,19 @@
+## Title:
+Introduction to the trace formula for people outside number theory
+
+## Tags:
+<reference-request><algebraic-geometry><representation-theory><algebraic-number-theory><complex-geometry>
+
+## Score:
+12
+
+## Body:
+<p>I am looking for references on the trace formula, by which I mean the Selberg trace formula and its successor the Arthur-Selberg trace formula.</p>
+
+<p>I am aware that there are "standard references" on the subject, and I have looked at some of those standard references.  However, I am not necessarily looking for a "standard reference". I am looking for a reference that doesn't actually assume much number-theoretic background.</p>
+
+<p>My own background is in complex algebraic geometry.  I would like to have a reference that would be readable to someone who is comfortable with portions of either Griffiths-Harris or Hartshorne and with basic representation theory, but who may not have had much prior exposure to algebraic number theory.</p>
+
+<p>Any advice would be appreciated it.</p>
+
+

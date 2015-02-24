@@ -1,0 +1,24 @@
+## Title:
+Fibonacci/Lucas Number Congruences
+
+## Tags:
+<number-theory><reference-request><fibonacci-numbers>
+
+## Score:
+3
+
+## Body:
+<p>Is there a compendium of well-known (and elementary) Fibonacci/Lucas Number congruences? I've proven the following and would like to know if it is (a) trivial, (b) well-known, or (c) possibly new. 
+$$
+L_{2n+1} \pm 5(F_{n+2} + 1) \equiv (-1)^{n}  \mod 10.
+$$
+Is there a simple proof of this identity, requiring only basic identities of the two sequences? Any help or hints to this effect are certainly appreciated! </p>
+
+<p>More generally, for integers $l,m,n$, we have
+$$
+L_{12l + m+n} \pm 5(F_{60l + m} + F_{60l+ n} + F_{60l+ \text{gcd}(m,n)}) \equiv (-1)^{n} L_{12l + m - n} \mod 10.
+$$</p>
+
+<p>Thanks!</p>
+
+

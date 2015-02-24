@@ -1,0 +1,17 @@
+## Title:
+Polygonal numbers modulo odd primes
+
+## Tags:
+<reference-request><elementary-number-theory>
+
+## Score:
+1
+
+## Body:
+<p>Marc Renault's masters <a href="http://www.math.temple.edu/~renault/fibonacci/thesis.html" rel="nofollow">thesis</a> "Properties of the Fibonacci Sequence Under Various Moduli" is well known for its investigation of Fibonacci numbers with focus on the distribution of residues, peiods of Fibonacci numbers modulo primes and so on.</p>
+
+<p>Does there exist similar work about Polygonal numbers? More specifically, have the properties of polygonal number sequence under various moduli been investigated at any level of detail? Either for a specific s-gonal number sequence or for all polygonal numbers in general?</p>
+
+<p>I looked up on the net, but could not find such works, hence the request.</p>
+
+

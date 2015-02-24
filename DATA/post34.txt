@@ -1,0 +1,17 @@
+## Title:
+Hermite normal form and saturation
+
+## Tags:
+<reference-request><commutative-algebra><algebraic-number-theory>
+
+## Score:
+1
+
+## Body:
+<p>Recall that if $M$ is a submodule of $\mathbb{Z}^n$, then the saturation of $M$ (in $\mathbb{Q}$) is defined to be $\mathbb{Z}^n \cap (\mathbb{Q}\otimes_{\mathbb{Z}} M)$.  According to an article of Pernet and Stein [1, Section 8], there is a well known connection between the saturation of $M$ and the Hermite normal form of the basis matrix of $M$.  Specifically, let $A$ be the basis matrix of $M$, then a basis matrix for the saturation of $M$ is given by $H^{-1}A$ where $H$ is the Hermite normal form of the transpose of $A$.</p>
+
+<p>Unfortunately there's no citation given for this result in [1], and, try as I might, I have had no luck finding any other reference to this result anywhere.  Does anyone know of one?</p>
+
+<p>[1] Pernet, Clément; Stein, William, "Fast computation of Hermite normal forms of random integer matrices". <em>J. Number Theory</em> 130 (2010), no. 7, 1675–1683. Also available here: <a href="http://modular.math.washington.edu/papers/hnf/hnf.pdf" rel="nofollow">http://modular.math.washington.edu/papers/hnf/hnf.pdf</a></p>
+
+

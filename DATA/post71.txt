@@ -1,0 +1,28 @@
+## Title:
+Looking for references on results on powers of primes dividing $y^n-1$
+
+## Tags:
+<number-theory><reference-request><divisibility>
+
+## Score:
+1
+
+## Body:
+<p>For a prime $p$ and positive integer $n$,
+let $E(n,p)$ be the greatest $k$ such that
+$p^k \mid n$, and $E(n,p) = 0$ if $p \nmid n$.
+Let $E(n) = E(n, 2)$.</p>
+
+<p>A number of years back,
+I proved the following results, and wondered how well-known they were 
+(all variables are positive integers):</p>
+
+<ol>
+<li><p>If $y \ge 3$ is even and $n$ is even then
+$E(y^n-1) = E(n) + \max(E(y-1), E(y+1))$.</p></li>
+<li><p>If $y$ is even and $p \mid y-1$, where $p$ is an odd prime,
+then
+$E(y^n-1,p) = E(n,p)+E(y-1,p)$.</p></li>
+</ol>
+
+

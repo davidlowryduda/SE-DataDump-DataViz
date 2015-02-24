@@ -1,0 +1,24 @@
+## Title:
+Solving simple congruences by hand
+
+## Tags:
+<reference-request><elementary-number-theory><arithmetic>
+
+## Score:
+5
+
+## Body:
+<p>When I am faced with a simple linear congruence such as 
+$$9x \equiv 7 \pmod{13}$$
+and I am working without any calculating aid handy, I tend to do something like the following:</p>
+
+<p>"Notice" that adding $13$ on the right and subtracting $13x$ on the left gives:
+$$-4x \equiv 20 \pmod{13}$$</p>
+
+<p>so that $$x \equiv -5 \equiv 8 \pmod{13}.$$</p>
+
+<p>Clearly this process works and is easy to justify (apart from not having an algorithm for "noticing"), but my question is this: I have a vague recollection of reading somewhere this sort of process was the preferred method of C. F. Gauss, but I cannot find any evidence for this now, so does anyone know anything about this, or could provide a reference? (Or have I just imagined it all?)</p>
+
+<p>I would also be interested to hear if anyone else does anything similar.</p>
+
+

@@ -1,0 +1,27 @@
+## Title:
+Where can I find the paper by Guy Robin?
+
+## Tags:
+<reference-request><inequality><analytic-number-theory><riemann-hypothesis>
+
+## Score:
+3
+
+## Body:
+<p>\begin{equation}
+\sigma(n) &lt; e^\gamma n \log \log n
+\end{equation}</p>
+
+<p>In 1984 Guy Robin proved that the inequality is true for all n ≥ 5,041 if and only if the Riemann hypothesis is true (Robin 1984).</p>
+
+<p>The paper where he proved this is,
+<strong><em>Robin, Guy (1984), "Grandes valeurs de la fonction somme des diviseurs et hypothèse de Riemann", Journal de Mathématiques Pures et Appliquées. Neuvième Série 63 (2): 187–213, ISSN 0021-7824, MR774171</em></strong></p>
+
+<blockquote>
+  <p>Where can I find this paper? Or, any other links that shows how
+  the inequality has been derived would be greatly appreciated.</p>
+  
+  <p><strong>EDIT:</strong> I will also accept the answer if anyone can outline the steps, how Robin derived his criterion.</p>
+</blockquote>
+
+

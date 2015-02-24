@@ -1,0 +1,31 @@
+## Title:
+When is the concatenation of numbers a square?
+
+## Tags:
+<reference-request><elementary-number-theory>
+
+## Score:
+2
+
+## Body:
+<p>A while back I asked <a href="http://math.stackexchange.com/questions/89254/champernowne-like-squares-are-there-any">a question</a> concerning the existence of squares of the form $1234567891011\ldots$ This question is similar but more general. Let $n,p,\ell$ be positive integers, then we define $c(n,p,\ell)$ to be the concatenation of numbers starting with $n$, having a period $p$, and length (or number of steps) $\ell$, then we might ask ourselves - When is $c(n,p,\ell)$ square? For example
+$$c(1,p,0)=1,$$
+$$c(4,p,0)=4,$$
+$$c(1,20,1)=121,$$
+$$c(10,14,1)=1024.$$
+A non-example:
+$$c(1,2,5)=1357911.$$
+So, it's easy to find numbers with $\ell\leqslant 1$ being square, but I have not been able to find any square of the form $c(n,p,2)$. Is there such a number? <strong>In particular I'd like to know whether there is any literature relating to this, or some similar problem.</strong></p>
+
+<p><br/><br/>
+<strong>UPDATE</strong>: Gerry Myerson found a number satisfying the requirements! For completeness I will list the numbers $c(n,p,2)$ with $n&lt20$, $p&lt20000$ below.</p>
+
+<p>$c(1,224,2)=1225449=1107^2$<br>
+$c(2,7,2)=2916=54^2$<br>
+$c(5,28,2)=53361=231^2$<br>
+$c(6,465,2)=6471936=2544^2$<br>
+$c(13,13694,2)=131370727401=362451^2$<br>
+$c(14,2371,2)=1423854756=37734^2$<br>
+$c(16,4154,2)=1641708324=40518^2$</p>
+
+

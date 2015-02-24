@@ -1,0 +1,21 @@
+## Title:
+Two questions re: $\sum_{n=1}^{\infty}n^{-p_{n}}$
+
+## Tags:
+<elementary-number-theory><reference-request>
+
+## Score:
+6
+
+## Body:
+<p><strong>Edit</strong> Motivation for question: I looked up the decimal expansion of:
+$$\sum _{n=1}^{\infty } \sum _{k=n}^{\infty } k^{-2 k},$$
+which matches the first seven digits of the function in question. I would like to investigate more, but I don't know where to look.</p>
+
+<p>I found this series at <a href="http://oeis.org/A096250" rel="nofollow">OEIS A096250</a>
+$$\sum_{n=1}^{\infty}n^{-p_{n}}$$    </p>
+
+<p>Can someone point me to a reference?<br>
+What is the significence of this series? Does it say anything about the distribution of the primes, for instance?</p>
+
+

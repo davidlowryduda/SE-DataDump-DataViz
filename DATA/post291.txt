@@ -1,0 +1,31 @@
+## Title:
+system of congruences proof
+
+## Tags:
+<elementary-number-theory><self-learning><congruences><chinese-remainder-theorem>
+
+## Score:
+2
+
+## Body:
+<p>I've checked a lot of the congruency posts and haven't seen this one yet, so I'm going to ask it.  If there is a related one, I'd be happy to see it.</p>
+
+<p>Let $x \equiv r\pmod{m}, x \equiv s\pmod{(m+1)}$. Prove
+$$x \equiv r(m+1)-sm \pmod{m(m+1)}$$
+So with the given conditions, we know
+$$x=mk_1+r$$
+Then $mk_1+r \equiv s\pmod{(m+1)} \Rightarrow mk_1 \equiv s-r\pmod{(m+1)}$</p>
+
+<p>This is where I get stuck.  I need to isolate the $k_1$  I think all the variables are messing with my mind.  If I look at some numbers, 
+say $r=1, m=6, s=2,$, then
+$$6k_1 \equiv 1\pmod{7}$$
+Multiplying both sides by 6 (since $a\equiv b\pmod{n} \text{ implies } ac\equiv bc\pmod{n})$ i get
+$$36k_1 \equiv 6\pmod{7}$$
+$$k_1 \equiv 6\pmod{7}$$
+But how do I do this with $m$?  I picked $6$ because I know $36=35+1=7\cdot5+1$  Does that mean that if I multiply both sides by $m$
+$$m^2=(m^2-1)+1=(m+1)(m-1)+1$$
+My other problem is the $r$ and $s$...so if I multiply by $m$
+$$m^2=[m^2-(s-r)]+(s-r)$$
+But this is not what I want, I need a factor to be $(m+1)$. Any help here would be appreciated.</p>
+
+

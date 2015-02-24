@@ -1,0 +1,19 @@
+## Title:
+Reference request for Algebraic Number Theory sources for self-study
+
+## Tags:
+<reference-request><algebraic-number-theory>
+
+## Score:
+6
+
+## Body:
+<p>I would appreciate any suggestions for book or notes on ANT at a level that I would characterize as advanced beginner. I.e., something assuming familiarity with topics in Dummit &amp; Foote, that is a little less than Samuel or Marcus.</p>
+
+<p>I would especially like accessible discussions of topics such as fractional ideals, ramification, and ideal classes. </p>
+
+<p>Any suggestions would be appreciated. (I have seen several enthusiastic endorsements of Stewart and Tall.)</p>
+
+<p>Thanks.   </p>
+
+

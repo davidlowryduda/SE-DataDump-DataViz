@@ -1,0 +1,44 @@
+## Title:
+Given $N$, count $\{(m,n) \mid 0\leq m<N, 0\leq n<N, m\text{ and } n \text{ relatively prime}\}$
+
+## Tags:
+<homework><number-theory><computer-science><discrete-mathematics><self-learning>
+
+## Score:
+8
+
+## Body:
+<p>I'm confused at exercise 4.49 on page 149 from the book "Concrete Mathematics: A Foundation for Computer Science":</p>
+
+<blockquote>
+  <p>Let $R(N)$ be the number of pairs of integers $(m,n)$ such that $0\leq m &lt; N$, $0\leq n&lt;N$, and $m\perp n$.<br>
+  (a) Express $R(N)$ in terms of the $\Phi$ function.<br>
+  (b) Prove that $$R(N) = \displaystyle\sum_{d\geq 1}\left\lfloor\frac{N}{d}\right\rfloor^2 \mu(d)$$</p>
+</blockquote>
+
+<ul>
+<li>$m\perp n$ means $m$ and $n$ are relatively prime</li>
+<li>$\mu$ is the <a href="http://en.wikipedia.org/wiki/Mu_function" rel="nofollow">Möbius function</a></li>
+<li>$\Phi(x)=\sum_{1\leq k\leq x}\phi(k)$</li>
+<li>$\phi$ is the <a href="http://en.wikipedia.org/wiki/Totient_function" rel="nofollow">totient function</a></li>
+</ul>
+
+<p>For question (a), my solution is $R(N) = 2 \cdot \Phi(N-1) + [N&gt;1]$ (where $[\;\;]$ is the <a href="http://en.wikipedia.org/wiki/Iverson_bracket" rel="nofollow">Iverson bracket</a>, i.e. [True]=1, [False]=0)</p>
+
+<p>Clearly $R(1)$ has to be zero, because the only possibility of $(m,n)$ for testing is $(0,0)$, which doesn't qualify. This agrees with my answer.</p>
+
+<p>But here is the book's answer:</p>
+
+<blockquote>
+  <p>Either $m&lt;n$ ($\Phi(N−1)$ cases) or $m=n$ (one case) or $m&gt;n$ ($\Phi(N−1)$ again). Hence $R(N) = 2\Phi(N−1) + 1$.</p>
+</blockquote>
+
+<p>$m=n$ is only counted when $m=n=1$, but how could that case appear when $N=1$?</p>
+
+<p>I thought the book assumed $R$ is only defined over $N≥2$. But their answer for question (b) relies on $R(N) = 2Φ(N−1) + 1$ and proves the proposition also for the case $N=1$. They actually prove $2Φ(N−1) + 1 = RHS$ for $N≥1$. And if my assumption about the $R(1)$ case is true, then the proposition in (b) cannot be valid for $N=1$, for $LHS=0$ and $RHS=1$. But the fact that it's invalid just for one value seems a little fishy to me.</p>
+
+<p>My question is, where am I confused? What is wrong in my understanding about the case $R(1)$?</p>
+
+<p>Thank you very much.</p>
+
+

@@ -1,0 +1,14 @@
+## Title:
+Reference for proof of harmonic number asymptotic expansion
+
+## Tags:
+<number-theory><reference-request>
+
+## Score:
+1
+
+## Body:
+<p>Can anyone show me where I can find a proof of the following?
+$$H_n \sim \ln{n}+\gamma+\frac{1}{2n}-\sum_{k=1}^\infty \frac{B_{2k}}{2k n^{2k}}=\ln{n}+\gamma+\frac{1}{2n}-\frac{1}{12n^2}+\frac{1}{120n^4}-\cdots$$</p>
+
+

@@ -1,0 +1,17 @@
+## Title:
+Gowers norm - gap between $U_3$ and $U_4$ norms?
+
+## Tags:
+<number-theory><analysis><reference-request>
+
+## Score:
+6
+
+## Body:
+<p>For a function $f$, it is known that $|f|_{U_2} \le |f|_{U_3} \le |f|_{U_4} \le\dots$</p>
+
+<p>Is there an example for a function $f$ such that $|f|_{U_3} &lt; |f|_{U_4}$ (i.e. they are not equal?). The bigger the gap between them, the better.</p>
+
+<p>I think there is a known construction of Gowers doing it but have no reference.</p>
+
+

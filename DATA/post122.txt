@@ -1,0 +1,15 @@
+## Title:
+Choosing an isomorphism $\tau:\overline{\mathbf{Q}}_p\simeq\mathbf{C}$; how do things depend on choice of $\tau$?
+
+## Tags:
+<reference-request><p-adic-number-theory>
+
+## Score:
+4
+
+## Body:
+<p>I sometimes see arguments that begin by choosing an isomorphism of fields $\tau:\overline{\mathbf{Q}}_p\simeq\mathbf{C}$, and then defining some property in terms of this isomorphism. I'm not so familiar with the technical properties; must there exist continuous isomorphisms or isometries? Where can I read up on the basic properties of such isomorphisms or how this technique is deployed?  </p>
+
+<p>Sample question: suppose I say that $P\in\mathbf{Q}_p[X]$ is 'pure of weight $i\in\mathbf{Z}$' if every root $\lambda\in\overline{\mathbf{Q}}_p$ of $P$ satisfies $|\tau(\lambda)|_{\mathbf{C}}=i$. Does this notion depend on $\tau$?</p>
+
+

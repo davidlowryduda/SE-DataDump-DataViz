@@ -1,0 +1,18 @@
+## Title:
+If $r$ is a primitive root of $m$, then $r$ is also a primitive root of each positive divisor $d$ of $m$
+
+## Tags:
+<elementary-number-theory><reference-request>
+
+## Score:
+2
+
+## Body:
+<blockquote>
+  <p>If $r$ is a primitive root of $m$, then $r$ is also a primitive root
+  of each positive divisor $d$ of $m$.</p>
+</blockquote>
+
+<p>There is a proof of this statement <a href="http://math.arizona.edu/~savitt/mathcamp/1999/primitive_roots.pdf" rel="nofollow">here</a> (see Theorem 4.4), but I cannot find this result in any of my number theory textbooks.  Does anyone know of a textbook that proves this result? Moreover, does anyone know the origin of this result?</p>
+
+

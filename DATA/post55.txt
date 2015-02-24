@@ -1,0 +1,14 @@
+## Title:
+Convergence of prime series
+
+## Tags:
+<reference-request><prime-numbers><convergence><analytic-number-theory>
+
+## Score:
+3
+
+## Body:
+<p>Where can I read about convergence of series constituted of prime number such as the following:
+$$\sum_p \frac{1}{p (\log{p})^\alpha}\;?$$ How does convergence depend on $\alpha$?</p>
+
+

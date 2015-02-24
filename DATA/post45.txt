@@ -1,0 +1,21 @@
+## Title:
+Dixon's Theorem to probabilistically bound largest factor of N
+
+## Tags:
+<probability><number-theory><reference-request>
+
+## Score:
+6
+
+## Body:
+<p>I have recently decided to read up on the current integer factorization algorithms. When looking into some of the algorithms, I came across the following statement:</p>
+
+<blockquote>
+  <p>Say that p is the smallest prime factor of n. By Dixon's Theorem, the probability that the largest factor of n is less than $(p)^\epsilon$ is roughly $\epsilon ^ {- \epsilon}$.</p>
+</blockquote>
+
+<p>But when I hear Dixon's Theorem, I think of <a href="http://en.wikipedia.org/wiki/Dixon%27s_theorem" rel="nofollow">this</a>. I currently don't see how Dixon's Theorem yields such a probabilistic bound. Can you help me with that?</p>
+
+<p>And the disclaimer - I am not currently in any class, so this was not assigned to me, it is not a homework problem, and I will in no way be receiving any sort of academic credit for this work.</p>
+
+

@@ -1,0 +1,22 @@
+## Title:
+Sum of rational numbers given some properties
+
+## Tags:
+<number-theory><reference-request><analytic-number-theory>
+
+## Score:
+7
+
+## Body:
+<p>Let $R(n)$ denote the sum of all positive rational numbers whose numerators and denominators are less than or equal to $n$ and have no common factors. I have estimated this sum to be
+$$
+\begin{align*}
+R(n)=\sum_{\substack{a,b\leq n\\ (a,b)=1}}\frac{a}{b}&amp;=\sum_{m\leq n}\sum_{\substack{k\leq m\\ (m,k)=1}}\frac{m}{k}+\sum_{m\leq n}\sum_{\substack{k\leq m\\ (m,k)=1}}\frac{k}{m}-1\\
+&amp;=\frac{1}{2}n^2\left(\frac{6}{\pi^2}(\log n+\gamma)+A\right)+O(n),
+\end{align*}
+$$
+using <a href="http://math.stackexchange.com/a/164569/77474">this technique</a> and some well-known facts from analytic number theory. Here $\gamma$ is the Euler-Mascheroni constant and $A=-\sum_{n=1}^\infty\frac{\mu(n)}{n^2}\log n=0.3465...$.</p>
+
+<p>Is there any literature on this sum (or something similar)? And if so, is there an estimate with an error term smaller than $n$?</p>
+
+

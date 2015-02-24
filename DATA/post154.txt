@@ -1,0 +1,13 @@
+## Title:
+polynomial values take on arbitrarily large prime factors?
+
+## Tags:
+<number-theory><reference-request>
+
+## Score:
+6
+
+## Body:
+<p>Let $P$ be an integer valued polynomial with degree $&gt; 1$, is it a theorem that the values $P(n)$ have arbitrarily large prime factors?</p>
+
+

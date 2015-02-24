@@ -1,0 +1,16 @@
+## Title:
+Is there a notion of *p-adic Dedekind Domains*?
+
+## Tags:
+<reference-request><algebraic-number-theory><p-adic-number-theory>
+
+## Score:
+5
+
+## Body:
+<p><a href="http://en.wikipedia.org/wiki/P-adic_number#Algebraic_approach" rel="nofollow">As we all know</a>, the ring $Z_p$ can be constructed as the projective limit of the rings $Z/p^{n}Z$.<br>
+Now is there any generalization such as the p-adic completions of a Dedekind Domain?<br>
+This might be said to be inspired by the general treatment of extensions of Dedekind Domains from the treatment of algebraic number fields.<br>
+In any case, thanks very much.  </p>
+
+

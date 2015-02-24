@@ -1,0 +1,15 @@
+## Title:
+Exposition on Modular Curves
+
+## Tags:
+<number-theory><reference-request><elliptic-curves>
+
+## Score:
+4
+
+## Body:
+<p>I was recently reading this paper by <a href="http://swc.math.arizona.edu/aws/2001/01Weston1.pdf" rel="nofollow">Weston</a>, whereby he talks about the modular curves $X_0(11)$ and $X_1(11)$. </p>
+
+<p>I was wondering if anyone can recommend a more general exposition of modular curves (specifically ones that are related to elliptic curves)? </p>
+
+

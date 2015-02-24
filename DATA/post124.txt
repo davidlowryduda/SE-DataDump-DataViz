@@ -1,0 +1,17 @@
+## Title:
+Primes of the form $\lfloor x^k\rfloor$
+
+## Tags:
+<number-theory><reference-request><prime-numbers>
+
+## Score:
+4
+
+## Body:
+<p>I'm looking for a result (embarrassingly enough, a somewhat famous result) which shows the infinitude in some sense I don't recall of primes of the form
+$$
+\lfloor x^k\rfloor
+$$
+for $k$ fixed and irrational. There were sharp limits on the size of $k.$ I think the original result has been improved many times, mostly by widening the allowable range of $k.$</p>
+
+

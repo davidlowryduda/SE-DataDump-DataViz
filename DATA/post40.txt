@@ -1,0 +1,17 @@
+## Title:
+The Langlands program for beginners
+
+## Tags:
+<reference-request><soft-question><algebraic-number-theory><representation-theory><automorphic-forms>
+
+## Score:
+31
+
+## Body:
+<p>Assuming that a person has taken standard undergraduate math courses (algebra, analysis, point-set topology), what other things he must know before he can understand the Langlands program and its geometric analogue?</p>
+
+<p>What are the good books for learning these topics?</p>
+
+<p>Is there any book which can explain the Langlands program to an undergraduate with very few prerequisites?</p>
+
+

@@ -1,0 +1,77 @@
+## Title:
+Books about the Riemann Hypothesis
+
+## Tags:
+<number-theory><reference-request><analytic-number-theory><riemann-zeta><riemann-hypothesis>
+
+## Score:
+20
+
+## Body:
+<p>I hope this question is appropriate for this forum. I am compiling a list of all books about the Riemann Hypothesis and Riemann's Zeta Function. Here is my list:</p>
+
+<p>The Riemann Hypothesis: A Resource for the Afficionado and Virtuoso Alike, Peter Borwein, Stephen Choi, Brendan Rooney, Andrea Weirathmueller (Eds.) </p>
+
+<p>The Riemann Hypothesis and Hilbert's Tenth Problem, by S. Chowla</p>
+
+<p>Prime Obsession: Bernhard Riemann and the Greatest Unsolved Problem in Mathematics, by John Derbyshire</p>
+
+<p>The Music of the Primes: Searching to Solve the Greatest Mystery in Mathematics, by Marcus du Sautoy </p>
+
+<p>Riemann's Zeta Function, by Harold M. Edwards</p>
+
+<p>The Riemann Zeta-Function: Theory and Applications, by Aleksandar Ivic </p>
+
+<p>The Riemann Zeta-Function, by Anatoly A. Karatsuba and S. M. Voronin</p>
+
+<p>In Search of the Riemann Zeros, by Michel L. Lapidus</p>
+
+<p>Limit Theorems for the Riemann Zeta-Function, by Antanas Laurincikas</p>
+
+<p>The Lerch zeta-function, by Antanas Laurincikas and Ramunas Garunkstis</p>
+
+<p>Spectral Theory of the Riemann Zeta-Function, by Yoichi Motohashi</p>
+
+<p>An Introduction to the Theory of the Riemann Zeta-Function, by S. J. Patterson</p>
+
+<p>Stalking the Riemann Hypothesis: The Quest to Find the Hidden Law of Prime Numbers, by Dan Rockmore</p>
+
+<p>The Riemann Hypothesis: The Greatest Unsolved Problem in Mathematics, by Karl Sabbagh</p>
+
+<p>Seminar on the Riemann Zeta Function 1965-1966, by Robert Spira</p>
+
+<p>Zeta and q-Zeta Functions and Associated Series and Integrals, by H. M. Srivastava and Junesang Choi</p>
+
+<p>The Theory of the Riemann Zeta-Function, by E. C. Titchmarsh, D. R. Heath-Brown (Ed.) </p>
+
+<p>Zeta Functions over Zeros of Zeta Functions, by André Voros</p>
+
+<p>Are any books missing from my list? I don't include books by mathematical cranks (especially books by amateurs who claim to prove RH in their book). I also don't include books about analytic number theory in general that include some material about the Riemann Hypothesis or Riemann's Zeta Function. I did not include books about related topics, such as zeta functions of groups. I realize that one could quibble about the inclusion of some of the books on my list, such as Laurincikas's book about the Lerch Zeta Function. I would be very grateful for any additions to my list.</p>
+
+<p>Edit: Excluding books that consist of collections of mathematical tables, and books that are paper-length (say, under 50 pages), the following books can be added to my list:</p>
+
+<p>Ramanujan Lecture Notes Series, Vol. 2: The Riemann zeta function and related themes (Proceedings of the international conference held at the National Institute of Advanced Studies, Bangalore, December 2003), R. Balasubramanian, K. Srinivas (Eds.), 206 pp.</p>
+
+<p>Lectures on the Riemann zeta-function (1962), by K. Chandrasekharan, 148 pp.</p>
+
+<p>Elizalde, Emilio, Ten Physical Applications of Spectral Zeta Functions, Lecture Notes in Physics 855, Springer, Berlin, 2012 (2nd edition), 290 pages</p>
+
+<p>Gavrilov, N. I. Problema Rimana o raspredelenii korneidzetafunktsii. (Russian) [The Riemann problem on the distribution of the roots of the zeta function ] Izdat. L'vov. Univ., Lvov, 1970 1970 172 pp. </p>
+
+<p>Ivic, A. Lectures on mean values of the Riemann zeta function. Tata Institute of Fundamental Research Lectures on Mathematics and Physics, 82. Published for the Tata Institute of Fundamental Research, Bombay; by Springer-Verlag, Berlin, 1991. viii+363 pp. ISBN: 3-540-54748-7 </p>
+
+<p>Ivic, A. The Theory of Hardy's Z-function. Cambridge Tracts in Mathematics 196. Cambridge: Cambridge University Press. ISBN 978-1-107-02883-8, 264 pages, 2012</p>
+
+<p>Ivic, A. Topics in recent zeta function theory. Publ. Math. d'Orsay, Université de Paris-Sud, Dép. de Mathématique, 1983, 272 pages</p>
+
+<p>Fractal Geometry and Number Theory: Complex Dimensions of Fractal Strings and Zeros of Zeta Functions, by Michel L. Lapidus and Machiel van Frankenhuysen, 1999</p>
+
+<p>Fractal Geometry, Complex Dimensions and Zeta Functions: Geometry and Spectra of Fractal Strings, by Michel L. Lapidus and Machiel van Frankenhuysen, 2006</p>
+
+<p>Ramachandra, K. On the mean-value and omega-theorems for the Riemann zeta-function. Tata Institute of Fundamental Research Lectures on Mathematics and Physics, 85. Published for the Tata Institute of Fundamental Research, Bombay; by Springer-Verlag, Berlin, 1995. xiv+169 pp. ISBN: 3-540-58437-4  </p>
+
+<p>History of Zeta Functions, by Robert Spira, 3 volumes, 1218 pages, 1999</p>
+
+<p>Van der Veen, Roland; van de Craats, Jan De Riemann-hypothese. (Dutch) [The Riemann hypothesis] Een miljoenenprobleem. [A million dollar problem] Epsilon Uitgaven, Utrecht, 2011. vi+102 pp. ISBN: 978-90-5041-126-4</p>
+
+

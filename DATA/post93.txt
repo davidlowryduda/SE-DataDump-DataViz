@@ -1,0 +1,19 @@
+## Title:
+How many solutions for $x^2 = 1$?
+
+## Tags:
+<number-theory><reference-request><algebraic-number-theory><convention>
+
+## Score:
+2
+
+## Body:
+<p>Let $F$ be an non-archimedean local field, let $o$ be its ring of integers, and let $p$ be the maximal ideal</p>
+
+<p>Is there a closed form for the cardinality</p>
+
+<p>$$ | \{ x \in o / p^N: x^2  = -1 \bmod p^N\} | =A(o, p^N)?$$</p>
+
+<p>I am actually interested in $\chi(p^N) = (-1)^{\frac{p^{N} - p^{N-1}+A(o,p^N)}{2}}$ or $\chi(p^N) / \chi(p^{N-1})$. Are these functions characters? Do they have a name and are they well understood?</p>
+
+

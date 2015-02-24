@@ -1,0 +1,24 @@
+## Title:
+Geometric Explanation of Tamagawa Numbers
+
+## Tags:
+<number-theory><reference-request><algebraic-geometry><measure-theory><differential-forms>
+
+## Score:
+14
+
+## Body:
+<p>Sometimes in order to understand a concept thoroughly we need to have a algebraic view ( in terms of equations ) and corresponding geometric view. </p>
+
+<p>My interest always lies with understanding the Tamagawa Numbers from different view points. So to say something, I already know the algebraic version of Tamagawa numbers ( both local and global parts ) . It can be stated as follows "  the semisimple linear algebraic group $G$ over $\mathbb Q$, the Tamagawa number of $G$ (which is the standard terminology for the volume of $G(\mathbb Q)\setminus G(\mathbb A)$ with respect to Tamagawa measure) should be equal to $1$, and when $G$ is an elliptic curve rather than a linear group, there are many interesting things that happened, and which gave rise to a series of seminal works, and the Tamagawa numbers are widely used for tori ( by T.Ono ) , and also later the Birch and Swinnerton-Dyer found an analogue of the tamagawa number of elliptic curve ( anlogous to the work of T.Ono in defining the tamagawa numbers of Tori ) that played a central part in defining the Birch and Swinnerton-Dyer conjectures." </p>
+
+<p>In terms of measure the Tamagawa Number can be defined as $$\large \tau=\rho(G)^{-1} |\Delta_k|^{-\large \frac{1}{2} \rm { dim } G } \prod_{\nu \ | \infty} \omega_{\nu}  \prod_{\mathfrak{p}} L_{\mathfrak{p}}(1,\chi_{G})\omega_{\mathfrak{p}}$$ where $\omega$ is the gauge form on $G$, $\chi_{G}$ is the character of the representation of the Galois group of $\bar{k}/k$ on the lattice $\widehat{G}$ and $\rho(G) = \lim_{ s \mapsto 1 } (s - 1)^{r} L(s, \chi_{G})$ , $\Delta_k$ be the
+discriminant of $k/\mathbb{Q}$. And in some sense $$\large \prod_{\nu \ | \infty} \omega_{\nu}  \prod_{\mathfrak{p}} L_{\mathfrak{p}}(1,\chi_{G})\omega_{\mathfrak{p}}$$ can be taken as the Haar Measure on $G(\mathbb{A})$. </p>
+
+<p>I am now very curious in hearing to alternate interpretations of Tamagawa Number in Geometric sense, as a intuitive way. If there is some geometric way of explaining what is the tamagawa number , and what impact does it give , I would be very happy in listening that. Please don't include the wikipedia article ( as I have read it already ).</p>
+
+<p>P.S : I know the answer will express something related to the differential forms, but I am a bit confused.  If there is some other intuitive explanation , I would be very happy. Even any article that does this job will be fine.</p>
+
+<p>Thank you. </p>
+
+

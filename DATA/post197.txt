@@ -1,0 +1,29 @@
+## Title:
+Origin of well-ordering proof of uniqueness in the FToArithmetic
+
+## Tags:
+<number-theory><elementary-number-theory><reference-request><math-history>
+
+## Score:
+9
+
+## Body:
+<p>In the Appendix to Ivan Niven's book "Numbers: Rational and Irrational", he proves the Fundamental Theorem of Arithmetic (FToA) without using Euclid's Lemma that if a prime divides a product, then it divides one of the factors of the product.  Niven's proof instead uses well-ordering.  </p>
+
+<p>He assumes that m is the smallest positive integer with two different prime factorizations, say</p>
+
+<p>$$ m=p_1 p_2 p_3 \ldots p_r \qquad \text{and} \qquad m=q_1 q_2 q_3 \ldots q_s $$</p>
+
+<p>Typically, Euclid's Lemma would now be invoked repeatedly to say that each prime in one factorization of a number must also occur in any other, giving a contradiction. (Or more typically, this idea is rewritten as a direct proof.)  </p>
+
+<p>Niven instead proceeds saying that the two factorizations cannot have a prime in common, since if they did, we could assume without loss of generality that p_1 = q_1.  Then $m/p_1$ would be a positive integer smaller than $m$ with the two different factorizations</p>
+
+<p>$$ m/p_1 = p_2 p_3 \ldots p_r \qquad \text{and} \qquad m/p_1 = q_2 q_3 \ldots q_s, $$</p>
+
+<p>a contradiction.  </p>
+
+<p>So without losing generality, we may assume $p_1 &lt; q_1$.  Niven proceeds to show that the number $(q_1 - p_1) q_2 q_3 \cdots q_s$ is a positive integer smaller than $m$ with two different prime factorizations --- one containing $p_1$ as a factor and the other not.  This contradiction proves the uniqueness part of the FToA.</p>
+
+<p>My question is, who originated this proof?</p>
+
+

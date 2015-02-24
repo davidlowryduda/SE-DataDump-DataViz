@@ -1,0 +1,29 @@
+## Title:
+Are there any good algebraic geometry books to recommend?
+
+## Tags:
+<soft-question><algebraic-geometry><reference-request><big-list><algebraic-number-theory>
+
+## Score:
+2
+
+## Body:
+<blockquote>
+  <p><strong>Possible Duplicate:</strong><br>
+  <a href="http://math.stackexchange.com/questions/1748/undergraduate-algebraic-geometry-textbook-recomendations">(undergraduate) Algebraic Geometry Textbook Recomendations</a>  </p>
+</blockquote>
+
+
+
+<p>I am interested in algebraic number theory and I am recently acquainted with the theory of valuations, which further leads to Riemann-Roch theory, and which is closely related to algebraic geometry, and the algebraic-K-theory.<br>
+Therefore, my problem is:  </p>
+
+<blockquote>
+  <p>Are there excellent introductory books of the theory of Algebraic Geometry to recommend?  </p>
+</blockquote>
+
+<p>Since I know in general nothing about this theory, I may want a book which explains the ideas as clear as possible and which at the mean time contains as much material as possible.<br>
+If I am asking too much, then any good book in your view suffices.<br>
+Thanks very much.</p>
+
+

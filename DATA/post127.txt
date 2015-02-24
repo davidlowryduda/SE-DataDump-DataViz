@@ -1,0 +1,19 @@
+## Title:
+infinitely many prime numbers with prescribed digits
+
+## Tags:
+<number-theory><reference-request><prime-numbers>
+
+## Score:
+4
+
+## Body:
+<p>My main question is the generalization, though one can answer the first one and it will get accepted.</p>
+
+<ul>
+<li>Are there infinitely many primes involving $3,7$ only?</li>
+</ul>
+
+<p><em>Generalization:</em> For what sets of given $k$ distinct digits (not all even) from $\{0,1,...,9\}$ where $1\leq k \leq 9,$ there are infinitely many prime numbers involving only these $k$ digits? </p>
+
+

@@ -1,0 +1,19 @@
+## Title:
+Quick proof to showing that $p\equiv 1\pmod{4}$ implies $p$ is reducible in $\mathbb{Z}[i]$?
+
+## Tags:
+<number-theory><reference-request>
+
+## Score:
+5
+
+## Body:
+<p>I want to show that for $p$ a prime, if $p\equiv 1\pmod{4}$, then $p$ is not irreducible in $\mathbb{Z}[i]$. </p>
+
+<p>I know that $x^2\equiv -1\pmod{p}$ has a solution when $p\equiv 1\pmod{4}$, so $p\mid x^2+1$. I could then prove that $\mathbb{Z}[i]$ is a PID, so Euclid's lemma holds, and then see that $p\mid (x+i)$ or $p\mid (x-i)$, using the fact that $\mathbb{Z}[i]$ is a PID, so if $p$ is irreducible, then $p$ is prime. But then this gives a contradiction since $1/p$ is not an integer, so $(x\pm i)/p\notin\mathbb{Z}[i]$. </p>
+
+<p>I could do all this, but it seems like a lot of effort for the result. Is there a slicker, more elegant proof that $p\equiv 1\pmod{4}$ implies $p$ is not irreducible in the Gaussian integers?</p>
+
+<p>By the way, I'm using this to finally conclude Fermat's theorem on the sum of two squares, so I don't want to refer to that in this.</p>
+
+

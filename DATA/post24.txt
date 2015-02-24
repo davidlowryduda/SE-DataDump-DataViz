@@ -1,0 +1,24 @@
+## Title:
+Good book resources (not websites) to learn number theory on my own?
+
+## Tags:
+<number-theory><reference-request><elementary-number-theory><self-learning>
+
+## Score:
+2
+
+## Body:
+<blockquote>
+  <p><strong>Possible Duplicate:</strong><br>
+  <a href="http://math.stackexchange.com/questions/1774/undergraduate-high-school-olympiad-level-introductory-number-theory-books-for-sel">Undergraduate/High-School-Olympiad Level Introductory Number Theory Books For Self-Learning</a>  </p>
+</blockquote>
+
+
+
+<p>I took number theory this semester and loved it but don't feel like I learned all that much. I am not going any farther in formal education in math so I would like to further investigate number theory on my own. Do you have any suggestions for good books? I need at least one that is pretty basic and preferably one that goes a little bit more advanced. (You can look at some of my other recent questions to see the level that I'm at, but I really don't understand much beyond Diophantine equations- pretty much have to start over).</p>
+
+<p>I also would prefer if you didn't recommend current textbooks- I've got a pretty small budget. I was looking at <a href="http://rads.stackoverflow.com/amzn/click/0486656209" rel="nofollow">Ore's Number Theory and its History</a>, <a href="http://rads.stackoverflow.com/amzn/click/048646931X" rel="nofollow">this book</a>, and <a href="http://rads.stackoverflow.com/amzn/click/0817645659" rel="nofollow">this book</a>. </p>
+
+<p>Thanks for the help and I apologize if this question is too broad/vague/or subjective.</p>
+
+

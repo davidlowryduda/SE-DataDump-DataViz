@@ -1,0 +1,23 @@
+## Title:
+What is the well-known result used to prove primality of $n=2pq+1$ under certain conditions?
+
+## Tags:
+<number-theory><reference-request><prime-numbers><primality-test>
+
+## Score:
+1
+
+## Body:
+<p>On <a href="http://www.primenumbers.net/Henri/us/Testapp1us.htm" rel="nofollow">Henri Lifchitz's website</a>, we find:</p>
+
+<blockquote>
+  <p>If $n=2pq+1$, $p$ and $q$ primes and $q&gt;2p$, if there is an integer $a$ such $a^{n-1} \equiv 1 \pmod n$ and $\gcd(a^{2p}-1,n)=1$ then $n$ is prime.</p>
+</blockquote>
+
+<p>It is described as a special case of a "well known" result involving $n=hq^k+1$ with $h=2p$, $p$ and $q$ are prime and $k=1$.</p>
+
+<p><em>Question</em>: What is the well-known result?  Where can we find a proof of it?</p>
+
+<p>Aside from its intrinsic interest, analysis of the proof of this result might be helpful for answering this question <a href="http://math.stackexchange.com/q/494251/91818">Primality Test with some condition</a>, which includes the case $10p+1$.</p>
+
+

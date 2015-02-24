@@ -1,0 +1,19 @@
+## Title:
+Has anyone studied this particular sequence?
+
+## Tags:
+<number-theory><sequences-and-series><reference-request>
+
+## Score:
+2
+
+## Body:
+<p>I'm going to tag this as reference request, since I'm mainly interested in finding out whether this kind of sequence has been named in literature before, just in order to acknowledge it for something I am working on.</p>
+
+<p>The sequence is the following, $$ a_n = \prod^n  p_{i}^{p_i}$$ </p>
+
+<p>for $n \geq 1$ where $p_i$ is the $i$-th prime number. So it's basically the sequence of integers of prime factors to the power of themselves, i.e. $2^2,2^2 3^3, 2^2 3^3 5^5$ and so on.</p>
+
+<p>Do you know is this has been studied? If yes, could you recommend any interesting literature on it?</p>
+
+

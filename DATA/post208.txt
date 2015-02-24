@@ -1,0 +1,17 @@
+## Title:
+What is a place?
+
+## Tags:
+<reference-request><algebraic-number-theory>
+
+## Score:
+2
+
+## Body:
+<p>In <a href="http://www-nw.uni-regensburg.de/~knm22087/book.pdf" rel="nofollow">Specialization of Quadratic
+and Symmetric Bilinear
+Forms</a> (page: 3) the author writes "Let also $\lambda: K \to L \cup \infty$ be a place, $\mathfrak o = \mathfrak o_\lambda$ the valuation ring associated to $K$ and $\mathfrak m$ be the maximal ideal of $\mathfrak o$."</p>
+
+<p>What is a <em>place</em> and what is $L$? This is the first page of the book so that knowledge of the definition seems to be assumed.   </p>
+
+

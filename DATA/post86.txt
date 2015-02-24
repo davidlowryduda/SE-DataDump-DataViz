@@ -1,0 +1,23 @@
+## Title:
+Relationship between Kronecker's Approximation Thm and Weyl's Equidistribution Thm?
+
+## Tags:
+<calculus><probability><number-theory><reference-request>
+
+## Score:
+1
+
+## Body:
+<p>According to Prof. <a href="http://en.wikipedia.org/wiki/Equidistribution_theorem" rel="nofollow">Wikipedia</a>, the Equidistribution Theorem was proved by Weyl in 1910 and independently by two others around the same time.</p>
+
+<p>The theorem states that for $\alpha$ irrational, the sequence $\alpha, 2\alpha, 3\alpha,..., etc.  \pmod 1$ is uniformly distributed on the unit interval. </p>
+
+<p>At Wolfram's <a href="http://mathworld.wolfram.com/KroneckersApproximationTheorem.html" rel="nofollow">MathWorld</a>, a similar theorem is attributed to Kronecker, namely that for any irrational number $\alpha$, the sequence $\{n \alpha \}$ is dense in the unit interval, i.e., one can find a $\{k \alpha\}$ arbitrarily close to any real number b with $0 \leq b \leq 1 $. This is styled the Kronecker Approximation Theorem. Kronecker died in 1891. Note: $\{n\alpha\}$ is the fractional part of $n\alpha $.</p>
+
+<p>I haven't seen a proof of Kronecker's theorem, but I have seen a proof of Weyl's Theorem. Naively (as usual), it appears the two ideas can be used interchangeably in some contexts. Even more naively, it seems there is a strong theoretical relationship between the two.  </p>
+
+<p>Can someone offer a thumbnail sketch of the salient differences/similarities of the two ideas (or a good reference for same)? Knowing no better, I would say Weyl owed a considerable debt to Kronecker.</p>
+
+<p>Thank you. </p>
+
+

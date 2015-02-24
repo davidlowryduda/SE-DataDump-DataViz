@@ -1,0 +1,14 @@
+## Title:
+Beginner's text for Algebraic Number Theory
+
+## Tags:
+<number-theory><reference-request>
+
+## Score:
+10
+
+## Body:
+<p>What's good book for learning Algebraic Number Theory with minimum prerequisites?
+Assume that the reader has done an basic abstract algebra course.</p>
+
+

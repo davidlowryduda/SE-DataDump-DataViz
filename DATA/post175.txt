@@ -1,0 +1,14 @@
+## Title:
+Can someone provide a readable discourse on factorization, norms, maximality of norms of ideals in a number field.
+
+## Tags:
+<number-theory><reference-request>
+
+## Score:
+1
+
+## Body:
+<p>I have already introduced myself as the communications liaison of a small study group of math Ph. D.'s who are thirty plus years away from grad studies. We are currently working on Stewart &amp; Tall's ANT and Fermat's Last Theorem. We are having as rough time with Chapter 5 and are seeking alternative readings. Unfortunately there seem to be as many approaches to ANT as there are textbooks written. This makes it much harder to find those "alternate Readings" which follow their (Stewart &amp; Tall) development.
+Any direction would be appreciated.</p>
+
+

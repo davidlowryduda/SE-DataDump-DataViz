@@ -1,0 +1,25 @@
+## Title:
+cryptology beginner book
+
+## Tags:
+<elementary-number-theory><reference-request><cryptography>
+
+## Score:
+1
+
+## Body:
+<p>I am taking a number theory course this semester which includes a brief intro to the field of cryptology including only :<br>
+ Applications to Cryptology, Character Ciphers,Block and stream Ciphers,Exponentiation Ciphers,public key cryptography.</p>
+
+<p>My syllabus does not recommend any good books, just one or two which treat the subject matter very formally from the beginning .</p>
+
+<p>So, can anyone recommend some good books  or lecture notes available  or video lectures or anything that can help me to make good foundations in this subject apart from covering what is in my syllabus.</p>
+
+<p>Any sort of help is appreciated,</p>
+
+<p>Thanks  in advance.     </p>
+
+<p>P.S.: I have introduction to mathematical cryptography by Hoffstein, Pipher and Silverman.
+   I havem't checked it out but is it suitable for a beginner?</p>
+
+

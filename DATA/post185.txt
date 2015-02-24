@@ -1,0 +1,27 @@
+## Title:
+Foundation on Diophantine Analysis and Number Theory
+
+## Tags:
+<elementary-number-theory><reference-request><soft-question><diophantine-equations><big-list>
+
+## Score:
+4
+
+## Body:
+<p>I want to read particularly about diophantine Analysis and Elementary Number Theory from a novice level.</p>
+
+<p>The books which I found on net:</p>
+
+<ol>
+<li><p>A Guide to Elementary Number Theory by Underwood Dudley</p></li>
+<li><p>Diophantine Analysis by Robert Daniel Carmichael</p></li>
+<li><p>Diophantine Analysis by Jorn Steuding</p></li>
+</ol>
+
+<p>Help me with good suggestions as I think M.SE. has people from novice to professional users.</p>
+
+<p>Thanks.</p>
+
+<p>P.S. I have searched M.SE. for this type of question, I didn't find any. If you know someone, you may give the link.</p>
+
+

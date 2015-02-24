@@ -1,0 +1,15 @@
+## Title:
+Divergent series and $p$-adics
+
+## Tags:
+<sequences-and-series><reference-request><p-adic-number-theory><divergent-series>
+
+## Score:
+6
+
+## Body:
+<p>If we naïvely apply the formula $$\sum_0^\infty a^i = {1\over 1-a}$$ when $a=2$, we get the silly-seeming claim that $1+2+4+\ldots = -1$. But  in the 2-adic integers, this formula is correct. </p>
+
+<p>Surely this is not a coincidence? What is the connection here?  Do the $p$-adics provide generally useful methods for summing divergent series?  I know very little about either divergent series or $p$-adic analysis; what is a good reference for either topic?</p>
+
+

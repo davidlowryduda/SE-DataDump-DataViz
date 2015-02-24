@@ -1,0 +1,15 @@
+## Title:
+Is there a catalogue of solved Diophantine equations?
+
+## Tags:
+<number-theory><reference-request><diophantine-equations>
+
+## Score:
+8
+
+## Body:
+<p>Is there a book, website or something else aiming to catalogue all or many of the Diophantine equations that have already been solved?</p>
+
+<p>I have two tiny books by Sierpiński in which he gives some of those, but I suspect lots of kinds of equations must have been solved. (Although I really don't have much of an idea how many.) I would like to see such a catalogue to get an idea of what has been done.</p>
+
+

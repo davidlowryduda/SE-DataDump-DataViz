@@ -1,0 +1,13 @@
+## Title:
+Good Resources for Understanding Finite Field Arithemtic
+
+## Tags:
+<number-theory><reference-request>
+
+## Score:
+3
+
+## Body:
+<p>I am looking for a good reference that could clearly explain finite field arithemtic.  Specifically I want to understand the importance and utility of the field generator polynomial and why it is important in multiplication.</p>
+
+

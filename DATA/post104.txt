@@ -1,0 +1,19 @@
+## Title:
+Strong approximation in function fields
+
+## Tags:
+<number-theory><reference-request><algebraic-geometry>
+
+## Score:
+2
+
+## Body:
+<p>How does the strong approximation theorem for global function fields looks like?</p>
+
+<p>For the number field $\mathbb{Q}$ it can be expressed as the surjection</p>
+
+<p>$$ \mathbb{Q}^\times \times \mathbb{R}^\times \times \prod\limits_{p} \mathbb{Z}_p \twoheadrightarrow \mathbb{A}^\times.$$</p>
+
+<p>I want to understand the image of the adelic norm.</p>
+
+

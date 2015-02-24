@@ -1,0 +1,13 @@
+## Title:
+Reference Request: Linear Forms in Logarithms
+
+## Tags:
+<number-theory><reference-request>
+
+## Score:
+2
+
+## Body:
+<p>Does anyone know a good book for learning about linear forms in logarithms especially one that is motivated by solving Diophantine equations with it? I know there's a chapter in Langs book but it doesn't have any applications so that's not the sort of thing I was looking for. Thanks very much for any recommendations!</p>
+
+

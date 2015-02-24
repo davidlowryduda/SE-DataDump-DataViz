@@ -1,0 +1,15 @@
+## Title:
+Important papers in arithmetic geometry and number theory
+
+## Tags:
+<number-theory><reference-request><arithmetic-geometry>
+
+## Score:
+14
+
+## Body:
+<p>Having been inspired by <a href="http://math.stackexchange.com/questions/160983/famous-papers-in-algebraic-geometry/160985#160985">this question</a> I was wondering, what are some important papers in arithmetic geometry and number theory that should be read by students interested in these fields?</p>
+
+<p>There is a <a href="http://en.wikipedia.org/wiki/List_of_important_publications_in_mathematics#Number_theory" rel="nofollow">related wikipedia article</a> along these lines, but it doesn't mention some important papers such as Mazur's "Modular Curves and the Eisenstein ideal" paper or Ribet's Inventiones 100 paper.</p>
+
+

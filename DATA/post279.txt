@@ -1,0 +1,17 @@
+## Title:
+Total ramification in infinite Galois extension
+
+## Tags:
+<reference-request><algebraic-number-theory>
+
+## Score:
+2
+
+## Body:
+<p>Let $L/K$ be an infinite galois extension of fields, and $\frak p$ a prime of $K$  and $\frak P$ a prime  of $L$ above $\frak p.$ We define the ramification index of $\frak p$ by $e(\frak {P}/\frak{p})=$$|T(\frak {P}/\frak{p})|$ where $T$ is the inertia group of $\frak p$. </p>
+
+<p>I searched in books but I can not find the definition of total ramification of $\frak p.$</p>
+
+<p>Can anyone give me the exact definition of total ramification in infinite Galois extension? Or a reference in which I can find this?</p>
+
+

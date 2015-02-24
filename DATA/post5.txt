@@ -1,0 +1,19 @@
+## Title:
+Reconstructing a Monthly problem: tree growth on the 2D integer lattice
+
+## Tags:
+<number-theory><reference-request><fractals><discrete-geometry>
+
+## Score:
+10
+
+## Body:
+<p>I'm trying to reconstruct a problem I saw in the Monthly, years ago. Perhaps it'll look familiar to someone.</p>
+
+<p>In the integer lattice in the plane, we grow a tree in the following natural way: Initially the tree is just the origin. At each step, we find the set of lattice points that are neighbors (distance 1) to precisely one vertex of our tree, and add them (simultaneously) to the tree.</p>
+
+<p>Thus on day 0 the tree is $\{(0,0)\}$; on day 1 it contains $\{(0,0), (1,0), (-1,0),(0,1),(0,-1)\}$; on day 2 it contains those vertices along with $(2,0),(-2,0),(0,2)$ and $(0,-2)$ (note that $(1,1)$ is not added because it has two neighbors already in the tree), and on day 3 we add 12 new vertices. It looks like a pretty familiar fractal.</p>
+
+<p>The thing I'm not sure of is what exactly was asked of that tree... Possible candidates include its asymptotic density, some sort of simple formula to determine which lattice points ultimately make it into the tree and the # of vertices added on day $n$. There are lots of interesting questions and I'm happy to try and solve them but I prefer to work on the ones that were actually posed! </p>
+
+

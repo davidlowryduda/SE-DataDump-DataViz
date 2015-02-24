@@ -1,0 +1,13 @@
+## Title:
+Number of quadratic residues mod $p$
+
+## Tags:
+<reference-request><elementary-number-theory>
+
+## Score:
+4
+
+## Body:
+<p>I saw in a comment to <a href="http://math.stackexchange.com/questions/33333/question-regarding-the-product-of-quadratic-residue-modulo-p-p-is-prime">this question</a> that there are exactly $\frac{p-1}{2}$ quadratic redidues in $\mathbb{F}_p$, but I cannot find the proof by myself (it's been ages since I last touched this kind of problems). Can anyone provide some hints, or (it would be even better, I suppose), some reference, preferably available online, concerning this kind of algebra?</p>
+
+

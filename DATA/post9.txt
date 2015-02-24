@@ -1,0 +1,44 @@
+## Title:
+Is that series-transformation known in the context of divergent summation
+
+## Tags:
+<number-theory><matrices><reference-request><sequences-and-series>
+
+## Score:
+1
+
+## Body:
+<p><strong>Background:</strong>
+In the context of divergent summation I'm analyzing the matrix of eulerian numbers for a regular matrix-summation method. Beginning indexes at zero (r for "row", c for "column") the entries of M are </p>
+
+<p>$$m_{r,c}=\frac{eul(r,c)}{r!}  $$ and $ eul(r,c)=\displaystyle\sum_{k=0}^{c}(-1)^k \binom{r+1}{k} (c+1-k)^r $. <em>(see for instance <a href="http://en.wikipedia.org/wiki/Eulerian_numbers" rel="nofollow">wikipedia</a>)</em>  </p>
+
+<p>The top-left segment of this (infinite, triangular) matrix is<br>
+$$ \small{ 
+\begin{array} {rrrrr}
+ 1 &amp; . &amp; . &amp; . &amp; . &amp; . \\
+ 1 &amp; 0 &amp; . &amp; . &amp; . &amp; . \\
+ 1/2! &amp; 1/2! &amp; 0 &amp; . &amp; . &amp; . \\
+ 1/3! &amp; 4/3! &amp; 1/3! &amp; 0 &amp; . &amp; . \\
+ 1/4! &amp; 11/4! &amp; 11/4! &amp; 1/4! &amp; 0 &amp; . \\
+ 1/5! &amp; 26/5! &amp; 66/5! &amp; 26/5! &amp; 1/5! &amp; 0
+ \end{array} } $$</p>
+
+<p>The idea is, to sum a sequence $ \{a_k\}_{k=0..\infty} $ using the double sum<br>
+  $$ s = \sum_{r=0}^{\infty} a_r = \sum_{r=0}^{\infty} ( a_r \sum_{c=0}^r m_{r,c} ) 
+= \sum_{c=0}^{\infty} ( \sum_{r=0}^{\infty} a_r m_{r,c} )= \sum_{c=0}^{\infty} b_c $$</p>
+
+<p>I was studying that summation with various sequences $ {a_k}$ but I wanted to optimize the computation. For instance, if $ \{a_k\}_{k=0..\infty} = q^k $ and thus define a geometric series with quotient <em>q</em> the $ b_c $ are finite compositions of exponentialseries of $q $ and of powers of $q$:
+$$b_c = e^{q(1+c)}+\sum_{k=1}^c (-1)^k \frac{z^k+kz^{k-1}}{k!}e^z $$
+where for sum-term $ z=(c+1-k)q $ is simply a shortcut.     </p>
+
+<p>Writing the formula for the partial sums $$ ps(q,c)= \sum_{k=0}^c b_k $$ this boils down to the following series-transformation:</p>
+
+<p>$$ ps(x,c) = e^{x(1+c)} \sum_{k=0}^c \frac{(c+1-k)^k}{k!}(-x e^{-x})^k $$
+and we have in the limit $$ \lim_{c\to \infty} ps(x,c) = \frac{1}{1-x} $$</p>
+
+<p>After arriving at the term $-x e^{-x} $ I've a vague impression I should have seen this transformation; but even if: I cannot remember. On the other hand - this summation-procedure is powerful, so this transformation is possibly interesting in more general use.     </p>
+
+<p><strong>Question:</strong> Does someone know this transformation and/or can provide a source where I can read more about it?</p>
+
+

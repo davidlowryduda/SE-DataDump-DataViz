@@ -1,0 +1,21 @@
+## Title:
+The Néron-Tate canonical height on elliptic curves
+
+## Tags:
+<reference-request><algebraic-number-theory><elliptic-curves>
+
+## Score:
+6
+
+## Body:
+<p>I have been trying to understand the Néron-Tate global canonical height of algebraic points on elliptic curves.</p>
+
+<p>Let $K$ be a number field, $E$ an elliptic curve (over $\mathbb{Q}$, say), and $E(K)$ the Mordell-Weil group of $K$-rational points on $E$.</p>
+
+<p>I understand Néron's construction of the "naive" height as a "quasi-quadratic form" on $E(K)$. An averaging procedure then turns this "quasi-quadratic" form into a quadratic form in a canonical way. This is all pretty straightforward.</p>
+
+<p>What I don't understand very well is Tate's decomposition of the global canonical height as a sum of local heights, taken over the normalized absolute values of $K$. It seems like pure magic to me. What I find most disturbing is the absolute lack of analogy between the construction of the local height for Archimedean absolute values, resp. for non-Archimedean ones. The local height for Archimedean absolute values is given by construction which belongs completely to the realm of analysis, as far as I can see - whereas for non-Archimedean absolute values, it is given by an essentially arithmetic function; and yet these all patch up together to give the canonical height... it's very weird and surprising and I'd like to understand.</p>
+
+<p>The only reference which has been helpful has been Lang's <em>Elliptic Curves: Diophantine Analysis</em>. Unfortunately, Lang is not the most generous writer when it comes to details or intuition. I would really appreciate an accessible reference on the topic, or, of course, some explanations. Thank you!</p>
+
+

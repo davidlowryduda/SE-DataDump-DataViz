@@ -1,0 +1,26 @@
+## Title:
+Power series ring over a ring of integers
+
+## Tags:
+<abstract-algebra><reference-request><commutative-algebra><algebraic-number-theory>
+
+## Score:
+0
+
+## Body:
+<p>Let $K/\mathbb {Q}_p$ be a finite extension, $\mathcal{O} := \mathcal{O}_K$ the ring of integers of $K,$ $\frak p$ the maximal ideal of $\mathcal{O}$, and $\pi$ a uniformizer, i.e., $\frak{p} = (\pi).$  We denote $\Lambda=\mathcal{O}[[T]]$ and $\mathfrak m=(\pi,T).$</p>
+
+<p>Can someone give me a reference where I can find a proof of this result: </p>
+
+<blockquote>
+  <p>$\Lambda$ is a UFD, and is complete in its $\mathfrak m$-adic topology. </p>
+</blockquote>
+
+<p>Question: </p>
+
+<blockquote>
+  <p>How to prove the isomorphism $\Lambda/\mathfrak {m}\cong \mathcal{O}/\frak p,$ and that $\Lambda/\mathfrak {m}^t$ is finite of order
+  $p^{t(t+1)/2} $?</p>
+</blockquote>
+
+

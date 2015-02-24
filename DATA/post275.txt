@@ -1,0 +1,13 @@
+## Title:
+Proof that an odd perfect number must be in the form $ 36k+9$ or $12k+1$
+
+## Tags:
+<elementary-number-theory><reference-request>
+
+## Score:
+0
+
+## Body:
+<p>I recently read <a href="http://blogs.ams.org/mathgradblog/2013/07/25/odd-perfect-numbers-exist/" rel="nofollow">here</a> that an odd perfect number, if one exists, would have to be in the form $ p = 36k+9$ or $p = 12k+1$. The link says it was proven In 1953 by Touchard, but I can't seem to find the original or any other proof of this theorem. Does anybody know where I might see the proof of this?</p>
+
+

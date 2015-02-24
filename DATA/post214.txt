@@ -1,0 +1,15 @@
+## Title:
+Symmetry in reduced residue systems
+
+## Tags:
+<elementary-number-theory><reference-request><modular-arithmetic><symmetry>
+
+## Score:
+3
+
+## Body:
+<p>This may be a stupid question, but it looks to me like the reduced residue systems modulo N are symmetrical about N/2; that is to say, that the there is the same number of integers not divisible by a factor of N that are smaller than N/2 as there are that are bigger. Is this a case, and is there literature I would need to reference in a paper that uses this fact?</p>
+
+<p>Just to be clear, in this case, I use "Reduced Residue System" to refer to the system of numbers counted by the totient of N, i.e. those numbers smaller than N that are relatively prime with N.</p>
+
+

@@ -1,0 +1,32 @@
+## Title:
+Origins of the Twin Prime Conjecture
+
+## Tags:
+<number-theory><reference-request><math-history>
+
+## Score:
+3
+
+## Body:
+<p>The exciting new results by Zhang and others about bounds on the gaps between pairs of primes have been getting a fair amount of press, which is great! Some of them have gotten me wondering about the origins and history of the Twin Prime Conjecture. My searches into this question have been so far been unsatisfying.</p>
+
+<p>Several articles claim that the conjecture can be attributed to Euclid:</p>
+
+<blockquote>
+  <p>Some attribute the conjecture to the Greek mathematician Euclid of
+  Alexandria, which would make it one of the oldest open problems in
+  mathematics. (from <a href="http://www.huffingtonpost.com/2013/05/14/twin-primes-conjecture-weak-yitang-zhang_n_3271650.html" rel="nofollow">here</a>)</p>
+</blockquote>
+
+<p>This isn't very satisfying. It's possible that this is true, but to my knowledge Euclid's extant works do not contain such a conjecture, or even conjectures at all. (<a href="http://www.obkb.com/dcljr/euclid.html" rel="nofollow">overview</a>) So if this is true, Euclid's claim to of the Twin Primes Conjecture must have come from later sources.</p>
+
+<p>Wikipedia has only the following weak statement to offer:</p>
+
+<blockquote>
+  <p>The question of whether there exist infinitely many twin primes has
+  been one of the great open questions in number theory for many years. (from <a href="http://en.wikipedia.org/wiki/Twin_prime" rel="nofollow">here</a>)</p>
+</blockquote>
+
+<p>My many Google searches have not been successful in getting better information. Can anyone share a trustworthy reference about when the Twin Prime Conjecture was first stated? Bonus points if it gives some of the further history of this conjecture. The Wikipedia article only picks up in the early twentieth century. Thanks!</p>
+
+

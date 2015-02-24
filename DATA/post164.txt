@@ -1,0 +1,18 @@
+## Title:
+A book suggestion on algebraic number theory
+
+## Tags:
+<reference-request><algebraic-number-theory>
+
+## Score:
+2
+
+## Body:
+<p>I'm looking for a book on Algebraic Number Theory, which is somewhat in Analytic spirit.
+In particular, I want to see the precise connection between</p>
+
+<p>$$\delta_{f}(p)=\{a\pmod p : f(a) \equiv 0 \pmod{p}\}$$ and the L-series </p>
+
+<p>$$\zeta_{K}(s)=\prod_{p: \mbox{prime ideal}}\left(\frac{1}{1-\frac{1}{Np}}\right)$$</p>
+
+

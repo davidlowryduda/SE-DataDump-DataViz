@@ -1,0 +1,30 @@
+## Title:
+Are there any perfect numbers which are also powerful?
+
+## Tags:
+<number-theory><elementary-number-theory><reference-request><open-problem>
+
+## Score:
+2
+
+## Body:
+<p>Powerful numbers are discussed in this <a href="http://www.hindawi.com/journals/ijmms/1986/812820/abs/" rel="nofollow">paper</a> by R. A. Mollin and P. G. Walsh.</p>
+
+<p><a href="http://en.wikipedia.org/wiki/Powerful_number" rel="nofollow">Wikipedia</a> has more information.</p>
+
+<p>In particular, note that <a href="http://oeis.org/A001694" rel="nofollow">OEIS A001694</a> does not seem to contain any (even) perfect numbers.</p>
+
+<p>This is indeed the case, if we note that the Mersenne prime $2^p - 1$ has exponent $1$.  (Recall that the general form for even perfect numbers is $N = {2^{p - 1}}(2^p - 1)$.)</p>
+
+<p>Now my question is:  How about odd perfect numbers?</p>
+
+<p>I guess my main inquiry boils down to - Has anyone worked on considering properties of the set $O \bigcap P,$ where $O$ and $P$ are given as follows</p>
+
+<p>$$O = \{\text{odd perfect numbers}\}$$
+$$P = \{\text{powerful numbers}\}$$</p>
+
+<p>Any pointers to existing references in the literature will be appreciated.</p>
+
+<p>Thank you!</p>
+
+

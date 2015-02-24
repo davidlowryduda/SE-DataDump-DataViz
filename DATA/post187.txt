@@ -1,0 +1,13 @@
+## Title:
+What is a good book to learn number theory?
+
+## Tags:
+<number-theory><elementary-number-theory><reference-request><soft-question>
+
+## Score:
+3
+
+## Body:
+<p>What would be a good book to learn basic number theory? If possible a book which also has a collection of practice problems? Thanks.</p>
+
+

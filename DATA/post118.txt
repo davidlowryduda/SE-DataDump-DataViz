@@ -1,0 +1,25 @@
+## Title:
+What and where in the notebooks of Ramanujan is this series?
+
+## Tags:
+<number-theory><sequences-and-series><reference-request>
+
+## Score:
+10
+
+## Body:
+<p>The wikipedia page on Ramanujan contains the following series:</p>
+
+<p>$$
+1 - 5\left(\frac{1}{2}\right)^3 + 9\left(\frac{1\times3}{2\times4}\right)^3 - 13\left(\frac{1\times3\times5}{2\times4\times6}\right)^3 + \cdots = \frac{2}{\pi}
+$$</p>
+
+<p>$$\sum_{n=0}^\infty(-1)^n(4n+1) \left[ \frac{(2n-1)!!}{(2n)!!}\right]^3=\frac{2}{\pi}$$</p>
+
+<p>Unfortunately, there is no reference as to where I can find this series in his notebooks (or in the 5-volume Springer set, for that matter), which is basically what I am after.</p>
+
+<p>Also, though I do now study math, I am still a freshman, so I don't know enough about infinite series to be able to classify this series. <em>Does it belong to a type of series? Is there a general class of series to which this series belongs?</em></p>
+
+<p>Generally, I am very keen to know more about this series.</p>
+
+

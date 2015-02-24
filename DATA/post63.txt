@@ -1,0 +1,19 @@
+## Title:
+Brave New Number Theory
+
+## Tags:
+<reference-request><algebraic-number-theory><homotopy-theory>
+
+## Score:
+17
+
+## Body:
+<p>I suppose this is an extremely general question, so I apologize, and perhaps it should be deleted.  On the other hand it's an awesome question.</p>
+
+<p>Is it clear exactly how much (assumedly algebraic) number theory can written down diagrammatically, and if so, has there been any effort to write such problems in the category of spectra (whichever category you like) and solve problems there?  It seems that some problems may become easier to solve, if only because there in some sense "more" spectra to work with than there are regular algebraic objects (i.e. he have the Eilenberg-MacLane spectrum for whatever ring or field of whatever, but we also have things that don't come from any algebraic object).  </p>
+
+<p>I have heard about Rognes' work on Galois extensions in this sense, and that there are lots of connections to things like Morava K-theory (and the associated spectra), and plan on at least attempting to pursue such ideas.  </p>
+
+<p>Thanks</p>
+
+

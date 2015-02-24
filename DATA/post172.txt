@@ -1,0 +1,14 @@
+## Title:
+Undergraduate roadmap for Langlands program and its geometric counterpart
+
+## Tags:
+<number-theory><reference-request><algebraic-geometry><representation-theory><automorphic-forms>
+
+## Score:
+10
+
+## Body:
+<p>What are the topics which an undergraduate with knowledge of algebra, galois theory and analysis learn to understand Langlands program and its goemetric counterpart? I would also like to know what are the good books for these topics, in what order these material should be learned and what are the prerequisites?
+What is the approximate amount of time required to master these material ? Also, any other helpful suggestions.</p>
+
+

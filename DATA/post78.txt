@@ -1,0 +1,23 @@
+## Title:
+Reference requests: Jitsuro Nagura
+
+## Tags:
+<reference-request><special-functions><analytic-number-theory><math-history>
+
+## Score:
+6
+
+## Body:
+<p>I spent some time today looking for <em>any</em> biographical information on Jitsuro Nagura and came up empty-handed. Any suggestions welcome. </p>
+
+<p>Also, the Wiki note on the Chebyshev $\psi$ function says that von Mangoldt proved in 1895 that</p>
+
+<p>$\psi_0(x) = x - \sum_{\rho}\frac{x^{\rho}}{\rho}- \frac{\xi&#39;(0)}{\xi(0)}-\frac{1}{2}\ln(1-x^2) $</p>
+
+<p>There is a reference to a 1903 note by E. Schmidt which may or may not contain a reference to the original paper, but my amateurish search (in Euclid, JSTOR) did not turn up anything. </p>
+
+<p>Thanks in advance. </p>
+
+<p>Edit: have changed the title to reflect that I am seeking information on J. Nagura and have found the other reference. Thanks. </p>
+
+

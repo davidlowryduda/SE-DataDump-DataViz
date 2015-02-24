@@ -1,0 +1,81 @@
+## Title:
+Modified Euler's Totient function for counting constellations in reduced residue systems
+
+## Tags:
+<elementary-number-theory><reference-request><totient-function><prime-twins>
+
+## Score:
+6
+
+## Body:
+<p>I am working on a modified totient function for counting constellations in reduced residue systems for the same range that Euler's totient function is defined over.  This post is separated into three parts: "background" describes how this function was derived and the logic involved, "question" defines the function and questions involved, and "terminology" explains some of the terminology I use, which may or may not be a bit obfuscated.</p>
+
+<p>NOTE: this entire question has been edited in an attempt to improve understandability. If you have any suggestions, please let me know.</p>
+
+<hr />
+
+<h3>Background:</h3>
+
+<p>The primorial is defined as the product of all primes that are smaller than or equal to some positive integer; defined for all positive integers, it is written $n\#$, but the convention I have found to be most useful is $P_n\#$, where $P_n$ is the nth prime number, and the function is the product of all prime numbers up to and including $P_n$.</p>
+
+<p>The primorial function can be modified to evaluate Euler's totient function for primorial inputs.  The idea is this: the primorial itself can be seen as the product of the number of possible equivalence classes for each prime number.  To eliminate those numbers that are divisible by a prime number, we subtract one from each set of equivalence classes modulo a prime number.  This is better expressed below:</p>
+
+<p>$$\phi(p_n\#) = \prod_{p|p_n\#} (p - 1)$$</p>
+
+<p>Euler's totient function, in one of its many forms, is written as follows:</p>
+
+<p>$$\phi(p^k) = (p-1)p^{k-1}$$</p>
+
+<p>The difference between the two functions is negligible because primorials, as the products of the primes, have no prime powers in their factors beyond the initial power of 1; this effectively cancels out the $pk-1$ term, leaving only the (p-1). As both functions are measuring the same thing, it is the first function that, while correct, cannot be extended for any positive integer input.  The two expressions are equivalent.</p>
+
+<p>The OEIS sequence A059861 is the result of the following expression:</p>
+
+<p>$$\prod_{p|p_n\#} (p - 2)$$</p>
+
+<p>Please take the time to look this up in the OEIS for verification; it calculates the 2 and 4 differences in the differences between the numbers in reduced residue systems for primorials. If we multiply it by 2, we count all of the "twins", that is, each number in the reduced residue system for a primorial that is +2 or -2 away from another number in that same reduced residue system.</p>
+
+<p>We can see these functions a little differently when only considering primorial inputs; there are two possible equivalence classes modulo 2: 0, and 1. There are 3 modulo 3: 0, 1, and 2. If a positive integer is equivalent to 0 modulo 2 or 3 or any other prime, it is divisible by that prime, and must therefore be equal to the prime in question, ir it is not prime itself as it is divisible by that prime. Thus, to count the number of positive integers smaller than the product of 2 and 3, we can take the product of $(2-1)(3-1)=1*2=2$.  By subtracting one from each prime number, we have eliminated the equivalence classes modulo those prime numbers that cannot support other prime numbers.</p>
+
+<p>This same process works for counting twins in reduced residue systems for primorials, but instead of subtracting one from each prime in the product, we subtract 2; however, when subtracting 2, we must define the function differently for the first prime number, because otherwise, we will have a zero in our product, and while we don't know if there are infinitely many twin primes, we do know there are a lot of them. To fix this, the term involving the first prime number must be defined to evaluate to 1; we still need to remove all those numbers which are equivalent to 0 mod 2.</p>
+
+<p>Now, what if we were to extend this function to have the capacity to subtract any positive integer k from each prime number in the product? I believe this will create a function that can count constellations in reduced residue systems for primorials.  This function is written as follows:</p>
+
+<p>$$p_n\#(-k) = \prod_{a = i}^n (p - k), i = min(\{z|p_z &gt; k\})$$</p>
+
+<p>Remember that in terms of the totient function, we are missing something. To generalize this formula, we need to add that "something" back in (please forgive the notation, as I am unsure of how to write this otherwise):</p>
+
+<p>$$\phi(-k)(n) = \prod_{p|n} (p-k)p^{m-1},$$</p>
+
+<p>where m is the power of p that is a factor of n.  There is, however, a problem with that last function; when $p &lt; k$, we introduce negative numbers, and when $p = k$, we introduce zero in our product. This will not do; however, we must be careful in fixing this problem, as the new addition is essential for the generalization of this formula.</p>
+
+<hr />
+
+<h3>Question:</h3>
+
+<p>$$\phi(-k)(n) = \left( \prod_{p|n \wedge p \leq k} p^{m-1} \right) \left( \prod_{p|n \wedge p &gt; k} (p - k)p^{m-1} \right),$$</p>
+
+<p>where m is the power of the prime as it appears in the prime factorization of n (in other words, the number of times p shows up in the prime factorization of n)</p>
+
+<p>Questions:</p>
+
+<p>1: is this last formula a valid method of counting constellations in reduced residue systems?</p>
+
+<p>2: Have you seen this in existing literature? If so, please provide a reference!</p>
+
+<p>EDIT: This formula, as stated in my comments to the chosen answer, does not correctly count all elements in a given constellation; it merely counts residues. It may, however, be possible that this formula either does or can be modified to count only the first element in constellations of given forms. The result can then be multiplied by the number of elements in the target constellation to count all members of given constellations in reduced residue systems.</p>
+
+<hr />
+
+<h3>Terminology:</h3>
+
+<p>Primorial: the product of prime numbers up to a given limit.  The limit can be given as any positive integer n or as a prime number indexed by a subscript.</p>
+
+<p>Phi function, Euler's totient function: The function that counts how many numbers smaller than its input are coprime with that input.</p>
+
+<p>Reduced Residue System: the numbers that the totient function counts relative to some input n.</p>
+
+<p>Twin: as used here, it is any integer n that is a member of a pair of ingeters such that the other member of the pair is either n+2 or n-2.</p>
+
+<p>Constellation: again, as used here, a sequence of consecutive elements of the reduced residue system for a given input that appear according to some pattern; the Hardy-Littlewood k-tuple conjecture states that, given any constellation in the prime numbers, identical patterns will appear in constellations in the primes infinitely many times.</p>
+
+

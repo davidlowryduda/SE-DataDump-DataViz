@@ -1,0 +1,13 @@
+## Title:
+Primes of the form $n^2+1$ - hard?
+
+## Tags:
+<number-theory><reference-request><prime-numbers><open-problem>
+
+## Score:
+17
+
+## Body:
+<p>I met a student that is trying to prove for fun that there are infinitely many primes of the form $n^2+1$. I tried to tell him it's a hard problem, but I lack references. Is there a paper/book covering the problem? Is this problem really hard or I remember incorrectly?</p>
+
+

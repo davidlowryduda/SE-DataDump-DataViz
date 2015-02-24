@@ -1,0 +1,19 @@
+## Title:
+Is there any new improvement in the proof or disproof of the twin prime conjucture?
+
+## Tags:
+<number-theory><reference-request>
+
+## Score:
+1
+
+## Body:
+<p>I think this is not the first question about twin primes here, but my own is the latest one!</p>
+
+<p>I  am a postgraduate student in Mathematics interested in the field of number theory. While searching on net I found out that the <strong><em>twin prime problem</em></strong> is one of the unsolved problem in Number theory. As a kid in mathematics research, I feel I can write something about it. (I do not mean that I will solve the problem, but I will try).</p>
+
+<p>So, is there any new improvement in the proof or disproof of the twin prime conjucture?.</p>
+
+<p>Thanks. </p>
+
+

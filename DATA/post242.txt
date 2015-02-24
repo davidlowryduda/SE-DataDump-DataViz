@@ -1,0 +1,29 @@
+## Title:
+The structure of $(\mathbb Z/525\mathbb Z)^\times$
+
+## Tags:
+<group-theory><number-theory><elementary-number-theory><reference-request><finite-groups>
+
+## Score:
+3
+
+## Body:
+<p>I am working on the following problem.</p>
+
+<blockquote>
+  <p>Find the number of the elements of order 4 in $(\mathbb Z/525\mathbb Z)^\times$.</p>
+</blockquote>
+
+<p>I tried to solve it in the following way: since $525=3\cdot5^2\cdot7$, we have by the CRT
+$$
+(\mathbb Z/525\mathbb Z)^\times \cong (\mathbb Z/3\mathbb Z)^\times \times
+(\mathbb Z/25\mathbb Z)^\times \times (\mathbb Z/7\mathbb Z)^\times.
+$$</p>
+
+<p>By the fact stated by <a href="https://en.wikipedia.org/wiki/Multiplicative_group_of_integers_modulo_n" rel="nofollow">a Wikipedia article</a>, the consituent groups on the RHS are isomorphic to the cyclic groups of order 2, 20, 6, respectively.  Thus, the order of an element in $(\mathbb Z/525\mathbb Z)^\times$ is the least common multiple of some subset $S\subset\{2, 20, 6\}$, which can never be 4. In conclusion, the number of the elements of order 4 in $(\mathbb Z/525\mathbb Z)^\times$ is 0.</p>
+
+<p>My question is whether my reasoning is correct (which I doubt because the result is so trivial). I would also like to ask where accessible proofs of the fact on Wikipedia (preferably on the Web) can be found.</p>
+
+<p>I would appreciate your help.</p>
+
+

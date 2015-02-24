@@ -1,0 +1,17 @@
+## Title:
+Proof of $\pi$ not being a quadratic irrational number.
+
+## Tags:
+<number-theory><reference-request><irrational-numbers><transcendental-numbers>
+
+## Score:
+4
+
+## Body:
+<p>Does someone know a proof (books , articles) that $\pi$ is not a quadratic irrational? </p>
+
+<p>The proof should not use that $\pi$ is transcendental.</p>
+
+<p>Any hints would be appreciated.</p>
+
+

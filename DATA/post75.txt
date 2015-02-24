@@ -1,0 +1,17 @@
+## Title:
+Any serious work on Lychrel numbers/$196$-Algorithm?
+
+## Tags:
+<number-theory><reference-request><difference-equations><open-problem>
+
+## Score:
+7
+
+## Body:
+<p>I've been googling around a little lately and have stumbled across the so called Lychrel problem. For a natural number $x$, let $Rx$ denote the number obtained by reversing the base-$10$ digits of $x$ (i.e. $R90 = 9$, $R345 = 543$, etc.). Then the question is whether, given some initial $x$, the sequence defined by
+$$x_{n + 1} = x_n + Rx_n \quad \quad \quad x_0 = x$$
+eventually produces a palindrome (i.e. $Rx_n = x_n$ for some $n$). An initial value for which no palindrome is ever obtained is called a Lychrel number. It is an open question whether any Lychrel numbers exist at all. The smallest suspected Lychrel number is $x = 196$. I've been trying to find out whether anyone has ever done any serious mathematical work on the issue, but all I have been able to find are either computational efforts or trivial facts. Does anyone know of any serious publications about this question?</p>
+
+<p>Thanks in advance.</p>
+
+

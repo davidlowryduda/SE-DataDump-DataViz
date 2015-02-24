@@ -1,0 +1,17 @@
+## Title:
+Characterization of integers which has a $2$-adic square root
+
+## Tags:
+<number-theory><reference-request><p-adic-number-theory>
+
+## Score:
+3
+
+## Body:
+<p>Does anyone know an "elementary" proof of the following theorem?</p>
+
+<p>Let $k \neq 0$ be a rational integer. Then $k$ admits a square root in $\mathbb{Z}_2$ if $k = 4^a (8b+1)$ for some $a \in \mathbb{N}$, $b \in \mathbb{Z}$.</p>
+
+<p>About $p$-adic numbers I don't know anything more sophisticated than Hensel lemma. Thank you!</p>
+
+

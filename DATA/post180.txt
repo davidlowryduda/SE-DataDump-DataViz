@@ -1,0 +1,13 @@
+## Title:
+Is there a list of safe prime numbers?
+
+## Tags:
+<number-theory><reference-request><prime-numbers>
+
+## Score:
+5
+
+## Body:
+<p>I am looking for a list of precomputed <a href="http://en.wikipedia.org/wiki/Safe_prime" rel="nofollow">safe prime numbers</a>. Where can I get such a list?</p>
+
+

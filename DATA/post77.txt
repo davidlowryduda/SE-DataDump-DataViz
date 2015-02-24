@@ -1,0 +1,23 @@
+## Title:
+Sum of divisor ratio inequality
+
+## Tags:
+<number-theory><reference-request><inequality><divisor-sum>
+
+## Score:
+6
+
+## Body:
+<p>Consider the divisors of $n$, $$d_1 = 1, d_2, d_3, ..., d_r=n$$ in ascending order and $r \equiv r(n)$ is the number of divisors of $n$. </p>
+
+<blockquote>
+  <p>Is there any expression $f(n) &lt; r(n)$ such that,
+  $$\sum_{k=1}^{r-1} \frac{d_k}{d_{k+1}} &lt; f(n)$$</p>
+  
+  <p>Or equivalently, in a generalized way, is there any expression $\phi_a(n) &lt; \sigma_a(n)$ such that,
+  $$\sum_{k=1}^{r-1} \frac{d_k^{a+1}}{d_{k+1}} &lt; \phi_a(n)$$ for positive integers $a$ ?</p>
+</blockquote>
+
+<p><em>PS. <strong>Looking for a study on tight bounds over these sums of ratios.</strong> Any references will be greatly appreciated.</em></p>
+
+

@@ -1,0 +1,13 @@
+## Title:
+A resource for learning p-adic numbers
+
+## Tags:
+<number-theory><reference-request>
+
+## Score:
+7
+
+## Body:
+<p>I'm looking for a good resource for learning p-adic numbers. I'm familiar with analysis, topology and overall with noncommutative algebra.</p>
+
+

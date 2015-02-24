@@ -1,0 +1,17 @@
+## Title:
+What is the integral homology of $\mathrm{GL}_2(\mathbb{Z}[i])$?
+
+## Tags:
+<reference-request><algebraic-number-theory><homological-algebra><homology>
+
+## Score:
+5
+
+## Body:
+<p>I am currently trying to compute homology groups of general linear groups over the ring of integers of an imaginary quadratic number field. As I would like to check my results I would like to know if anybody knows a reference where I can find the integral homology of the $\mathrm{GL}_2$ over the Gaussian integers (or over the Eisenstein integers or some other ring of integers of an imaginary quadratic number field).</p>
+
+<p>I already googled quite a lot but no useful results turned up.</p>
+
+<p>Thank you for your help.</p>
+
+

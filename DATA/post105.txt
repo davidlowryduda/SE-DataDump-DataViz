@@ -1,0 +1,13 @@
+## Title:
+Looking for a database of results in number theory
+
+## Tags:
+<number-theory><reference-request>
+
+## Score:
+3
+
+## Body:
+<p>Is there a public database in this world consisting of known number fields, their discriminants, and their ideal class groups, etc? If so, how does a lay person like me have access to this database?</p>
+
+

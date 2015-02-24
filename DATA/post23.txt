@@ -1,0 +1,21 @@
+## Title:
+Source of the problem: does there exist k,n>2, such that $\sum_{j=1}^k j^n = (k+1)^n $?
+
+## Tags:
+<number-theory><reference-request><open-problem>
+
+## Score:
+4
+
+## Body:
+<p>In <a href="http://math.stackexchange.com/questions/35980/lim-n-to-infty-f2n-for-some-very-slowly-increasing-function-fn">my other question two days ago</a> I asked for confirmation, whether one step of an attempt to that problem     </p>
+
+<p>does there exist $k,n&gt;2$ , such that $\sum_{j=1}^k j^n = (k+1)^n $ ?    </p>
+
+<p>was justified. I had fiddled with that problem some years ago (2006/2007) and attributed this problem to Paul Erdős since - I think because of some informal comment of some discutant whom I took as authority (so I missed the point to track this down to a source at that time of exploration...).     </p>
+
+<p>After some search in my own text-sources and now googling for online sources I don't find any useful hint for the authorship of this problem.    </p>
+
+<p>Could someone kindly provide a reference or a hint for that problem/context and its author?</p>
+
+

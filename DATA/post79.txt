@@ -1,0 +1,23 @@
+## Title:
+Original works of great mathematician Évariste Galois
+
+## Tags:
+<number-theory><reference-request><algebraic-geometry><galois-theory>
+
+## Score:
+19
+
+## Body:
+<p>Through this question I wanted to know the original works of Galois. When I was reading Galois theory ( since from last month ) , I have been seeing one common line in every book, whose essence appears as follows :</p>
+
+<p>" The original work of Galois is rather different from the presented version here ( which is due to Artin ) , the original works of Galois are different since the concepts like automorphisms and other things were not discovered at the time of Galois. "</p>
+
+<blockquote>
+  <p>I am curious to know what are the notions that Galois used  ? , and what is the corresponding formulation of Galois theory, ( corresponding to the present version now which uses the modern vocabulary of Automorphisms ) .</p>
+</blockquote>
+
+<p>But on the other hand , is there any complete biographical sketch of  Évariste Galois ? . But I really wanted to know about him, I think there is not a single original picture of him. But there was an original photograph of Master Gauss with me ( but I don't have a original picture of Galois, rather than the portrait drawn by his friend and I would be much happy if someone gives a link to any rare picture other than the normal ones ).</p>
+
+<p>Thanks everyone.</p>
+
+

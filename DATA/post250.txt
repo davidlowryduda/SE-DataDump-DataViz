@@ -1,0 +1,28 @@
+## Title:
+On Bachet's Duplication Formula and the number $-432$
+
+## Tags:
+<abstract-algebra><number-theory><reference-request><diophantine-equations><elliptic-curves>
+
+## Score:
+5
+
+## Body:
+<p>While reading "Rational Points on Elliptic Curves" by Silverman and Tate, I came across this interesting passage about Bachet's duplication formula:</p>
+
+<p><img src="http://i.stack.imgur.com/6rKSc.png" alt="screenshot1">
+<img src="http://i.stack.imgur.com/NCwr5.png" alt="screenshot"></p>
+
+<p>I know how to derive Bachet's duplication formula using the tangent method (namely, one constructs a tangent line to a given rational point on this cubic. The third intersection point of the line and the cubic gives the new rational point). My question is about the mysterious $-432$.</p>
+
+<blockquote>
+  <p>Why is it true that if the original rational solution $(x, y)$ has $xy\neq 0$ and if
+  $c\neq 1, -432$, then repeating this process leads to infinitely many
+  distinct solutions?</p>
+</blockquote>
+
+<p><strong>Edit.</strong>  Later in the book (page 24), there is a explicit calculation that puts the cubic $u^3+v^3=\alpha$ into Weierstrass Normal Form. The resulting equation is $y^2=x^3-432\alpha^2$. So in particular, $y^2=x^3-432$ is Weierstrass Normal Form of $x^3+y^3=1$. So perhaps this explains the appearance of $-432$ above?</p>
+
+<p><img src="http://i.stack.imgur.com/FHQ1r.png" alt="enter image description here"></p>
+
+

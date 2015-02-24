@@ -1,0 +1,23 @@
+## Title:
+Do Mersenne numbers occur in fields of mathematics other than Number Theory?
+
+## Tags:
+<elementary-number-theory><reference-request><soft-question>
+
+## Score:
+6
+
+## Body:
+<blockquote>
+  <p>Do Mersenne numbers turn out to be interesting in other fields of mathematics besides Number Theory? </p>
+</blockquote>
+
+<p>In other words, are the primes occuring in the sequence
+$$M_n=2^n-1$$
+or the recursive realtion
+$$M(n+1)=2\times M(n)+1$$
+useful in other fields of mathematics to solve problems or appear in the definition of other important functions?</p>
+
+<p>I apologize in advance for any mistakes in my English, I hope that the translator did a good job :).</p>
+
+

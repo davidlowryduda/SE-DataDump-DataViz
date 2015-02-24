@@ -1,0 +1,32 @@
+## Title:
+Erdös-Straus conjecture
+
+## Tags:
+<number-theory><reference-request><diophantine-equations><conjectures>
+
+## Score:
+4
+
+## Body:
+<p>I'm reading a lot about the Erdös-Straus Conjecture (ESC), a conjecture that states that for every natural number $p \geq 2$, there exists a set of natural numbers $a, b, c$ , such that the following equation is satisfied:</p>
+
+<p>$$\frac{4}{p}=\frac{1}{a}+\frac{1}{b}+\frac{1}{c}$$</p>
+
+<p>(see also: <a href="http://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Straus_conjecture" rel="nofollow">http://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Straus_conjecture</a>)</p>
+
+<p>In my textbook the conjecture is proved for the following cases:</p>
+
+<p>$$p=3\mod4 \\
+p=2\mod3$$</p>
+
+<p>But I know ESC has also been proven for:
+$$p=2\mod5\\
+p=3\mod5\\
+p=3\mod7\\
+p=5\mod7\\
+p=6\mod7\\
+p=5\mod8$$</p>
+
+<p>I also know these proves are more difficult, but I'm just curious where I can find a summary of them all.</p>
+
+

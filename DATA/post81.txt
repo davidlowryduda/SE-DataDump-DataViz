@@ -1,0 +1,13 @@
+## Title:
+How to use Hardy and Wright's text and what corresponding exercises/problem books  can I do?
+
+## Tags:
+<number-theory><reference-request><soft-question>
+
+## Score:
+6
+
+## Body:
+<p>I have just started out with Hardy and Wright's <a href="http://rads.stackoverflow.com/amzn/click/0199219869" rel="nofollow">An Introduction to the Theory of Numbers</a> today. I find the lack of exercises in the book as a departure from the style of the textbooks we are so accustomed to read. So, I was wondering if there is an optimal way to read the book or to extract the most of it (I am not reading for an exam, I reading that book for its sake). I believe the book contains more material than is covered in Olympiad mathematics. Coming from the Olympiad culture, it is but natural for me to request to be pointed to some source of rather tough problems based on GH Hardy's book. Your help is really appreciated.</p>
+
+

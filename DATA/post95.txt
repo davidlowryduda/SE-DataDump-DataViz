@@ -1,0 +1,15 @@
+## Title:
+GrossOne? The arXiv blog's pick of the day.
+
+## Tags:
+<number-theory><reference-request>
+
+## Score:
+8
+
+## Body:
+<p>The arXiv blog having chosen GrossOne for <a href="http://www.technologyreview.com/blog/arxiv/27656">its daily pick of today</a>, I read the arXiv paper concerned, and posted a comment there. The arXiv blog used to be quite high profile as these things go.</p>
+
+<p>Is there an existing well-known (but not to me) mathematical construction that does what Sergeyev proposes?</p>
+
+

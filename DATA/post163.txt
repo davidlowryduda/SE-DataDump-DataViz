@@ -1,0 +1,15 @@
+## Title:
+Resource for Vieta root jumping
+
+## Tags:
+<number-theory><reference-request><proof-strategy><contest-math>
+
+## Score:
+6
+
+## Body:
+<p>I can't seem to find a good resource on <a href="http://en.wikipedia.org/wiki/Vieta_jumping" rel="nofollow">Vieta's root jumping</a>, which would explain various scenarios that suggest using the technique.</p>
+
+<p>Does anyone have a suggestion for a reference?</p>
+
+

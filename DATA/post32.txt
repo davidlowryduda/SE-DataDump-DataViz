@@ -1,0 +1,21 @@
+## Title:
+Squares in arithmetic progression
+
+## Tags:
+<number-theory><reference-request>
+
+## Score:
+11
+
+## Body:
+<p>It is easy to find 3 squares (of integers) in arithmetic progression. For example, $1^2,5^2,7^2$.</p>
+
+<p>I've been told Fermat proved that there are no progressions of length 4 in the squares. Do you know of a proof of this result? </p>
+
+<p>(Additionally, are there similar results for cubes, 4th powers, etc? If so, what would be a good reference for this type of material?)</p>
+
+<hr>
+
+<p><strong>Edit, March 30, 2012:</strong> The following <a href="http://mathoverflow.net/questions/92707/squares-in-an-arithmetic-progession" rel="nofollow">question</a> in MO is related and may be useful to people interested in the question I posted here.</p>
+
+

@@ -1,0 +1,25 @@
+## Title:
+limit connected with a periodic function
+
+## Tags:
+<number-theory><analysis><reference-request>
+
+## Score:
+8
+
+## Body:
+<p>Let $f$ be a $1$-periodic function, i.e., $f(x+1)=f(x)$, defined on the interval $(0, 1)$ by the formula
+$$
+f(x)=2x-1.
+$$
+For a real number $x$ consider the series
+$$
+\sum_{n=1}^\infty\frac{f(nx)}{n}.
+$$
+It is easily seen that the series converges if $x$ is rational and if $f$ is assumed to vanish at all integers. </p>
+
+<p>My question is: <em>does the convergence hold for irrational</em> $x$?</p>
+
+<p>I would also be grateful for references to any results about kindred objects.</p>
+
+

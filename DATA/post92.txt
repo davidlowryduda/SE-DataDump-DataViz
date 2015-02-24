@@ -1,0 +1,21 @@
+## Title:
+Arithmetic progressions
+
+## Tags:
+<combinatorics><number-theory><reference-request><additive-combinatorics>
+
+## Score:
+5
+
+## Body:
+<p>What are the largest known lower bounds for $B_k$, the maximal sum of the reciprocals of the members of subsets of the positive integers which contain no arithmetic progressions of length $k$?
+for $k=3,4,5,6...$</p>
+
+<p>$B_k\leq$ sup({ $\sum_{n\in S}1/n$ |$S\subset N$|S contains no arithmetic progressions of length k})</p>
+
+<p>And is the bound proved to be finite for any k?<br>
+Can there exist a subset for which the maximal bound (finite or infinite), is actually attainable?</p>
+
+<p>Ok, I am interested in any known bounds on $B_k$</p>
+
+

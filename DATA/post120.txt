@@ -1,0 +1,15 @@
+## Title:
+Diophantine equation $x^y-y^x=11$
+
+## Tags:
+<number-theory><reference-request><elementary-number-theory><diophantine-equations>
+
+## Score:
+10
+
+## Body:
+<p>How can one find all integer solutions to $x^y-y^x=k$, for a given k?</p>
+
+<p>Example case $x^y-y^x=11$</p>
+
+

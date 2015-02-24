@@ -1,0 +1,15 @@
+## Title:
+Reference request: Clean proof of Fermat's last theorem for $n=3$.
+
+## Tags:
+<elementary-number-theory><reference-request>
+
+## Score:
+8
+
+## Body:
+<p>I have seen a proof for FLT, $n=3$ using factorisation in the ring of Eisenstein integers, but it's quite long and convoluted; I am wondering if there is a more 'advanced' proof which avoids infinite descent/messy repeated calculations. </p>
+
+<p>What's your favorite proof of Fermat's last theorem for $n=3$, and where can it be found written down?</p>
+
+

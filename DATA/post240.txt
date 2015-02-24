@@ -1,0 +1,24 @@
+## Title:
+Ramification in the ring of all algebraic integers
+
+## Tags:
+<number-theory><reference-request><field-theory><extension-field>
+
+## Score:
+5
+
+## Body:
+<p>If $F$ is a finite extension of $\mathbb{Q}$ then its of integers $R$ is a Dedekind domain, and has unique factorization of ideals into powers of prime ideals. For each prime number $\ell$, you can then look at how $\ell R$ decomposes and the prime factors of this ideal are exactly the primes of $\mathfrak{q}\subset R$ such that $\mathfrak{q}\cap \mathbb{Z} = (\ell)$. If $F$ is Galois over $\mathbb{Q}$, then $Gal(F/\mathbb{Q})$ acts transitively on the set of prime ideals lying over $\ell$. </p>
+
+<p>What's the situation if we look at the ring $R'$ of all algebraic integers in $\overline{\mathbb{Q}}$? I read somewhere else that $R'$ is a non-noetherian domain of krull dimension $1$ and it is integrally closed, so it is missing noetherianity.</p>
+
+<p>I mean to ask, </p>
+
+<ol>
+<li>If $\ell$ is a rational prime, are there only finitely many prime ideals of $R'$ lying over $\ell$?</li>
+<li>Does $Gal(\overline{\mathbb{Q}}/\mathbb{Q})$ act transitively on the set of such primes?</li>
+</ol>
+
+<p>Better yet, it would be nice to know about a reference for these things.</p>
+
+

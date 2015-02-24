@@ -1,0 +1,21 @@
+## Title:
+Primitive roots of odd primes
+
+## Tags:
+<reference-request><elementary-number-theory>
+
+## Score:
+2
+
+## Body:
+<p>The following facts about primitive roots of an odd prime seem to be well known.  For example, they both appear as exercises in Burton's <em>Elementary Number Theory</em>.</p>
+
+<blockquote>
+  <p>Let $p$ be an odd prime.  Then:<br>
+  (1) Any primitive root of $p^2$ is a primitive root of $p^k$ for every positive integer $k$.<br>
+  (2) Any odd primitive root of $p^k$ is a primitive root of $2p^k$.</p>
+</blockquote>
+
+<p>I thought these facts might be from Gauss' <em>Disquisitiones Arithmeticae</em>, but I couldn't find them there.  Does anyone know the origin of these two facts?</p>
+
+

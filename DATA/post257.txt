@@ -1,0 +1,20 @@
+## Title:
+What should be taught about the reciprocity law for high school gifted student
+
+## Tags:
+<number-theory><elementary-number-theory><reference-request><quadratic-reciprocity>
+
+## Score:
+5
+
+## Body:
+<p>This autumn I have to teach a mini course for a small group of high school student (mathematical gifted class) on Quadratic Reciprocity Law (3 lectures in ten hours). This is the requirement of the school for me to become an assistant lecturer. I have studied thís law in the second year in university, but that was only a glimpse: the origin, the proof... and my approach at that time was quite modern. I know that this law is very beautiful and important in mathematics, but I do not know much about its role and applications. </p>
+
+<p>So,</p>
+
+<ol>
+<li>What are the books/lecture notes/papers should I read for preparing my talk?</li>
+<li>What should be taught about this topic for high school student? <em>(May be like the reciprocity law with a view toward modern number theory/mathematics?)</em></li>
+</ol>
+
+

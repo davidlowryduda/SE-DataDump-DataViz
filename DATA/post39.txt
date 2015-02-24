@@ -1,0 +1,17 @@
+## Title:
+Are the fractional parts of $\log \log n!$ equidistributed or dense in $[0,1]$?
+
+## Tags:
+<number-theory><reference-request><dynamical-systems><equidistribution>
+
+## Score:
+15
+
+## Body:
+<p>Are there any results relevant to the distribution of the sequence $\{\log \log n!\}$ for integers $n$, where $\{x\}$ denotes the fractional part of $x$?</p>
+
+<p>For instance, it is known that for irrational real numbers $\alpha$, the sequence $\{n\alpha\}$ is dense in $[0,1]$ and in fact equidistributed. Does something similar hold for the logarithms of the logarithms of the factorials?</p>
+
+<p>(This curiosity is provoked by <a href="http://math.stackexchange.com/questions/48633/using-floor-ceiling-square-root-and-factorial-functions-to-get-integers/48812#48812">this question</a>, and an affirmative answer here would complete the answer to that question.)</p>
+
+

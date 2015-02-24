@@ -1,0 +1,19 @@
+## Title:
+Counting Solutions of Diophantine Inequalities
+
+## Tags:
+<number-theory><reference-request><diophantine-equations>
+
+## Score:
+3
+
+## Body:
+<p>I understand that <em>Diophantine Analysis</em> is an enormous field! Without first determining the solution set, suppose I'd like to calculate the number of non-negative integer solutions $(x,y,z)$ of 
+\begin{eqnarray}
+ax^{p} + by^{q} \leq cz^{r}
+\end{eqnarray}
+for positive integers $a,b,c,p,q$ and $r$ (as a function of $z$). What general methods are available for such enumeration of this or more general Diophantine inequalities, including more variables or nonlinear forms? (Is our understanding of such enumeration limited to a select set of very specific equation types?) If no general methods exist, I'm sure that there are methods of bounding the number of solutions from below and above with error that can be estimated. Which is the best known?</p>
+
+<p>References are welcome. Thanks!</p>
+
+

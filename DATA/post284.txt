@@ -1,0 +1,23 @@
+## Title:
+Important topics for arithmetic geometry (esp Arakelov geometry)?
+
+## Tags:
+<number-theory><algebraic-geometry><reference-request><soft-question><arithmetic-geometry>
+
+## Score:
+9
+
+## Body:
+<p>Seeing <a href="http://math.stackexchange.com/questions/295050/roadmap-to-study-atiyah-singer-index-theorem">other</a> <a href="http://math.stackexchange.com/questions/89843/learning-roadmap-for-algebraic-topology">past</a> successful 'roadmap' questions, I hope this question is acceptable and not too vague.</p>
+
+<p>I know I'd like to eventually study arithmetic algebraic geometry - but I also know that it's a field that requires background from a lot of different angles to fully appreciate it. I already know the obvious things I need to study: algebraic geometry, algebraic number theory, elliptic curves. But while I know the field takes influence from many different angles, I don't know how a student should prepare (beyond the standard introductory graduate coursework). If I were to give a (very long-term; I have no expectation or belief that I'm going to be able to get there before many, many years have passed) goal, it'd be an appreciation of the varying shapes Diophantine geometry takes nowadays; the background necessary to appreciate Vojta's and Lang's conjectures (I tried to read <a href="http://rads.stackoverflow.com/amzn/click/9810244029">Min Ru's</a> book on the Nevanlinna-Diophantine connection once, but backed off the moment he mentioned (1,1)-currents), and Arakelov geometry.</p>
+
+<p>Towards these goals, it seems like I should be studying things varying from several complex variables and complex geometry, differential geometry (especially Hodge theory, considering p-adic Hodge theory appears to be an important topic). It also seems like the vast majority of arithmetic geometers also do work with modular/automorphic forms and Langlands-esque stuff. What other important topics are there to learn? What are appropriate texts for these topics? For topics in algebraic geometry itself, it's clear I'll want to learn intersection theory - what other important specialized topics should one learn?</p>
+
+<p>I'm looking for topics, but if possible, I'm also looking for associated texts. I assume there are very few texts in outside fields that take a specifically arithmetic slant, so I'm not looking for anything that works towards the same goals I'd like to - just seminal texts in the various fields. </p>
+
+<p>I realize it's in all likelihood unrealistic to think that I can actually pursue all these different avenues. The question is intentionally broad, and I realize I'm likely only going to be able to pursue a subset of what I'm asking for. I'd still be interested in finding out the many various different topics that are <em>necessary</em>, but also those topics that aren't necessary but <em>supplement understanding</em> from a different angle - even if I know it's unlikely I'll be pursue all such supplements.</p>
+
+<p>Thanks!</p>
+
+

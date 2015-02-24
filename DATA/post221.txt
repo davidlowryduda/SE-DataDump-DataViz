@@ -1,0 +1,16 @@
+## Title:
+Finding exercises in local fields, following Serre's book
+
+## Tags:
+<algebraic-number-theory><self-learning><class-field-theory>
+
+## Score:
+3
+
+## Body:
+<p>I am reading Serre's "Local Fields". I would like to find more exercises to complement my study. So I am looking for, mabye, exercises from a course that followed this book.</p>
+
+<p>Do you know of such a course with exercises available online? Do you know about some exercises which correspond to the very first chapter (which treats Dedekind domains from the local point of view)? 
+Do you have any suggestions regarding learning from this book, or learning local class field theory in general?</p>
+
+

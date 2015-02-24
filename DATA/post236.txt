@@ -1,0 +1,33 @@
+## Title:
+Proof read from "A problem seminar"
+
+## Tags:
+<elementary-number-theory><self-learning>
+
+## Score:
+1
+
+## Body:
+<p>May you help me judging the correctness of my proof?:</p>
+
+<p>Show that the if $a$ and $b$ are positive integers, then
+$$\left(a+\frac{1}{2}\right)^n+\left(b+\frac{1}{2}\right)^n$$
+is integer for only finintely many positive integers $n$</p>
+
+<p>We want $n$ so that
+$$\left(a+\frac{1}{2}\right)^n+\left(b+\frac{1}{2}\right)^n\equiv0\pmod{1}$$
+So we know by the binomial theorem that</p>
+
+<p>$(an+b)^k\equiv b^n\pmod{n}$ for positive $k$</p>
+
+<p>Then,
+$$\left(a+\frac{1}{2}\right)^n\equiv(1/2)^n\pmod{1}$$
+and similarly with the $b$</p>
+
+<p>So 
+$$\left(a+\frac{1}{2}\right)^n+\left(b+\frac{1}{2}\right)^n\equiv 2*(1/2)^n\pmod{1}$$
+Therefore, we want $2*(1/2)^n$ to be integer, so that $2^n|2$
+clearly, the only positive option is $n=1$
+(Editing, my question got prematurely posted. Done)</p>
+
+

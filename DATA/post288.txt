@@ -1,0 +1,15 @@
+## Title:
+List of Primes in UFD
+
+## Tags:
+<abstract-algebra><number-theory><reference-request>
+
+## Score:
+4
+
+## Body:
+<p>Are there websites/databases containing lists ordered by norm of prime/irreducible elements in domains like $\mathbb{Z}[\sqrt{-2}]$ and $\mathbb{Z}\left[\frac{-1+\sqrt{-3}}{2}\right]$ for easy reference, such as the one here? <a href="http://en.wikipedia.org/wiki/Table_of_Gaussian_integer_factorizations" rel="nofollow">http://en.wikipedia.org/wiki/Table_of_Gaussian_integer_factorizations</a></p>
+
+<p>Any help is appreciated. Thanks in advance.</p>
+
+

@@ -1,0 +1,29 @@
+## Title:
+How did Letac solve $x_1^k + x_2^k + \dots +x_9^k = 0$ for $k = 1, 3, 5, 7$ in 1942?
+
+## Tags:
+<elementary-number-theory><reference-request><diophantine-equations>
+
+## Score:
+13
+
+## Body:
+<p>It's quite easy to find integer solutions to, </p>
+
+<p>$$x_0^k + x_1^k + \dots +x_9^k = 0$$</p>
+
+<p>for $k = 1, 3, 5, 7$. One I found is, if $x^2-10y^2 = 9$, then,</p>
+
+<p>$$1 + 5^k + (3+2y)^k + (3-2y)^k + (-3+3y)^k + (-3-3y)^k = (-2+x)^k + (-2-x)^k + (5-y)^k + (5+y)^k$$</p>
+
+<p>However, Letac found in 1942 two special cases with $x_0 = 0$ (the case $x_0 = x_1 = 0$ is impossible), namely,</p>
+
+<p>$$\{\,0, 34, 58, 82, 98\,\} = \{\,13, 16, 69, 75, 99\,\}$$</p>
+
+<p>$$\{\,0, 63, 119, 161, 169\,\} = \{\,8, 50, 132, 148, 174\,\}$$</p>
+
+<p>How did he do it?</p>
+
+<p>The reference is <em>A. Letac, Gazeta Matematica, 48 (1942), p. 68-69</em>, and I'm hoping someone with JSTOR can explicitly give the answer.</p>
+
+

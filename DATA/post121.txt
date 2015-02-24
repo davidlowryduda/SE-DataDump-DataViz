@@ -1,0 +1,17 @@
+## Title:
+A good introduction to Prime Numbers
+
+## Tags:
+<number-theory><reference-request><prime-numbers>
+
+## Score:
+2
+
+## Body:
+<p>I'm looking for a good introduction to Primes Numbers, their properties, and some of the better known theorems concerning them.</p>
+
+<p>I would prefer references assume knowledge of undergraduate level real analysis.</p>
+
+<p>Thanks to all in advance!</p>
+
+

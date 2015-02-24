@@ -1,0 +1,22 @@
+## Title:
+Reference request: $L$-series and $\zeta$-functions
+
+## Tags:
+<number-theory><reference-request><zeta-functions><dirichlet-series>
+
+## Score:
+7
+
+## Body:
+<p>Does anyone know a good book, lecture note, article etc. on $L$-series (Dirichlet, Hecke, Artin) and $\zeta$-functions in number theory? I'm especially interested in material explaining the following:</p>
+
+<ol>
+<li><p>Examples of actual computations with these things like computing the residue at $s=1$ for the Dedekind $\zeta$-function for some number field.</p></li>
+<li><p>How these things are related to each other when we have e.g. towers of extensions of number fields or a number field and some lattice of its subfields.</p></li>
+<li><p>Some summary that would explain what kind of questions we should expect to be able to answer using these tools. E.g. what types of problems are more natural using analytic methods than using algebraic methods. I guess most problems regarding densities of primes or ideal classes are among them.</p></li>
+<li><p>Books like Lang spend considerable space proving functional equations and factorizations for these. How are these used in practice? Examples showing actual worked out examples would be interesting.</p></li>
+</ol>
+
+<p>Before I started going through material on class field theory, I first read a couple of overviews that summarized the theorems and explained what the field is about. Is there anything like that for this material? Worked out problems solving something non-trivial would be especially helpful.</p>
+
+

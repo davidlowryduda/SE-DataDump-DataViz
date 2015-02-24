@@ -1,0 +1,15 @@
+## Title:
+Literature Request: Twisted Dirichlet Series
+
+## Tags:
+<number-theory><reference-request>
+
+## Score:
+6
+
+## Body:
+<p>Recently, I have been pushed toward studying analytic continuation dirichlet series with twists that are additive.  These are functions $D(s) = \sum e_k(hn)\frac{a_n}{n^s}$ where $a_n$ is some sequence (usually positive) and $e_k(n)=e^{2\pi i \frac{n}{k}}$ with $h\in \mathbb{N}.$</p>
+
+<p>I would like to know if there is any literature on this topic available.</p>
+
+

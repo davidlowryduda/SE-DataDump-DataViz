@@ -1,0 +1,15 @@
+## Title:
+Pollard-Strassen Algorithm
+
+## Tags:
+<number-theory><reference-request><algorithms><prime-numbers><factoring>
+
+## Score:
+8
+
+## Body:
+<p>I'm aware that the Pollard-Strassen algorithm can be used to find all prime factors of $n$ not exceeding $B$ in $O\big(n^{\epsilon} B^{1/2}\big)$ time. This is really useful because I need to find all factors less than $n^{1/3}$ to determine if n is squarefree, which could therefore theoretically be done in $O\big(n^{1/6+\epsilon}\big)$.</p>
+
+<p>However I can't find anything more than a brief overview of the algorithm itself, let alone a worked example. Could anyone provide a detailed explanation or example, or reference to where I can find one? Additionally, I'm interested in other algorithms, if they exist, which provide all factors not exceeding $B=\big\lceil n^{1/3} \big\rceil$ quickly.</p>
+
+

@@ -1,0 +1,22 @@
+## Title:
+collatz conjecture $\mod 2^n$ stopping distance
+
+## Tags:
+<number-theory><reference-request><modular-arithmetic><sieve-theory><collatz>
+
+## Score:
+0
+
+## Body:
+<p>an interesting book <a href="http://rads.stackoverflow.com/amzn/click/0883853159" rel="nofollow">Old and new unsolved problems in plane geometry and number theory</a> by Klee/Wagon (1991) includes the Collatz conjecture. on p225 they consider iterates $\mod 2^n$ and state that unless $n$ is congruent modulo 256 to 27, 31, 47, 63, 71, 91, 103, 111, 127, 155, 159, 167, 191, 207, 223, 231, 239, 251, 255 then the stopping time is less than 5 ("exercise 4"). (this seems to be a typo in that exercise 4 is not related to that fact. there is no further analysis other than the simple factoid.)</p>
+
+<p>they point out this approach is useful as a sort of sieving approach to eliminate terminating trajectories and works for arbitrary values $\mod 2^n$.</p>
+
+<blockquote>
+  <ul>
+  <li>looking for more detail/explanation on how this approach works.</li>
+  <li>is there a ref that analyzes collatz from this approach?</li>
+  </ul>
+</blockquote>
+
+
