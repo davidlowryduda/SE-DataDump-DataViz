@@ -17,6 +17,7 @@ class MSE_Reference_Isolator(xml.sax.ContentHandler):
         self.in_element = False
         self.logger = xml.sax.saxutils.XMLGenerator(self.output_file, "utf-8")
         self.logger.startDocument()
+        self.ids = []
         return
 
     def startElement(self, tag, attributes):
@@ -24,6 +25,12 @@ class MSE_Reference_Isolator(xml.sax.ContentHandler):
         if ("Tags" in attributes) and (self.has_keywords(attributes["Tags"])):
             self.in_element = True
             self.logger.startElement(tag, attributes)
+            self.ids.append(attributes["Id"])
+
+        elif ("ParentId" in attributes) and (attributes["ParentId"] in self.ids):
+            self.in_element = True
+            self.logger.startElement(tag, attributes)
+
 
     def endElement(self, tag):
         """Actives on closing each row"""
@@ -50,5 +57,6 @@ if __name__ == "__main__":
     parser = xml.sax.make_parser()
     Handler = MSE_Reference_Isolator(output_file="ref_reqs.xml")
     parser.setContentHandler(Handler)
-    parser.parse("Posts.xml")
+#    parser.parse("Posts.xml")
+    parser.parse("sample_input.xml")
     print '(>")> Process Completed'
